@@ -159,5 +159,12 @@
     "kind": "procedure",
     "mechanism": "project-maturity-screening",
     "detail": "Évaluation commune par cycles, sur des critères vérifiables de maturité et probabilité de réalisation ; procédure des GRT, pas une priorité sectorielle inscrite dans la loi."
+  },
+  {
+    "criterionId": "guarantees",
+    "regulationId": "pl-energy-law-2026",
+    "kind": "mandatory",
+    "mechanism": "connection-financial-security",
+    "detail": "Frais de dossier, acompte et garantie d’exécution distincts, sous conditions légales ; réforme générale des raccordements >1 kV, non garantie bancaire spécifique aux centres de données."
   }
 ]

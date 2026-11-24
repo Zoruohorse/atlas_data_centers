@@ -49,7 +49,8 @@
       "no-statnett-2026-2",
       "reuters-com-ae38c1e3",
       "curebot-20261124-28",
-      "no-licensing-2026-1"
+      "no-licensing-2026-1",
+      "nldc-20261124-25"
     ],
     "impacts": {
       "operator": "Les projets sans capacité réservée peuvent voir leur calendrier décalé.",
@@ -333,20 +334,24 @@
     "topics": [
       "grid"
     ],
-    "stage": "published",
+    "stage": "effective",
     "title": "Réforme générale de l’accès au réseau électrique",
-    "summary": "La loi du 13 mars 2026 modifie le droit polonais de l’énergie, notamment en introduisant des conventions de raccordement flexibles et en révisant les conditions financières de certaines demandes. Son champ dépasse les data centers.",
+    "summary": "La loi du 13 mars 2026 modifie le droit polonais de l’énergie, notamment en introduisant des conventions de raccordement flexibles et en révisant les conditions financières de certaines demandes. Son champ dépasse les data centers. La loi publiée le 15 avril entre généralement en vigueur le 30 avril 2026, avec exceptions et dispositions transitoires applicables le 16 octobre. Pour les demandes concernées sur des réseaux de tension nominale supérieure à 1 kV : frais de dossier de 1 PLN/kW plafonnés à 100 000 PLN, acompte de 60 PLN/kW plafonné à 6 M PLN, et garantie d’exécution distincte de 30 PLN/kW jusqu’à 100 MW puis 60 PLN/kW pour la fraction supérieure, plafonnée à 12 M PLN, sous réserve des exceptions légales. Il s’agit d’une réforme générale du raccordement, non d’une taxe spécifique aux data centers.",
     "sourceIds": [
       "eli-gov-pl-b742e4c1",
-      "ure-gov-pl-bb1e66ab"
+      "ure-gov-pl-bb1e66ab",
+      "pl-grid-gov-fees-2026",
+      "pl-grid-ure-law-2026",
+      "pl-grid-garrigues-2026"
     ],
     "actorIds": [
       "pl-ure"
     ],
     "impacts": {
-      "operator": "Vérifier l’éligibilité de la demande aux nouvelles modalités contractuelles et les dates d’application propres à chaque disposition.",
-      "grid": "Les conventions flexibles ouvrent une voie à des raccordements soumis à des limitations contractuelles."
-    }
+      "operator": "Vérifier les frais, acomptes, garanties et dispositions transitoires applicables à la demande ; distinguer les trois instruments.",
+      "grid": "Les engagements financiers visent à limiter les demandes spéculatives ; les conditions délivrées ne constituent pas des capacités effectivement raccordées."
+    },
+    "effectiveFrom": "2026-04-30"
   },
   {
     "id": "be-creg-3027-2026",

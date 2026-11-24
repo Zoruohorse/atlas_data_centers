@@ -636,5 +636,104 @@
       "fr-wissous-caa-25ve01156",
       "curebot4-20261124-74"
     ]
+  },
+  {
+    "id": "pl-pse",
+    "name": "Polskie Sieci Elektroenergetyczne (PSE)",
+    "type": "Gestionnaire de transport",
+    "countries": [
+      "PL"
+    ],
+    "summary": "Gère les demandes de raccordement en Pologne ; données de son registre rapportées par la presse spécialisée.",
+    "sourceIds": [
+      "pl-grid-queue-forum-2026",
+      "pl-grid-ure-law-2026"
+    ]
+  },
+  {
+    "id": "fr-sesterce",
+    "name": "Sesterce",
+    "type": "Développeur de centres de calcul",
+    "countries": [
+      "FR",
+      "FI"
+    ],
+    "summary": "Porte le projet de Jämsä et participe au projet du Bosquel avec SoftBank.",
+    "sourceIds": [
+      "fi-sesterce-announcement-2026",
+      "fr-bosquel-cndp-2026"
+    ]
+  },
+  {
+    "id": "fr-aprob2v",
+    "name": "APROB2V — Association de protection du Bosquel et des villages voisins",
+    "type": "Collectif territorial",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Conteste le projet du Bosquel et participe à la mobilisation du 8 novembre.",
+    "sourceIds": [
+      "nldc-20261124-37",
+      "nldc-20261124-5"
+    ]
+  },
+  {
+    "id": "fr-fne-idf",
+    "name": "France Nature Environnement Île-de-France",
+    "type": "Fédération associative",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Participe à la stratégie contentieuse visant Campus IA à Fouju.",
+    "sourceIds": [
+      "nldc-20261124-72",
+      "nldc-20261124-96"
+    ]
+  },
+  {
+    "id": "fr-aspe",
+    "name": "Association spinolienne pour l’environnement (ASPE)",
+    "type": "Association locale",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Porte une pétition contre le projet de data center à Ballainvilliers.",
+    "sourceIds": [
+      "nldc-20261124-63"
+    ]
+  },
+  {
+    "id": "fr-vivantes",
+    "name": "ViVantes",
+    "type": "Collectif citoyen",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Organise la réunion du 31 octobre à Bonneveau selon La Nouvelle République.",
+    "sourceIds": [
+      "nldc-20261124-56"
+    ]
+  },
+  {
+    "id": "fr-dincca",
+    "name": "DINCCA — Défense des intérêts de Neuilly-sous-Clermont et des communes alentour",
+    "type": "Association locale",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Organise des réunions de mobilisation contre le projet de Rantigny.",
+    "sourceIds": [
+      "nldc-20261124-97"
+    ]
+  },
+  {
+    "id": "eu-eudca",
+    "name": "European Data Centre Association (EUDCA)",
+    "type": "Fédération professionnelle",
+    "countries": [],
+    "summary": "Publie un document de discussion sur les différentes formes de flexibilité des centres de données.",
+    "sourceIds": [
+      "eu-eudca-flexibility-2026"
+    ]
   }
 ]

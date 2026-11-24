@@ -9,7 +9,7 @@
       "territory"
     ],
     "title": "Google à Ozans, près de Châteauroux",
-    "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet. Selon La Nouvelle République, le 28 octobre Gil Avérous a présenté un maximum envisagé de huit bâtiments, des pistes de valorisation de chaleur, une contribution socio-économique en négociation et un suivi des températures. Ces éléments sont des annonces et propositions de l’élu, non des engagements définitifs. Lors de la présentation du 12 octobre, Google indique envisager une première phase de 120 MW raccordée à 225 kV à l’horizon 2030 ; il s’agit d’un calendrier annoncé et non d’une mise en service acquise.",
+    "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet. Selon La Nouvelle République, le 28 octobre Gil Avérous a présenté un maximum envisagé de huit bâtiments, des pistes de valorisation de chaleur, une contribution socio-économique en négociation et un suivi des températures. Ces éléments sont des annonces et propositions de l’élu, non des engagements définitifs. Lors de la présentation du 12 octobre, Google indique envisager une première phase de 120 MW raccordée à 225 kV à l’horizon 2030 ; il s’agit d’un calendrier annoncé et non d’une mise en service acquise. La presse rapporte un scénario révisé de six à huit bâtiments et une première phase de 120 MW à 225 kV, puis une phase à 400 kV. Les dates et dimensions restent prévisionnelles et les périmètres fonciers rapportés divergent.",
     "sourceIds": [
       "fr-ozans-2026-1",
       "fr-ozans-2026-2",
@@ -19,7 +19,12 @@
       "curebot2-20261124-30",
       "curebot3-20261124-5",
       "curebot3-20261124-22",
-      "curebot3-20261124-34"
+      "curebot3-20261124-34",
+      "nldc-20261124-42",
+      "nldc-20261124-89",
+      "nldc-20261124-94",
+      "nldc-20261124-95",
+      "nldc-20261124-101"
     ],
     "type": "project",
     "territory": "Ozans, Indre",
@@ -367,7 +372,7 @@
     "date": "2026-10-17",
     "type": "mobilisation",
     "title": "Manifestation contre le projet Google à Ozans",
-    "summary": "Le Parisien rapporte une mobilisation d’environ 800 personnes le 17 octobre à Étrechet ; La Grande Conversation évoque près d’un millier. Les comptages divergent. Les revendications portent notamment sur l’environnement et la souveraineté numérique.",
+    "summary": "Le Parisien rapporte une mobilisation d’environ 800 personnes le 17 octobre à Étrechet ; La Grande Conversation évoque près d’un millier. Les comptages divergent. Les revendications portent notamment sur l’environnement et la souveraineté numérique. FNE, partie prenante, indique plus de mille participants le 17 octobre ; les estimations divergent selon les sources.",
     "topics": [
       "territory",
       "environment",
@@ -375,7 +380,8 @@
     ],
     "sourceIds": [
       "curebot-20261124-2",
-      "curebot-20261124-10"
+      "curebot-20261124-10",
+      "nldc-20261124-75"
     ],
     "territory": "Étrechet, Indre"
   },
@@ -543,7 +549,7 @@
     "date": "2026-11-09",
     "type": "context",
     "title": "France Datacenter — baromètre et demande d’accélération",
-    "summary": "Le Figaro rapporte les demandes de simplification administrative et de réduction des délais de raccordement portées par la fédération. L’Usine Digitale confronte ces ambitions aux données publiques et aux incertitudes de réalisation. Les chiffres d’impact de la filière ne sont pas des prévisions garanties.",
+    "summary": "Le Figaro rapporte les demandes de simplification administrative et de réduction des délais de raccordement portées par la fédération. L’Usine Digitale confronte ces ambitions aux données publiques et aux incertitudes de réalisation. Les chiffres d’impact de la filière ne sont pas des prévisions garanties. Le baromètre France Datacenter/EY publié le 9 novembre est désormais référencé via son site public ; les projections de la filière ne sont pas assimilées à des capacités garanties.",
     "topics": [
       "grid",
       "planning",
@@ -551,7 +557,8 @@
     ],
     "sourceIds": [
       "curebot-20261124-26",
-      "curebot-20261124-23"
+      "curebot-20261124-23",
+      "fr-fdc-barometer-2026-public"
     ],
     "actorIds": [
       "fr-france-datacenter"
@@ -859,8 +866,8 @@
     ],
     "date": "2026-10-23",
     "type": "context",
-    "title": "Rantilly (Oise) — prise de position du MEI",
-    "summary": "Le MEI indique s’être rendu sur place le 23 octobre. Antoine Waechter, Erwan Rohou et Bruno Ladsous défendent une planification territoriale, une consultation citoyenne, des conditions de valorisation de chaleur et la priorité aux friches. Ces revendications sont celles du parti ; aucune décision réglementaire n’est établie par cette source. Le toponyme est repris de la publication et doit être vérifié.",
+    "title": "Rantigny (Oise) — prise de position du MEI",
+    "summary": "Le MEI indique s’être rendu sur place le 23 octobre. Antoine Waechter, Erwan Rohou et Bruno Ladsous défendent une planification territoriale, une consultation citoyenne, des conditions de valorisation de chaleur et la priorité aux friches. Ces revendications sont celles du parti ; aucune décision réglementaire n’est établie par cette source. Le toponyme est repris de la publication et doit être vérifié. Le Courrier picard confirme le toponyme Rantigny (la publication du MEI écrit Rantilly).",
     "topics": [
       "territory",
       "planning",
@@ -868,11 +875,14 @@
       "sovereignty"
     ],
     "sourceIds": [
-      "curebot2-20261124-19"
+      "curebot2-20261124-19",
+      "nldc-20261124-74",
+      "nldc-20261124-97"
     ],
     "actorIds": [
       "fr-mei"
-    ]
+    ],
+    "territory": "Rantigny"
   },
   {
     "id": "eu-construction-labour-investigation-2026",
@@ -1440,5 +1450,650 @@
       "curebot4-20261124-70",
       "ie-cru-2025-1"
     ]
+  },
+  {
+    "id": "pl-grid-queue-20260930",
+    "countries": [
+      "PL"
+    ],
+    "date": "2026-09-30",
+    "type": "context",
+    "title": "Pologne — baisse rapportée des volumes de demandes après la réforme",
+    "summary": "Une analyse de Paweł Czyżak et une publication spécialisée rapportent 11,1 GW au registre PSE au 30 septembre, dont 9 GW avec conditions de raccordement délivrées et 2,1 GW encore évalués, contre 150–200 GW de demandes évoquées au printemps. Ces volumes ne sont pas strictement homogènes ; le registre original à cette date n’a pas été vérifié directement. La baisse ne permet pas de conclure à autant d’abandons définitifs ni à un effet causal chiffré de la seule réforme.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "nldc-20261124-51",
+      "pl-grid-queue-forum-2026",
+      "pl-grid-ure-law-2026"
+    ],
+    "actorIds": [
+      "pl-pse"
+    ]
+  },
+  {
+    "id": "fi-fingrid-enquiries-nov2026",
+    "countries": [
+      "FI"
+    ],
+    "date": "2026-11-12",
+    "type": "context",
+    "title": "Fingrid — 126 GW de demandes indicatives liées aux data centers",
+    "summary": "La version finnoise datée du 12 novembre indique 126 GW de demandes actives liées aux data centers sur 160 GW pour l’ensemble de la consommation. Environ 15 GW de raccordements convenus concernent l’ensemble des catégories représentées ; il ne s’agit pas de 15 GW de data centers. Les chiffres sont indicatifs, hors installations en service pour les demandes, et les projets convenus ne se réaliseront pas nécessairement. La version anglaise de l’export porte le 21 novembre dans son nom malgré une date de collecte antérieure ; la version finnoise est la référence datée.",
+    "topics": [
+      "grid",
+      "power",
+      "transparency"
+    ],
+    "sourceIds": [
+      "fi-fingrid-enquiries-20261112",
+      "nldc-20261124-20"
+    ],
+    "actorIds": [
+      "fi-fingrid"
+    ],
+    "impacts": {
+      "grid": "Distinguer demandes exploratoires, conditions, contrats et puissance effectivement appelée. Ne pas additionner des périmètres incompatibles."
+    }
+  },
+  {
+    "id": "fi-jamsa-sesterce-campus-2026",
+    "countries": [
+      "FI"
+    ],
+    "date": "2026-10-08",
+    "type": "project",
+    "title": "Jämsä — campus IA Sesterce à Kaipola",
+    "summary": "Sesterce et la ville annoncent un projet sur une ancienne papeterie : première phase de 200 MW, extension envisagée à 600 MW. Le promoteur annonce plus de 10 Md€ d’investissement et un fonds local de 10 M€ lors de la mise en service. La devise est corrigée d’après le communiqué original (euros, non dollars). Le projet demeure conditionné à sa réalisation et aux autorisations.",
+    "topics": [
+      "planning",
+      "grid",
+      "territory",
+      "supply"
+    ],
+    "sourceIds": [
+      "fi-jamsa-city-2026",
+      "fi-sesterce-announcement-2026",
+      "nldc-20261124-100"
+    ],
+    "territory": "Jämsä, Kaipola",
+    "actorIds": [
+      "fr-sesterce"
+    ]
+  },
+  {
+    "id": "fr-bosquel-consultation-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-17",
+    "type": "project",
+    "title": "Le Bosquel — forum environnemental de la concertation préalable",
+    "summary": "La CNDP a désigné des garants pour la concertation du 21 septembre au 20 novembre sur le projet de centre de calcul et son raccordement. Après la réunion du 2 novembre, le forum du 17 novembre à Flers-sur-Noye aborde eau, bruit, paysage, travaux et raccordement ; le Courrier picard rapporte des critiques sur la précision des réponses. La concertation n’est pas une autorisation.",
+    "topics": [
+      "territory",
+      "environment",
+      "grid",
+      "planning"
+    ],
+    "sourceIds": [
+      "nldc-20261124-5",
+      "nldc-20261124-55",
+      "fr-bosquel-cndp-2026",
+      "fr-bosquel-cndp-20260902"
+    ],
+    "territory": "Le Bosquel / Flers-sur-Noye",
+    "actorIds": [
+      "fr-rte",
+      "fr-sesterce",
+      "fr-aprob2v"
+    ]
+  },
+  {
+    "id": "fr-bosquel-mobilisation-20261108",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-08",
+    "type": "mobilisation",
+    "title": "Le Bosquel — rassemblement de plusieurs oppositions territoriales",
+    "summary": "Le Courrier picard rapporte environ 140 manifestants à l’appel d’APROB2V, réunissant des oppositions au projet de data center et à d’autres infrastructures, notamment électriques et éoliennes. Ce nombre est un comptage journalistique, non une mesure de l’opinion de la population.",
+    "topics": [
+      "territory",
+      "environment",
+      "grid"
+    ],
+    "sourceIds": [
+      "nldc-20261124-37"
+    ],
+    "territory": "Le Bosquel",
+    "actorIds": [
+      "fr-aprob2v"
+    ]
+  },
+  {
+    "id": "fr-brebieres-corbehem-enquiry-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-18",
+    "type": "project",
+    "title": "Brebières–Corbehem — enquête publique annoncée pour décembre",
+    "summary": "Le registre, encore en préparation lors de la collecte, annonce une enquête publique unique du 1er décembre 2026 au 15 janvier 2027 sur quatre bâtiments de data centers, le poste 225 kV Fond de Sailly et la liaison souterraine associée. Le projet réutilise une friche de 23 ha. L’ouverture reste à confirmer par l’arrêté et le registre définitif ; aucune autorisation n’est acquise.",
+    "topics": [
+      "planning",
+      "territory",
+      "grid"
+    ],
+    "sourceIds": [
+      "nldc-20261124-9"
+    ],
+    "territory": "Brebières, Corbehem et Noyelles-sous-Bellonne",
+    "actorIds": [
+      "fr-rte"
+    ]
+  },
+  {
+    "id": "fr-port-la-nouvelle-ami-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-19",
+    "type": "project",
+    "title": "Port-La Nouvelle — appel à manifestation d’intérêt numérique",
+    "summary": "DCmag relaie un AMI de la SEMOP pour un lot d’environ 10 ha et une perspective de puissance jusqu’à 150 MW. Le site vise notamment data centers, calcul haute performance ou IA. Un AMI ne constitue ni sélection d’un opérateur ni réservation ferme de capacité.",
+    "topics": [
+      "planning",
+      "grid",
+      "territory"
+    ],
+    "sourceIds": [
+      "nldc-20261124-6",
+      "fr-port-nouvelle-lettrem-2026"
+    ],
+    "territory": "Port-La Nouvelle"
+  },
+  {
+    "id": "fr-fouju-authorisation-dc1-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-29",
+    "type": "project",
+    "title": "Fouju — autorisation environnementale de la première phase DC1",
+    "summary": "La préfecture publie l’arrêté n°2026-31/DCSE/BPE/IC autorisant Campus AI SPV1 à exploiter DC1. La commune annonce le démarrage des travaux le 28 août après délivrance des autorisations et du permis de la phase 1. Ne pas étendre cette autorisation aux onze bâtiments ou à l’ensemble de la puissance projetée.",
+    "topics": [
+      "planning",
+      "environment",
+      "grid",
+      "territory"
+    ],
+    "sourceIds": [
+      "fr-fouju-prefecture-2026",
+      "fr-fouju-works-2026"
+    ],
+    "territory": "Fouju"
+  },
+  {
+    "id": "fr-fouju-legal-challenge-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-10",
+    "type": "context",
+    "title": "Fouju — six recours rapportés contre Campus IA",
+    "summary": "La Tribune/AFP rapporte six recours déposés fin septembre par des associations contestant notamment les décisions d’urbanisme et environnementales et le raccordement. Le dossier FNE Île-de-France présente les moyens invoqués, dont le fractionnement des installations et les seuils Seveso. Ces arguments ne sont pas des irrégularités judiciairement constatées ; aucun résultat définitif n’est établi.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory",
+      "grid"
+    ],
+    "sourceIds": [
+      "nldc-20261124-72",
+      "nldc-20261124-96",
+      "fr-fouju-prefecture-2026"
+    ],
+    "territory": "Fouju",
+    "actorIds": [
+      "fr-fne-idf",
+      "fr-amis-terre"
+    ]
+  },
+  {
+    "id": "fr-seine-marne-moratorium-motion-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-13",
+    "type": "context",
+    "title": "Seine-et-Marne — demande départementale de moratoire",
+    "summary": "Le conseil départemental demande à l’État un moratoire sur les nouveaux mégadata centers et extensions, notamment Fouju, ainsi que de surseoir à l’exécution de l’autorisation DC1 et de suspendre l’instruction des phases ultérieures. Cette demande politique ne suspend pas elle-même les autorisations ni les travaux.",
+    "topics": [
+      "planning",
+      "territory",
+      "grid"
+    ],
+    "sourceIds": [
+      "fr-seine-marne-motion-20261113",
+      "fr-fouju-prefecture-2026"
+    ],
+    "territory": "Seine-et-Marne"
+  },
+  {
+    "id": "fr-reau-verne-public-meeting-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-22",
+    "type": "project",
+    "title": "Réau — réunion publique du projet Verne",
+    "summary": "L’Observatoire des multinationales rapporte une réunion publique concernant le projet Verne dans la ZAC de Paris-Villaroche. La puissance annoncée est de 500 MW ; les débats portent sur le foncier, les retombées et la souveraineté. Le site étudié pour une candidature à une gigafactory européenne n’est pas un site déjà sélectionné.",
+    "topics": [
+      "planning",
+      "territory",
+      "grid",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "nldc-20261124-17"
+    ],
+    "territory": "Réau"
+  },
+  {
+    "id": "fr-loon-plage-protest-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-13",
+    "type": "mobilisation",
+    "title": "Loon-Plage — premier rassemblement rapporté contre un projet de data center",
+    "summary": "Nord Littoral rapporte une mobilisation sur le site envisagé par SoftBank et Schneider Electric. L’extrait accessible ne permet pas de confirmer la date exacte du rassemblement, sa fréquentation ni l’étendue des soutiens ; date de publication retenue.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "nldc-20261124-21"
+    ],
+    "territory": "Loon-Plage"
+  },
+  {
+    "id": "fr-tigery-amazon-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-12",
+    "type": "project",
+    "title": "Tigery — projet Amazon et inquiétudes de riverains",
+    "summary": "France 3 rapporte le projet de réutilisation du site informatique de la Société Générale à proximité de la forêt de Sénart. Le maire défend la réutilisation d’un site déjà artificialisé ; des riverains expriment des inquiétudes environnementales. Ni l’issue des autorisations ni l’ampleur de l’opposition ne sont établies par cet article.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "nldc-20261124-26"
+    ],
+    "territory": "Tigery"
+  },
+  {
+    "id": "fr-ballainvilliers-petition-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-09-24",
+    "type": "mobilisation",
+    "title": "Ballainvilliers — pétition contre le projet Goodman",
+    "summary": "Le Parisien rapporte qu’une pétition mise en ligne le 24 septembre par l’Association spinolienne pour l’environnement conteste le projet situé près d’habitations à Ballainvilliers et Épinay-sur-Orge, notamment pour le bruit, l’air et le stockage de carburant. Les impacts invoqués sont des préoccupations, non des dommages établis.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "nldc-20261124-63"
+    ],
+    "territory": "Ballainvilliers / Épinay-sur-Orge",
+    "actorIds": [
+      "fr-aspe"
+    ]
+  },
+  {
+    "id": "fr-bonneveau-vivantes-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-31",
+    "type": "mobilisation",
+    "title": "Bonneveau — réunion citoyenne sur le projet Eclairion",
+    "summary": "La Nouvelle République rapporte une réunion du collectif ViVantes au sujet du supercalculateur envisagé sur l’ancienne papeterie ArjoWiggins à Bonneveau et Bessé-sur-Braye. Les participants contestent notamment l’information du public et les études d’impact. Leurs arguments ne constituent pas une constatation administrative.",
+    "topics": [
+      "territory",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "nldc-20261124-56"
+    ],
+    "territory": "Bonneveau / Bessé-sur-Braye",
+    "actorIds": [
+      "fr-vivantes"
+    ]
+  },
+  {
+    "id": "fr-rantigny-cauffry-consultation-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-29",
+    "type": "context",
+    "title": "Cauffry — consultation locale sur le projet de Rantigny",
+    "summary": "Le Courrier picard rapporte 84 % d’avis défavorables parmi les réponses à la consultation communale. Le conseil municipal avait réexaminé sa position favorable fin septembre. Le taux de participation n’est pas établi dans l’extrait ; ne pas interpréter ce chiffre comme 84 % de l’ensemble des habitants ni comme une décision d’interdiction.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "nldc-20261124-60",
+      "nldc-20261124-97"
+    ],
+    "territory": "Cauffry / Rantigny",
+    "actorIds": [
+      "fr-dincca"
+    ]
+  },
+  {
+    "id": "fr-petit-landau-authorisation-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-15",
+    "type": "project",
+    "title": "Petit-Landau / Hombourg — autorisation environnementale rapportée",
+    "summary": "L’Alsace rapporte la publication le 15 octobre d’un arrêté préfectoral autorisant l’exploitation du futur centre Microsoft, sous conditions. Le dossier officiel de consultation est accessible mais le texte final de l’arrêté n’a pas été retrouvé dans cette vérification. Les permis de construire restent à distinguer ; l’autorisation ne signifie pas mise en service.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "nldc-20261124-84",
+      "fr-petit-landau-prefecture-consultation-2026"
+    ],
+    "territory": "Petit-Landau / Hombourg"
+  },
+  {
+    "id": "fr-roubaix-ovh-heat-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-22",
+    "type": "project",
+    "title": "Roubaix — raccordement annoncé de data centers au réseau de chaleur",
+    "summary": "DataCenterDynamics rapporte l’approbation par la Métropole européenne de Lille du projet OVHcloud de récupération de chaleur. Le média indique que le projet entre dans une phase opérationnelle ; les volumes effectivement livrés et le calendrier restent à confirmer par les documents de réalisation.",
+    "topics": [
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "nldc-20261124-73"
+    ],
+    "territory": "Roubaix"
+  },
+  {
+    "id": "fr-fruges-tellos-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-23",
+    "type": "project",
+    "title": "Fruges — projet Tellos rapporté, à confirmer",
+    "summary": "DCmag rapporte un projet de campus IA de 900 MW annoncé par Tellos, avec un investissement estimatif de 2 à 4 Md€. La puissance, le financement, le raccordement et la mise en service ne sont pas confirmés par un dossier d’autorisation dans les sources consultées.",
+    "topics": [
+      "planning",
+      "grid"
+    ],
+    "sourceIds": [
+      "nldc-20261124-69"
+    ],
+    "territory": "Fruges"
+  },
+  {
+    "id": "fr-edf-land-strategy-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-06",
+    "type": "context",
+    "title": "EDF — stratégie de reconversion foncière rapportée",
+    "summary": "La Lettre rapporte la création envisagée en janvier 2027 d’une entité de valorisation foncière et le réemploi possible d’anciens sites thermiques pour des centres de données. Il s’agit d’une information de presse sur une stratégie future, non d’une liste de sites retenus ni d’un engagement de raccordement.",
+    "topics": [
+      "planning",
+      "grid",
+      "territory"
+    ],
+    "sourceIds": [
+      "nldc-20261124-41"
+    ]
+  },
+  {
+    "id": "fr-eclairion-merger-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-11",
+    "type": "context",
+    "title": "Eclairion — autorisation européenne du contrôle conjoint",
+    "summary": "La Commission déclare compatible avec le marché intérieur l’opération CDC / Davidson Kempner / Human Performance Capital / Eclairion (M.12581). L’autorisation de concentration est distincte des autorisations d’implantation et ne confirme aucun montant de dette futur.",
+    "topics": [
+      "sovereignty",
+      "planning"
+    ],
+    "sourceIds": [
+      "eu-eclairion-m12581",
+      "nldc-20261124-14"
+    ]
+  },
+  {
+    "id": "gb-drax-campus-2026",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-11-03",
+    "type": "project",
+    "title": "Drax — partenariat pour un campus de calcul sur un site électrique existant",
+    "summary": "Drax annonce un partenariat avec Brookfield, Radiant et Qai pour un campus pouvant dépasser 1 GW sur le site de la centrale de Drax. Une première tranche jusqu’à 100 MW fait l’objet d’une consultation annoncée jusqu’au 3 décembre. Les investissements, phases et approvisionnements futurs restent conditionnés aux autorisations, engagements commerciaux et décisions finales.",
+    "topics": [
+      "grid",
+      "power",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "gb-drax-partnership-2026",
+      "gb-drax-consultation-2026",
+      "nldc-20261124-53"
+    ],
+    "territory": "North Yorkshire"
+  },
+  {
+    "id": "gb-cardiff-gas-2026",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-10-21",
+    "type": "project",
+    "title": "Cardiff — production au gaz temporaire envisagée dans l’attente du réseau",
+    "summary": "Data Centre Review rapporte un projet Curtis Hall visant 150 MW de raccordement à terme et une production temporaire au gaz modélisée jusqu’à 49,9 MW pour démarrer avant disponibilité du réseau. Le scénario et les délais sont des hypothèses de projet ; il ne s’agit pas de capacité installée ni d’une règle nationale.",
+    "topics": [
+      "power",
+      "grid",
+      "environment"
+    ],
+    "sourceIds": [
+      "nldc-20261124-76"
+    ],
+    "territory": "Cardiff"
+  },
+  {
+    "id": "se-falun-ecodatacenter-2026",
+    "countries": [
+      "SE"
+    ],
+    "date": "2026-11-12",
+    "type": "context",
+    "title": "Falun — retour d’expérience EcoDataCenter",
+    "summary": "Le Guardian décrit un site utilisant des structures en bois et un approvisionnement renouvelable, avec une démarche d’intégration locale. C’est un exemple de conception et d’acceptabilité présenté par le reportage, non la preuve d’une absence d’impact ni une norme suédoise.",
+    "topics": [
+      "environment",
+      "territory",
+      "supply"
+    ],
+    "sourceIds": [
+      "nldc-20261124-23"
+    ],
+    "territory": "Falun"
+  },
+  {
+    "id": "fr-bdf-price-signal-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-04",
+    "type": "context",
+    "title": "Banque de France — débat sur le signal-prix géographique",
+    "summary": "Un billet de recherche examine la concentration des projets dans les pôles européens malgré les contraintes réseau. Les auteurs discutent de signaux de prix géographiquement différenciés, en évoquant notamment les zones de prix suédoises et les contraintes espagnoles. Ce billet n’est ni une recommandation institutionnelle contraignante ni une décision de réforme du marché français.",
+    "topics": [
+      "grid",
+      "power",
+      "environment"
+    ],
+    "sourceIds": [
+      "fr-bdf-price-signal-2026",
+      "nldc-20261124-47"
+    ],
+    "impacts": {
+      "grid": "Signal économique potentiel pour la localisation des nouvelles charges ; à distinguer des tarifs de raccordement et de la gestion de file."
+    }
+  },
+  {
+    "id": "eu-eudca-flexibility-paper-2026",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "EUDCA — clarification des formes de flexibilité",
+    "summary": "Le document de discussion distingue flexibilité de raccordement, marchés, stockage, production locale et pilotage informatique. La capacité réelle dépend des usages, contraintes contractuelles et conditions techniques. Le rattachement au cadre UE sert à la navigation ; il ne désigne pas des pays ayant adopté le document.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "eu-eudca-flexibility-2026",
+      "nldc-20261124-44"
+    ],
+    "actorIds": [
+      "eu-eudca"
+    ],
+    "scope": "eu"
+  },
+  {
+    "id": "fr-ozans-november-consultation-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-09",
+    "type": "context",
+    "title": "Ozans — réunion publique de concertation et débat sur les enjeux globaux",
+    "summary": "Magcentre rapporte environ 700 personnes lors de la réunion du 9 novembre à Châteauroux. La Nouvelle République décrit les échanges suivants sur la consommation électrique, les impacts et la décarbonation. La participation ne vaut pas adhésion ou opposition de l’ensemble du public.",
+    "topics": [
+      "territory",
+      "grid",
+      "environment"
+    ],
+    "sourceIds": [
+      "nldc-20261124-24",
+      "nldc-20261124-18",
+      "nldc-20261124-42"
+    ],
+    "territory": "Châteauroux / Étrechet",
+    "actorIds": [
+      "fr-rte",
+      "fr-shift-project"
+    ]
+  },
+  {
+    "id": "eu-iea-weo2026-context",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2026-11-19",
+    "type": "context",
+    "title": "AIE — World Energy Outlook 2026 : demande électrique des data centers",
+    "summary": "Dans le scénario STEPS, la consommation électrique mondiale des data centers double pour atteindre environ 1 000 TWh en 2030. Il s’agit d’un scénario mondial, non d’une projection propre à l’UE ni d’une demande de raccordement ferme ; le rattachement européen est uniquement documentaire.",
+    "topics": [
+      "power",
+      "grid"
+    ],
+    "sourceIds": [
+      "iea-weo-2026"
+    ],
+    "scope": "eu"
   }
 ]

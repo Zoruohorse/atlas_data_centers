@@ -1756,5 +1756,353 @@
     "label": "Commission européenne — avis préliminaire du 25 juin",
     "url": "https://digital-markets-act.ec.europa.eu/commission-reaches-preliminary-position-amazons-and-microsofts-market-leading-cloud-services-should-2026-06-25_en",
     "type": "primary"
+  },
+  {
+    "id": "nldc-20261124-5",
+    "label": "Courrier picard — forum environnemental du Bosquel",
+    "url": "https://www.courrier-picard.fr/id760662/article/2026-11-19/lacte-ii-de-la-concertation-sur-le-data-center-du-bosquel-sest-deroule-flers-sur",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-6",
+    "label": "DCmag — AMI Port-La Nouvelle",
+    "url": "https://dcmag.fr/ami-appel-a-manifestation-dinteret-10-ha-et-jusqua-150-mw-sur-la-zone-dactivites-logistiques-de-port-la-nouvelle-occitanie/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-9",
+    "label": "Registre de l’enquête publique Brebières–Corbehem",
+    "url": "https://www.dc-brebieres-corbehem.fr/",
+    "type": "primary"
+  },
+  {
+    "id": "nldc-20261124-14",
+    "label": "DCmag — concentration Eclairion",
+    "url": "https://dcmag.fr/la-commission-europeenne-autorise-le-controle-conjoint-declairion-par-cdc-davidson-kempner-et-human-performance-capital/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-17",
+    "label": "Observatoire des multinationales — Réau",
+    "url": "https://multinationales.org/fr/enquetes/profits-et-pertes-derriere-le-boom-des-datacenters-en-france/un-projet-d-etat-en-seine-et-marne-un-nouveau-data-center-geant-revele-les",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-18",
+    "label": "La Nouvelle République — débat sur les enjeux globaux à Ozans",
+    "url": "https://www.lanouvellerepublique.fr/chateauroux/entre-deception-et-satisfaction-de-pouvoir-s-exprimer-le-rapport-ambivalent-des-habitants-a-la-concertation-autour-du-projet-de-data-center-google-a-ozans-1794771238",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-20",
+    "label": "Fingrid — demandes de raccordement, novembre 2026",
+    "url": "https://www.fingrid.fi/globalassets/dokumentit/en/customers/grid-connection/connection-enquiries-21.11.2026.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "nldc-20261124-21",
+    "label": "Nord Littoral — rassemblement à Loon-Plage",
+    "url": "https://www.nordlittoral.fr/303970/article/2026-11-13/data-centers-un-mouvement-de-contestation-s-organise-dans-le-dunkerquois",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-23",
+    "label": "The Guardian — EcoDataCenter Falun",
+    "url": "https://www.theguardian.com/environment/2026/nov/12/datacentres-unpopular-sweden-ecodatacenter-falun",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-24",
+    "label": "Magcentre — réunion de concertation du 9 novembre",
+    "url": "https://www.magcentre.fr/381444-google-les-castelroussins-posent-leur-telephone-pour-debattre/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-25",
+    "label": "DCmag — suspension Statnett",
+    "url": "https://dcmag.fr/norvege-statnett-gele-lacces-au-reseau-des-futurs-data-centers/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-26",
+    "label": "France 3 — projet Amazon à Tigery",
+    "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/essonne/les-nuisances-sur-l-environnement-vont-etre-demultipliees-un-projet-de-data-center-d-amazon-suscite-l-inquietude-en-essonne-3448026.html",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-37",
+    "label": "Courrier picard — manifestation du 8 novembre",
+    "url": "https://www.courrier-picard.fr/id758020/article/2026-11-08/ia-data-center-eoliennes-ligne-haute-tension-le-bosquel-concentre-les-luttes-le",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-41",
+    "label": "La Lettre — stratégie foncière EDF",
+    "url": "https://www.lalettre.fr/fr/entreprises_energie-et-environnement/2026/11/06/edf-prepare-ses-terrains-pour-les-data-centers,110915168-eve",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-42",
+    "label": "Next — contours du projet Ozans",
+    "url": "https://next.ink/265780/google-precise-les-contours-de-son-datacenter-a-10-milliards-de-dollars-dans-lindre/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-44",
+    "label": "DCmag — flexibilité, position EUDCA",
+    "url": "https://dcmag.fr/la-flexibilite-une-opportunite-pour-les-data-centers-eudca/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-47",
+    "label": "L’Énergeek — différenciation géographique des prix",
+    "url": "https://lenergeek.com/2026/11/04/data-centers-prix-regional-electricite-banque-france-20261104-2133/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-51",
+    "label": "Paweł Czyżak — analyse de la file polonaise, LinkedIn",
+    "url": "https://www.linkedin.com/posts/paczyzak_polands-data-center-queue-150-200-gw-in-activity-7523647893610680320-EmTd",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-53",
+    "label": "DCmag — campus Drax",
+    "url": "https://dcmag.fr/uk-brookfield-mise-20-milliards-sur-un-data-center-ia-adosse-a-drax/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-55",
+    "label": "Site IA Le Bosquel — concertation préalable",
+    "url": "https://site-ia-bosquel.fr/fr/concertation-prealable",
+    "type": "primary"
+  },
+  {
+    "id": "nldc-20261124-56",
+    "label": "La Nouvelle République — réunion de Bonneveau",
+    "url": "https://www.lanouvellerepublique.fr/loir-et-cher/commune/bonneveau/j-ai-decouvert-le-projet-en-voyant-les-grues-la-colere-des-habitants-face-au-supercalculateur-ia-a-bonneveau-1793631091",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-60",
+    "label": "Courrier picard — consultation de Cauffry",
+    "url": "https://www.courrier-picard.fr/id755855/article/2026-10-29/les-habitants-de-cauffry-rejettent-nettement-le-data-center",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-63",
+    "label": "Le Parisien — pétition à Ballainvilliers",
+    "url": "https://www.leparisien.fr/essonne-91/ca-sera-au-bout-du-jardin-au-sud-de-paris-la-colere-contre-un-data-center-4-fois-plus-energivore-que-disneyland-29-10-2026-ZAVLLYAMZBFC7CA6332LE4QUHY.php",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-69",
+    "label": "DCmag — projet annoncé à Fruges",
+    "url": "https://dcmag.fr/fruges-pas-de-calais-le-groupe-tellos-preparerait-un-data-center-ia-de-900-mw/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-72",
+    "label": "FNE Île-de-France — dossier de presse contentieux Fouju",
+    "url": "https://fne-idf.fr/communique-presse/dossier-de-presse-point-avec-la-presse-sur-les-actions-en-justice-du-collectif",
+    "type": "primary"
+  },
+  {
+    "id": "nldc-20261124-73",
+    "label": "DataCenterDynamics — récupération de chaleur à Roubaix",
+    "url": "https://www.datacenterdynamics.com/en/news/ovhcloud-wins-approval-to-connect-data-centers-in-roubaix-france-to-local-district-heating-network/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-74",
+    "label": "Courrier picard — visite annoncée du MEI à Rantigny",
+    "url": "https://www.courrier-picard.fr/id754201/article/2026-10-22/lex-vert-antoine-waechter-de-passage-rantigny-contre-le-projet-de-data-center",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-75",
+    "label": "FNE — mobilisation du 17 octobre",
+    "url": "https://fne.asso.fr/actualites/une-mobilisation-reussie",
+    "type": "primary"
+  },
+  {
+    "id": "nldc-20261124-76",
+    "label": "Data Centre Review — production temporaire au gaz à Cardiff",
+    "url": "https://datacentrereview.com/2026/10/cardiff-data-centre-becomes-latest-to-consider-gas-power-while-it-awaits-the-grid/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-84",
+    "label": "L’Alsace — arrêté d’autorisation environnementale Microsoft",
+    "url": "https://www.lalsace.fr/economie/2026/10/16/le-prefet-du-haut-rhin-autorise-l-exploitation-du-data-center-a-petit-landau",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-89",
+    "label": "DCmag — phasage Google Ozans",
+    "url": "https://dcmag.fr/ou-en-est-le-projet-de-data-center-xxl-de-google-a-chateauroux/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-94",
+    "label": "La Nouvelle République — présentation Google du 12 octobre",
+    "url": "https://www.lanouvellerepublique.fr/chateauroux/nous-n-arrivons-pas-avec-nos-pelleteuses-google-demystifie-son-projet-de-data-center-dans-l-indre-et-amorce-le-dialogue-1791831908",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-95",
+    "label": "Le Nouvel Obs — contestation à Étrechet",
+    "url": "https://www.nouvelobs.com/economie/20261008.OBS119033/nos-villages-ne-sont-pas-des-usines-a-donnees-au-c-ur-de-la-rebellion-contre-les-data-centers-de-google-dans-le-berry.html",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-96",
+    "label": "La Tribune / AFP — six recours contre Fouju",
+    "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/15018356776384/plus-grand-datacenter-deurope-pourquoi-le-projet-en-seine-et-marne-choque-les-associations",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-97",
+    "label": "Courrier picard — mobilisation DINCCA à Cauffry",
+    "url": "https://www.courrier-picard.fr/id750992/article/2026-10-08/les-opposants-au-data-center-de-rantigny-mobilisent-cauffry",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-100",
+    "label": "DataCenterDynamics — campus Sesterce Jämsä",
+    "url": "https://www.datacenterdynamics.com/en/news/sesterce-to-invest-10bn-in-600mw-ai-data-center-campus-in-j%C3%A4ms%C3%A4-finland/",
+    "type": "analysis"
+  },
+  {
+    "id": "nldc-20261124-101",
+    "label": "Mediapart — contestation Google",
+    "url": "https://www.mediapart.fr/journal/economie-et-social/081026/dans-l-indre-le-projet-de-data-center-geant-de-google-provoque-une-levee-de-boucliers",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-bosquel-cndp-2026",
+    "label": "CNDP — Bosquel AI Factory",
+    "url": "https://www.debatpublic.fr/le-bosquel-ai-factory-centre-de-calcul-et-son-raccordement-electrique-sur-la-commune-de-le-bosquel",
+    "type": "primary"
+  },
+  {
+    "id": "fr-bosquel-cndp-20260902",
+    "label": "CNDP — calendrier adopté le 2 septembre",
+    "url": "https://www.debatpublic.fr/seance-pleniere-du-2-septembre-2026-9441",
+    "type": "primary"
+  },
+  {
+    "id": "eu-eclairion-m12581",
+    "label": "Commission européenne — décision M.12581 du 11 novembre",
+    "url": "https://op.europa.eu/fr/publication-detail/-/publication/76508ca2-de7b-11f1-ba80-01aa75ed71a1/language-fr",
+    "type": "primary"
+  },
+  {
+    "id": "fi-fingrid-enquiries-20261112",
+    "label": "Fingrid — demandes au 12 novembre 2026",
+    "url": "https://www.fingrid.fi/globalassets/dokumentit/fi/palvelut/kulutuksen-ja-tuotannon-liittaminen-kantaverkkoon/fingrid-liityntakyselyjen-maara-12.11.2026.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "pl-grid-gov-fees-2026",
+    "label": "Portail gouvernemental — modalités de demande et garanties",
+    "url": "https://www.gov.pl/web/kontaktoze/wniosek-o-wydanie-warunkow-przylaczenia-do-sieci-elektroenergetycznej",
+    "type": "primary"
+  },
+  {
+    "id": "pl-grid-ure-law-2026",
+    "label": "URE — loi du 13 mars, Dz.U. 2026 poz.516",
+    "url": "https://www.ure.gov.pl/download/9/16202/DzUz2026poz516.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "pl-grid-queue-forum-2026",
+    "label": "DataCenter Forum — données rapportées du registre PSE",
+    "url": "https://datacenter-forum.ro/en/poland-introduces-grid-connection-fees-for-data-centres-how-other-european-countries-manage-access-to-power/",
+    "type": "analysis"
+  },
+  {
+    "id": "pl-grid-garrigues-2026",
+    "label": "Garrigues — analyse des dispositions transitoires",
+    "url": "https://www.garrigues.com/en_GB/new/polands-grid-connection-reform-new-costs-shorter-deadlines-and-new-obligations-31-october",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-fdc-barometer-2026-public",
+    "label": "France Datacenter — publications et baromètre 2026",
+    "url": "https://www.francedatacenter.com/ressources/",
+    "type": "primary"
+  },
+  {
+    "id": "fr-bdf-price-signal-2026",
+    "label": "Banque de France — billet du 4 novembre",
+    "url": "https://www.banque-france.fr/fr/publications-et-statistiques/publications/data-centers-et-energie-le-cout-ecologique-dun-signal-prix-en-panne",
+    "type": "primary"
+  },
+  {
+    "id": "eu-eudca-flexibility-2026",
+    "label": "EUDCA — document de discussion sur la flexibilité",
+    "url": "https://www.eudca.org/what-does-data-centre-flexibility-actually-mean-in-practice",
+    "type": "primary"
+  },
+  {
+    "id": "fr-fouju-prefecture-2026",
+    "label": "Préfecture de Seine-et-Marne — décisions Campus IA",
+    "url": "https://www.seine-et-marne.gouv.fr/publications/enquetes-publiques/fouju-projet-campus-ia/decisions",
+    "type": "primary"
+  },
+  {
+    "id": "fr-fouju-works-2026",
+    "label": "Commune de Fouju — démarrage des travaux",
+    "url": "https://www.fouju.fr/actualites/973948",
+    "type": "primary"
+  },
+  {
+    "id": "fr-seine-marne-motion-20261113",
+    "label": "Département de Seine-et-Marne — délibérations du 13 novembre",
+    "url": "https://seine-et-marne.fr/sites/default/files/media/downloads/publication-ndeg91-deliberations-0-01-a-_04-du-conseil-departemental-du-vendredi-13-novembre-2026.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "gb-drax-partnership-2026",
+    "label": "Drax — annonce du partenariat du 3 novembre",
+    "url": "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
+    "type": "primary"
+  },
+  {
+    "id": "gb-drax-consultation-2026",
+    "label": "Drax — consultation sur la première tranche",
+    "url": "https://www.drax.com/what-we-do/data-centre-at-drax-power-station/",
+    "type": "primary"
+  },
+  {
+    "id": "fi-jamsa-city-2026",
+    "label": "Ville de Jämsä — projet de Kaipola",
+    "url": "https://jamsa.fi/ajankohtaista/tiedotteet/jamsan-kaipolaan-suunnitteilla-10-miljardin-euron-tekoalykampus/",
+    "type": "primary"
+  },
+  {
+    "id": "fi-sesterce-announcement-2026",
+    "label": "Sesterce — communiqué du 8 octobre",
+    "url": "https://www.sesterce.com/newsroom/sesterce-plans-ai-campus-kaipola-jamsa-finland",
+    "type": "primary"
+  },
+  {
+    "id": "fr-petit-landau-prefecture-consultation-2026",
+    "label": "Préfecture du Haut-Rhin — dossier de consultation",
+    "url": "https://www.haut-rhin.gouv.fr/Publications/Consultation-du-public-et-installations-classees/Dossiers-de-consultation-en-cours/2026-05-12-MICROSOFT-1985-France-Sarl-a-Petit-Landau-et-Hombourg",
+    "type": "primary"
+  },
+  {
+    "id": "iea-weo-2026",
+    "label": "AIE — World Energy Outlook 2026, principaux résultats",
+    "url": "https://www.iea.org/reports/world-energy-outlook-2026/overview-and-key-findings",
+    "type": "primary"
+  },
+  {
+    "id": "fr-port-nouvelle-lettrem-2026",
+    "label": "La Lettre M — AMI et horizon 2034",
+    "url": "https://www.lalettrem.fr/actualites/port-la-nouvelle-veut-accueillir-un-data-center-de-150-mw-dici-2034",
+    "type": "analysis"
   }
 ]
