@@ -107,7 +107,8 @@
       "fr-pinm-2026-3",
       "curebot-20261124-24",
       "curebot-20261124-30",
-      "fr-pinm-senat-2026"
+      "fr-pinm-senat-2026",
+      "curebot3-20261124-31"
     ]
   },
   {
@@ -185,10 +186,14 @@
       "environment"
     ],
     "title": "Règlement délégué (UE) 2024/1364",
-    "summary": "Le règlement harmonise les indicateurs et les modalités de déclaration à la base européenne pour les centres de données dont la puissance informatique installée atteint au moins 500 kW.",
+    "summary": "Le règlement harmonise les indicateurs et les modalités de déclaration à la base européenne pour les centres de données dont la puissance informatique installée atteint au moins 500 kW. Les informations individualisées relèvent de règles de confidentialité ; la publication prévue porte notamment sur les résultats agrégés. Leur accessibilité fait l’objet d’une contestation distincte devant le comité d’Aarhus.",
     "sourceIds": [
       "eu-reporting-law",
-      "eu-reporting-explainer"
+      "eu-reporting-explainer",
+      "curebot3-20261124-23",
+      "curebot3-20261124-25",
+      "curebot3-20261124-29",
+      "eu-aarhus-lighthouse-communication-2026"
     ],
     "impacts": {
       "operator": "Déclarer les données et les indicateurs requis selon la méthodologie commune."
@@ -604,7 +609,7 @@
     ],
     "stage": "announced",
     "title": "RTE annonce une refonte de la file de raccordement",
-    "summary": "RTE a annoncé une évolution vers une priorité fondée sur la maturité des projets (« premier prêt, premier servi »). L’annonce s’inscrit dans la réponse à l’afflux de demandes industrielles, dont celles des data centers. En octobre, RTE précise les engagements de maturité et de montée en charge envisagés ainsi que les modalités d’accès sans limitation en contrepartie d’engagements. La surréservation francilienne fait l’objet d’une entrée territoriale distincte.",
+    "summary": "RTE a annoncé une évolution vers une priorité fondée sur la maturité des projets (« premier prêt, premier servi »). L’annonce s’inscrit dans la réponse à l’afflux de demandes industrielles, dont celles des data centers. En octobre, RTE précise les engagements de maturité et de montée en charge envisagés ainsi que les modalités d’accès sans limitation en contrepartie d’engagements. La surréservation francilienne fait l’objet d’une entrée territoriale distincte. Lors de la présentation Intermines du 9 octobre, les échanges évoquent des jalons de maturité, dont l’obtention du permis de construire, et une réforme à proposer au régulateur. Ces modalités discutées ne sont pas présentées comme une décision acquise.",
     "sourceIds": [
       "rte-france-com-068f59e6",
       "arec-idf-fr-6c8fc542",
@@ -615,7 +620,8 @@
       "curebot2-20261124-23",
       "curebot2-20261124-28",
       "curebot2-20261124-32",
-      "curebot2-20261124-18"
+      "curebot2-20261124-18",
+      "curebot3-20261124-6"
     ],
     "actorIds": [
       "fr-rte"
@@ -684,12 +690,15 @@
     ],
     "stage": "effective",
     "title": "Première attribution de capacité selon le nouveau modèle danois",
-    "summary": "Energinet attribue de nouveau des capacités aux projets de consommation et de production selon le modèle entré en vigueur à l’automne 2026. Le ministère souligne les difficultés persistantes d’accès complet pour certaines catégories de projets et les besoins de renforcement entre transport et distribution.",
+    "summary": "Energinet attribue de nouveau des capacités aux projets de consommation et de production selon le modèle entré en vigueur à l’automne 2026. Le ministère souligne les difficultés persistantes d’accès complet pour certaines catégories de projets et les besoins de renforcement entre transport et distribution. Le Parlement a adopté la loi de priorisation le 1er octobre ; elle est entrée en vigueur le 12 octobre, puis ses six arrêtés d’application le 19 octobre. Quatre catégories sont prévues : besoins protégés et fonctions critiques, électrification et transition, stockage, puis autres grandes charges dont les data centers ordinaires. Les sites servant des fonctions critiques peuvent relever du premier groupe. Au sein d’une catégorie, les projets réduisant la pression sur le réseau peuvent bénéficier d’une priorité ; certains dossiers des catégories 3 et 4 peuvent être refusés en cas de capacité durablement insuffisante.",
     "sourceIds": [
       "retsinformation-dk-33b25d5c",
       "retsinformation-dk-eb27b6d1",
       "ft-dk-42c0f981",
-      "danskerhverv-dk-be3dc7ba"
+      "danskerhverv-dk-be3dc7ba",
+      "dk-grid-priority-ministry-2026",
+      "curebot3-20261124-14",
+      "curebot3-20261124-18"
     ],
     "effectiveFrom": "2026-10-19",
     "actorIds": [
@@ -716,7 +725,8 @@
     "sourceIds": [
       "legifrance-gouv-fr-a1a5879f",
       "legifrance-gouv-fr-6cf281e0",
-      "curebot2-20261124-20"
+      "curebot2-20261124-20",
+      "curebot3-20261124-3"
     ],
     "effectiveFrom": "2026-01-01",
     "impacts": {
@@ -1274,6 +1284,64 @@
     "impacts": {
       "grid": "Objectif de libérer des capacités sans confondre demande réservée, demande simultanée et consommation effective.",
       "operator": "Engagements financiers et visibilité sur la montée en charge à suivre ; ne pas présenter la mesure comme un droit acquis au raccordement."
+    }
+  },
+  {
+    "id": "fi-grid-priority-draft-2026",
+    "scope": "national",
+    "countries": [
+      "FI"
+    ],
+    "date": "2026-09-18",
+    "stage": "consultation",
+    "title": "Projet finlandais de priorisation des raccordements électriques",
+    "summary": "Le projet de modification de la loi sur le marché de l’électricité prévoit quatre groupes de priorité en cas de capacité limitée. Les data centers jusqu’à 1 MW relèveraient du premier groupe, ceux de plus de 1 à 10 MW du deuxième ; certains sites plus grands pourraient rejoindre ce groupe moyennant des engagements de flexibilité et de production locale. Les grands sites sans ces engagements seraient moins prioritaires. Plus de 200 contributions ont été reçues ; le ministère indique le 23 octobre que le dépôt au Parlement est désormais attendu en décembre 2026. Il ne s’agit pas d’une règle en vigueur.",
+    "topics": [
+      "grid",
+      "power",
+      "planning"
+    ],
+    "sourceIds": [
+      "fi-grid-priority-consultation-2026",
+      "fi-grid-priority-update-2026",
+      "curebot3-20261124-27",
+      "fi-grid-priority-legal-analysis-2026"
+    ],
+    "actorIds": [
+      "fi-fingrid",
+      "fi-economic-ministry"
+    ],
+    "milestone": "Consultation close le 9 octobre 2026 ; dépôt parlementaire attendu en décembre 2026 selon le ministère le 23 octobre. Le calendrier initial d’entrée en vigueur au 1er janvier 2027 reste à confirmer.",
+    "impacts": {
+      "operator": "Qualifier la catégorie de priorité et les engagements de flexibilité ou de production locale ; les critères définitifs peuvent évoluer.",
+      "grid": "Traitement par lots envisagé pour les catégories autres que la première ; arbitrage en faveur des usages prioritaires et des projets réduisant la pression sur le réseau."
+    }
+  },
+  {
+    "id": "fi-data-centre-register-bill-2026",
+    "scope": "national",
+    "countries": [
+      "FI"
+    ],
+    "date": "2026-10-29",
+    "stage": "announced",
+    "title": "Projet de registre national des data centers",
+    "summary": "Le gouvernement indique avoir soumis au Parlement un projet de loi imposant un registre pour les centres dont la puissance IT installée atteint au moins 0,5 MW. Il vise à améliorer la connaissance des infrastructures et de leurs besoins. L’entrée en vigueur est prévue, sous réserve d’adoption, le 1er avril 2027.",
+    "topics": [
+      "transparency",
+      "power",
+      "grid"
+    ],
+    "sourceIds": [
+      "fi-data-centre-register-government-2026"
+    ],
+    "actorIds": [
+      "fi-economic-ministry"
+    ],
+    "milestone": "Entrée en vigueur envisagée le 1er avril 2027, sous réserve d’adoption.",
+    "milestoneDate": "2027-04-01",
+    "impacts": {
+      "grid": "Une meilleure connaissance du parc et de ses caractéristiques peut contribuer à la planification ; ne pas assimiler le registre à une autorisation de raccordement."
     }
   }
 ]

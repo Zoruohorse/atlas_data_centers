@@ -372,5 +372,192 @@
     "sourceIds": [
       "curebot2-20261124-19"
     ]
+  },
+  {
+    "id": "fi-economic-ministry",
+    "name": "Ministère finlandais de l’Économie et de l’Emploi",
+    "type": "Institution publique",
+    "countries": [
+      "FI"
+    ],
+    "summary": "Pilote les projets de priorisation du raccordement et de registre des data centers.",
+    "sourceIds": [
+      "fi-grid-priority-consultation-2026",
+      "fi-grid-priority-update-2026",
+      "fi-data-centre-register-government-2026"
+    ]
+  },
+  {
+    "id": "fi-lvv",
+    "name": "Agence finlandaise des autorisations et de la surveillance (LVV)",
+    "type": "Autorité publique",
+    "countries": [
+      "FI"
+    ],
+    "summary": "A demandé la suspension des travaux préparatoires modifiant sensiblement l’environnement sur les sites de Google à Muhos et Kajaani, selon les articles AFP et Reuters.",
+    "sourceIds": [
+      "curebot3-20261124-15",
+      "fi-google-clearance-reuters-2026"
+    ]
+  },
+  {
+    "id": "nl-lighthouse-reports",
+    "name": "Lighthouse Reports",
+    "type": "Consortium de journalisme d’investigation",
+    "countries": [
+      "NL"
+    ],
+    "summary": "A coordonné des demandes d’accès aux données environnementales dans les 27 États membres et adressé une communication au comité d’Aarhus visant la Commission européenne.",
+    "sourceIds": [
+      "curebot3-20261124-29",
+      "eu-aarhus-lighthouse-communication-2026",
+      "eu-aarhus-lighthouse-methodology-2026"
+    ]
+  },
+  {
+    "id": "fr-fne",
+    "name": "France Nature Environnement (FNE)",
+    "type": "Fédération associative",
+    "countries": [
+      "FR"
+    ],
+    "summary": "La Lettre rapporte la création d’un groupe de travail national et la préparation de démarches contentieuses sur plusieurs projets.",
+    "sourceIds": [
+      "curebot3-20261124-36"
+    ]
+  },
+  {
+    "id": "fr-amis-terre",
+    "name": "Les Amis de la Terre France",
+    "type": "Association environnementale",
+    "countries": [
+      "FR"
+    ],
+    "summary": "La Lettre rapporte une coordination avec FNE et un appui sur les travaux de Beyond Fossil Fuels.",
+    "sourceIds": [
+      "curebot3-20261124-36"
+    ]
+  },
+  {
+    "id": "de-beyond-fossil-fuels",
+    "name": "Beyond Fossil Fuels",
+    "type": "Coalition européenne",
+    "countries": [
+      "DE"
+    ],
+    "summary": "La Lettre identifie ses analyses comme une ressource mobilisée par des associations françaises dans le débat sur les data centers.",
+    "sourceIds": [
+      "curebot3-20261124-36"
+    ]
+  },
+  {
+    "id": "fr-nuage-sous-pieds",
+    "name": "Le Nuage était sous nos pieds",
+    "type": "Collectif",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Cartographie des projets de data centers et mobilisation autour des procédures d’implantation, selon La Lettre.",
+    "sourceIds": [
+      "curebot3-20261124-36"
+    ]
+  },
+  {
+    "id": "fr-ozans-dire-non",
+    "name": "Ozans dire non",
+    "type": "Collectif territorial",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Le reportage de RFI donne la parole à un membre du collectif opposé au projet Google à Ozans.",
+    "sourceIds": [
+      "curebot3-20261124-34"
+    ]
+  },
+  {
+    "id": "fr-ia-pas-moyen",
+    "name": "IA pas moyen !",
+    "type": "Collectif territorial",
+    "countries": [
+      "FR"
+    ],
+    "summary": "ZDNet rapporte une mobilisation le 19 septembre contre le projet de campus Microsoft dans le secteur de Petit-Landau et Hombourg.",
+    "sourceIds": [
+      "curebot3-20261124-30"
+    ]
+  },
+  {
+    "id": "fr-cyrielle-chatelain",
+    "name": "Cyrielle Chatelain",
+    "type": "Députée",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Participe à la présentation de la proposition de résolution sur les data centers non souverains le 8 octobre, selon Franceinfo et La Nouvelle République.",
+    "sourceIds": [
+      "curebot3-20261124-10",
+      "curebot3-20261124-11"
+    ]
+  },
+  {
+    "id": "fr-laurent-lhardit",
+    "name": "Laurent Lhardit",
+    "type": "Député",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Participe à la présentation de la proposition de résolution le 8 octobre, selon La Nouvelle République.",
+    "sourceIds": [
+      "curebot3-20261124-11"
+    ]
+  },
+  {
+    "id": "fr-philippe-latombe",
+    "name": "Philippe Latombe",
+    "type": "Député",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Participe à la présentation de la proposition de résolution le 8 octobre, selon La Nouvelle République.",
+    "sourceIds": [
+      "curebot3-20261124-11"
+    ]
+  },
+  {
+    "id": "fr-shift-project",
+    "name": "The Shift Project",
+    "type": "Think tank",
+    "countries": [
+      "FR"
+    ],
+    "summary": "L’entretien de Pauline Denis dans Télérama met en discussion les recommandations sénatoriales et les impacts de l’IA ; RFI rapporte des échanges avec des élus d’Étrechet.",
+    "sourceIds": [
+      "curebot3-20261124-35",
+      "curebot3-20261124-34"
+    ]
+  },
+  {
+    "id": "fr-senat-cadt",
+    "name": "Commission de l’aménagement du territoire et du développement durable du Sénat",
+    "type": "Institution parlementaire",
+    "countries": [
+      "FR"
+    ],
+    "summary": "A adopté le rapport d’information n° 949 le 16 septembre, présenté par Guillaume Chevrollier, Damien Michallet et Simon Uzenat.",
+    "sourceIds": [
+      "curebot3-20261124-19"
+    ]
+  },
+  {
+    "id": "es-red-electrica",
+    "name": "Red Eléctrica",
+    "type": "Gestionnaire de transport",
+    "countries": [
+      "ES"
+    ],
+    "summary": "Publie les demandes d’accès de consommation et les nœuds susceptibles de faire l’objet d’un concours de capacité.",
+    "sourceIds": [
+      "curebot3-20261124-17"
+    ]
   }
 ]

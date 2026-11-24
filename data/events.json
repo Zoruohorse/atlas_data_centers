@@ -9,20 +9,24 @@
       "territory"
     ],
     "title": "Google à Ozans, près de Châteauroux",
-    "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet. Selon La Nouvelle République, le 28 octobre Gil Avérous a présenté un maximum envisagé de huit bâtiments, des pistes de valorisation de chaleur, une contribution socio-économique en négociation et un suivi des températures. Ces éléments sont des annonces et propositions de l’élu, non des engagements définitifs.",
+    "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet. Selon La Nouvelle République, le 28 octobre Gil Avérous a présenté un maximum envisagé de huit bâtiments, des pistes de valorisation de chaleur, une contribution socio-économique en négociation et un suivi des températures. Ces éléments sont des annonces et propositions de l’élu, non des engagements définitifs. Lors de la présentation du 12 octobre, Google indique envisager une première phase de 120 MW raccordée à 225 kV à l’horizon 2030 ; il s’agit d’un calendrier annoncé et non d’une mise en service acquise.",
     "sourceIds": [
       "fr-ozans-2026-1",
       "fr-ozans-2026-2",
       "curebot-20261124-2",
       "curebot-20261124-10",
       "curebot2-20261124-16",
-      "curebot2-20261124-30"
+      "curebot2-20261124-30",
+      "curebot3-20261124-5",
+      "curebot3-20261124-22",
+      "curebot3-20261124-34"
     ],
     "type": "project",
     "territory": "Ozans, Indre",
     "actorIds": [
       "fr-rte",
-      "fr-gil-averous"
+      "fr-gil-averous",
+      "fr-ozans-dire-non"
     ],
     "impacts": {
       "grid": "La concertation couvre aussi le raccordement électrique porté par RTE."
@@ -525,7 +529,9 @@
       "curebot-20261124-10",
       "curebot2-20261124-9",
       "curebot2-20261124-12",
-      "curebot2-20261124-30"
+      "curebot2-20261124-30",
+      "curebot3-20261124-8",
+      "curebot3-20261124-36"
     ]
   },
   {
@@ -623,7 +629,7 @@
     "date": "2026-10-13",
     "type": "context",
     "title": "Proposition de résolution pour un moratoire sur les data centers non souverains",
-    "summary": "Le dossier officiel de l’Assemblée nationale indique un dépôt le 13 octobre 2026. La proposition portée par François Ruffin et des cosignataires appelle à un moratoire sur les projets non souverains. Elle n’instaure pas de restriction juridique ; distinguer ce dépôt de la présentation politique du 8 octobre rapportée par la presse.",
+    "summary": "Le dossier officiel de l’Assemblée nationale indique un dépôt le 13 octobre 2026. La proposition portée par François Ruffin et des cosignataires appelle à un moratoire sur les projets non souverains. Elle n’instaure pas de restriction juridique ; distinguer ce dépôt de la présentation politique du 8 octobre rapportée par la presse. La présentation du 8 octobre réunissait notamment Cyrielle Chatelain, Laurent Lhardit et Philippe Latombe avec François Ruffin. Le moratoire demandé est de cinq ans ; il vise les projets non souverains, au-delà du seul critère de nationalité du financeur. Le texte appelle également à une transparence accrue et à des débats territoriaux.",
     "topics": [
       "planning",
       "sovereignty",
@@ -632,10 +638,20 @@
     "sourceIds": [
       "fr-ruffin-resolution-dossier-2026",
       "curebot2-20261124-11",
-      "curebot2-20261124-30"
+      "curebot2-20261124-30",
+      "curebot3-20261124-2",
+      "curebot3-20261124-7",
+      "curebot3-20261124-9",
+      "curebot3-20261124-10",
+      "curebot3-20261124-11",
+      "curebot3-20261124-12",
+      "curebot3-20261124-13"
     ],
     "actorIds": [
-      "fr-ruffin"
+      "fr-ruffin",
+      "fr-cyrielle-chatelain",
+      "fr-laurent-lhardit",
+      "fr-philippe-latombe"
     ]
   },
   {
@@ -683,16 +699,20 @@
     "countries": [
       "FR"
     ],
-    "date": "2026-10-16",
+    "date": "2026-09-29",
     "type": "context",
     "title": "Étrechet — démissions d’élus et contestation du processus de décision",
-    "summary": "Le Courrier des maires rapporte des démissions en septembre d’élus municipaux d’Étrechet, dont la maire, en lien avec le sentiment de ne pas disposer d’informations et de moyens de décision suffisants sur le projet d’Ozans. Date de publication retenue faute de date précise des démissions.",
+    "summary": "Le Courrier des maires rapporte des démissions en septembre d’élus municipaux d’Étrechet, dont la maire, en lien avec le sentiment de ne pas disposer d’informations et de moyens de décision suffisants sur le projet d’Ozans. Date de publication retenue faute de date précise des démissions. Le Parisien publie le 29 septembre un entretien avec la maire démissionnaire Florence Laurent. ZDNet date la démission collective initiale du 11 septembre ; la presse et la proposition de résolution évoquent des décomptes différents selon les moments et les fonctions. Le 8 octobre, deux anciens adjoints d’Étrechet prennent la parole à l’Assemblée nationale.",
     "topics": [
       "territory",
       "planning"
     ],
     "sourceIds": [
-      "curebot2-20261124-30"
+      "curebot2-20261124-30",
+      "curebot3-20261124-22",
+      "curebot3-20261124-30",
+      "curebot3-20261124-11",
+      "curebot3-20261124-34"
     ],
     "territory": "Étrechet, Indre"
   },
@@ -871,6 +891,280 @@
     ],
     "sourceIds": [
       "curebot2-20261124-15"
+    ]
+  },
+  {
+    "id": "dk-grid-priority-law-adoption-2026",
+    "countries": [
+      "DK"
+    ],
+    "date": "2026-10-01",
+    "type": "context",
+    "title": "Danemark — adoption parlementaire du plan d’urgence électrique",
+    "summary": "La loi de priorisation est votée le 1er octobre, en vigueur le 12 octobre, suivie des arrêtés le 19 octobre. Ce jalon précède la première attribution de capacité confirmée le 13 novembre. Les data centers ordinaires relèvent en principe du groupe de priorité le plus faible, avec exception pour les fonctions critiques.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "dk-grid-priority-ministry-2026",
+      "curebot3-20261124-14",
+      "curebot3-20261124-18",
+      "ft-dk-42c0f981"
+    ],
+    "actorIds": [
+      "dk-energinet"
+    ]
+  },
+  {
+    "id": "fi-google-muhos-kajaani-suspension-2026",
+    "countries": [
+      "FI"
+    ],
+    "date": "2026-10-06",
+    "type": "context",
+    "title": "Muhos et Kajaani — demande de suspension des travaux préparatoires de Google",
+    "summary": "L’agence LVV demande à Tuike Finland d’interrompre les travaux modifiant significativement l’environnement au plus tard le 23 octobre, dans l’attente des évaluations d’impact. Elle envisage des mesures coercitives en cas de non-respect. Cette demande vise deux projets et ne constitue pas un moratoire finlandais général.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot3-20261124-15",
+      "fi-google-clearance-reuters-2026",
+      "fi-google-clearance-lemonde-2026"
+    ],
+    "territory": "Muhos et Kajaani",
+    "actorIds": [
+      "fi-lvv"
+    ]
+  },
+  {
+    "id": "fi-google-muhos-investigation-2026",
+    "countries": [
+      "FI"
+    ],
+    "date": "2026-10-29",
+    "type": "context",
+    "title": "Muhos — ouverture d’une enquête pénale sur les défrichements",
+    "summary": "Reuters rapporte l’ouverture d’une enquête sur de possibles dommages environnementaux liés aux travaux de préparation du site Google à Muhos. Les faits font l’objet d’une enquête : aucune responsabilité pénale définitive n’est établie par ces sources.",
+    "topics": [
+      "environment",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "fi-google-clearance-reuters-2026",
+      "fi-google-clearance-lemonde-2026"
+    ],
+    "territory": "Muhos",
+    "actorIds": [
+      "fi-lvv"
+    ]
+  },
+  {
+    "id": "eu-aarhus-dc-transparency-2026",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK"
+    ],
+    "date": "2026-09-25",
+    "type": "context",
+    "title": "Transparence des data centers — saisine du comité d’Aarhus",
+    "summary": "Lighthouse Reports adresse une communication au Comité d’examen du respect des dispositions de la convention d’Aarhus concernant l’accès aux données de durabilité détenues par la Commission. Les enquêtes partenaires publiées le 30 septembre décrivent des difficultés d’accès à des données individualisées, notamment en France et aux Pays-Bas. La communication conteste les refus de divulgation ; elle ne constitue pas une constatation de violation ni une décision imposant la publication site par site.",
+    "topics": [
+      "transparency",
+      "environment",
+      "power"
+    ],
+    "sourceIds": [
+      "eu-aarhus-lighthouse-communication-2026",
+      "eu-aarhus-lighthouse-methodology-2026",
+      "curebot3-20261124-29",
+      "curebot3-20261124-23",
+      "curebot3-20261124-24",
+      "curebot3-20261124-25",
+      "curebot3-20261124-26"
+    ],
+    "scope": "eu",
+    "actorIds": [
+      "nl-lighthouse-reports"
+    ],
+    "impacts": {
+      "operator": "Suivre l’éventuelle évolution des règles de confidentialité et de divulgation des indicateurs par site.",
+      "grid": "Un accès accru aux données pourrait améliorer la connaissance des consommations, mais le reporting ne remplace pas les études réseau."
+    }
+  },
+  {
+    "id": "fr-petit-landau-mobilisation-sept2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-09-19",
+    "type": "mobilisation",
+    "title": "Petit-Landau et Hombourg — mobilisation contre le projet Microsoft",
+    "summary": "ZDNet rapporte une journée de mobilisation organisée le 19 septembre par le collectif IA pas moyen ! autour des inquiétudes liées au campus numérique. À distinguer du projet de valorisation de chaleur transfrontalière évoqué en novembre.",
+    "topics": [
+      "territory",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot3-20261124-30"
+    ],
+    "territory": "Petit-Landau et Hombourg",
+    "actorIds": [
+      "fr-ia-pas-moyen"
+    ]
+  },
+  {
+    "id": "fr-opposition-coordination-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-09-25",
+    "type": "context",
+    "title": "Structuration des oppositions françaises — contentieux et plaidoyer",
+    "summary": "Selon La Lettre, FNE développe un groupe de travail national, les Amis de la Terre coopèrent sur certains dossiers, et Data for Good prépare un appui juridique aux collectifs locaux. Le média évoque des recours envisagés concernant Dunkerque et Fouju ; leur dépôt effectif n’est pas établi par cet article. Le collectif Le Nuage était sous nos pieds tient une cartographie des projets.",
+    "topics": [
+      "territory",
+      "planning",
+      "environment"
+    ],
+    "sourceIds": [
+      "curebot3-20261124-36"
+    ],
+    "actorIds": [
+      "fr-fne",
+      "fr-amis-terre",
+      "fr-data-for-good",
+      "fr-nuage-sous-pieds"
+    ]
+  },
+  {
+    "id": "fr-senat-ai-footprint-report-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-09-16",
+    "type": "context",
+    "title": "Rapport sénatorial sur l’empreinte environnementale de l’IA",
+    "summary": "Le rapport n° 949, adopté le 16 septembre par la commission, formule 16 recommandations sur une IA durable. Il défend l’accueil de capacités de calcul en France en raison du mix électrique peu carboné, tout en préconisant la frugalité et la mesure des impacts. Les Numériques et Télérama discutent ses limites, dont les effets de volume et le périmètre environnemental. Il ne crée aucune obligation réglementaire.",
+    "topics": [
+      "environment",
+      "sovereignty",
+      "power",
+      "transparency"
+    ],
+    "sourceIds": [
+      "curebot3-20261124-19",
+      "curebot3-20261124-21",
+      "curebot3-20261124-35"
+    ],
+    "actorIds": [
+      "fr-senat-cadt",
+      "fr-shift-project"
+    ]
+  },
+  {
+    "id": "fr-ia-energy-presidential-debate-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-09-25",
+    "type": "context",
+    "title": "Débat présidentiel sur l’IA — souveraineté et infrastructures",
+    "summary": "Next restitue deux tables rondes réunissant des représentants de huit forces politiques. Le débat aborde souveraineté technologique, usages de l’IA et ressources nécessaires ; il s’agit de positions politiques exprimées lors d’un événement, pas de programmes définitivement arrêtés ni de règles en vigueur.",
+    "topics": [
+      "sovereignty",
+      "environment",
+      "power"
+    ],
+    "sourceIds": [
+      "curebot3-20261124-20"
+    ]
+  },
+  {
+    "id": "fr-heat-reuse-research-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-12",
+    "type": "context",
+    "title": "Rapport de recherche sur la valorisation de chaleur des data centers",
+    "summary": "Loup Cellard analyse les conditions techniques, économiques et territoriales de la récupération de chaleur et sa place dans les stratégies d’acceptabilité. Il souligne que les réalisations restent partielles et que les débouchés thermiques dépendent des conditions locales ; ne pas confondre potentiel annoncé et chaleur effectivement valorisée.",
+    "topics": [
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot3-20261124-3"
+    ]
+  },
+  {
+    "id": "fr-montel-heat-stress-test-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-06",
+    "type": "context",
+    "title": "Stress test Montel — demande des data centers et canicules",
+    "summary": "La Dépêche rapporte un scénario contrefactuel ajoutant 15 GW de charge constante aux heures de fortes chaleurs observées entre 2024 et 2026. Dans cette hypothèse maximale, le déficit théorique atteint jusqu’à 9,5 GW après saturation des importations. Ce résultat conditionnel n’est ni une prévision de pénurie ni une estimation de consommation effective des data centers.",
+    "topics": [
+      "power",
+      "grid"
+    ],
+    "sourceIds": [
+      "curebot3-20261124-16"
+    ],
+    "impacts": {
+      "grid": "Tester les effets de concomitance entre forte demande, contraintes de production et capacités d’importation ; distinguer puissance réservée et charge réelle."
+    }
+  },
+  {
+    "id": "es-ree-demand-queue-transparency-2026",
+    "countries": [
+      "ES"
+    ],
+    "date": "2026-09-30",
+    "type": "context",
+    "title": "Red Eléctrica — publication de l’état des demandes de consommation",
+    "summary": "Le GRT publie les demandes admissibles sur les nœuds du réseau de transport d’au moins 220 kV, les nœuds susceptibles de concours et des données agrégées sur l’état des demandes. La page vise l’ensemble des consommateurs et se réfère à l’article 20 quater du décret royal 1183/2020 ; elle n’établit pas une nouvelle restriction propre aux data centers.",
+    "topics": [
+      "grid",
+      "transparency"
+    ],
+    "sourceIds": [
+      "curebot3-20261124-17"
+    ],
+    "actorIds": [
+      "es-red-electrica"
     ]
   }
 ]

@@ -1156,5 +1156,245 @@
     "label": "MEI — position sur le projet de Rantilly",
     "url": "https://www.les-ecologistes-mei.org/post/le-mei-s-exprime-sur-les-data-centers-%C3%A0-rantilly",
     "type": "primary"
+  },
+  {
+    "id": "curebot3-20261124-2",
+    "label": "Banque des Territoires — relais parlementaires des oppositions",
+    "url": "https://www.banquedesterritoires.fr/la-fronde-contre-les-datacenters-trouve-des-relais-lassemblee-nationale",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-3",
+    "label": "Sciences Po médialab — rapport de Loup Cellard sur la chaleur fatale",
+    "url": "https://medialab.sciencespo.fr/productions/2026-10-12-la-chaleur-des-data-centers-un-dechet-qui-voulait-devenir-une-ressource/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot3-20261124-5",
+    "label": "France 3 — présentation du projet Google à Ozans",
+    "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre/chateauroux/creation-de-milliers-d-emplois-utilisation-de-l-eau-et-de-l-electricite-le-projet-de-google-pour-installer-son-premier-centre-de-donnees-en-france-3432303.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-6",
+    "label": "Intermines — présentation et échanges sur le rapport IA et énergie",
+    "url": "https://inter-mines.org/fr/event/presentation-du-rapport-ia-et-energie-transformer-une-interdependance-en-capacite-de-decision/2026/10/09/2811",
+    "type": "primary"
+  },
+  {
+    "id": "curebot3-20261124-7",
+    "label": "Le Nouvel Obs — position de François Ruffin",
+    "url": "https://www.nouvelobs.com/politique/20261012.OBS119132/on-fait-de-la-france-une-colonie-numerique-francois-ruffin-plante-les-data-centers-au-milieu-de-la-campagne-presidentielle.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-8",
+    "label": "France Inter — éditorial sur les oppositions territoriales",
+    "url": "https://www.radiofrance.fr/franceinter/podcasts/l-edito-politique-vsd/la-politique-vue-par-camille-vigogne-du-samedi-10-octobre-2026-5224890",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-9",
+    "label": "Parlons politique — débat sur l’usage des ressources",
+    "url": "https://www.parlons-politique.fr/actualite-nationale/centres-de-donnees-qui-doit-decider-de-lusage-de-lelectricite-de-leau-et-des-terres-en-france_29095/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-10",
+    "label": "Franceinfo — soutiens à la proposition de moratoire",
+    "url": "https://www.franceinfo.fr/politique/le-depute-de-la-somme-francois-ruffin-a-depose-une-proposition-de-resolution-appelant-a-un-moratoire-de-cinq-ans-sur-les-data-centers-non-europeens_8229637.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-11",
+    "label": "La Nouvelle République — élus démissionnaires à l’Assemblée nationale",
+    "url": "https://www.lanouvellerepublique.fr/indre/commune/etrechet/leur-combat-contre-google-les-mene-a-l-assemblee-nationale-la-determination-des-elus-demissionnaires-d-etrechet-1791454329",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-12",
+    "label": "01net — proposition de résolution et oppositions",
+    "url": "https://www.01net.com/actualites/data-centers-etrangers-en-france-les-opposants-se-multiplient-et-exigent-un-moratoire.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-13",
+    "label": "Libération — mobilisation des députés et collectifs",
+    "url": "https://www.liberation.fr/economie/on-met-de-lia-partout-on-fonce-et-on-verra-les-degats-apres-la-fronde-contre-les-data-centers-prend-de-lampleur-en-france-20261008_WSI7EIM4Q5FCNPOUZLWLPK62ZU/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-14",
+    "label": "DataCenterDynamics — adoption du plan danois",
+    "url": "https://www.datacenterdynamics.com/en/news/danish-parliament-adopts-emergency-plan-for-electricity-grid-puts-data-centers-at-the-back-of-queue/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-15",
+    "label": "Le Journal de Saône-et-Loire / AFP — demande de suspension à Google",
+    "url": "https://www.lejsl.com/environnement/2026/10/06/la-finlande-veut-contraindre-google-a-mettre-sur-pause-son-projet-de-mega-data-center",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-16",
+    "label": "La Dépêche — stress test Montel",
+    "url": "https://www.ladepeche.fr/2026/10/06/intelligence-artificielle-et-centres-de-donnees-le-scenario-qui-met-le-reseau-electrique-francais-sous-tension-13586474.php",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-17",
+    "label": "Red Eléctrica — état des demandes d’accès et de raccordement",
+    "url": "https://www.ree.es/es/clientes/consumidor/acceso-conexion/conoce-el-estado-de-las-solicitudes",
+    "type": "primary"
+  },
+  {
+    "id": "curebot3-20261124-18",
+    "label": "pv magazine — quatre catégories danoises",
+    "url": "https://www.pv-magazine.com/2026/10/02/denmark-agrees-new-grid-connection-procedure/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-19",
+    "label": "Sénat — rapport d’information n° 949 du 16 septembre",
+    "url": "https://www.senat.fr/rap/r25-949/r25-949_mono.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot3-20261124-20",
+    "label": "Next — débat présidentiel sur l’IA du 25 septembre",
+    "url": "https://next.ink/258927/presidentielle-2027-un-debat-sur-lia-entre-souverainete-et-clivages-rejoues/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-21",
+    "label": "Les Numériques — analyse du rapport sénatorial",
+    "url": "https://www.lesnumeriques.com/societe-numerique/rapatrier-les-datacenters-en-france-est-il-vraiment-une-bonne-idee-politique-et-ecologique-n262603.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-22",
+    "label": "Le Parisien — démission de la maire d’Étrechet",
+    "url": "https://www.leparisien.fr/indre-36/zizanie-autour-dun-projet-de-data-center-google-pres-de-chateauroux-la-maire-detrechet-demissionne-29-09-2026-3YC5UQEO7FBCJIFPE7HGLAVW4U.php",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-23",
+    "label": "DCmag — saisine sur la transparence des indicateurs",
+    "url": "https://dcmag.fr/lue-sommee-de-devoiler-la-consommation-des-data-centers-site-par-site/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-24",
+    "label": "Politico — enquête sur l’accès aux données environnementales",
+    "url": "https://www.politico.eu/article/lue-accusee-de-dissimuler-limpact-environnemental-des-datacenters/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-25",
+    "label": "Next — transparence du reporting",
+    "url": "https://next.ink/259160/datacenters-de-leurope-aux-etats-membres-personne-nimpose-la-transparence/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-26",
+    "label": "Mediapart — enquête Lighthouse Reports en France",
+    "url": "https://www.mediapart.fr/journal/ecologie/300926/data-centers-les-pouvoirs-publics-esquivent-leurs-obligations-de-transparence",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-27",
+    "label": "DataCenterDynamics — projet finlandais de priorisation",
+    "url": "https://www.datacenterdynamics.com/en/news/finland-to-abandon-first-come-first-served-grid-connections-dropping-data-centers-down-the-queue/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-29",
+    "label": "Lighthouse Reports — Data Centre Silence",
+    "url": "https://www.lighthousereports.com/investigation/data-centre-silence/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot3-20261124-30",
+    "label": "ZDNet — oppositions à Ozans et en Alsace",
+    "url": "https://www.zdnet.fr/actualites/google-microsoft-la-fronde-contre-les-mega-datacenters-setend-a-toute-la-france-504783.htm",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-31",
+    "label": "Le Moniteur — cadre juridique des implantations",
+    "url": "https://www.lemoniteur.fr/vie-du-btp/comment-le-droit-sadapte-pour-favoriser-et-encadrer-les-implantations.DSF6BCCSEZJT5EZ5Y6SF2I44NU.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-34",
+    "label": "RFI — reportage à Étrechet",
+    "url": "https://www.rfi.fr/fr/podcasts/reportage-france/20260929-la-contestation-s-organise-contre-le-projet-de-centre-de-donn%C3%A9es-g%C3%A9ant-de-google-pr%C3%A9s-de-ch%C3%A2teauroux",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-35",
+    "label": "Télérama — analyse de Pauline Denis, The Shift Project",
+    "url": "https://www.telerama.fr/debats-reportages/rendre-l-ia-plus-verte-tout-en-construisant-des-datacenters-les-angles-morts-d-un-rapport-senatorial-7033056.php",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot3-20261124-36",
+    "label": "La Lettre — structuration nationale et appui transfrontalier",
+    "url": "https://www.lalettre.fr/fr/politique_lobbying/2026/09/25/la-fronde-anti-data-centers-s-organise-en-france-pour-peser-dans-le-debat-public,110883783-art",
+    "type": "analysis"
+  },
+  {
+    "id": "fi-grid-priority-consultation-2026",
+    "label": "Gouvernement finlandais — consultation du 18 septembre",
+    "url": "https://valtioneuvosto.fi/en/-/1410877/proposal-on-priority-procedure-for-electricity-network-connections-circulated-for-review",
+    "type": "primary"
+  },
+  {
+    "id": "fi-grid-priority-update-2026",
+    "label": "Gouvernement finlandais — suites de la consultation, 23 octobre",
+    "url": "https://valtioneuvosto.fi/en/-/1410877/more-than-200-views-received-on-priority-procedure-for-electricity-network-connections-legislative-drafting-to-continue",
+    "type": "primary"
+  },
+  {
+    "id": "fi-grid-priority-legal-analysis-2026",
+    "label": "Castrén & Snellman — analyse des catégories et engagements",
+    "url": "https://www.castren.fi/electricity-market-act-proposed-priority-procedure-to-significantly-change-new-electricity-network-connections-in-situations-of-scarce-capacity/",
+    "type": "analysis"
+  },
+  {
+    "id": "fi-data-centre-register-government-2026",
+    "label": "Gouvernement finlandais — projet de registre, 29 octobre",
+    "url": "https://valtioneuvosto.fi/en/-/1410877/government-proposes-new-data-centre-register-to-improve-situational-awareness",
+    "type": "primary"
+  },
+  {
+    "id": "dk-grid-priority-ministry-2026",
+    "label": "Ministère danois — vote du plan d’urgence le 1er octobre",
+    "url": "https://www.kefm.dk/aktuelt/nyheder/2026/okt/bredt-flertal-har-stemt-for-akutplanen-for-elnettet",
+    "type": "primary"
+  },
+  {
+    "id": "eu-aarhus-lighthouse-communication-2026",
+    "label": "CEE-ONU — communication de Lighthouse Reports du 25 septembre",
+    "url": "https://unece.org/sites/default/files/2026-11/Communication_Lighthouse_Reports_EU_25.09.2026_redacted.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "eu-aarhus-lighthouse-methodology-2026",
+    "label": "Lighthouse Reports — méthodologie et saisine",
+    "url": "https://www.lighthousereports.com/methodology/data-centre-silence/",
+    "type": "primary"
+  },
+  {
+    "id": "fi-google-clearance-reuters-2026",
+    "label": "Reuters — enquête pénale ouverte le 29 octobre",
+    "url": "https://www.reuters.com/business/environment/finland-launches-criminal-probe-suspected-environmental-damage-google-data-2026-10-29/",
+    "type": "analysis"
+  },
+  {
+    "id": "fi-google-clearance-lemonde-2026",
+    "label": "Le Monde — enquête sur les défrichements",
+    "url": "https://www.lemonde.fr/planete/article/2026/11/03/en-finlande-l-abattage-sans-autorisation-de-250-000-arbres-pour-construire-un-data-center-de-google-embarrasse-le-gouvernement_6805532_3244.html",
+    "type": "analysis"
   }
 ]

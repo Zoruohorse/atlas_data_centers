@@ -34,5 +34,27 @@
     "sourceIds": [
       "eu-reporting-law"
     ]
+  },
+  {
+    "id": "de-fr-bff-association-support-2026",
+    "type": "influence",
+    "date": "2026-09-25",
+    "countries": [
+      "DE",
+      "FR"
+    ],
+    "topics": [
+      "territory",
+      "environment"
+    ],
+    "actorIds": [
+      "de-beyond-fossil-fuels",
+      "fr-amis-terre"
+    ],
+    "title": "Appui documentaire de Beyond Fossil Fuels aux associations françaises",
+    "summary": "La Lettre indique que Les Amis de la Terre France s’appuient sur les travaux de Beyond Fossil Fuels. Ce lien d’appui documentaire entre organisations est rapporté par un seul média ; il ne prouve ni financement ni influence réglementaire entre États.",
+    "sourceIds": [
+      "curebot3-20261124-36"
+    ]
   }
 ]
