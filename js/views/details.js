@@ -1,13 +1,14 @@
 import {radarStages} from '../model.js';
 import {article, button, countryName, element, formatDate, links, renderList} from '../ui.js';
 import {renderComparison} from './comparison.js';
+import {renderNetwork, relationSelector} from './network.js';
+import {renderRadar} from './radar.js';
 
 export const modes = {
   regulation: 'Réglementation',
   similarities: 'Similarités',
   contests: 'Projets et contestations',
   influences: 'Influences',
-  radar: 'Radar',
 };
 
 const tabs = {rules:'Règles', upcoming:'À venir', comparison:'Comparaison', actors:'Acteurs', events:'Événements'};
@@ -36,7 +37,10 @@ function renderRules(target, atlas, state, rows) {
 }
 
 function renderRelations(target, atlas, state, actions) {
-  const relations = atlas.relationsFor(state, state.country);
+  const all=[...atlas.relationsFor(state,state.country),...atlas.convergenceFor(state)];
+  target.append(relationSelector(atlas,state,actions));
+  const relations=all.filter(r=>!state.relationType||r.type===state.relationType);
+  const active=relations.find(r=>r.id===state.relation)||relations[0];if(active)renderNetwork(target,atlas,active,state,actions);
   if (!relations.length) target.append(element('p', 'Aucune relation documentée pour cette sélection.', 'muted'));
   for (const relation of relations) {
     const node = element('details', '', 'relation');
@@ -93,7 +97,7 @@ export function renderDetails(target, atlas, state, actions) {
   target.scrollTop = 0;
   if (!state.country) {
     if (state.mode === 'regulation') return renderFeed(target, atlas, state, actions);
-    target.append(element('h2', modes[state.mode]));
+    target.append(element('h2',state.mode==='radar'?'Radar réglementaire':modes[state.mode]));
     if (state.mode === 'similarities') {
       renderComparison(target, atlas, state, state.comparison, actions.compare);
     } else if (state.mode === 'contests') {
@@ -101,7 +105,7 @@ export function renderDetails(target, atlas, state, actions) {
     } else if (state.mode === 'influences') {
       renderRelations(target, atlas, state, actions);
     } else {
-      renderList(target, atlas, atlas.filter(state, atlas.data.regulations.filter(row => radarStages.includes(row.stage))));
+      renderRadar(target,atlas,state,actions);
     }
     return;
   }
@@ -117,6 +121,7 @@ export function renderDetails(target, atlas, state, actions) {
   const subtitle = (!state.year && !state.topic && info.summary)
     || (national.length ? 'Dernier signal national · ' + national[0].title : fallback);
   target.append(close, element('h2', countryName(state.country)), element('p', subtitle, 'muted'));
+  const metrics=element('div','','country-metrics');for(const [n,label] of [[national.length,'Textes nationaux'],[atlas.radarFor(state,state.country).length,'À suivre'],[atlas.filter(state,atlas.data.events,state.country).length,'Événements']]){const m=element('div');m.append(element('strong',String(n)),element('span',label));metrics.append(m);}target.append(metrics);
 
   const navigation = element('nav', '', 'tabs');
   navigation.setAttribute('aria-label', 'Rubriques de la fiche pays');
@@ -133,19 +138,19 @@ export function renderDetails(target, atlas, state, actions) {
     renderRules(target, atlas, state, regulations);
   } else if (state.tab === 'upcoming') {
     target.append(element('h3','Radar réglementaire'));
-    renderList(target, atlas, regulations.filter(row => radarStages.includes(row.stage)));
+    renderRadar(target,atlas,state,actions,state.country);
   } else if (state.tab === 'comparison') {
     const related = atlas.related(state);
     if (related.length) target.append(element('h3', 'Pays aux mécanismes comparables'));
     for (const match of related) {
-      const label = countryName(match.code) + ' · ' + match.criteria.map(row => row.criterion.label).join(', ');
+      const label = countryName(match.code)+' · '+match.criteria.length+'/'+match.common+' concordances · '+match.criteria.map(row => row.criterion.label).join(', ');
       target.append(button(label, () => actions.compare([state.country, match.code]), 'compare'));
     }
     renderComparison(target, atlas, state, state.comparison.length ? state.comparison : [state.country], actions.compare);
   } else if (state.tab === 'actors') {
     renderActors(target, atlas, state, actions, regulations);
   } else {
-    target.append(element('h3','Projets et mobilisations'));
+    target.append(element('h3','Projets et mobilisations'),element('p','Un projet documenté ne signifie pas qu’il est contesté.','muted'));
     renderList(target, atlas, atlas.filter(state, atlas.data.events, state.country));
   }
 }

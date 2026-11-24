@@ -1,0 +1,13 @@
+import {addOption,countryName,element,links} from '../ui.js';
+const ns='http://www.w3.org/2000/svg';
+function svg(tag,attrs={},text=''){const n=document.createElementNS(ns,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,String(v));if(text)n.textContent=text;return n;}
+export function relationSelector(atlas,state,actions){const label=element('label','','relation-filter');label.append('Nature du lien ');const s=element('select');s.id='relation-type';addOption(s,'','Toutes les relations');for(const [k,v] of Object.entries(atlas.data.taxonomy.relations))addOption(s,k,v);s.value=state.relationType;s.addEventListener('change',()=>actions.relationType(s.value));label.append(s);return label;}
+export function renderNetwork(target,atlas,r,state,actions){
+ const wrap=element('section','','network-card');wrap.append(element('h3',atlas.data.taxonomy.relations[r.type]),element('p',r.title,'meta'));
+ const graph=svg('svg',{viewBox:'0 0 400 320',role:'group','aria-label':r.title,class:'network-graph'}),cx=200,cy=160;
+ const nodes=r.countries.map((code,i)=>{const ring=i>=14, total=ring?r.countries.length-14:Math.min(r.countries.length,14),a=-Math.PI/2+2*Math.PI*(ring?i-14:i)/total,rad=ring?83:134;return{code,x:cx+rad*Math.cos(a),y:cy+rad*Math.sin(a)};});
+ for(const n of nodes)graph.append(svg('line',{x1:cx,y1:cy,x2:n.x,y2:n.y,class:'network-edge','stroke-dasharray':r.type==='convergence'?'5 4':'none'}));
+ graph.append(svg('circle',{cx,cy,r:37,class:'network-hub'}),svg('text',{x:cx,y:cy-4,'text-anchor':'middle',class:'network-hub-text'},r.type==='coordination'?'Campagne':r.type==='harmonisation'?'Cadre UE':'Relation'),svg('text',{x:cx,y:cy+12,'text-anchor':'middle',class:'network-hub-text'},r.countries.length+' pays'));
+ for(const n of nodes){const g=svg('g',{tabindex:0,role:'button','aria-label':countryName(n.code),class:'network-node'+(n.code===state.country?' current':'')});g.append(svg('title',{},countryName(n.code)),svg('rect',{x:n.x-18,y:n.y-12,width:36,height:24,rx:6}),svg('text',{x:n.x,y:n.y+4,'text-anchor':'middle'},n.code));const choose=()=>actions.country(n.code,true,'actors');g.addEventListener('click',choose);g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}});graph.append(g);}
+ wrap.append(graph,element('p',r.derived?'Convergence calculée : aucune causalité démontrée.':'Les branches représentent un cadre ou une relation commune, pas une influence causale entre États.','muted'),links(atlas,r.sourceIds));target.append(wrap);
+}

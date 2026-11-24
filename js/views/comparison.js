@@ -28,9 +28,9 @@ export function renderComparison(target, atlas, state, codes, changeCountries) {
   }
   const {rows, common, matching} = atlas.compare(state, codes);
   const score = common.length
-    ? matching.length + ' mécanisme(s) concordant(s) sur ' + common.length + ' critère(s) renseigné(s) pour tous les pays.'
+    ? Math.round(matching.length/common.length*100)+' % · '+matching.length+'/'+common.length+' critères communs concordants (sur '+rows.length+' possibles).'
     : 'Aucun critère renseigné pour tous les pays sélectionnés.';
-  target.append(element('p', score), element('p', 'Une concordance indique un mécanisme de même nature. Consultez les seuils, les périmètres et les délais dans le tableau. Les données manquantes sont exclues du décompte.', 'muted'));
+  target.append(element('p', score), element('p', 'Une concordance indique un mécanisme de même nature. Consultez les seuils, les périmètres et les délais dans le tableau. Les données manquantes sont exclues. Un texte publié sans date d’effet reste un repère documentaire. Le classement national exclut le cadre UE commun.', 'muted'));
   const wrapper = element('div', '', 'table-wrap');
   wrapper.tabIndex = 0;
   wrapper.setAttribute('aria-label', 'Tableau défilant du comparateur');
@@ -52,7 +52,7 @@ export function renderComparison(target, atlas, state, codes, changeCountries) {
     for (const value of values) {
       const cell = element('td', value?.detail || 'À documenter');
       if (value) {
-        cell.append(element('small', atlas.data.taxonomy.kinds[value.kind], 'meta'));
+        cell.append(element('small', [atlas.data.taxonomy.kinds[value.kind],value.record.scope==='eu'?'Socle UE':value.record.scope==='territorial'?'Territorial':'National',atlas.data.taxonomy.stages[value.record.stage]].join(' · '), 'meta'));
         cell.append(links(atlas, value.record.sourceIds.slice(0, 1)));
       }
       row.append(cell);

@@ -27,8 +27,8 @@ export function addOption(select, value, label) {
 export function links(atlas, sourceIds) {
   const container = element('div', '', 'links');
   for (const id of sourceIds) {
-    const {label, url} = atlas.sources.get(id);
-    const link = element('a', label);
+    const {label, url, type} = atlas.sources.get(id);
+    const link = element('a', (type==='primary'?'Source primaire':'Analyse')+' · '+label);
     link.href = url;
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
@@ -50,7 +50,9 @@ export function article(atlas, record) {
   if (record.effectiveFrom && record.effectiveFrom !== record.date) {
     node.append(element('p', 'Application à partir du ' + formatDate(record.effectiveFrom), 'meta'));
   }
-  if (record.milestone) node.append(element('p', record.milestone, 'meta'));
+  if(record.effectiveUntil)node.append(element('p','Fin d’application documentée : '+formatDate(record.effectiveUntil),'meta'));
+  if(record.milestone)node.append(element('p','Échéance / suivi · '+record.milestone,'meta'));
+  if(record.stage==='published'&&!record.effectiveFrom)node.append(element('p','Date d’application non renseignée.','meta'));
   for (const [key, label] of [['operator','Pour l’opérateur'], ['grid','Pour le réseau']]) {
     if (!record.impacts?.[key]) continue;
     const impact = element('p', '', 'impact');

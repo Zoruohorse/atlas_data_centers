@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Veille européenne sur la réglementation, les contestations et les réseaux d’acteurs autour des data centers.">
   <title>Atlas européen des data centers</title>
-  <link rel="stylesheet" href="./css/atlas.css">
+  <link rel="stylesheet" href="./css/atlas.css"><link rel="stylesheet" href="./css/observatory.css">
   <script type="module" src="./js/app.js"></script>
 </head>
 <body>
@@ -15,11 +15,11 @@
     <p>Réglementation, acceptabilité et dynamiques d’influence.</p>
   </header>
   <main>
-    <nav class="mode-bar" id="modes" aria-label="Modes de lecture"></nav>
+    <div class="navigation"><nav class="mode-bar" id="modes" aria-label="Modes de lecture"></nav><button type="button" class="mode-button" id="radar" aria-pressed="false">Radar réglementaire</button></div>
     <div class="toolbar">
       <label>Pays <select id="country"><option value="">Tous les pays</option></select></label>
       <label>Thème <select id="topic"><option value="">Tous les thèmes</option></select></label>
-      <label>Chronologie <select id="year"><option value="">Toutes les dates</option></select></label>
+      <label id="event-filter" hidden>Événement <select id="event-type"><option value="">Tous les types</option></select></label>
     </div>
     <noscript>Activez JavaScript pour utiliser la carte et consulter les fiches.</noscript>
     <p id="notice" role="status">Chargement de l’atlas…</p>
@@ -32,11 +32,11 @@
           </svg>
           <div class="tip" id="tip" hidden></div>
         </div>
-        <div class="legend" id="legend"></div>
+        <div class="legend" id="legend"></div><section class="timeline"><div class="timeline-heading"><label for="year">Chronologie documentaire</label><output id="year-label" for="year"></output><button id="reset-year" type="button">Aujourd’hui</button></div><input type="range" id="year" step="1"><div class="timeline-bounds"><span id="first-year"></span><span id="last-year"></span></div><p class="meta">Documents connus à la date sélectionnée ; historique juridique non exhaustif.</p></section>
       </section>
       <section class="panel details" id="details" aria-label="Fiche pays et analyse" tabindex="-1"></section>
     </div>
-    <footer id="footer"></footer>
+    <section class="panel feed-panel" id="feed" aria-label="Dernières évolutions européennes" hidden></section><footer id="footer"></footer>
   </main>
 </body>
 </html>

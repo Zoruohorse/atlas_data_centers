@@ -62,6 +62,7 @@ for (const row of data.regulations) {
   assert(row.sourceIds.some(id => atlas.sources.get(id).type === 'primary'), row.id + ' · source primaire requise');
   if (row.effectiveFrom) validDate(row.effectiveFrom, row.id);
   if (row.effectiveUntil) validDate(row.effectiveUntil, row.id);
+  if(row.milestoneDate){validDate(row.milestoneDate,row.id);required(row.milestone,row.id+' · échéance');}
   if (row.effectiveFrom && row.effectiveUntil) assert(row.effectiveFrom <= row.effectiveUntil, row.id + ' · dates d’application inversées');
 }
 for (const row of data.events) {
@@ -104,3 +105,13 @@ for (const row of data.changelog) {
 }
 
 console.log('Données valides · ' + data.countries.length + ' pays, ' + data.regulations.length + ' entrées réglementaires et ' + data.sources.length + ' sources.');
+
+const current={year:'',topic:'',eventType:'',country:'ES'};
+const national=atlas.compare(current,['ES','IE'],true);
+assert(national.matching.some(r=>r.criterion.id==='renewable-additionality'));
+assert(national.common.every(r=>r.values.every(v=>v.record.scope==='national')));
+assert(!atlas.compare({...current,year:'2024'},['ES','IE'],true).matching.length);
+assert(atlas.convergenceFor(current).every(r=>r.type==='convergence'&&r.sourceIds.length));
+assert(atlas.radarFor(current).some(r=>r.id==='eu-minimum-standards-consultation-2026'));
+assert(atlas.filter({...current,eventType:'mobilisation'},data.events).every(r=>r.type==='mobilisation'));
+console.log('Régressions du modèle OK.');

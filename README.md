@@ -1,6 +1,6 @@
 # Atlas européen des data centers
 
-Observatoire statique du raccordement, de l’implantation, de l’acceptabilité et des relations entre acteurs. Les fiches conservent leurs URL, par exemple [Pologne](https://zoruohorse.github.io/test_carto_europe/#PL).
+Observatoire statique du raccordement, de l’implantation, de l’acceptabilité et des relations entre acteurs. Les fiches conservent leurs URL, par exemple [Pologne](https://zoruohorse.github.io/atlas_data_centers/#PL).
 
 ## Lancer et publier
 
@@ -38,3 +38,11 @@ Ouvrir http://localhost:8000. Le site lit des fichiers JSON via HTTP. GitHub Pag
 5. Mettre à jour le journal, lancer le validateur et vérifier l’affichage du pays concerné. Conserver les entrées historiques et indiquer la fin d’application si elle est documentée. Pour une modification régulière, utiliser une pull request avec le delta et ses sources.
 
 Le filtre chronologique affiche les documents enregistrés jusqu’à l’année choisie. Il représente la chronologie de la base à date de publication ou d’annonce. La reconstitution juridique dépend de la complétude des dates, des versions et des mesures abrogées. Un champ manquant signifie que la veille n’a pas renseigné ce point. Le comparateur ne décompte que les critères documentés pour tous les pays sélectionnés.
+
+## Interface V2
+
+Quatre modes cartographiques et radar autonome. Le curseur représente les documents connus à la fin de l’année, pas une reconstruction juridique exhaustive. Le fil européen suit le thème et la date indépendamment du pays. Un projet n'est pas nécessairement contesté.
+
+Le classement national exclut le socle UE, les données manquantes et les mesures suspendues. Les couleurs distinguent une concordance de plusieurs concordances, pas des niveaux de sévérité. Les convergences calculées sont sourcées, mais n'établissent aucune causalité. Les relations explicites exigent une preuve distincte. Le graphe matérialise le cadre ou la campagne commune.
+
+Le champ facultatif milestoneDate (ISO) indique une échéance dont le jour est connu ; milestone conserve la formulation et les réserves. Les consultations anciennes restent à vérifier. Modules indépendants : js/views/network.js, radar.js, feed.js ; styles css/observatory.css.

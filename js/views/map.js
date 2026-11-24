@@ -76,13 +76,13 @@ export function createMap(atlas, state, selectCountry) {
     hideTip();
     signals = new Map();
     const related = state.mode === 'similarities' ? atlas.related(state) : [];
-    const relations = state.mode === 'influences' ? atlas.relationsFor(state, state.country) : [];
+    const relations = state.mode === 'influences' ? [...atlas.relationsFor(state,state.country),...atlas.convergenceFor(state)].filter(r=>!state.relationType||r.type===state.relationType) : [];
     for (const [code, path] of paths) {
       const selected = code === state.country;
       let signal;
       let color = '';
       if (state.mode === 'radar') {
-        signal = atlas.filter(state, atlas.data.regulations, code).find(row => radarStages.includes(row.stage));
+        signal = atlas.radarFor(state,code)[0];
         if (signal) color = 'covered';
       } else if (state.mode === 'regulation') {
         const rows = atlas.filter(state, atlas.data.regulations, code).filter(row => row.scope !== 'eu');
@@ -92,15 +92,15 @@ export function createMap(atlas, state, selectCountry) {
         color = activeTemporary ? 'temporary' : signal ? 'covered' : '';
       } else if (state.mode === 'contests') {
         signal = atlas.filter(state, atlas.data.events, code)[0];
-        if (signal) color = 'covered';
+        if(signal)color=signal.type==='mobilisation'?'mobilisation':signal.type==='project'?'project':'covered';
       } else if (state.mode === 'influences') {
         signal = relations.find(row => row.countries.includes(code) && (!state.relation || row.id === state.relation));
         if (signal) color = 'related';
       } else {
         const match = related.find(row => row.code === code);
         if (match) {
-          color = 'related';
-          signal = {title: 'Mécanismes en commun', summary: match.criteria.map(row => row.criterion.label).join(' · ')};
+          color=match.criteria.length>=2?'similar-strong':'similar-partial';
+          signal={title:match.criteria.length+'/'+match.common+' critères nationaux concordants',summary:match.criteria.map(r=>r.criterion.label).join(' · ')};
         }
       }
       if (signal) signals.set(code, signal);
@@ -115,9 +115,13 @@ export function createMap(atlas, state, selectCountry) {
       similarities: ['related','Mécanisme national comparable'],
       influences: ['related','Pays lié par une relation documentée'],
     };
-    legend.replaceChildren(legendItem(...description[state.mode]));
+    legend.replaceChildren();
+    if(state.mode==='similarities')legend.append(legendItem('similar-strong','Au moins 2 concordances nationales'),legendItem('similar-partial','1 concordance nationale'));
+    else if(state.mode==='contests')legend.append(legendItem('mobilisation','Mobilisation'),legendItem('project','Projet'),legendItem('covered','Autre événement'));
+    else legend.append(legendItem(...description[state.mode]));
     if (state.mode === 'regulation') legend.append(legendItem('temporary','Mesure temporaire'));
     legend.append(legendItem('empty','Aucun signal correspondant'));
+    if(state.mode==='influences')legend.append(element('span','Coordination, convergence ou influence documentée : pas de causalité implicite.'));
     if (state.mode === 'similarities' && !state.country) {
       legend.append(element('span', 'Choisissez un pays de référence.'));
     }

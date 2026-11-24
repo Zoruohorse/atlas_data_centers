@@ -2,13 +2,14 @@ import {loadAtlas} from './model.js';
 import {addOption, button, countryName, element, formatDate, get} from './ui.js';
 import {initialTab, modes, renderDetails} from './views/details.js';
 import {createMap} from './views/map.js';
+import {renderEuropeanFeed} from './views/feed.js';
 
 function start(atlas) {
   const country = get('country');
   const topic = get('topic');
   const year = get('year');
   const details = get('details');
-  const state = {country:'', topic:'', year:'', mode:'regulation', tab:'rules', comparison:[], relation:''};
+  const state = {country:'', topic:'', year:'', mode:'regulation', tab:'rules', comparison:[], relation:'', eventType:'', relationType:''};
   const codes = [...atlas.countries.keys()].sort((a, b) =>
     Number(atlas.countries.get(b).priority) - Number(atlas.countries.get(a).priority)
     || countryName(a).localeCompare(countryName(b), 'fr'),
@@ -18,9 +19,12 @@ function start(atlas) {
   const dates = [...atlas.data.regulations, ...atlas.data.events, ...atlas.data.relations].map(row => row.date.slice(0, 4));
   const firstYear = Math.min(...dates);
   const lastYear = Math.max(...dates);
-  if (Number.isFinite(firstYear)) {
-    for (let value = lastYear; value >= firstYear; value--) addOption(year, String(value), 'Jusqu’à ' + value);
-  }
+  const currentYear=Math.max(lastYear,Number(atlas.latestRevision.slice(0,4))||lastYear),latest=currentYear+1;
+  year.min=String(firstYear);year.max=String(latest);year.value=String(latest);
+  get('first-year').textContent=String(firstYear);get('last-year').textContent=currentYear+' · À jour';
+  for(const [key,label] of Object.entries(atlas.data.taxonomy.eventTypes))addOption(get('event-type'),key,label);
+  get('event-type').addEventListener('change',()=>{state.eventType=get('event-type').value;render();});
+  get('reset-year').addEventListener('click',()=>{state.year='';state.relation='';render();});
 
   const actions = {
     country: selectCountry,
@@ -40,6 +44,7 @@ function start(atlas) {
       const selects = details.querySelectorAll('.selection select');
       selects[Math.min(index, selects.length - 1)]?.focus();
     },
+    relationType(type){state.relationType=type;state.relation='';render();details.querySelector('#relation-type')?.focus();},
     relation(id) {
       state.relation = id;
       render();
@@ -51,6 +56,7 @@ function start(atlas) {
   for (const [mode, label] of Object.entries(modes)) {
     const node = button(label, () => {
       state.mode = mode;
+      state.eventType='';state.relationType='';
       state.tab = initialTab(mode);
       state.relation = '';
       render();
@@ -59,12 +65,16 @@ function start(atlas) {
     get('modes').append(node);
   }
 
+  get('radar').addEventListener('click',()=>{state.mode='radar';state.tab='upcoming';state.eventType='';state.relation='';state.relationType='';render();});
   const drawMap = createMap(atlas, state, selectCountry);
   function render() {
     country.value = state.country;
+    year.value=state.year||String(latest);get('year-label').textContent=state.year?'31 décembre '+state.year:'Base au '+formatDate(atlas.latestRevision);year.setAttribute('aria-valuetext',get('year-label').textContent);
+    get('radar').setAttribute('aria-pressed',String(state.mode==='radar'));get('event-filter').hidden=state.mode!=='contests';get('event-type').value=state.eventType;
     for (const [mode, node] of modeButtons) node.setAttribute('aria-pressed', String(state.mode === mode));
     drawMap();
     renderDetails(details, atlas, state, actions);
+    renderEuropeanFeed(get('feed'),atlas,state,actions);
   }
 
   function writeHash() {
@@ -97,8 +107,8 @@ function start(atlas) {
     state.relation = '';
     render();
   });
-  year.addEventListener('change', () => {
-    state.year = year.value;
+  year.addEventListener('input', () => {
+    state.year=Number(year.value)===latest?'':year.value;
     state.relation = '';
     render();
   });
@@ -117,6 +127,7 @@ function start(atlas) {
     footer.append(history);
   }
   get('workspace').hidden = false;
+  get('feed').hidden=false;
   get('notice').hidden = true;
   readHash();
 }

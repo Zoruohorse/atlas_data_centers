@@ -50,7 +50,8 @@
     "milestone": "Levée attendue au plus tard le 1ᵉʳ août 2027.",
     "actorIds": [
       "no-statnett"
-    ]
+    ],
+    "milestoneDate": "2027-08-01"
   },
   {
     "id": "no-licensing-2026",
@@ -371,7 +372,8 @@
     "actorIds": [
       "be-creg",
       "be-elia"
-    ]
+    ],
+    "milestoneDate": "2027-03-09"
   },
   {
     "id": "nl-hyperscale-bkl-2024",
@@ -1023,7 +1025,8 @@
     "milestone": "Clôture de la consultation le 14 décembre 2026.",
     "impacts": {
       "operator": "Suivre les métriques et seuils envisagés."
-    }
+    },
+    "milestoneDate": "2026-12-14"
   },
   {
     "id": "gr-environment-category-b-2025",
