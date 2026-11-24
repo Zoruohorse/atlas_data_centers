@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas européen des data centers</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#172a39;background:#f2f6f7;--ink:#172a39;--muted:#47636e;--line:#dce6ea;--teal:#087d75;--amber:#be762b}
+*{box-sizing:border-box}body{margin:0}button,select{font:inherit;color:inherit}button,select{cursor:pointer}a{color:#00675f}button:focus-visible,select:focus-visible,a:focus-visible,path:focus-visible{outline:3px solid #344fc1;outline-offset:3px}
+header{background:#132b39;color:white;padding:35px max(24px,calc((100% - 1200px)/2)) 32px}.label{font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#a1e4db}h1{font-size:clamp(2rem,4vw,3.5rem);line-height:1.04;letter-spacing:-.045em;margin:12px 0}header p{margin:0;color:#d0e2e8}main{max-width:1250px;margin:auto;padding:24px}.toolbar,.legend,.links{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.toolbar{justify-content:space-between;margin-bottom:14px}.toolbar label{display:flex;align-items:center;gap:9px;flex-wrap:wrap}select,button{border:1px solid #cbdde3;border-radius:8px;background:white;padding:8px 11px}button:hover{background:#eaf5f3}.layout{display:grid;grid-template-columns:minmax(0,1.85fr) minmax(310px,1fr);gap:16px}.panel{background:white;border:1px solid var(--line);border-radius:15px;overflow:hidden}.map{background:#e8f2f6;position:relative}.map svg{width:100%;height:auto;display:block;min-height:290px}.country{stroke:white;stroke-width:1.2;vector-effect:non-scaling-stroke;cursor:pointer;fill:#bdcfd8}.country.covered{fill:#309589}.country.temporary{fill:#d69957}.country.selected,.country:hover,.country:focus-visible{stroke:#142f40;stroke-width:2.5;fill:#65bfb1}.map text{fill:#142f40;font-size:15px;font-weight:750;pointer-events:none;paint-order:stroke;stroke:#fff;stroke-width:3px}.legend{font-size:.875rem;padding:13px 16px;color:var(--muted);gap:8px 16px}.legend i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px}.tip{position:absolute;top:12px;left:12px;width:min(370px,calc(100% - 24px));background:#132b39;color:white;padding:12px 15px;border-radius:9px;font-size:.88rem;pointer-events:none;z-index:1}.tip strong{display:block;margin-bottom:4px}.details{padding:20px;max-height:690px;overflow:auto}.details h2{font-size:1.55rem;margin:0 0 10px;letter-spacing:-.025em}.details h3{font-size:1rem;margin:24px 0 8px}.details p{margin:8px 0;line-height:1.48}.muted,footer{color:var(--muted)}article{border-top:1px solid var(--line);padding:13px 0 5px}.article-title{display:block;margin:5px 0}.meta{font-size:.83rem;font-weight:650;color:var(--muted)}.links{font-size:.88rem;gap:5px 12px}.recent{display:block;width:100%;text-align:left;margin:8px 0}.recent small{display:block;color:var(--muted);margin-bottom:3px}.close{float:right;padding:3px 10px}.compare{display:block;margin:6px 0;text-align:left}footer{font-size:.85rem;margin-top:15px;line-height:1.4}@media(max-width:800px){main{padding:14px}.layout{grid-template-columns:1fr}.details{max-height:none}.map svg{min-height:0}}
+</style>
+<script src="map.js"></script><script src="data.js"></script>
+</head>
+<body>
+<header><div class="label">Veille réglementaire · Europe</div><h1>Atlas des data centers</h1><p>Implantation, raccordement électrique et évolutions à suivre.</p></header>
+<main>
+<div class="toolbar"><label>Pays <select id="country"><option value="">Tous les pays</option></select></label><label>Thème <select id="topic"><option value="">Tous les thèmes</option><option>Implantation</option><option>Raccordement</option><option>Efficacité</option><option>Territoires</option></select></label></div>
+<div class="layout">
+<section class="panel" aria-label="Carte européenne">
+<div class="map"><svg id="map" viewBox="0 0 940 715" aria-label="Pays d’Europe"><g id="borders"></g><g id="labels" aria-hidden="true"></g></svg><div class="tip" id="tip" hidden></div></div>
+<div class="legend"><span><i style="background:#309589"></i>Signal documenté</span><span><i style="background:#d69957"></i>Mesure temporaire</span><span><i style="background:#bdcfd8"></i>Aucun signal saisi pour ce filtre</span></div>
+</section>
+<section class="panel details" id="details" aria-label="Fiche pays"></section>
+</div>
+<footer>Couverture pilote · 5 pays documentés au 24 novembre 2026 · Fond cartographique <a href="https://www.naturalearthdata.com/">Natural Earth</a></footer>
+</main>
+<script>
+const regionNames = new Intl.DisplayNames(['fr'], {type:'region'});
+const dateFormat = new Intl.DateTimeFormat('fr', {dateStyle:'medium',timeZone:'UTC'});
+const formatDate = date => dateFormat.format(new Date(date));
+const name = code => regionNames.of(code);
+const byId = id => document.getElementById(id);
+const country = byId('country'), topic = byId('topic'), details = byId('details'), tooltip = byId('tip');
+const priority = ['FR','ES','IE','FI','NO','DE','DK','PL'];
+const labels = {FR:[2,47],ES:[-4,40],IE:[-8,53.2],NO:[10,62],DE:[10,51.2],PL:[19,52],FI:[26,64],DK:[10,56.4]};
+const svgNS = 'http://www.w3.org/2000/svg';
+const statuses = {Publie:'Texte ou décision publié',Temporaire:'Mesure temporaire',Annonce:'Réforme annoncée',Projet:'Projet territorial'};
+const codes = [...new Set([...Object.keys(window.paths), ...'AD LI SM VA MC MT'.split(' ')])].sort((a,b)=>name(a).localeCompare(name(b),'fr'));
+const records = [...window.records].sort((a,b)=>b[1].localeCompare(a[1]));
+const matching = code => records.filter(row => (!code || row[0] === code) && (!topic.value || row[2] === topic.value || row[7]?.includes(topic.value)));
+function element(tag, value, className) {
+  const node = document.createElement(tag);
+  if (value) node.textContent = value;
+  if (className) node.className = className;
+  return node;
+}
+function selectCountry(code) {
+  country.value = code;
+  const hash = code ? '#' + code : location.pathname + location.search;
+  if (code !== location.hash.slice(1)) history.replaceState(null,'',hash);
+  draw();
+}
+function showTip(code) {
+  const rows = matching(code);
+  const latest = rows.find(row => ['Publie','Temporaire'].includes(row[3])) || rows[0];
+  tooltip.replaceChildren(element('strong',name(code)));
+  tooltip.append(latest ? formatDate(latest[1])+' · '+statuses[latest[3]]+' · '+latest[4]+'. '+latest[5] : 'Aucun signal saisi pour ce filtre.');
+  tooltip.hidden = false;
+}
+const hideTip = () => { tooltip.hidden = true; };
+for (const code of [...priority,...codes.filter(code=>!priority.includes(code))]) {
+  const option = element('option',name(code));
+  option.value = code;
+  country.append(option);
+}
+for (const [code, shape] of Object.entries(window.paths)) {
+  const path = document.createElementNS(svgNS,'path');
+  path.setAttribute('d',shape);
+  path.setAttribute('tabindex','0');
+  path.setAttribute('role','button');
+  path.dataset.code = code;
+  path.addEventListener('pointerenter',()=>showTip(code));
+  path.addEventListener('pointerleave',hideTip);
+  path.addEventListener('focus',()=>showTip(code));
+  path.addEventListener('blur',hideTip);
+  path.addEventListener('click',()=>selectCountry(code));
+  path.addEventListener('keydown',event=>{
+    if (['Enter',' '].includes(event.key)) {event.preventDefault();selectCountry(code);}
+    if (event.key === 'Escape') hideTip();
+  });
+  byId('borders').append(path);
+}
+for (const [code,[longitude,latitude]] of Object.entries(labels)) {
+  const rad = Math.PI/180, lon = (longitude-12)*rad, lat=latitude*rad, center=53*rad;
+  const k=Math.sqrt(2/(1+Math.sin(center)*Math.sin(lat)+Math.cos(center)*Math.cos(lat)*Math.cos(lon)));
+  const label = document.createElementNS(svgNS,'text');
+  label.setAttribute('x',435+1030*k*Math.cos(lat)*Math.sin(lon));
+  label.setAttribute('y',381-1030*k*(Math.cos(center)*Math.sin(lat)-Math.sin(center)*Math.cos(lat)*Math.cos(lon)));
+  label.setAttribute('text-anchor','middle');
+  label.textContent=code;
+  byId('labels').append(label);
+}
+function renderArticle(row) {
+  const article=element('article');
+  article.append(element('div',formatDate(row[1])+' · '+statuses[row[3]]+' · '+row[2],'meta'),element('strong',row[4],'article-title'),element('p',row[5]));
+  const sources=element('div','','links');
+  for (const [label,url] of row[6]) {
+    const link = element('a',label);
+    link.href=url;
+    link.target='_blank';
+    link.rel='noopener noreferrer';
+    sources.append(link);
+  }
+  article.append(sources);
+  return article;
+}
+function draw() {
+  hideTip();
+  for (const path of byId('borders').children) {
+    const code=path.dataset.code, rows=matching(code), active=code===country.value;
+    const state=rows.some(row=>row[3]==='Temporaire')?'temporary':rows.length?'covered':'';
+    path.setAttribute('class',['country',state,active?'selected':''].join(' '));
+    path.setAttribute('aria-label',name(code)+(rows.length?' · signal documenté':' · aucun signal saisi'));
+    path.setAttribute('aria-pressed',String(active));
+  }
+  details.replaceChildren();
+  details.scrollTop=0;
+  if (!country.value) {
+    details.append(element('h2','Derniers signaux'),element('p','Survolez un pays pour lire son dernier signal réglementaire. Sélectionnez-le pour consulter sa fiche.','muted'));
+    const recent=matching('').slice(0,5);
+    if (!recent.length) details.append(element('p','Aucun signal saisi pour ce filtre.','muted'));
+    for (const row of recent) {
+      const button=element('button','','recent');
+      button.append(element('small',name(row[0])+' · '+formatDate(row[1])+' · '+statuses[row[3]]),element('strong',row[4]));
+      button.onclick=()=>selectCountry(row[0]);
+      details.append(button);
+    }
+    return;
+  }
+  const code=country.value;
+  const close=element('button','×','close');
+  close.setAttribute('aria-label','Revenir aux derniers signaux');
+  close.onclick=()=>{selectCountry('');country.focus();};
+  details.append(close,element('h2',name(code)));
+  const groups = [
+    ['Historique réglementaire',row=>['Publie','Temporaire'].includes(row[3])],
+    ['Réformes à suivre',row=>row[3]==='Annonce'],
+    ['Projets et contestations',row=>row[3]==='Projet']
+  ];
+  const rows=matching(code);
+  for (const [title,filter] of groups) {
+    const subset=rows.filter(filter);
+    details.append(element('h3',title));
+    if (!subset.length) details.append(element('p','Aucun signal saisi pour ce filtre.','muted'));
+    for (const row of subset) details.append(renderArticle(row));
+  }
+  details.append(element('h3','Comparaisons'));
+  const comparisons=window.similar[code] || [];
+  if (!comparisons.length) details.append(element('p','Aucun rapprochement documenté.','muted'));
+  for (const [other,reason] of comparisons) {
+    const button=element('button',name(other)+' · '+reason,'compare');
+    button.onclick=()=>{topic.value='';selectCountry(other);details.querySelector('.close').focus();};
+    details.append(button);
+  }
+}
+country.addEventListener('change',()=>selectCountry(country.value));
+topic.addEventListener('change',draw);
+function loadHash(){
+  const code=location.hash.slice(1).toUpperCase();
+  country.value=codes.includes(code)?code:'';
+  draw();
+}
+window.addEventListener('hashchange',loadHash);
+loadHash();
+</script>
+</body>
+</html>
