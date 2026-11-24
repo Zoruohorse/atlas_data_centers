@@ -360,5 +360,17 @@
       "sddc-november-programme",
       "sddc-datacenters-news-november"
     ]
+  },
+  {
+    "id": "fr-mei",
+    "name": "Mouvement écologiste indépendant (MEI)",
+    "type": "Parti politique",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Le parti demande une planification des implantations, une consultation citoyenne, la valorisation de la chaleur et la priorité aux friches dans sa prise de position sur Rantilly.",
+    "sourceIds": [
+      "curebot2-20261124-19"
+    ]
   }
 ]

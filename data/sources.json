@@ -1144,5 +1144,17 @@
     "label": "Datacenters.news — liste des pays",
     "url": "https://datacenters.news/2026/11/06/stop-dirty-data-centres-europe-protests/",
     "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-15",
+    "label": "Investigate Europe — enquête sur les conditions de travail",
+    "url": "https://www.investigate-europe.eu/posts/electrocutions-mental-terror-and-withheld-wages-the-exploited-workers-building-europes-data-centres",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-19",
+    "label": "MEI — position sur le projet de Rantilly",
+    "url": "https://www.les-ecologistes-mei.org/post/le-mei-s-exprime-sur-les-data-centers-%C3%A0-rantilly",
+    "type": "primary"
   }
 ]
