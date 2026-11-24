@@ -54,3 +54,7 @@ La feuille css/visual-atlas.css contient la nouvelle identité graphique. La car
 ## V3.1 — statuts coexistants
 
 La couleur de fond conserve le statut principal, les hachures indiquent le premier statut complémentaire, les points sous les drapeaux indiquent les autres statuts. L’infobulle liste tous les statuts recensés ; les drapeaux et les surfaces sont cliquables. Le gris signifie absence de donnée correspondant aux filtres, non absence de réglementation. « Évolutions à venir » remplace « radar réglementaire » dans l’interface.
+
+## V3.2 — consultation progressive
+
+Le bandeau des compteurs globaux est retiré de la page principale. Les cartes documentaires utilisent désormais un composant commun natif `details/summary` : titre, statut, date, aperçu et nombre de sources restent visibles ; le texte complet, les échéances, impacts et liens restent disponibles au dépliage. Le fil européen conserve les douze entrées habituelles ; ses cartes s'ouvrent indépendamment et gardent leur état lors d'un changement de filtre si l'entrée reste affichée. Dans les fiches pays, deux entrées sont visibles par groupe avant un accordéon des entrées restantes ; les cadres secondaires et sources de contexte sont accessibles sur demande. Les données JSON et le modèle documentaire ne sont pas modifiés.

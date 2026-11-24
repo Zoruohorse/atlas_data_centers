@@ -77,6 +77,6 @@ td small{display:block;margin-top:4px}
 .swatch-related{background:#a89bd5}
 .swatch-empty{background:#bdcfd8}
 .relation{border-top:1px solid var(--line);padding:12px 0}
-.relation summary{cursor:pointer;font-weight:650}
+.relation>summary{cursor:pointer;font-weight:650}
 .relation article{border-top:0}
 @media(min-width:801px){.layout:has(.table-wrap){grid-template-columns:minmax(0,1fr) minmax(0,1.2fr)}}

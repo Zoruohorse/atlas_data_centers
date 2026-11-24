@@ -131,10 +131,7 @@ function start(atlas) {
     for (const change of changes) history.append(element('p', formatDate(change.date) + ' · ' + change.title + '. ' + change.summary));
     footer.append(history);
   }
-  const overview=get('overview');get('revision-label').textContent='Base au '+formatDate(atlas.latestRevision);
-  for(const [n,label,desc] of [[atlas.countries.size,'Pays','Périmètre européen'],[atlas.data.regulations.length,'Réglementations','Textes et mesures'],[atlas.data.events.length,'Événements','Projets et mobilisations'],[atlas.data.sources.length,'Sources','Références documentaires']]){
-    const item=element('div','','overview-item');item.append(element('strong',String(n)),element('span',label),element('small',desc));overview.append(item);
-  }overview.hidden=false;
+  get('revision-label').textContent='Base au '+formatDate(atlas.latestRevision);
   get('workspace').hidden = false;
   get('feed').hidden=false;
   get('notice').hidden = true;
