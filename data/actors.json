@@ -559,5 +559,82 @@
     "sourceIds": [
       "curebot3-20261124-17"
     ]
+  },
+  {
+    "id": "gb-scottish-government",
+    "name": "Gouvernement écossais",
+    "type": "Institution territoriale",
+    "countries": [
+      "GB"
+    ],
+    "summary": "Émet les directions de notification et d’évaluation environnementale des grands centres de données ; prépare des orientations de planification.",
+    "sourceIds": [
+      "gb-scotland-notification-2026",
+      "gb-scotland-eia-2026",
+      "gb-scotland-planning-nov-2026"
+    ]
+  },
+  {
+    "id": "it-regione-lombardia",
+    "name": "Région Lombardie",
+    "type": "Institution régionale",
+    "countries": [
+      "IT"
+    ],
+    "summary": "Met en œuvre la loi régionale n°11 et les procédures d’autorisation des centres de données.",
+    "sourceIds": [
+      "it-lombardy-law-11-2026",
+      "it-lombardy-pucd-2026"
+    ]
+  },
+  {
+    "id": "it-ciarlasco",
+    "name": "Comitato Ciarlasco",
+    "type": "Collectif territorial",
+    "countries": [
+      "IT"
+    ],
+    "summary": "Collectif d’opposition au projet de centre de données de Lacchiarella, identifié par Il Fatto Quotidiano.",
+    "sourceIds": [
+      "curebot4-20261124-32"
+    ]
+  },
+  {
+    "id": "fr-region-idf",
+    "name": "Région Île-de-France",
+    "type": "Collectivité régionale",
+    "countries": [
+      "FR"
+    ],
+    "summary": "A adopté une stratégie régionale relative aux implantations de centres de données et demande une évolution du partage des coûts de raccordement.",
+    "sourceIds": [
+      "fr-idf-strategy-2026"
+    ]
+  },
+  {
+    "id": "fr-david-ros",
+    "name": "David Ros",
+    "type": "Sénateur",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Porte la proposition de loi d’encadrement de l’implantation des centres de données ; défend la planification et l’association des collectivités.",
+    "sourceIds": [
+      "curebot4-20261124-73",
+      "fr-ros-legislative-dossier-2026"
+    ]
+  },
+  {
+    "id": "fr-wissous-notre-ville",
+    "name": "Wissous notre ville",
+    "type": "Association locale",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Requérante dans le contentieux relatif à l’enregistrement ICPE de la deuxième phase du centre de données de Wissous.",
+    "sourceIds": [
+      "fr-wissous-caa-25ve01156",
+      "curebot4-20261124-74"
+    ]
   }
 ]

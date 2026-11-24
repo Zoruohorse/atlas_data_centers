@@ -14,7 +14,7 @@
     ],
     "stage": "effective",
     "title": "Décret royal 1032/2026",
-    "summary": "L’Espagne fixe de nouvelles exigences relatives à l’efficacité énergétique et hydrique, à l’électricité renouvelable et à la résilience numérique. Certaines demandes de raccordement en cours et certains projets déjà autorisés mais encore non raccordés sont soumis à des modalités transitoires.",
+    "summary": "Le décret royal 1032/2026 du 20 novembre, publié le 21 et applicable le 22 novembre, fixe des exigences de durabilité et de souveraineté. Les obligations générales visent les demandes de raccordement d’au moins 10 MW de puissance d’accès (agrégation des sites de même titulaire et localisation), non 10 MW IT. Les articles 7 et 8 prévoient respectivement une couverture de 80 % de la consommation par des capacités renouvelables additionnelles et une corrélation horaire de 80 %, avec exceptions et voie transitoire de cinq ans liée à la réduction automatique de puissance. L’article 13 concerne les sites d’au moins 500 kW IT ; l’article 5 s’applique indépendamment de la puissance aux systèmes publics de catégorie ALTA, sous ses conditions propres. Les exceptions de l’article 2 doivent être vérifiées.",
     "sourceIds": [
       "es-1032-2026-1",
       "es-1032-2026-2",
@@ -22,12 +22,13 @@
       "curebot2-20261124-4",
       "curebot2-20261124-7",
       "curebot2-20261124-10",
-      "curebot2-20261124-13"
+      "curebot2-20261124-13",
+      "curebot4-20261124-3"
     ],
     "effectiveFrom": "2026-11-22",
     "impacts": {
-      "operator": "Prévoir les justificatifs de conformité correspondant au projet, y compris lorsqu’un permis de raccordement a déjà été délivré.",
-      "grid": "Les dispositions transitoires prévoient un réexamen de certaines demandes en cours et la caducité de certaines autorisations si les justificatifs ne sont pas fournis."
+      "operator": "Distinguer puissance d’accès et puissance IT. Vérifier les dispositions transitoires, les engagements de production renouvelable et les critères énergétiques et hydriques, ainsi que le champ des obligations de souveraineté.",
+      "grid": "Les demandes suspendues pour concours de capacité doivent justifier leur conformité dans les trois mois, sous réserve de la procédure de régularisation et d’audition (DT4). Pour les permis délivrés mais sites non raccordés, six mois pour justifier les exigences hors article 5, sinon caducité (DT5). Les gestionnaires interviennent dans la vérification documentaire et la facturation des compensations pour écarts."
     }
   },
   {
@@ -108,7 +109,11 @@
       "curebot-20261124-24",
       "curebot-20261124-30",
       "fr-pinm-senat-2026",
-      "curebot3-20261124-31"
+      "curebot3-20261124-31",
+      "curebot4-20261124-60",
+      "curebot4-20261124-68",
+      "curebot4-20261124-75",
+      "fr-ros-senat-adopted-2026"
     ]
   },
   {
@@ -128,7 +133,8 @@
     "summary": "Pour les nouveaux sites concernés, la CRU ajoute une exigence de 80 % de consommation annuelle couverte par de nouvelles capacités renouvelables irlandaises, avec six ans à compter de la mise sous tension. La politique maintient l’exigence de production ou de stockage sur site ou à proximité et affine l’examen des contraintes réseau à l’échelle du point de raccordement.",
     "sourceIds": [
       "ie-cru-2025-1",
-      "ie-cru-2025-2"
+      "ie-cru-2025-2",
+      "curebot4-20261124-82"
     ],
     "actorIds": [
       "ie-cru"
@@ -193,7 +199,8 @@
       "curebot3-20261124-23",
       "curebot3-20261124-25",
       "curebot3-20261124-29",
-      "eu-aarhus-lighthouse-communication-2026"
+      "eu-aarhus-lighthouse-communication-2026",
+      "curebot4-20261124-54"
     ],
     "impacts": {
       "operator": "Déclarer les données et les indicateurs requis selon la méthodologie commune."
@@ -353,7 +360,7 @@
     ],
     "stage": "effective",
     "title": "La CREG revoit le traitement des demandes sur le réseau Elia",
-    "summary": "La décision B3027 modifie le code de bonne conduite du transport pour filtrer les demandes insuffisamment matures et limiter les réservations inutilisées. Cette réforme s’applique aux demandes sur le réseau de transport dans son champ général.",
+    "summary": "La décision B3027 modifie le code de bonne conduite du transport pour filtrer les demandes insuffisamment matures et limiter les réservations inutilisées. Cette réforme s’applique aux demandes sur le réseau de transport dans son champ général. La décision du 29 janvier conserve le premier arrivé, premier servi, mais l’applique par catégories. Elle prévoit des étapes et délais contraignants, justificatifs fonciers, décisions go/no go, réservations limitées dans le temps, principe use it or lose it à décliner au contrat-type et possibilité de recalcul de la flexibilité. Ne pas assimiler ce mécanisme à une priorité sectorielle.",
     "sourceIds": [
       "creg-be-044041ac",
       "creg-be-923eeeaf"
@@ -456,7 +463,9 @@
     "summary": "Ofgem a consulté sur le filtrage des demandes spéculatives et sur la réforme des règles de raccordement des data centers en Grande-Bretagne. Le dossier de consultation décrit des options de réforme.",
     "sourceIds": [
       "ofgem-gov-uk-fe0b3991",
-      "ofgem-gov-uk-f2619bbb"
+      "ofgem-gov-uk-f2619bbb",
+      "gb-ofgem-call-input-2026",
+      "curebot4-20261124-76"
     ],
     "actorIds": [
       "gb-ofgem"
@@ -481,7 +490,11 @@
     "summary": "Le gouvernement a publié sa réponse à la consultation sur l’accélération des raccordements des grands projets stratégiques et a exprimé son soutien à la réforme de la file pilotée par Ofgem. Le périmètre est la Grande-Bretagne.",
     "sourceIds": [
       "gov-uk-75a6fc42",
-      "ofgem-gov-uk-331fbeda"
+      "ofgem-gov-uk-331fbeda",
+      "curebot4-20261124-63",
+      "curebot4-20261124-64",
+      "gb-ofgem-call-input-2026",
+      "curebot4-20261124-76"
     ],
     "actorIds": [
       "gb-ofgem"
@@ -527,7 +540,8 @@
       "gazzettaufficiale-it-5328abb2",
       "gazzettaufficiale-it-4bb99544",
       "va-mite-gov-it-29faa03f",
-      "tplex-eu-02573798"
+      "tplex-eu-02573798",
+      "curebot4-20261124-87"
     ],
     "impacts": {
       "operator": "Constituer un dossier unique et documenter dès le départ les pièces nécessaires aux évaluations environnementales."
@@ -591,7 +605,9 @@
     "summary": "L’article L.236-2 du code de l’énergie prévoit la valorisation de la chaleur fatale des data centers d’au moins 1 MW de puissance installée. Le texte renvoie à un décret pour les exigences précises et les dérogations, dont la justification d’une impossibilité technique ou économique selon le cadre européen.",
     "sourceIds": [
       "legifrance-gouv-fr-6cf281e0",
-      "entreprises-gouv-fr-2895992f"
+      "entreprises-gouv-fr-2895992f",
+      "curebot4-20261124-51",
+      "curebot4-20261124-52"
     ],
     "impacts": {
       "operator": "Étudier les débouchés de chaleur et l’applicabilité des dérogations."
@@ -609,7 +625,7 @@
     ],
     "stage": "announced",
     "title": "RTE annonce une refonte de la file de raccordement",
-    "summary": "RTE a annoncé une évolution vers une priorité fondée sur la maturité des projets (« premier prêt, premier servi »). L’annonce s’inscrit dans la réponse à l’afflux de demandes industrielles, dont celles des data centers. En octobre, RTE précise les engagements de maturité et de montée en charge envisagés ainsi que les modalités d’accès sans limitation en contrepartie d’engagements. La surréservation francilienne fait l’objet d’une entrée territoriale distincte. Lors de la présentation Intermines du 9 octobre, les échanges évoquent des jalons de maturité, dont l’obtention du permis de construire, et une réforme à proposer au régulateur. Ces modalités discutées ne sont pas présentées comme une décision acquise.",
+    "summary": "RTE a annoncé une évolution vers une priorité fondée sur la maturité des projets (« premier prêt, premier servi »). L’annonce s’inscrit dans la réponse à l’afflux de demandes industrielles, dont celles des data centers. En octobre, RTE précise les engagements de maturité et de montée en charge envisagés ainsi que les modalités d’accès sans limitation en contrepartie d’engagements. La surréservation francilienne fait l’objet d’une entrée territoriale distincte. Lors de la présentation Intermines du 9 octobre, les échanges évoquent des jalons de maturité, dont l’obtention du permis de construire, et une réforme à proposer au régulateur. Ces modalités discutées ne sont pas présentées comme une décision acquise. Les rencontres du 30 janvier avaient déjà ouvert la réflexion. Selon l’audition de la présidente de RTE rapportée par L’Usine Nouvelle, la priorisation par nature de projet nécessite une modification législative ; la réforme fondée sur la maturité relève d’un autre mécanisme et nécessite les décisions appropriées du régulateur. Les chiffres de file et de puissance réservée ne sont pas interchangeables.",
     "sourceIds": [
       "rte-france-com-068f59e6",
       "arec-idf-fr-6c8fc542",
@@ -621,7 +637,11 @@
       "curebot2-20261124-28",
       "curebot2-20261124-32",
       "curebot2-20261124-18",
-      "curebot3-20261124-6"
+      "curebot3-20261124-6",
+      "curebot4-20261124-4",
+      "curebot4-20261124-8",
+      "curebot4-20261124-9",
+      "curebot4-20261124-80"
     ],
     "actorIds": [
       "fr-rte"
@@ -698,7 +718,8 @@
       "danskerhverv-dk-be3dc7ba",
       "dk-grid-priority-ministry-2026",
       "curebot3-20261124-14",
-      "curebot3-20261124-18"
+      "curebot3-20261124-18",
+      "curebot4-20261124-34"
     ],
     "effectiveFrom": "2026-10-19",
     "actorIds": [
@@ -726,7 +747,9 @@
       "legifrance-gouv-fr-a1a5879f",
       "legifrance-gouv-fr-6cf281e0",
       "curebot2-20261124-20",
-      "curebot3-20261124-3"
+      "curebot3-20261124-3",
+      "curebot4-20261124-51",
+      "curebot4-20261124-52"
     ],
     "effectiveFrom": "2026-01-01",
     "impacts": {
@@ -1193,7 +1216,8 @@
     "title": "Wallonie — cadre d’accueil des data centers",
     "summary": "Le gouvernement régional annonce des conditions de localisation et de préservation des ressources, ainsi qu’un partenariat préalable pour les projets d’au moins 25 MW, hors infrastructures exclusivement internes. Les sites économiques stratégiques sont en principe exclus, avec exceptions. Les modalités juridiques et opérationnelles doivent encore être précisées ; le cadre ne crée pas de nouvelle procédure d’autorisation.",
     "sourceIds": [
-      "curebot-20261124-21"
+      "curebot-20261124-21",
+      "curebot4-20261124-71"
     ],
     "impacts": {
       "operator": "Documenter la montée en charge, le foncier, l’eau, la récupération de chaleur et les retombées territoriales ; anticiper un contrat de partenariat lorsque le seuil est atteint.",
@@ -1275,7 +1299,9 @@
       "curebot2-20261124-32",
       "curebot2-20261124-28",
       "curebot2-20261124-21",
-      "curebot2-20261124-23"
+      "curebot2-20261124-23",
+      "curebot4-20261124-8",
+      "curebot4-20261124-9"
     ],
     "territory": "Île-de-France",
     "actorIds": [
@@ -1342,6 +1368,240 @@
     "milestoneDate": "2027-04-01",
     "impacts": {
       "grid": "Une meilleure connaissance du parc et de ses caractéristiques peut contribuer à la planification ; ne pas assimiler le registre à une autorisation de raccordement."
+    }
+  },
+  {
+    "id": "de-reifegrad-procedure-2026",
+    "scope": "national",
+    "countries": [
+      "DE"
+    ],
+    "date": "2026-02-05",
+    "stage": "effective",
+    "title": "Reifegradverfahren — sélection des demandes par maturité",
+    "summary": "Les quatre GRT allemands ont engagé une procédure commune dont le premier cycle débute le 1er avril 2026. Les demandes de grandes batteries, centres de données, électrolyseurs et autres consommateurs concernés sont évaluées ensemble par cycles : maîtrise du foncier, autorisations, concept de raccordement, solidité économique et utilité pour le réseau. En cas de sursouscription, les projets les plus mûrs sont retenus. Il s’agit d’une procédure opérationnelle des GRT, distincte d’une loi ; la clarification des bases juridiques est souhaitée par les gestionnaires.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "de-reifegrad-announce-2026",
+      "de-reifegrad-operational-2026"
+    ],
+    "effectiveFrom": "2026-04-01",
+    "actorIds": [
+      "de-transmission-operators"
+    ],
+    "impacts": {
+      "operator": "Préparer les justificatifs et respecter les fenêtres de dépôt ; vérifier les modalités propres à chaque GRT.",
+      "grid": "Sélection par cycles, sur critères vérifiables, plutôt que selon la seule date de demande."
+    }
+  },
+  {
+    "id": "gb-scotland-notification-2026",
+    "scope": "territorial",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-08-17",
+    "stage": "effective",
+    "title": "Écosse — notification obligatoire des projets dépassant 50 MW",
+    "summary": "La direction du 17 août oblige les autorités de planification écossaises à notifier aux ministres les nouvelles demandes de permis pour les centres dépassant 50 MW de puissance électrique totale proposée, dans les sept jours de validation. Elle prévoit aussi le traitement des dossiers déjà en instruction. Ce n’est ni un seuil de puissance IT ni une interdiction de construire.",
+    "topics": [
+      "planning",
+      "territory",
+      "grid"
+    ],
+    "sourceIds": [
+      "gb-scotland-notification-2026",
+      "curebot4-20261124-15"
+    ],
+    "territory": "Écosse",
+    "effectiveFrom": "2026-08-17",
+    "actorIds": [
+      "gb-scottish-government"
+    ]
+  },
+  {
+    "id": "gb-scotland-eia-2026",
+    "scope": "territorial",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-09-16",
+    "stage": "effective",
+    "title": "Écosse — étude d’impact environnemental pour les grands sites",
+    "summary": "La direction publiée le 16 septembre, applicable le 17 septembre, impose une évaluation environnementale pour les projets de centres dépassant 50 MW de puissance électrique relevant des catégories pertinentes de l’annexe 2 du règlement écossais EIA de 2017. Elle concerne aussi des demandes en cours selon les dispositions de la direction.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "gb-scotland-eia-2026",
+      "curebot4-20261124-15"
+    ],
+    "territory": "Écosse",
+    "effectiveFrom": "2026-09-17",
+    "actorIds": [
+      "gb-scottish-government"
+    ]
+  },
+  {
+    "id": "gb-scotland-guidance-2026",
+    "scope": "territorial",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-09-16",
+    "stage": "announced",
+    "title": "Écosse — motion de pause et préparation de lignes directrices",
+    "summary": "Le Parlement écossais a adopté une motion demandant des lignes directrices nationales et une pause des décisions de planification jusqu’à leur publication. Les débats d’octobre et de novembre confirment que les orientations restent en préparation ; une motion parlementaire n’équivaut pas à une interdiction juridiquement opposable à toutes les autorités locales. Aucune directive de gel général n’est établie par les sources retenues.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "gb-scotland-motion-2026",
+      "gb-scotland-planning-debate-2026",
+      "gb-scotland-planning-nov-2026",
+      "curebot4-20261124-33"
+    ],
+    "territory": "Écosse",
+    "actorIds": [
+      "gb-scottish-government",
+      "aprs"
+    ],
+    "milestone": "Lignes directrices de planification attendues avant la fin de 2026 selon les échanges parlementaires."
+  },
+  {
+    "id": "it-lombardy-law-11-2026",
+    "scope": "territorial",
+    "countries": [
+      "IT"
+    ],
+    "date": "2026-06-03",
+    "stage": "effective",
+    "title": "Lombardie — loi régionale sur l’implantation des centres de données",
+    "summary": "La loi régionale n°11 du 3 juin 2026, publiée le 5 juin et entrée en vigueur le 20 juin, encadre la réalisation, l’extension et le suivi des centres de données. La délibération n°6646 du 3 août précise la gestion des procédures uniques et le transfert des compétences d’autorisation environnementale intégrée (AIA) à la Région dans les cas concernés. Vérifier le partage des compétences avec l’État et les conditions exactes du site.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory",
+      "transparency"
+    ],
+    "sourceIds": [
+      "it-lombardy-law-11-2026",
+      "it-lombardy-pucd-2026",
+      "it-lombardy-assolombarda-2026",
+      "curebot4-20261124-46"
+    ],
+    "territory": "Lombardie",
+    "effectiveFrom": "2026-06-20",
+    "actorIds": [
+      "it-regione-lombardia"
+    ]
+  },
+  {
+    "id": "eu-rating-2026",
+    "scope": "eu",
+    "countries": [],
+    "date": "2026-09-21",
+    "stage": "adopted",
+    "title": "Étiquetage européen — acte délégué C(2026) 3472",
+    "summary": "La Commission a adopté un second acte délégué établissant un système commun de notation, sur la base du reporting prévu par le règlement 2024/1364. Il distingue efficacité énergétique et hydrique, avec étiquettes électroniques générées à partir des données déclarées. Les premières étiquettes sont prévues en 2027. Le classement est distinct des futures normes minimales, encore en consultation ; la publication au Journal officiel et l’entrée en vigueur doivent être confirmées avant de traiter le texte comme applicable.",
+    "topics": [
+      "environment",
+      "transparency"
+    ],
+    "sourceIds": [
+      "eu-rating-c2026-3472",
+      "eu-rating-com2026-500",
+      "curebot4-20261124-12"
+    ],
+    "milestone": "Premières étiquettes prévues en 2027 ; vérifier la publication au JOUE et le calendrier d’application.",
+    "impacts": {
+      "operator": "Préparer des données de reporting fiables, sans confondre la classe affichée avec une obligation de performance minimale.",
+      "grid": "L’amélioration de l’information peut éclairer les comparaisons ; la notation n’est pas une règle de priorité de raccordement."
+    }
+  },
+  {
+    "id": "fr-cndp-decree-2026",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-03-02",
+    "stage": "effective",
+    "title": "Décret 2026-146 — critères de saisine de la CNDP",
+    "summary": "Le décret publié le 3 mars modifie le tableau de l’article R.121-2 du code de l’environnement : pour les lignes de tension au moins égale à 400 kV, le critère de saisine vise désormais les longueurs aériennes supérieures à 10 km. L’article 1 s’applique aux projets n’ayant pas déjà fait l’objet d’une saisine au 4 mars. Cela peut concerner des raccordements souterrains de data centers, sans retirer globalement les centres de données du droit de la participation publique ni supprimer les évaluations environnementales.",
+    "topics": [
+      "planning",
+      "grid",
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "fr-cndp-decree-2026-146",
+      "fr-cndp-question-10223",
+      "curebot4-20261124-72"
+    ],
+    "effectiveFrom": "2026-03-04",
+    "impacts": {
+      "operator": "Vérifier le régime applicable à l’infrastructure et les autres obligations de consultation.",
+      "grid": "Modification ciblée des critères de saisine, non exemption générale des projets de réseau."
+    }
+  },
+  {
+    "id": "fr-ros-ppl-2026",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-03-25",
+    "stage": "adopted",
+    "title": "Proposition de loi David Ros — encadrement territorial des data centers",
+    "summary": "La commission des affaires économiques n’a pas adopté de texte le 25 février. Le Sénat adopte la proposition en première lecture le 25 mars puis la transmet à l’Assemblée nationale. Le texte prévoit notamment des orientations stratégiques d’implantation dans les documents de planification et un dispositif PINM. Distinguer les dispositions de la proposition non définitivement adoptées et le régime PINM devenu loi par la loi de simplification du 26 mai.",
+    "topics": [
+      "planning",
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "curebot4-20261124-68",
+      "curebot4-20261124-75",
+      "curebot4-20261124-73",
+      "fr-ros-senat-adopted-2026",
+      "fr-ros-legislative-dossier-2026"
+    ],
+    "actorIds": [
+      "fr-david-ros"
+    ],
+    "milestone": "Suivre les suites de la procédure à l’Assemblée nationale ; ne pas présenter le texte entier comme une loi en vigueur."
+  },
+  {
+    "id": "ru-decree-reserve-802-2026",
+    "scope": "national",
+    "countries": [
+      "RU"
+    ],
+    "date": "2026-11-02",
+    "stage": "effective",
+    "title": "Décret n°802 — réserve de capacité numérique",
+    "summary": "Le décret présidentiel du 2 novembre prévoit la réservation, dans un délai de dix jours à compter de son entrée en vigueur, de 10 % des surfaces et capacités des centres de données non étatiques concernés pour maintenir le fonctionnement de ressources informationnelles à la demande des autorités. Il ne s’agit pas d’une réserve de capacité électrique. Les modalités opérationnelles et la durée restent à suivre.",
+    "topics": [
+      "sovereignty",
+      "transparency"
+    ],
+    "sourceIds": [
+      "ru-decree-802-2026",
+      "ru-decree-802-reuters-2026",
+      "curebot4-20261124-5"
+    ],
+    "effectiveFrom": "2026-11-02",
+    "impacts": {
+      "operator": "Risque de mobilisation de capacités informatiques et d’impact sur les engagements clients ; vérifier les mesures d’application."
     }
   }
 ]

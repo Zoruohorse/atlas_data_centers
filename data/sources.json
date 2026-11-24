@@ -1396,5 +1396,365 @@
     "label": "Le Monde — enquête sur les défrichements",
     "url": "https://www.lemonde.fr/planete/article/2026/11/03/en-finlande-l-abattage-sans-autorisation-de-250-000-arbres-pour-construire-un-data-center-de-google-embarrasse-le-gouvernement_6805532_3244.html",
     "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-3",
+    "label": "Euronews — décret espagnol",
+    "url": "https://www.euronews.com/2026/11/20/spain-requires-data-centres-to-draw-80-of-their-electricity-from-renewables",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-4",
+    "label": "DCmag — réforme de la file RTE",
+    "url": "https://dcmag.fr/lelectrification-francaise-se-joue-desormais-dans-les-files-dattente-du-reseau-rte-passe-au-premier-pret-premier-servi/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-5",
+    "label": "Meduza — projet de mesures d’application du décret russe",
+    "url": "https://meduza.io/en/news/2026/11/10/russian-data-center-operators-to-be-required-to-disconnect-non-priority-clients-to-keep-whitelisted-services-running",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-8",
+    "label": "L’Usine Nouvelle — surréservation francilienne",
+    "url": "https://www.usinenouvelle.com/transition-ecologique-et-energetique/pourquoi-rte-change-les-regles-de-raccordement-au-reseau-des-projets-delectrification-en-ile-de-france.CANSR6NHGNCFFB77E223PCGRSQ.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-9",
+    "label": "L’Opinion — plan d’électrification",
+    "url": "https://www.lopinion.fr/economie/data-centers-entreprises-chauffage-la-france-accelere-tous-azimuts-son-electrification",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-12",
+    "label": "DCmag — étiquette européenne",
+    "url": "https://dcmag.fr/bruxelles-passe-a-loffensive-les-data-centers-europeens-sous-etiquette-energetique-et-hydrique/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-15",
+    "label": "DCmag — urbanisme écossais",
+    "url": "https://dcmag.fr/ecosse-coup-de-frein-reglementaire-sur-les-data-centers-de-plus-de-50-mw/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-32",
+    "label": "Il Fatto Quotidiano — mobilisation à Lacchiarella",
+    "url": "https://www.ilfattoquotidiano.it/2026/07/12/data-center-lacchiarella-protesta-lombardia-notizie/8445816/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-33",
+    "label": "DCmag — débat écossais sur le moratoire",
+    "url": "https://dcmag.fr/lecosse-ouvre-la-porte-a-un-moratoire-sur-les-data-centers/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-34",
+    "label": "Novethic — priorisation danoise",
+    "url": "https://www.novethic.fr/environnement/transition-energetique/face-a-un-reseau-sature-le-danemark-fait-passer-les-data-centers-apres-les-usages-essentiels",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-38",
+    "label": "ChannelNews — avis préliminaire DMA",
+    "url": "https://www.channelnews.fr/bruxelles-veut-soumettre-aws-et-microsoft-azure-aux-regles-du-dma-157518",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-46",
+    "label": "Il Fatto Quotidiano — critique du projet lombard",
+    "url": "https://www.ilfattoquotidiano.it/2026/05/27/data-center-lombardia-impatto-ambientale-news/8399740/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-47",
+    "label": "The Register — projet britannique de réforme contentieuse",
+    "url": "https://www.theregister.com/systems/2026/05/20/datacenter-builds-could-be-shielded-from-judicial-review-in-uk-planning-reforms/5243354",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-49",
+    "label": "Il Giorno — lettre de cinquante maires",
+    "url": "https://www.ilgiorno.it/milano/cronaca/il-testo-in-discussione-in-fdcdc05b",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-51",
+    "label": "Ministère de la Transition écologique — efficacité énergétique des centres de données",
+    "url": "https://www.ecologie.gouv.fr/politiques-publiques/efficacite-energetique-centres-donnees-datacenters",
+    "type": "primary"
+  },
+  {
+    "id": "curebot4-20261124-52",
+    "label": "DCmag — analyse juridique de la chaleur fatale",
+    "url": "https://dcmag.fr/chaleur-fatale-des-datacenters-premier-bilan-dune-obligation-legale-sous-tension/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-54",
+    "label": "Le Monde / Investigate Europe — enquête sur le lobbying et la confidentialité",
+    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/04/17/comment-le-lobby-de-la-tech-a-fait-entrer-le-secret-dans-le-droit-europeen-sur-les-centres-de-donnees_6680823_4355770.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-60",
+    "label": "Next — lettre des douze associations",
+    "url": "https://next.ink/233568/datacenters-12-associations-alertent-sur-la-loi-de-simplification-et-la-souverainete/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-62",
+    "label": "DCmag — stratégie fédérale allemande",
+    "url": "https://dcmag.fr/la-strategie-du-gouvernement-federal-allemand-en-matiere-de-datacenters/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-63",
+    "label": "DC Byte — analyse de la réforme britannique",
+    "url": "https://www.dcbyte.com/news-blogs/what-could-the-uk-governments-proposed-grid-reform-mean-for-the-data-centre-sector/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot4-20261124-64",
+    "label": "Data Center Knowledge — analyse de DC Byte",
+    "url": "https://www.datacenterknowledge.com/energy-power-supply/uk-grid-reform-could-split-data-center-market-report",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-65",
+    "label": "AFP — contentieux de Wissous",
+    "url": "https://www.connaissancedesenergies.org/afp/data-center-wissous-la-justice-rejette-le-recours-contre-le-saucissonnage-dun-vaste-projet-260402",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-67",
+    "label": "Les Échos — objectifs allemands",
+    "url": "https://www.lesechos.fr/tech-medias/hightech/pour-servir-ses-nouvelles-ambitions-dans-lia-lallemagne-veut-au-moins-doubler-les-capacites-de-ses-data-centers-dici-a-2030-2221695",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-68",
+    "label": "Sénat — rapport n°435",
+    "url": "https://www.senat.fr/rap/l25-435/l25-4350.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot4-20261124-70",
+    "label": "DCmag — projet de microgrid irlandais",
+    "url": "https://dcmag.fr/le-premier-data-center-avec-microgrid-prive-sera-irlandais/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-71",
+    "label": "Gouvernement wallon — plan d’accès à la puissance, 11 mars",
+    "url": "https://neven.wallonie.be/home/communiques-de-presse/presses/reseaux-electriques-le-gouvernement-se-mobilise-pour-garantir-l-acces-a-la-puissance-et-soutenir-le-redeploiement-economique.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot4-20261124-72",
+    "label": "DCmag — modification des critères de saisine de la CNDP",
+    "url": "https://dcmag.fr/publication-du-decret-qui-retire-datacenters-et-infrastructures-electriques-strategiques-du-champ-de-la-cndp/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-73",
+    "label": "David Ros — présentation de sa proposition de loi",
+    "url": "https://fr.linkedin.com/posts/david-ros-a9038710a_num%C3%A9rique-datacenters-souverainet%C3%A9-activity-7432045779101319169-50z6",
+    "type": "primary"
+  },
+  {
+    "id": "curebot4-20261124-74",
+    "label": "Next — historique du contentieux de Wissous",
+    "url": "https://next.ink/223834/data-center-de-wissous-peut-on-debattre-dun-projet-lorsquil-est-divise-en-3-morceaux/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-75",
+    "label": "Sénat — résultat des travaux de la commission n°436",
+    "url": "https://www.senat.fr/leg/ppl25-436.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot4-20261124-76",
+    "label": "DataCenterDynamics — consultation britannique initiale",
+    "url": "https://www.datacenterdynamics.com/en/news/uk-energy-regulator-ofgem-launches-grid-connection-overhaul-consultation-with-data-centers-a-focal-point/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-80",
+    "label": "L’Usine Nouvelle — annonce de RTE aux rencontres de Bercy",
+    "url": "https://www.usinenouvelle.com//electronique-informatique/cloud-computing/datacenters/sortir-de-la-regle-du-premier-demandeur-premier-servi-rte-envisage-de-changer-de-politique-pour-reduire-les-delais-de-raccordement-electrique-des-datacenters.RDEXNYUWVNAXTHKGFVVU5FYL24.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-81",
+    "label": "NRC — permis du campus Pure DC à Amsterdam",
+    "url": "https://www.nrc.nl/nieuws/2026/01/26/in-amsterdam-komt-een-hyperscale-voor-microsoft-ondanks-het-verbod-op-hyperscales-a4918566",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot4-20261124-82",
+    "label": "CRU — décision sur le raccordement des grandes consommations",
+    "url": "https://www.cru.ie/publications/28906/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot4-20261124-87",
+    "label": "Il Sole 24 Ore — projet de procédure unique italienne",
+    "url": "https://www.ilsole24ore.com/art/data-center-procedimento-unico-tempi-piu-celeri-cosi-governo-punta-spingere-settore-AH1kOn0C",
+    "type": "analysis"
+  },
+  {
+    "id": "gb-scotland-notification-2026",
+    "label": "Gouvernement écossais — notification des demandes de permis",
+    "url": "https://www.gov.scot/publications/planning-notification-direction-letter-data-centres-august-2026/",
+    "type": "primary"
+  },
+  {
+    "id": "gb-scotland-eia-2026",
+    "label": "Gouvernement écossais — directive d’évaluation environnementale",
+    "url": "https://www.gov.scot/publications/chief-planner-letter-eia-direction-on-data-centres/",
+    "type": "primary"
+  },
+  {
+    "id": "gb-scotland-motion-2026",
+    "label": "Parlement écossais — motion S7M-01177",
+    "url": "https://www.parliament.scot/chamber-and-committees/votes-and-motions/S7M-01177",
+    "type": "primary"
+  },
+  {
+    "id": "gb-scotland-planning-debate-2026",
+    "label": "Parlement écossais — débat du 27 octobre",
+    "url": "https://www.parliament.scot/chamber-and-committees/official-report/search-what-was-said-in-parliament/meeting-of-parliament-27-10-2026?iob=226443&meeting=20300",
+    "type": "primary"
+  },
+  {
+    "id": "gb-scotland-planning-nov-2026",
+    "label": "Parlement écossais — audition du 18 novembre",
+    "url": "https://www.parliament.scot/chamber-and-committees/official-report/search-what-was-said-in-parliament/SJHLG-18-11-2026?iob=227077&meeting=20355",
+    "type": "primary"
+  },
+  {
+    "id": "de-reifegrad-announce-2026",
+    "label": "TransnetBW — annonce commune des quatre GRT du 5 février",
+    "url": "https://www.transnetbw.de/de/newsroom/news/uebertragungsnetzbetreiber-fuehren-reifegradverfahren-ein",
+    "type": "primary"
+  },
+  {
+    "id": "de-reifegrad-operational-2026",
+    "label": "TransnetBW — procédure et documents opérationnels",
+    "url": "https://www.transnetbw.de/de/transparenz/netzzugang-und-entgelt/reifegradverfahren",
+    "type": "primary"
+  },
+  {
+    "id": "de-dc-strategy-review-2026",
+    "label": "Gouvernement fédéral — bilan du 18 septembre",
+    "url": "https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt/rechenzentrumsstrategie-2412884",
+    "type": "primary"
+  },
+  {
+    "id": "it-lombardy-law-11-2026",
+    "label": "Lombardie — loi régionale n°11 du 3 juin",
+    "url": "https://normelombardia.consiglio.regione.lombardia.it/Accessibile/main.aspx?exp_coll=3851984&iddoc=lr002026060300011&selnode=3851984&view=showsum",
+    "type": "primary"
+  },
+  {
+    "id": "it-lombardy-pucd-2026",
+    "label": "Région Lombardie — procédure unique et dispositions d’application",
+    "url": "https://www.regione.lombardia.it/ambiente-e-territorio/autorizzazione-ambientali/autorizzazione-integrata-ambientale-aia/procedimento-unico-centri-dati",
+    "type": "primary"
+  },
+  {
+    "id": "it-lombardy-assolombarda-2026",
+    "label": "Assolombarda — publication et entrée en vigueur",
+    "url": "https://www.assolombarda.it/servizi/immobili-urbanistica-e-territorio/informazioni/data-center-nuova-legge-regionale",
+    "type": "analysis"
+  },
+  {
+    "id": "eu-rating-c2026-3472",
+    "label": "EUR-Lex — acte délégué C(2026) 3472",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=PI_COM%3AC%282026%293472)",
+    "type": "primary"
+  },
+  {
+    "id": "eu-rating-com2026-500",
+    "label": "Commission — communication COM(2026) 500 sur l’efficacité des centres de données",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52026DC0500",
+    "type": "primary"
+  },
+  {
+    "id": "fr-cndp-decree-2026-146",
+    "label": "Légifrance — décret n°2026-146",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053607764",
+    "type": "primary"
+  },
+  {
+    "id": "fr-cndp-question-10223",
+    "label": "Assemblée nationale — réponse à la question 10223",
+    "url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE10223",
+    "type": "primary"
+  },
+  {
+    "id": "fr-idf-strategy-2026",
+    "label": "Région Île-de-France — stratégie adoptée en juin 2026",
+    "url": "https://www.iledefrance.fr/presse/datacenters-la-region-ile-de-france-adopte-une-strategie-pour-faire-emerger-un-modele-europeen-de-souverainete-numerique-durable",
+    "type": "primary"
+  },
+  {
+    "id": "fr-ros-senat-adopted-2026",
+    "label": "Sénat — texte adopté en première lecture le 25 mars",
+    "url": "https://www.senat.fr/leg/tas25-073.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-ros-legislative-dossier-2026",
+    "label": "Sénat — dossier de la proposition de loi n°348",
+    "url": "https://www.senat.fr/dossier-legislatif/ppl24-348.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-wissous-caa-2026",
+    "label": "CAA Versailles — décision du 2 avril 2026",
+    "url": "https://versailles.cour-administrative-appel.fr/decisions-de-justice/dernieres-decisions/wissous-le-volet-environnemental-de-l-agrandissement-du-datacenter-valide",
+    "type": "primary"
+  },
+  {
+    "id": "fr-wissous-caa-25ve01156",
+    "label": "Légifrance — arrêt 25VE01156",
+    "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000053760988",
+    "type": "primary"
+  },
+  {
+    "id": "ru-decree-802-2026",
+    "label": "Garant — texte du décret présidentiel n°802 publié le 2 novembre",
+    "url": "https://base.garant.ru/415210945/",
+    "type": "primary"
+  },
+  {
+    "id": "ru-decree-802-reuters-2026",
+    "label": "Reuters — réserve de 10 % de capacité",
+    "url": "https://www.reuters.com/technology/putin-orders-private-data-centres-set-aside-10-capacity-support-it-2026-11-02/",
+    "type": "analysis"
+  },
+  {
+    "id": "gb-infrastructure-judicial-review-2026",
+    "label": "GOV.UK — propositions de réforme du contrôle juridictionnel",
+    "url": "https://www.gov.uk/government/publications/getting-britain-building-reforming-judicial-review-for-infrastructure",
+    "type": "primary"
+  },
+  {
+    "id": "gb-ofgem-call-input-2026",
+    "label": "Ofgem — Call for Input sur la réforme des raccordements de consommation",
+    "url": "https://www.ofgem.gov.uk/cy/call-for-input/demand-connections-reform",
+    "type": "primary"
+  },
+  {
+    "id": "eu-dma-cloud-preliminary-2026",
+    "label": "Commission européenne — avis préliminaire du 25 juin",
+    "url": "https://digital-markets-act.ec.europa.eu/commission-reaches-preliminary-position-amazons-and-microsofts-market-leading-cloud-services-should-2026-06-25_en",
+    "type": "primary"
   }
 ]

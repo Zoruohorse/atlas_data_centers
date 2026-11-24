@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-11-24",
+    "title": "Delta Curebot 4 — lot réglementation, vérification juridique",
+    "summary": "86 ressources examinées : Reifegradverfahren, Écosse, Lombardie, étiquetage européen, CNDP, proposition David Ros, décret russe et enrichissements Espagne/France/Belgique/Irlande. Journal ligne par ligne dans docs/veille/2026-11-24-curebot-reglementation.md ; références extra-européennes hors carte."
+  },
+  {
+    "date": "2026-11-24",
     "title": "Delta Curebot 3 — raccordement, transparence et oppositions",
     "summary": "Analyse de 35 ressources : projet finlandais de priorisation, registre proposé, chronologie danoise, suspension locale des travaux Google, saisine d’Aarhus, rapport du Sénat, données de Red Eléctrica et réseaux associatifs. Mise à jour de sources sans dupliquer les événements existants."
   },

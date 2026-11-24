@@ -11,7 +11,7 @@
     "regulationId": "es-1032-2026",
     "kind": "mandatory",
     "mechanism": "additional-renewables",
-    "detail": "Exigences d’additionnalité et de corrélation horaire prévues aux articles 7 et 8, avec régimes et exceptions."
+    "detail": "80 % d’additionnalité et 80 % de corrélation horaire, régimes transitoires et exceptions distincts ; seuil général ≥10 MW de puissance d’accès (articles 2, 7 et 8)."
   },
   {
     "criterionId": "renewable-additionality",
@@ -152,5 +152,12 @@
     "kind": "mandatory",
     "mechanism": "local-capacity-levy",
     "detail": "Contribution locale annuelle de 20 000 €/MW de capacité maximale."
+  },
+  {
+    "criterionId": "maturity",
+    "regulationId": "de-reifegrad-procedure-2026",
+    "kind": "procedure",
+    "mechanism": "project-maturity-screening",
+    "detail": "Évaluation commune par cycles, sur des critères vérifiables de maturité et probabilité de réalisation ; procédure des GRT, pas une priorité sectorielle inscrite dans la loi."
   }
 ]

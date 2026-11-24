@@ -56,5 +56,27 @@
     "sourceIds": [
       "curebot3-20261124-36"
     ]
+  },
+  {
+    "id": "de-reifegrad-international-reference-2026",
+    "type": "influence",
+    "date": "2026-02-05",
+    "countries": [
+      "DE",
+      "GB",
+      "NO"
+    ],
+    "topics": [
+      "grid"
+    ],
+    "title": "Références internationales citées par les GRT allemands",
+    "summary": "Dans leur annonce du 5 février, les quatre GRT allemands citent la Grande-Bretagne et la Norvège comme pays où des procédures comparables ont déjà fait leurs preuves. C’est une référence explicite à des pratiques étrangères, non la preuve d’une transposition juridique ni d’une causalité entre États.",
+    "actorIds": [
+      "de-transmission-operators"
+    ],
+    "sourceIds": [
+      "de-reifegrad-announce-2026",
+      "de-reifegrad-operational-2026"
+    ]
   }
 ]

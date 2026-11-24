@@ -413,7 +413,8 @@
     ],
     "sourceIds": [
       "curebot-20261124-31",
-      "sddc-announcement"
+      "sddc-announcement",
+      "curebot4-20261124-81"
     ],
     "territory": "Amsterdam",
     "campaignId": "sddc-nov-2026",
@@ -1010,7 +1011,8 @@
       "curebot3-20261124-23",
       "curebot3-20261124-24",
       "curebot3-20261124-25",
-      "curebot3-20261124-26"
+      "curebot3-20261124-26",
+      "curebot4-20261124-54"
     ],
     "scope": "eu",
     "actorIds": [
@@ -1165,6 +1167,278 @@
     ],
     "actorIds": [
       "es-red-electrica"
+    ]
+  },
+  {
+    "id": "it-lombardy-mayors-letter-2026",
+    "countries": [
+      "IT"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Lombardie — lettre de cinquante maires sur le projet de loi",
+    "summary": "Il Giorno rapporte une lettre de cinquante maires demandant des modifications au projet régional, notamment sur les compensations environnementales et les pouvoirs des communes. Il s’agit de revendications exprimées avant l’adoption de la loi, pas du contenu final.",
+    "topics": [
+      "planning",
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "curebot4-20261124-49",
+      "curebot4-20261124-46"
+    ],
+    "territory": "Lombardie"
+  },
+  {
+    "id": "it-lacchiarella-mobilisation-2026",
+    "countries": [
+      "IT"
+    ],
+    "date": "2026-07-12",
+    "type": "mobilisation",
+    "title": "Lacchiarella — mobilisation contre les grands projets lombards",
+    "summary": "Il Fatto Quotidiano rapporte un rassemblement à Lacchiarella et la présence de comités de plusieurs communes, dont Magenta, Opera et Linate. Les chiffres de consommation avancés par les opposants ne sont pas repris comme données techniques établies. Date de publication utilisée.",
+    "topics": [
+      "territory",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot4-20261124-32"
+    ],
+    "territory": "Lacchiarella, Lombardie",
+    "actorIds": [
+      "it-ciarlasco"
+    ]
+  },
+  {
+    "id": "fr-idf-regional-dc-strategy-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-06-26",
+    "type": "context",
+    "title": "Île-de-France — stratégie régionale d’implantation des data centers",
+    "summary": "La Région présente une stratégie 2026–2028 axée sur la souveraineté, l’environnement et les bénéfices locaux. Elle demande une prise en charge intégrale des coûts de raccordement et de renforcement par les opérateurs, ainsi qu’une valorisation accrue de la chaleur et une réflexion fiscale. Ce sont des orientations et demandes régionales ; elles ne modifient pas à elles seules le TURPE ni le droit national du raccordement.",
+    "topics": [
+      "grid",
+      "planning",
+      "environment",
+      "tax",
+      "territory",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "fr-idf-strategy-2026"
+    ],
+    "territory": "Île-de-France",
+    "actorIds": [
+      "fr-region-idf"
+    ]
+  },
+  {
+    "id": "fr-wissous-caa-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-04-02",
+    "type": "context",
+    "title": "Wissous — arrêt sur l’autorisation environnementale de la deuxième phase",
+    "summary": "La cour administrative d’appel de Versailles confirme que l’enregistrement ICPE de la deuxième phase de développement du site CyrusOne respecte le droit applicable. Elle rejette l’argument de fractionnement irrégulier du projet en trois phases dans ce litige. L’arrêt ne vaut pas validation de toutes les autorisations ni principe général permettant le fractionnement. Data for Good et France Nature Environnement Île-de-France sont intervenues au soutien des requérants.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "fr-wissous-caa-2026",
+      "fr-wissous-caa-25ve01156",
+      "curebot4-20261124-65",
+      "curebot4-20261124-74"
+    ],
+    "territory": "Wissous, Essonne",
+    "actorIds": [
+      "fr-data-for-good",
+      "fr-wissous-notre-ville"
+    ]
+  },
+  {
+    "id": "ru-decree-implementation-discussion-2026",
+    "countries": [
+      "RU"
+    ],
+    "date": "2026-11-10",
+    "type": "context",
+    "title": "Russie — discussion sur la mise en œuvre de la réserve numérique",
+    "summary": "Meduza rapporte que le ministère du numérique examine des règles permettant de libérer de la capacité au profit de services prioritaires, y compris en déconnectant des clients non prioritaires. Le ministère indique que ces mesures sont encore en cours d’élaboration. Ne pas les présenter comme des obligations définitives déjà applicables.",
+    "topics": [
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "curebot4-20261124-5",
+      "ru-decree-802-2026"
+    ]
+  },
+  {
+    "id": "de-dc-strategy-2026",
+    "countries": [
+      "DE"
+    ],
+    "date": "2026-09-18",
+    "type": "context",
+    "title": "Allemagne — bilan semestriel de la stratégie nationale des centres de données",
+    "summary": "Le gouvernement vise un doublement de la puissance IT de raccordement d’ici 2030 par rapport à 2025 et au moins un quadruplement des capacités HPC/IA. Au 18 septembre, 25 des 28 actions étaient engagées, quatre achevées et cinq en procédure parlementaire, selon le bilan officiel. Les objectifs de stratégie ne sont pas des capacités garanties ni des obligations de raccordement.",
+    "topics": [
+      "planning",
+      "power",
+      "environment",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "de-dc-strategy-review-2026",
+      "curebot4-20261124-62",
+      "curebot4-20261124-67"
+    ]
+  },
+  {
+    "id": "be-wallonia-power-plan-2026",
+    "countries": [
+      "BE"
+    ],
+    "date": "2026-03-11",
+    "type": "context",
+    "title": "Wallonie — lancement d’un groupe de travail sur les capacités réseau",
+    "summary": "Le gouvernement annonce un groupe de travail consacré aux implantations de data centers, aux plafonds de puissance envisageables et à leur cohérence avec les capacités réseau et les objectifs environnementaux. Ce jalon précède le cadre wallon annoncé en novembre et ne constitue pas un plafond déjà applicable.",
+    "topics": [
+      "grid",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot4-20261124-71"
+    ],
+    "territory": "Wallonie",
+    "actorIds": [
+      "be-walloon-government"
+    ]
+  },
+  {
+    "id": "gb-judicial-review-reform-2026",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-05-20",
+    "type": "context",
+    "title": "Royaume-Uni — réforme proposée du contrôle juridictionnel des infrastructures",
+    "summary": "Le Trésor présente deux mécanismes envisageables pour les grands projets d’infrastructure : autorisation parlementaire et fenêtre de contestation. The Register évoque une application potentielle aux data centers, mais les propositions gouvernementales ne constituent pas une exemption juridique sectorielle. Une législation serait nécessaire.",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "gb-infrastructure-judicial-review-2026",
+      "curebot4-20261124-47"
+    ]
+  },
+  {
+    "id": "eu-dma-cloud-preliminary-2026",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK"
+    ],
+    "date": "2026-06-25",
+    "type": "context",
+    "title": "DMA — avis préliminaire sur AWS et Microsoft Azure",
+    "summary": "La Commission informe Amazon et Microsoft de sa position préliminaire sur leur éventuelle désignation comme contrôleurs d’accès pour leurs services cloud. Cela relève de la régulation des marchés numériques, non d’une mesure de raccordement ou d’implantation. Les droits de réponse et une décision formelle restent à distinguer.",
+    "topics": [
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "eu-dma-cloud-preliminary-2026",
+      "curebot4-20261124-38"
+    ],
+    "scope": "eu"
+  },
+  {
+    "id": "nl-amsterdam-permit-debate-2026",
+    "countries": [
+      "NL"
+    ],
+    "date": "2026-01-26",
+    "type": "context",
+    "title": "Amsterdam — débat sur la qualification du campus Pure DC",
+    "summary": "NRC rapporte la confirmation de Microsoft comme locataire unique et la division du site en trois bâtiments pour les permis. L’article questionne la compatibilité avec la restriction nationale sur les hyperscales et rapporte des demandes d’explication d’élus provinciaux. Il ne constitue pas une décision de justice établissant un contournement illégal.",
+    "topics": [
+      "planning",
+      "territory",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "curebot4-20261124-81",
+      "zoek-officielebekendmakingen-nl-ee227f45"
+    ],
+    "territory": "Amsterdam"
+  },
+  {
+    "id": "fr-pinm-association-opposition-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Loi de simplification — interpellation de douze associations",
+    "summary": "Next rapporte une prise de position commune de douze associations contre les dispositions facilitant les implantations de data centers dans le texte de simplification. Les associations questionnent la souveraineté et les procédures de participation. Il s’agit de plaidoyer au cours du débat législatif, à distinguer de la loi finalement promulguée.",
+    "topics": [
+      "planning",
+      "sovereignty",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot4-20261124-60"
+    ]
+  },
+  {
+    "id": "ie-pure-avk-microgrid-2026",
+    "countries": [
+      "IE"
+    ],
+    "date": "2026",
+    "type": "project",
+    "title": "Près de Dublin — projet de microgrid AVK / Pure Data Centres",
+    "summary": "DCmag décrit un projet d’alimentation propre par microgrid associant AVK et Pure Data Centres. La source présente un projet, sans preuve d’une mise en service effective. Ne pas en déduire une dispense automatique des conditions de la CRU ni un moratoire national.",
+    "topics": [
+      "power",
+      "grid",
+      "supply"
+    ],
+    "sourceIds": [
+      "curebot4-20261124-70",
+      "ie-cru-2025-1"
     ]
   }
 ]
