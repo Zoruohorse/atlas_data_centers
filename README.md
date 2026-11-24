@@ -46,3 +46,7 @@ Quatre modes cartographiques et radar autonome. Le curseur représente les docum
 Le classement national exclut le socle UE, les données manquantes et les mesures suspendues. Les couleurs distinguent une concordance de plusieurs concordances, pas des niveaux de sévérité. Les convergences calculées sont sourcées, mais n'établissent aucune causalité. Les relations explicites exigent une preuve distincte. Le graphe matérialise le cadre ou la campagne commune.
 
 Le champ facultatif milestoneDate (ISO) indique une échéance dont le jour est connu ; milestone conserve la formulation et les réserves. Les consultations anciennes restent à vérifier. Modules indépendants : js/views/network.js, radar.js, feed.js ; styles css/observatory.css.
+
+## Interface V3 — lecture visuelle
+
+La feuille css/visual-atlas.css contient la nouvelle identité graphique. La carte distingue les stades documentés, non une mesure de restrictivité. Les arcs de similarité relient les pays comparés ; les campagnes et le cadre UE sont représentés par un nœud commun, sans inventer de liens bilatéraux. Une seule relation est tracée à la fois pour limiter l’encombrement. Les drapeaux utilisent les petites images de FlagCDN (avec code pays de secours) et peuvent être masqués sur la carte. Les repères nationaux ne localisent pas des projets précis. Les micro-États non dessinés restent accessibles depuis le sélecteur.

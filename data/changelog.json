@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-11-24",
+    "title": "Atlas V3 — refonte visuelle",
+    "summary": "Nouvelle interface claire, palettes par statut et mode, drapeaux, connexions sur la carte, fiches pays et cartes documentaires."
+  },
+  {
+    "date": "2026-11-24",
     "title": "Atlas V2 — observatoire",
     "summary": "Quatre modes, radar distinct, curseur, comparateur enrichi, graphe de relations et fil européen."
   },

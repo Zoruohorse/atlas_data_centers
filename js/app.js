@@ -53,22 +53,27 @@ function start(atlas) {
   };
 
   const modeButtons = new Map();
+  const symbols={regulation:'▤',similarities:'◫',contests:'◉',influences:'⌘'};
   for (const [mode, label] of Object.entries(modes)) {
-    const node = button(label, () => {
+    const node = button('', () => {
       state.mode = mode;
       state.eventType='';state.relationType='';
       state.tab = initialTab(mode);
       state.relation = '';
       render();
     }, 'mode-button');
+    const glyph=element('span',symbols[mode],'mode-glyph');glyph.setAttribute('aria-hidden','true');node.append(glyph,element('span',label));node.dataset.mode=mode;
     modeButtons.set(mode, node);
     get('modes').append(node);
   }
 
   get('radar').addEventListener('click',()=>{state.mode='radar';state.tab='upcoming';state.eventType='';state.relation='';state.relationType='';render();});
-  const drawMap = createMap(atlas, state, selectCountry);
+  const drawMap = createMap(atlas, state, selectCountry,actions);
+  get('show-flags').addEventListener('change',drawMap);
+  get('clear-filters').addEventListener('click',()=>{state.country='';state.topic='';state.year='';state.eventType='';state.relation='';state.relationType='';state.comparison=[];state.tab=initialTab(state.mode);topic.value='';writeHash();render();});
   function render() {
     country.value = state.country;
+    get('workspace').dataset.mode=state.mode;
     year.value=state.year||String(latest);get('year-label').textContent=state.year?'31 décembre '+state.year:'Base au '+formatDate(atlas.latestRevision);year.setAttribute('aria-valuetext',get('year-label').textContent);
     get('radar').setAttribute('aria-pressed',String(state.mode==='radar'));get('event-filter').hidden=state.mode!=='contests';get('event-type').value=state.eventType;
     for (const [mode, node] of modeButtons) node.setAttribute('aria-pressed', String(state.mode === mode));
@@ -126,6 +131,10 @@ function start(atlas) {
     for (const change of changes) history.append(element('p', formatDate(change.date) + ' · ' + change.title + '. ' + change.summary));
     footer.append(history);
   }
+  const overview=get('overview');get('revision-label').textContent='Base au '+formatDate(atlas.latestRevision);
+  for(const [n,label,desc] of [[atlas.countries.size,'Pays','Périmètre européen'],[atlas.data.regulations.length,'Réglementations','Textes et mesures'],[atlas.data.events.length,'Événements','Projets et mobilisations'],[atlas.data.sources.length,'Sources','Références documentaires']]){
+    const item=element('div','','overview-item');item.append(element('strong',String(n)),element('span',label),element('small',desc));overview.append(item);
+  }overview.hidden=false;
   get('workspace').hidden = false;
   get('feed').hidden=false;
   get('notice').hidden = true;

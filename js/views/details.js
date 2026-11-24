@@ -1,5 +1,5 @@
 import {radarStages} from '../model.js';
-import {article, button, countryName, element, formatDate, links, renderList} from '../ui.js';
+import {article, button, countryName, countryLabel, flag, element, formatDate, links, renderList} from '../ui.js';
 import {renderComparison} from './comparison.js';
 import {renderNetwork, relationSelector} from './network.js';
 import {renderRadar} from './radar.js';
@@ -45,18 +45,19 @@ function renderRelations(target, atlas, state, actions) {
   for (const relation of relations) {
     const node = element('details', '', 'relation');
     node.open = relation.id === state.relation;
-    node.append(element('summary', relation.title), article(atlas, relation));
+    node.dataset.type=relation.type;
+    const heading=element('summary');heading.append(element('span',atlas.data.taxonomy.relations[relation.type],'relation-kind'),element('strong',relation.title),element('small',relation.countries.length+' pays','meta'));node.append(heading,article(atlas,relation));
     if (relation.origin.startDate) {
       node.append(element('p', 'Dates annoncées · ' + formatDate(relation.origin.startDate) + ' – ' + formatDate(relation.origin.endDate || relation.origin.startDate), 'meta'));
     }
-    node.append(element('p', relation.countries.map(countryName).join(' · '), 'meta'));
+    const members=element('div','','member-list');for(const code of relation.countries){const item=button('',()=>actions.country(code,true,'actors'),'member');item.append(countryLabel(code));members.append(item);}node.append(members);
     const relatedActors = relation.origin.actorIds || relation.actorIds || [];
     for (const id of relatedActors) {
       const actor = atlas.actors.get(id);
       node.append(article(atlas, {...actor, title:actor.name, actorType:actor.type}));
     }
     if (state.mode === 'influences') {
-      node.append(button(state.relation === relation.id ? 'Afficher toutes les relations' : 'Afficher ces pays sur la carte',
+      node.append(button(state.relation === relation.id ? 'Revenir à la relation par défaut' : 'Tracer les liens sur la carte',
         () => actions.relation(state.relation === relation.id ? '' : relation.id)));
     }
     target.append(node);
@@ -87,7 +88,7 @@ function renderFeed(target, atlas, state, actions) {
     const code = row.countries[0];
     const tab = row.type ? 'events' : radarStages.includes(row.stage) ? 'upcoming' : 'rules';
     const item = button('', () => actions.country(code, true, tab), 'recent');
-    item.append(element('small', countryName(code) + ' · ' + formatDate(row.date)), element('strong', row.title));
+    const content=element('div');content.append(element('small',countryName(code)+' · '+formatDate(row.date)),element('strong',row.title));item.append(flag(code),content,element('span','›','recent-arrow'));
     target.append(item);
   }
 }
@@ -120,7 +121,11 @@ export function renderDetails(target, atlas, state, actions) {
     : latestEvent ? 'Événement documenté · ' + latestEvent.title : 'Couverture réglementaire nationale à compléter.';
   const subtitle = (!state.year && !state.topic && info.summary)
     || (national.length ? 'Dernier signal national · ' + national[0].title : fallback);
-  target.append(close, element('h2', countryName(state.country)), element('p', subtitle, 'muted'));
+  const hero=element('div','','country-hero');const identity=element('div','','country-identity');
+  const title=element('div');title.append(element('div',info.euMember?'ÉTAT MEMBRE · UE':'EUROPE · HORS UE','eyebrow'),element('h2',countryName(state.country)));
+  identity.append(flag(state.country),title);hero.append(close,identity,element('p',subtitle,'country-summary'));
+  if(national[0])hero.append(element('div','Dernier signal national · '+formatDate(national[0].date),'meta'));
+  target.append(hero);
   const metrics=element('div','','country-metrics');for(const [n,label] of [[national.length,'Textes nationaux'],[atlas.radarFor(state,state.country).length,'À suivre'],[atlas.filter(state,atlas.data.events,state.country).length,'Événements']]){const m=element('div');m.append(element('strong',String(n)),element('span',label));metrics.append(m);}target.append(metrics);
 
   const navigation = element('nav', '', 'tabs');
@@ -144,7 +149,7 @@ export function renderDetails(target, atlas, state, actions) {
     if (related.length) target.append(element('h3', 'Pays aux mécanismes comparables'));
     for (const match of related) {
       const label = countryName(match.code)+' · '+match.criteria.length+'/'+match.common+' concordances · '+match.criteria.map(row => row.criterion.label).join(', ');
-      target.append(button(label, () => actions.compare([state.country, match.code]), 'compare'));
+      const item=button('',()=>actions.compare([state.country,match.code]),'compare');const content=element('span','','match-text');content.append(element('strong',countryName(match.code)),element('small',match.criteria.map(r=>r.criterion.label).join(' · ')));item.append(flag(match.code),content,element('span',match.criteria.length+'/'+match.common,'match-count'));item.setAttribute('aria-label',label);target.append(item);
     }
     renderComparison(target, atlas, state, state.comparison.length ? state.comparison : [state.country], actions.compare);
   } else if (state.tab === 'actors') {

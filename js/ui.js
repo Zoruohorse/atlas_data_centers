@@ -3,6 +3,19 @@ const dateFormat = new Intl.DateTimeFormat('fr', {dateStyle: 'medium', timeZone:
 export const countryName = code => regions.of(code);
 export const formatDate = date => date.length === 4 ? date : dateFormat.format(new Date(date));
 export const get = id => document.getElementById(id);
+export const flagUrl = code => 'https://flagcdn.com/w80/'+code.toLowerCase()+'.png';
+export function flag(code){
+  const node=element('span','','country-flag');node.setAttribute('aria-hidden','true');
+  if(!/^[A-Z]{2}$/.test(code))return node;
+  const fallback=element('span',code,'flag-fallback');
+  const img=document.createElement('img');img.alt='';img.width=40;img.height=28;img.decoding='async';img.loading='eager';img.referrerPolicy='no-referrer';
+  img.addEventListener('load',()=>{fallback.hidden=true;img.hidden=false;});
+  img.addEventListener('error',()=>{fallback.hidden=false;img.hidden=true;});
+  img.hidden=true;node.append(fallback,img);img.src=flagUrl(code);return node;
+}
+export function countryLabel(code, text=countryName(code)){
+  const node=element('span','','country-label');node.append(flag(code),element('span',text));return node;
+}
 
 export function element(tag, text, className) {
   const node = document.createElement(tag);
@@ -40,12 +53,15 @@ export function links(atlas, sourceIds) {
 export function article(atlas, record) {
   const {stages, relations} = atlas.data.taxonomy;
   const node = element('article');
+  node.className='document-card';
+  if(record.stage)node.dataset.stage=record.stage;
+  if(record.type)node.dataset.type=record.type;
   const metadata = [
-    record.date && formatDate(record.date), stages[record.stage],
+    record.date && formatDate(record.date),
     record.scope === 'eu' && 'Union européenne',
     record.territory, relations[record.type] || atlas.data.taxonomy.eventTypes?.[record.type] || record.actorType,
   ].filter(Boolean).join(' · ');
-  if (metadata) node.append(element('div', metadata, 'meta'));
+  if (metadata||record.stage){const meta=element('div','','document-meta');if(record.stage)meta.append(element('span',stages[record.stage]||record.stage,'stage-tag'));if(metadata)meta.append(element('span',metadata,'meta'));node.append(meta);}
   node.append(element('strong', record.title, 'article-title'), element('p', record.summary));
   if (record.effectiveFrom && record.effectiveFrom !== record.date) {
     node.append(element('p', 'Application à partir du ' + formatDate(record.effectiveFrom), 'meta'));
