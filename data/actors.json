@@ -178,5 +178,88 @@
       "landsvirkjun-com-805ed243",
       "landsvirkjun-com-e9b6287e"
     ]
+  },
+  {
+    "id": "nl-geef-tegengas",
+    "name": "Geef Tegengas",
+    "type": "Collectif",
+    "countries": [
+      "NL"
+    ],
+    "summary": "Identifié par Gizmodo comme participant à l’organisation de la mobilisation d’Amsterdam du 6 novembre.",
+    "sourceIds": [
+      "curebot-20261124-31"
+    ]
+  },
+  {
+    "id": "nl-fossil-free",
+    "name": "Fossil Free Netherlands",
+    "type": "Association",
+    "countries": [
+      "NL"
+    ],
+    "summary": "Un représentant cité par Gizmodo commente la mobilisation d’Amsterdam.",
+    "sourceIds": [
+      "curebot-20261124-31"
+    ]
+  },
+  {
+    "id": "fr-lfi",
+    "name": "La France insoumise",
+    "type": "Parti politique",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Propose, selon Next, un moratoire sur les sites non souverains et un réseau public.",
+    "sourceIds": [
+      "curebot-20261124-16"
+    ]
+  },
+  {
+    "id": "fr-ruffin",
+    "name": "François Ruffin",
+    "type": "Personnalité politique",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Défend des conventions citoyennes sur l’IA et les data centers dans un texte programmatique.",
+    "sourceIds": [
+      "curebot-20261124-9"
+    ]
+  },
+  {
+    "id": "fr-france-datacenter",
+    "name": "France Datacenter",
+    "type": "Fédération professionnelle",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Porte les demandes d’accélération et de réduction des délais de raccordement de la filière française.",
+    "sourceIds": [
+      "curebot-20261124-26",
+      "curebot-20261124-23"
+    ]
+  },
+  {
+    "id": "be-walloon-government",
+    "name": "Gouvernement wallon",
+    "type": "Institution régionale",
+    "countries": [
+      "BE"
+    ],
+    "summary": "Annonce le cadre régional de conditions d’accueil le 12 novembre 2026.",
+    "sourceIds": [
+      "curebot-20261124-21"
+    ]
+  },
+  {
+    "id": "entso-e",
+    "name": "ENTSO-E",
+    "type": "Réseau de gestionnaires de transport",
+    "countries": [],
+    "summary": "Statnett indique qu’il examinera les exigences techniques et travaux d’ENTSO-E pour élaborer ses futures conditions de raccordement. Ce n’est pas une preuve d’influence bilatérale.",
+    "sourceIds": [
+      "no-statnett-2026-1"
+    ]
   }
 ]

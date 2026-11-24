@@ -124,5 +124,33 @@
     "kind": "mandatory",
     "mechanism": "heat-reuse",
     "detail": "À partir de 1 MW installé par SIRET, ERF d’au moins 0,20 pour satisfaire le critère, hors dérogation."
+  },
+  {
+    "criterionId": "guarantees",
+    "regulationId": "gr-law-5356-2026",
+    "kind": "mandatory",
+    "mechanism": "bank-guarantee",
+    "detail": "Garantie de 200 000 €/MW de puissance maximale, modalités de réduction et de restitution prévues par la loi."
+  },
+  {
+    "criterionId": "maturity",
+    "regulationId": "gr-law-5356-2026",
+    "kind": "procedure",
+    "mechanism": "project-maturity-screening",
+    "detail": "Cadre de qualification et de viabilité des demandes de raccordement."
+  },
+  {
+    "criterionId": "renewable-additionality",
+    "regulationId": "gr-law-5356-2026",
+    "kind": "mandatory",
+    "mechanism": "additional-renewables",
+    "detail": "Au moins 60 % de la consommation annuelle à couvrir via de nouvelles capacités renouvelables selon les modalités du texte ; seuil et périmètre différents de l’Espagne et de l’Irlande."
+  },
+  {
+    "criterionId": "tax",
+    "regulationId": "gr-law-5356-2026",
+    "kind": "mandatory",
+    "mechanism": "local-capacity-levy",
+    "detail": "Contribution locale annuelle de 20 000 €/MW de capacité maximale."
   }
 ]

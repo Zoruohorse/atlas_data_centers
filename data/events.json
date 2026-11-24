@@ -12,7 +12,9 @@
     "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet.",
     "sourceIds": [
       "fr-ozans-2026-1",
-      "fr-ozans-2026-2"
+      "fr-ozans-2026-2",
+      "curebot-20261124-2",
+      "curebot-20261124-10"
     ],
     "type": "project",
     "territory": "Ozans, Indre",
@@ -327,5 +329,253 @@
       "openai-com-6a25e4b8"
     ],
     "territory": "Narvik"
+  },
+  {
+    "id": "es-grid-plan-2030-2026",
+    "countries": [
+      "ES"
+    ],
+    "date": "2026-11-20",
+    "type": "context",
+    "title": "Approbation du plan de réseau électrique espagnol à horizon 2030",
+    "summary": "Le Conseil des ministres approuve le plan de développement du transport : 17,142 Md€ d’investissements et environ 47 GW de besoins nouveaux tous usages confondus. Le plan avait été présenté au Congrès le 12 novembre. Ces volumes ne sont pas exclusivement des data centers.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "curebot-20261124-5",
+      "curebot-20261124-20",
+      "curebot-20261124-3"
+    ],
+    "impacts": {
+      "grid": "Renforcement et adaptation du réseau pour l’électrification, les industriels et les autres nouvelles charges ; distinguer capacité planifiée et raccordements effectivement réalisés."
+    }
+  },
+  {
+    "id": "fr-ozans-protest-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-17",
+    "type": "mobilisation",
+    "title": "Manifestation contre le projet Google à Ozans",
+    "summary": "Le Parisien rapporte une mobilisation d’environ 800 personnes le 17 octobre à Étrechet ; La Grande Conversation évoque près d’un millier. Les comptages divergent. Les revendications portent notamment sur l’environnement et la souveraineté numérique.",
+    "topics": [
+      "territory",
+      "environment",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "curebot-20261124-2",
+      "curebot-20261124-10"
+    ],
+    "territory": "Étrechet, Indre"
+  },
+  {
+    "id": "fr-hdf-moratorium-rejected-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-12",
+    "type": "context",
+    "title": "Hauts-de-France — rejet d’un vœu de moratoire",
+    "summary": "Le conseil régional rejette largement la proposition de moratoire des élus écologistes. France 3 rapporte 19 projets en cours dans la région ainsi que des mobilisations au Bosquel et à Rantigny. Aucun moratoire n’est instauré par ce vote.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot-20261124-17",
+      "fr-hdf-moratorium-motion"
+    ],
+    "territory": "Hauts-de-France"
+  },
+  {
+    "id": "nl-amsterdam-protest-2026",
+    "countries": [
+      "NL"
+    ],
+    "date": "2026-11-06",
+    "type": "mobilisation",
+    "title": "Amsterdam — mobilisation contre un chantier de data center",
+    "summary": "Gizmodo rapporte une action contre le chantier de Pure Data Centres Group (78 MW annoncés, Microsoft locataire prévu), avec participation de Geef Tegengas et Fossil Free Netherlands. Elle s’inscrit dans les journées de mobilisation de Stop Dirty Data Centres.",
+    "topics": [
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "curebot-20261124-31",
+      "sddc-announcement"
+    ],
+    "territory": "Amsterdam",
+    "campaignId": "sddc-nov-2026",
+    "actorIds": [
+      "sddc",
+      "nl-geef-tegengas",
+      "nl-fossil-free"
+    ]
+  },
+  {
+    "id": "fr-idf-demand-study-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Île-de-France — projections de besoins électriques",
+    "summary": "L’Institut Paris Region recense 151 centres au 1er janvier 2026 et 1,01 GW de puissance installée en 2025. Selon la réalisation des projets connus, la puissance pourrait atteindre 6,5 à 8 GW en 2040 ; ce sont des scénarios, pas des consommations garanties.",
+    "topics": [
+      "grid",
+      "power",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot-20261124-33",
+      "curebot-20261124-22"
+    ],
+    "territory": "Île-de-France",
+    "impacts": {
+      "grid": "Risque d’arbitrages de capacité avec d’autres usages et besoin de planification conditionnée à la maturité des projets."
+    }
+  },
+  {
+    "id": "no-elhub-demand-2026",
+    "countries": [
+      "NO"
+    ],
+    "date": "2026-09-21",
+    "type": "context",
+    "title": "Elhub — consommation et profil de charge des data centers",
+    "summary": "Selon Elhub, la consommation du périmètre mesuré est passée de 0,82 TWh en 2022 à 3,14 TWh en 2025 (2,26 % du total national). Le rapport observe des variations rapides de certaines charges et une consommation moyenne inférieure à la somme des maxima individuels. Le code d’activité utilisé dépasse le périmètre strict des data centers.",
+    "topics": [
+      "power",
+      "grid"
+    ],
+    "sourceIds": [
+      "curebot-20261124-27"
+    ],
+    "impacts": {
+      "grid": "Ne pas assimiler somme des pointes individuelles, puissance réservée et demande effectivement simultanée."
+    }
+  },
+  {
+    "id": "fr-lfi-program-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-07",
+    "type": "context",
+    "title": "LFI — propositions numériques pour 2027",
+    "summary": "Selon Next, le programme présenté en novembre propose un moratoire sur l’installation de centres de données non souverains et un réseau public de data centers. Ce sont des propositions électorales, sans effet juridique actuel.",
+    "topics": [
+      "sovereignty",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot-20261124-16"
+    ],
+    "actorIds": [
+      "fr-lfi"
+    ]
+  },
+  {
+    "id": "fr-ruffin-digital-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "François Ruffin — débat sur les infrastructures numériques",
+    "summary": "Dans son texte programmatique, François Ruffin critique la stratégie d’accueil des opérateurs étrangers et défend des conventions citoyennes sur l’IA et les data centers. Cette position politique ne constitue pas une mesure adoptée.",
+    "topics": [
+      "sovereignty",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot-20261124-9"
+    ],
+    "actorIds": [
+      "fr-ruffin"
+    ]
+  },
+  {
+    "id": "fr-acceptability-study-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Étude des contestations de 60 projets français",
+    "summary": "La Grande Conversation rapporte que 30 des 60 projets examinés connaissent une contestation organisée et 12 des interrogations locales. L’analyse distingue contestation et cause réelle des abandons ou retards.",
+    "topics": [
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "curebot-20261124-10"
+    ]
+  },
+  {
+    "id": "fr-industry-barometer-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-09",
+    "type": "context",
+    "title": "France Datacenter — baromètre et demande d’accélération",
+    "summary": "Le Figaro rapporte les demandes de simplification administrative et de réduction des délais de raccordement portées par la fédération. L’Usine Digitale confronte ces ambitions aux données publiques et aux incertitudes de réalisation. Les chiffres d’impact de la filière ne sont pas des prévisions garanties.",
+    "topics": [
+      "grid",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot-20261124-26",
+      "curebot-20261124-23"
+    ],
+    "actorIds": [
+      "fr-france-datacenter"
+    ]
+  },
+  {
+    "id": "eu-dublin-ai-2026",
+    "countries": [
+      "FR",
+      "IE"
+    ],
+    "date": "2026-11-13",
+    "type": "context",
+    "title": "Réunion informelle de Dublin sur l’IA",
+    "summary": "Next rapporte que le président français a défendu la construction d’infrastructures de calcul en Europe lors de la séquence européenne sur l’IA. Aucun nouveau texte réglementaire n’est établi par cet article.",
+    "topics": [
+      "sovereignty",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot-20261124-12"
+    ]
+  },
+  {
+    "id": "eu-rystad-readiness-2026",
+    "countries": [
+      "GB",
+      "IE",
+      "DE"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Rystad Energy — risque de décalage des projets annoncés",
+    "summary": "Dans une publication LinkedIn fondée sur l’observation satellitaire de plus de 800 bâtiments annoncés, Rystad indique que 6,4 GW sur 15,4 GW prévus en Europe en 2027–2028 n’avaient pas encore de construction engagée. Londres, Dublin et Francfort sont cités comme pôles où les retards se concentrent. Étude complète non fournie.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "curebot-20261124-6"
+    ],
+    "impacts": {
+      "grid": "Les calendriers annoncés ne doivent pas être confondus avec la demande certaine à court terme."
+    }
   }
 ]

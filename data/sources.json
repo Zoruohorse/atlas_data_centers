@@ -766,5 +766,179 @@
     "label": "Projet et dispositions techniques · Conseil national slovaque",
     "url": "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=596450",
     "type": "primary"
+  },
+  {
+    "id": "curebot-20261124-2",
+    "label": "Le Parisien — contestations et changement d’échelle",
+    "url": "https://www.leparisien.fr/societe/lia-generative-change-la-donne-en-france-les-data-centers-ont-la-folie-des-grandeurs-20-11-2026-73VDQDCWPBEVVA2CWNWSLRFPVI.php",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-3",
+    "label": "pv magazine — décret espagnol",
+    "url": "https://www.pv-magazine.fr/2026/11/23/en-espagne-les-centres-de-donnees-devront-utiliser-au-moins-80-delectricite-renouvelable/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-5",
+    "label": "MITECO — planification électrique 2030 approuvée",
+    "url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-la-planificacion-electrica-en-el-horizonte-2.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot-20261124-6",
+    "label": "Rystad Energy — analyse satellitaire, publication LinkedIn",
+    "url": "https://www.linkedin.com/posts/rystad-energy-new-energies_construction-progress-of-european-data-centers-activity-7528743875616612353-Nyp_",
+    "type": "primary"
+  },
+  {
+    "id": "curebot-20261124-9",
+    "label": "François Ruffin — texte programmatique",
+    "url": "https://nouspresident.fr/de-la-colonie-numerique-aux-souverainetes-numeriques/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot-20261124-10",
+    "label": "La Grande Conversation — analyse de 60 projets français",
+    "url": "https://www.lagrandeconversation.com/societe/centres-de-donnees-la-souverainete-numerique-a-lepreuve-des-territoires/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-12",
+    "label": "Next — réunion de Dublin et positions françaises",
+    "url": "https://next.ink/267792/emmanuel-macron-revient-sur-sa-semaine-tres-chargee-sur-lia/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-13",
+    "label": "DCmag — nouveau dispositif grec",
+    "url": "https://dcmag.fr/la-grece-impose-aux-data-centers-une-contribution-annuelle-de-20-000-euros-par-mw/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-15",
+    "label": "Shattered — file RTE et CADA",
+    "url": "https://shattered.io/fr/data-centers-france-21-gw-reseau-rte-raccordement/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-16",
+    "label": "Next — programme numérique LFI",
+    "url": "https://next.ink/267269/presidentielle-2027-lfi-detaille-son-programme-pour-democratiser-la-revolution-numerique/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-17",
+    "label": "France 3 — rejet du moratoire régional",
+    "url": "https://france3-regions.franceinfo.fr/hauts-de-france/somme/19-projets-de-data-centers-en-cours-dans-les-hauts-de-france-le-moratoire-voulu-par-les-ecologistes-rejete-par-le-conseil-regional-3448575.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-20",
+    "label": "MITECO — présentation au Congrès",
+    "url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/sara-aagesen-somete-al-congreso-la-planificacion-de-electricidad.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot-20261124-21",
+    "label": "Gouvernement wallon — cadre d’accueil",
+    "url": "https://www.wallonie.be/fr/acteurs-et-institutions/wallonie/gouvernement-de-wallonie/communiques-presse/2026-11-12",
+    "type": "primary"
+  },
+  {
+    "id": "curebot-20261124-22",
+    "label": "Banque des Territoires — besoins électriques franciliens",
+    "url": "https://www.banquedesterritoires.fr/linstitut-paris-region-alerte-sur-lexplosion-des-besoins-electriques-des-datacenters-franciliens",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-23",
+    "label": "L’Usine Digitale — baromètre et limites des projections",
+    "url": "https://www.usine-digitale.fr/informatique/data-centers/data-centers-derriere-les-ambitions-de-la-filiere-francaise-une-equation-qui-reste-a-resoudre.SEMMWDHNPVASVJLPKVMKLF3JZE.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-24",
+    "label": "Capital Finance / Les Échos — analyse juridique",
+    "url": "https://capitalfinance.lesechos.fr/droit/reglementation/les-data-centers-sous-tension-juridique-2261913",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-26",
+    "label": "Le Figaro — positions de France Datacenter",
+    "url": "https://www.lefigaro.fr/secteur/high-tech/alors-que-les-contestations-se-multiplient-la-filiere-des-centres-de-donnees-invite-a-accelerer-en-france-20261109",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-27",
+    "label": "Elhub — rapport sur la consommation électrique, 21 septembre",
+    "url": "https://frzq0sxltynr.objectstorage.eu-frankfurt-1.oci.customer-oci.com/n/frzq0sxltynr/b/insight-prod-open-data-osb/o/download/publications/elhub_analyse_hvordan_bruker_datasentre_strom_202609.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "curebot-20261124-28",
+    "label": "NRK — mesures norvégiennes et débat politique",
+    "url": "https://www.nrk.no/artikkel/strammer-grepet-lager-nye-regler-for-datasentre-1532476",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-30",
+    "label": "Courrier des maires — analyse du régime d’implantation",
+    "url": "https://www.courrierdesmaires.fr/article/implantation-de-datacenters-un-essor-appuye-et-de-modestes-garde-fous.60418",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-31",
+    "label": "Gizmodo — mobilisation à Amsterdam",
+    "url": "https://gizmodo.com/more-than-100-protesters-storm-a-microsoft-data-center-site-in-amsterdam-2000836356",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot-20261124-33",
+    "label": "Institut Paris Region — Note rapide 1071",
+    "url": "https://www.institutparisregion.fr/fileadmin/NewEtudes/000pack6/Etude_3184/NR_1071_web.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "gr-law-5356-2026",
+    "label": "Journal officiel grec — loi 5356/2026, 17 novembre",
+    "url": "https://api.et.gr/apiLAW/1/2026/5356/pdf",
+    "type": "primary"
+  },
+  {
+    "id": "gr-law-5356-zeya",
+    "label": "Zepos & Yannopoulos — analyse juridique",
+    "url": "https://www.zeya.com/index.php/newsletters/data-centres-greece-new-dedicated-framework-grid-connection",
+    "type": "analysis"
+  },
+  {
+    "id": "eu-cada-oeil-2026",
+    "label": "Parlement européen — dossier 2026/0138(COD)",
+    "url": "https://oeil.europarl.europa.eu/oeil/fr/procedure-file?reference=2026%2F0138%28COD%29",
+    "type": "primary"
+  },
+  {
+    "id": "eu-cada-proposal-2026",
+    "label": "EUR-Lex — COM(2026) 502",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52026PC0502",
+    "type": "primary"
+  },
+  {
+    "id": "eu-cada-euronews-2026",
+    "label": "Euronews — présentation des positions des rapporteurs",
+    "url": "https://www.euronews.com/2026/11/11/eu-lawmakers-push-to-reduce-europes-dependence-on-foreign-cloud-providers",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-hdf-moratorium-motion",
+    "label": "Les Écologistes Hauts-de-France — texte du vœu",
+    "url": "https://lesecologisteshdf.fr/deliberation/pour-un-moratoire-regional-sur-les-projets-de-data-centers/",
+    "type": "primary"
+  },
+  {
+    "id": "fr-pinm-senat-2026",
+    "label": "Sénat — réponse ministérielle du 19 novembre",
+    "url": "https://www.senat.fr/questions/base/2026/qSEQ261010331.html",
+    "type": "primary"
   }
 ]

@@ -17,7 +17,8 @@
     "summary": "L’Espagne fixe de nouvelles exigences relatives à l’efficacité énergétique et hydrique, à l’électricité renouvelable et à la résilience numérique. Certaines demandes de raccordement en cours et certains projets déjà autorisés mais encore non raccordés sont soumis à des modalités transitoires.",
     "sourceIds": [
       "es-1032-2026-1",
-      "es-1032-2026-2"
+      "es-1032-2026-2",
+      "curebot-20261124-3"
     ],
     "effectiveFrom": "2026-11-22",
     "impacts": {
@@ -37,19 +38,22 @@
     ],
     "stage": "temporary",
     "title": "Statnett suspend les nouvelles réservations",
-    "summary": "Statnett suspend les nouvelles réservations de capacité réseau pour les data centers. Le gouvernement prévoit une levée au plus tard le 1ᵉʳ août 2027. Statnett maintient notamment le traitement de certaines demandes déjà reçues au titre du § 14 pour des installations proches de la mise en service sur le réseau régional.",
+    "summary": "Statnett suspend les nouvelles réservations de capacité réseau pour les data centers. Le gouvernement prévoit une levée au plus tard le 1ᵉʳ août 2027. Statnett maintient notamment le traitement de certaines demandes déjà reçues au titre du § 14 pour des installations proches de la mise en service sur le réseau régional. La suspension inclut le traitement de certaines demandes d’approbation des caractéristiques techniques (article 14 du règlement sur la responsabilité système), notamment pour le raccordement direct au 420 kV. Les installations déjà approuvées et les raccordements existants ne font pas l’objet d’un arrêt général.",
     "sourceIds": [
       "no-statnett-2026-1",
       "no-statnett-2026-2",
-      "reuters-com-ae38c1e3"
+      "reuters-com-ae38c1e3",
+      "curebot-20261124-28",
+      "no-licensing-2026-1"
     ],
     "impacts": {
       "operator": "Les projets sans capacité réservée peuvent voir leur calendrier décalé.",
-      "grid": "La suspension porte sur les nouvelles réservations de capacité, afin de préserver la sécurité d’exploitation du système."
+      "grid": "La suspension porte sur les nouvelles réservations de capacité, afin de préserver la sécurité d’exploitation du système. Statnett prévoit de consulter sur de futures exigences techniques (tenue aux perturbations, variation de charge et oscillations), à faire approuver par RME. Le gestionnaire indique vouloir harmoniser ses exigences avec celles d’autres GRT et se référer aux travaux nordiques et d’ENTSO-E."
     },
     "milestone": "Levée attendue au plus tard le 1ᵉʳ août 2027.",
     "actorIds": [
-      "no-statnett"
+      "no-statnett",
+      "entso-e"
     ],
     "milestoneDate": "2027-08-01"
   },
@@ -65,10 +69,11 @@
     ],
     "stage": "announced",
     "title": "Projet de régime de licences",
-    "summary": "Le gouvernement prépare un régime d’autorisation pour les installations existantes et futures. Il prévoit d’en présenter les grands principes à l’automne 2027.",
+    "summary": "Le gouvernement prépare un régime d’autorisation pour les installations existantes et futures. Il prévoit d’en présenter les grands principes à l’automne 2027. Le gouvernement envisage le régime pour les sites existants et futurs avec des transitions, ainsi que la priorisation des usages d’intérêt public, la révision de l’obligation de raccordement et une contribution accrue des grandes charges aux coûts du réseau.",
     "sourceIds": [
       "no-licensing-2026-1",
-      "no-statnett-2026-2"
+      "no-statnett-2026-2",
+      "curebot-20261124-28"
     ],
     "milestone": "Présentation des grands principes prévue à l’automne 2027.",
     "actorIds": [
@@ -95,7 +100,10 @@
     "sourceIds": [
       "fr-pinm-2026-1",
       "fr-pinm-2026-2",
-      "fr-pinm-2026-3"
+      "fr-pinm-2026-3",
+      "curebot-20261124-24",
+      "curebot-20261124-30",
+      "fr-pinm-senat-2026"
     ]
   },
   {
@@ -594,7 +602,10 @@
     "summary": "RTE a annoncé une évolution vers une priorité fondée sur la maturité des projets (« premier prêt, premier servi »). L’annonce s’inscrit dans la réponse à l’afflux de demandes industrielles, dont celles des data centers.",
     "sourceIds": [
       "rte-france-com-068f59e6",
-      "arec-idf-fr-6c8fc542"
+      "arec-idf-fr-6c8fc542",
+      "curebot-20261124-15",
+      "curebot-20261124-33",
+      "curebot-20261124-22"
     ],
     "actorIds": [
       "fr-rte"
@@ -1115,5 +1126,85 @@
       "nrsr-sk-d98b5147",
       "nrsr-sk-4b4c5551"
     ]
+  },
+  {
+    "id": "gr-law-5356-2026",
+    "scope": "national",
+    "countries": [
+      "GR"
+    ],
+    "date": "2026-11-17",
+    "stage": "published",
+    "topics": [
+      "grid",
+      "supply",
+      "planning",
+      "tax"
+    ],
+    "title": "Loi 5356/2026 — cadre spécifique de raccordement des data centers",
+    "summary": "Le texte publié au Journal officiel le 17 novembre institue un dispositif spécifique comprenant un registre, des critères de maturité et une garantie de 200 000 €/MW de capacité maximale. Il prévoit un approvisionnement renouvelable d’au moins 60 % de la consommation annuelle et une contribution locale annuelle de 20 000 €/MW, répartie entre municipalités (75 %) et ménages (25 %). Les modalités transitoires et d’application restent à suivre.",
+    "sourceIds": [
+      "gr-law-5356-2026",
+      "gr-law-5356-zeya",
+      "curebot-20261124-13"
+    ],
+    "impacts": {
+      "operator": "Intégrer les garanties, les coûts de raccordement et de renforcement ainsi que la contribution locale et les contrats d’approvisionnement dans le modèle financier.",
+      "grid": "Le nouveau cadre vise à qualifier les demandes et à réduire les réservations spéculatives ; les coûts de raccordement et de renforcement induits sont à la charge des investisseurs selon le dispositif."
+    }
+  },
+  {
+    "id": "be-wallonia-framework-2026",
+    "scope": "territorial",
+    "territory": "Wallonie",
+    "countries": [
+      "BE"
+    ],
+    "date": "2026-11-12",
+    "stage": "announced",
+    "topics": [
+      "planning",
+      "grid",
+      "environment",
+      "power",
+      "territory"
+    ],
+    "title": "Wallonie — cadre d’accueil des data centers",
+    "summary": "Le gouvernement régional annonce des conditions de localisation et de préservation des ressources, ainsi qu’un partenariat préalable pour les projets d’au moins 25 MW, hors infrastructures exclusivement internes. Les sites économiques stratégiques sont en principe exclus, avec exceptions. Les modalités juridiques et opérationnelles doivent encore être précisées ; le cadre ne crée pas de nouvelle procédure d’autorisation.",
+    "sourceIds": [
+      "curebot-20261124-21"
+    ],
+    "impacts": {
+      "operator": "Documenter la montée en charge, le foncier, l’eau, la récupération de chaleur et les retombées territoriales ; anticiper un contrat de partenariat lorsque le seuil est atteint.",
+      "grid": "Raccordements flexibles, stockage, phasage, production additionnelle et contribution aux adaptations du réseau sont des leviers annoncés, dont les modalités restent à préciser."
+    },
+    "actorIds": [
+      "be-walloon-government"
+    ]
+  },
+  {
+    "id": "eu-cada-2026",
+    "scope": "eu",
+    "countries": [],
+    "date": "2026-11-17",
+    "stage": "announced",
+    "topics": [
+      "planning",
+      "grid",
+      "sovereignty",
+      "environment"
+    ],
+    "title": "Cloud and AI Development Act (CADA) — projet de rapport parlementaire",
+    "summary": "La Commission a proposé le règlement COM(2026) 502 le 3 juin 2026. Un projet de rapport des commissions du Parlement est daté du 17 novembre (présentation politique rapportée le 11 novembre). Le dossier vise le renforcement de l’écosystème cloud et IA européen, dont l’accélération de l’implantation des data centers ; il n’est pas adopté.",
+    "sourceIds": [
+      "eu-cada-oeil-2026",
+      "eu-cada-proposal-2026",
+      "eu-cada-euronews-2026",
+      "curebot-20261124-15"
+    ],
+    "impacts": {
+      "operator": "Suivre les futurs critères de souveraineté, d’autorisation et de durabilité.",
+      "grid": "Les objectifs de développement des capacités numériques pourraient accroître les besoins de raccordement ; les modalités finales restent soumises à la procédure législative."
+    }
   }
 ]

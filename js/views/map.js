@@ -69,7 +69,7 @@ export function createMap(atlas,state,selectCountry,actions){
     const rows=atlas.filter(state,atlas.data.regulations,code).filter(r=>r.scope!=='eu');
     const national=rows.filter(r=>r.scope==='national');
     const usable=r=>(!r.effectiveFrom||r.effectiveFrom<=cutoff)&&(!r.effectiveUntil||r.effectiveUntil>=cutoff);
-    const temporary=national.find(r=>r.stage==='temporary'&&usable(r)),effective=national.find(r=>r.stage==='effective'&&usable(r)),published=national.find(r=>r.stage==='published'),pending=national.find(r=>radarStages.includes(r.stage)||(r.effectiveFrom&&r.effectiveFrom>cutoff)),local=rows.find(r=>r.scope==='territorial');
+    const temporary=national.find(r=>r.stage==='temporary'&&usable(r)),effective=national.find(r=>r.stage==='effective'&&usable(r)),published=national.find(r=>r.stage==='published'),pending=rows.find(r=>radarStages.includes(r.stage)||(r.effectiveFrom&&r.effectiveFrom>cutoff)),local=rows.find(r=>r.scope==='territorial');
     if(temporary){signal=temporary;color='temporary';}else if(effective){signal=effective;color='effective';}else if(published){signal=published;color='published';}else if(pending){signal=pending;color='pending';}else if(local){signal=local;color='territorial';}else if(national[0]){signal=national[0];color='historical';}
     else {const eu=atlas.filter(state,atlas.data.regulations,code).find(r=>r.scope==='eu');if(eu){signal=eu;color='eu-baseline';}}
     const statuses=[temporary&&'temporary',effective&&'effective',published&&'published',pending&&'pending',local&&'territorial'].filter(Boolean);if(!statuses.length&&color!=='empty')statuses.push(color);statusByCountry.set(code,statuses);
