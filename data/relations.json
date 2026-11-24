@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sddc-coordination",
+    "type": "coordination",
+    "date": "2026-10-02",
+    "campaignId": "sddc-nov-2026",
+    "title": "Soutiens annoncés à une campagne commune",
+    "summary": "Le communiqué recense des soutiens dans plusieurs pays pour une même mobilisation.",
+    "sourceIds": [
+      "sddc-announcement"
+    ]
+  },
+  {
+    "id": "eu-reporting-harmonisation",
+    "type": "harmonisation",
+    "date": "2024-05-17",
+    "regulationId": "eu-reporting-2024",
+    "title": "Cadre commun de reporting dans l’Union européenne",
+    "summary": "Le règlement délégué fixe des indicateurs et méthodes communs pour les opérateurs concernés dans les États membres.",
+    "sourceIds": [
+      "eu-reporting-law"
+    ]
+  }
+]

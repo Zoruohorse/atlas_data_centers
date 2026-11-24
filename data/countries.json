@@ -1,0 +1,237 @@
+[
+  {
+    "code": "AD",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "AL",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "AT",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "BA",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "BE",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "BG",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "BY",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "CH",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "CY",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "CZ",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "DE",
+    "euMember": true,
+    "priority": true
+  },
+  {
+    "code": "DK",
+    "euMember": true,
+    "priority": true
+  },
+  {
+    "code": "EE",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "ES",
+    "euMember": true,
+    "priority": true
+  },
+  {
+    "code": "FI",
+    "euMember": true,
+    "priority": true
+  },
+  {
+    "code": "FR",
+    "euMember": true,
+    "priority": true
+  },
+  {
+    "code": "GB",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "GR",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "HR",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "HU",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "IE",
+    "euMember": true,
+    "priority": true
+  },
+  {
+    "code": "IS",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "IT",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "LI",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "LT",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "LU",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "LV",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "MC",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "MD",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "ME",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "MK",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "MT",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "NL",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "NO",
+    "euMember": false,
+    "priority": true
+  },
+  {
+    "code": "PL",
+    "euMember": true,
+    "priority": true
+  },
+  {
+    "code": "PT",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "RO",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "RS",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "RU",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "SE",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "SI",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "SK",
+    "euMember": true,
+    "priority": false
+  },
+  {
+    "code": "SM",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "TR",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "UA",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "VA",
+    "euMember": false,
+    "priority": false
+  },
+  {
+    "code": "XK",
+    "euMember": false,
+    "priority": false
+  }
+]

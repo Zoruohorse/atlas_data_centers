@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fr-ozans-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-02",
+    "topics": [
+      "territory"
+    ],
+    "title": "Google à Ozans, près de Châteauroux",
+    "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet.",
+    "sourceIds": [
+      "fr-ozans-2026-1",
+      "fr-ozans-2026-2"
+    ],
+    "type": "project",
+    "territory": "Ozans, Indre",
+    "actorIds": [
+      "fr-rte"
+    ],
+    "impacts": {
+      "grid": "La concertation couvre aussi le raccordement électrique porté par RTE."
+    }
+  },
+  {
+    "id": "sddc-action-2026",
+    "date": "2026-10-02",
+    "type": "mobilisation",
+    "title": "Annonce des journées européennes de mobilisation",
+    "summary": "La coalition annonce les journées d’action des 6 et 7 novembre 2026 et demande des moratoires sur les grands centres de données. Les pays renseignés correspondent aux soutiens annoncés au 2 octobre.",
+    "countries": [
+      "BE",
+      "DK",
+      "FR",
+      "DE",
+      "IE",
+      "IT",
+      "NL",
+      "PL",
+      "ES",
+      "GB"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "sddc-announcement"
+    ],
+    "campaignId": "sddc-nov-2026"
+  }
+]

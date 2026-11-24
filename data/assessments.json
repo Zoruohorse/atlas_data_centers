@@ -1,0 +1,72 @@
+[
+  {
+    "criterionId": "strategic-permit",
+    "regulationId": "fr-pinm-2026",
+    "kind": "procedure",
+    "mechanism": "designation",
+    "detail": "Qualification par décret de certains projets d’intérêt national majeur."
+  },
+  {
+    "criterionId": "renewable-additionality",
+    "regulationId": "es-1032-2026",
+    "kind": "mandatory",
+    "mechanism": "additional-renewables",
+    "detail": "Exigences d’additionnalité et de corrélation horaire prévues aux articles 7 et 8, avec régimes et exceptions."
+  },
+  {
+    "criterionId": "renewable-additionality",
+    "regulationId": "ie-cru-2025",
+    "kind": "mandatory",
+    "mechanism": "additional-renewables",
+    "detail": "80 % de la demande annuelle couverte par de nouvelles capacités renouvelables irlandaises, après une période de six ans."
+  },
+  {
+    "criterionId": "associated-power",
+    "regulationId": "ie-cru-2025",
+    "kind": "mandatory",
+    "mechanism": "dispatchable-capacity",
+    "detail": "Production ou stockage sur site ou à proximité, dimensionné par rapport à la puissance appelée."
+  },
+  {
+    "criterionId": "grid-reservations",
+    "regulationId": "no-statnett-2026",
+    "kind": "temporary",
+    "mechanism": "reservation-suspension",
+    "detail": "Suspension des nouvelles réservations de capacité réseau par Statnett."
+  },
+  {
+    "criterionId": "pue",
+    "regulationId": "es-1032-2026",
+    "kind": "mandatory",
+    "mechanism": "pue-ceiling",
+    "detail": "PUE transitoire de 1,25 au plus dans le régime général, sous réserve des délais et régimes spécifiques."
+  },
+  {
+    "criterionId": "pue",
+    "regulationId": "de-enefg-2026",
+    "kind": "mandatory",
+    "mechanism": "pue-ceiling",
+    "detail": "PUE de 1,2 au plus pour les centres entrant en service à compter du 1ᵉʳ juillet 2026, selon le § 11."
+  },
+  {
+    "criterionId": "water",
+    "regulationId": "es-1032-2026",
+    "kind": "mandatory",
+    "mechanism": "wue-ceiling",
+    "detail": "Plafond de WUE avec modalités transitoires et régimes spécifiques."
+  },
+  {
+    "criterionId": "heat",
+    "regulationId": "de-enefg-2026",
+    "kind": "mandatory",
+    "mechanism": "heat-reuse",
+    "detail": "Premier palier de réutilisation de 10 % pour les nouveaux sites concernés, avec exceptions."
+  },
+  {
+    "criterionId": "reporting",
+    "regulationId": "eu-reporting-2024",
+    "kind": "mandatory",
+    "mechanism": "eu-reporting",
+    "detail": "Déclaration harmonisée à partir de 500 kW de puissance informatique installée."
+  }
+]

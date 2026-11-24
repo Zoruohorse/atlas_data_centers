@@ -1,0 +1,33 @@
+[
+  {
+    "id": "sddc-nov-2026",
+    "date": "2026-10-02",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "title": "Stop Dirty Data Centres",
+    "summary": "Le communiqué du 2 octobre recense des soutiens enregistrés dans dix pays pour les journées d’action des 6 et 7 novembre. La carte représente les pays cités dans ce communiqué.",
+    "countries": [
+      "BE",
+      "DK",
+      "FR",
+      "DE",
+      "IE",
+      "IT",
+      "NL",
+      "PL",
+      "ES",
+      "GB"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "actorIds": [
+      "sddc",
+      "aprs"
+    ],
+    "sourceIds": [
+      "sddc-announcement",
+      "sddc-website"
+    ]
+  }
+]

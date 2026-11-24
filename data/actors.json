@@ -1,0 +1,61 @@
+[
+  {
+    "id": "fr-rte",
+    "name": "RTE",
+    "type": "Gestionnaire de réseau",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Porte le raccordement électrique du projet de centre de données à Ozans.",
+    "sourceIds": [
+      "fr-ozans-2026-1"
+    ]
+  },
+  {
+    "id": "ie-cru",
+    "name": "Commission for Regulation of Utilities",
+    "type": "Régulateur",
+    "countries": [
+      "IE"
+    ],
+    "summary": "Définit la politique irlandaise de raccordement des grands consommateurs, dont les centres de données.",
+    "sourceIds": [
+      "ie-cru-2025-1"
+    ]
+  },
+  {
+    "id": "no-government",
+    "name": "Gouvernement norvégien",
+    "type": "Institution publique",
+    "countries": [
+      "NO"
+    ],
+    "summary": "A annoncé des travaux sur un régime de licences pour les centres de données.",
+    "sourceIds": [
+      "no-licensing-2026-1"
+    ]
+  },
+  {
+    "id": "sddc",
+    "name": "Stop Dirty Data Centres",
+    "type": "Coalition associative",
+    "countries": [],
+    "summary": "Coordonne des mobilisations et demande des moratoires sur les grands centres de données.",
+    "sourceIds": [
+      "sddc-announcement",
+      "sddc-website"
+    ]
+  },
+  {
+    "id": "aprs",
+    "name": "Action to Protect Rural Scotland",
+    "type": "Association",
+    "countries": [
+      "GB"
+    ],
+    "summary": "A relayé l’annonce des journées européennes et présenté la mobilisation prévue en Écosse.",
+    "sourceIds": [
+      "sddc-announcement"
+    ]
+  }
+]

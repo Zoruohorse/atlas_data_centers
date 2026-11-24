@@ -1,0 +1,111 @@
+{
+  "topics": {
+    "planning": "Implantation",
+    "grid": "Raccordement",
+    "power": "Système électrique",
+    "environment": "Environnement",
+    "supply": "Approvisionnement",
+    "tax": "Fiscalité",
+    "transparency": "Transparence",
+    "sovereignty": "Souveraineté",
+    "territory": "Territoires"
+  },
+  "stages": {
+    "emerging": "Signal émergent",
+    "announced": "Annonce officielle",
+    "consultation": "Consultation",
+    "adopted": "Adoption",
+    "published": "Publication",
+    "effective": "Application",
+    "temporary": "Mesure temporaire",
+    "suspended": "Mesure suspendue",
+    "rejected": "Texte rejeté",
+    "withdrawn": "Texte retiré",
+    "repealed": "Texte abrogé"
+  },
+  "kinds": {
+    "mandatory": "Obligation",
+    "procedure": "Procédure",
+    "temporary": "Mesure temporaire",
+    "incentive": "Incitation",
+    "voluntary": "Engagement volontaire"
+  },
+  "relations": {
+    "coordination": "Coordination transnationale",
+    "harmonisation": "Harmonisation européenne",
+    "convergence": "Convergence réglementaire",
+    "influence": "Influence explicite"
+  },
+  "criteria": [
+    {
+      "id": "strategic-permit",
+      "label": "Procédure stratégique",
+      "topic": "planning"
+    },
+    {
+      "id": "territorial-moratorium",
+      "label": "Moratoire territorial",
+      "topic": "planning"
+    },
+    {
+      "id": "grid-reservations",
+      "label": "Réservation de capacité",
+      "topic": "grid"
+    },
+    {
+      "id": "guarantees",
+      "label": "Garanties financières",
+      "topic": "grid"
+    },
+    {
+      "id": "maturity",
+      "label": "Maturité des demandes",
+      "topic": "grid"
+    },
+    {
+      "id": "associated-power",
+      "label": "Production ou stockage associé",
+      "topic": "power"
+    },
+    {
+      "id": "flexibility",
+      "label": "Flexibilité obligatoire",
+      "topic": "power"
+    },
+    {
+      "id": "renewable-additionality",
+      "label": "Additionnalité renouvelable",
+      "topic": "supply"
+    },
+    {
+      "id": "pue",
+      "label": "Plafond de PUE",
+      "topic": "environment"
+    },
+    {
+      "id": "water",
+      "label": "Efficacité hydrique",
+      "topic": "environment"
+    },
+    {
+      "id": "heat",
+      "label": "Réutilisation de chaleur",
+      "topic": "environment"
+    },
+    {
+      "id": "reporting",
+      "label": "Reporting de performance",
+      "topic": "transparency"
+    },
+    {
+      "id": "tax",
+      "label": "Fiscalité spécifique",
+      "topic": "tax"
+    },
+    {
+      "id": "sovereignty",
+      "label": "Exigences de souveraineté",
+      "topic": "sovereignty"
+    }
+  ]
+}

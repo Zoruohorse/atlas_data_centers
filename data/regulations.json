@@ -1,0 +1,197 @@
+[
+  {
+    "id": "es-1032-2026",
+    "scope": "national",
+    "countries": [
+      "ES"
+    ],
+    "date": "2026-11-21",
+    "topics": [
+      "grid",
+      "environment",
+      "supply",
+      "sovereignty"
+    ],
+    "stage": "effective",
+    "title": "Décret royal 1032/2026",
+    "summary": "L’Espagne fixe de nouvelles exigences relatives à l’efficacité énergétique et hydrique, à l’électricité renouvelable et à la résilience numérique. Certaines demandes de raccordement en cours et certains projets déjà autorisés mais encore non raccordés sont soumis à des modalités transitoires.",
+    "sourceIds": [
+      "es-1032-2026-1",
+      "es-1032-2026-2"
+    ],
+    "effectiveFrom": "2026-11-22",
+    "impacts": {
+      "operator": "Prévoir les justificatifs de conformité correspondant au projet, y compris lorsqu’un permis de raccordement a déjà été délivré.",
+      "grid": "Les dispositions transitoires prévoient un réexamen de certaines demandes en cours et la caducité de certaines autorisations si les justificatifs ne sont pas fournis."
+    }
+  },
+  {
+    "id": "no-statnett-2026",
+    "scope": "national",
+    "countries": [
+      "NO"
+    ],
+    "date": "2026-11-09",
+    "topics": [
+      "grid"
+    ],
+    "stage": "temporary",
+    "title": "Statnett suspend les nouvelles réservations",
+    "summary": "Statnett suspend les nouvelles réservations de capacité réseau pour les data centers. Le gouvernement prévoit une levée au plus tard le 1ᵉʳ août 2027.",
+    "sourceIds": [
+      "no-statnett-2026-1",
+      "no-statnett-2026-2"
+    ],
+    "impacts": {
+      "operator": "Les projets sans capacité réservée peuvent voir leur calendrier décalé.",
+      "grid": "La suspension porte sur les nouvelles réservations de capacité, afin de préserver la sécurité d’exploitation du système."
+    },
+    "milestone": "Levée attendue au plus tard le 1ᵉʳ août 2027."
+  },
+  {
+    "id": "no-licensing-2026",
+    "scope": "national",
+    "countries": [
+      "NO"
+    ],
+    "date": "2026-11-10",
+    "topics": [
+      "planning"
+    ],
+    "stage": "announced",
+    "title": "Projet de régime de licences",
+    "summary": "Le gouvernement prépare un régime d’autorisation pour les installations existantes et futures. Il prévoit d’en présenter les grands principes à l’automne 2027.",
+    "sourceIds": [
+      "no-licensing-2026-1",
+      "no-statnett-2026-2"
+    ],
+    "milestone": "Présentation des grands principes prévue à l’automne 2027.",
+    "actorIds": [
+      "no-government"
+    ],
+    "impacts": {
+      "operator": "Les installations nouvelles et existantes entreraient dans le périmètre du futur régime, sous réserve des dispositions transitoires.",
+      "grid": "Les effets sur les raccordements dépendront des conditions retenues."
+    }
+  },
+  {
+    "id": "fr-pinm-2026",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-05-26",
+    "topics": [
+      "planning"
+    ],
+    "stage": "published",
+    "title": "Qualification de projet d’intérêt national majeur",
+    "summary": "L’article 35 ouvre à certains centres de données la possibilité d’être qualifiés par décret de projets d’intérêt national majeur selon leur envergure et leur contribution à la transition ou à la souveraineté. Cela donne accès à des procédures d’urbanisme adaptées.",
+    "sourceIds": [
+      "fr-pinm-2026-1",
+      "fr-pinm-2026-2",
+      "fr-pinm-2026-3"
+    ]
+  },
+  {
+    "id": "ie-cru-2025",
+    "scope": "national",
+    "countries": [
+      "IE"
+    ],
+    "date": "2025-12-12",
+    "topics": [
+      "grid",
+      "supply",
+      "power"
+    ],
+    "stage": "published",
+    "title": "Nouvelle politique de raccordement de la CRU",
+    "summary": "Pour les nouveaux sites concernés, la CRU ajoute une exigence de 80 % de consommation annuelle couverte par de nouvelles capacités renouvelables irlandaises, avec six ans à compter de la mise sous tension. La politique maintient l’exigence de production ou de stockage sur site ou à proximité et affine l’examen des contraintes réseau à l’échelle du point de raccordement.",
+    "sourceIds": [
+      "ie-cru-2025-1",
+      "ie-cru-2025-2"
+    ],
+    "actorIds": [
+      "ie-cru"
+    ],
+    "impacts": {
+      "operator": "Présenter un plan crédible pour les capacités renouvelables supplémentaires et prévoir la production ou le stockage requis.",
+      "grid": "Examiner les contraintes au point de raccordement et la contribution de la capacité associée à l’adéquation du système."
+    }
+  },
+  {
+    "id": "de-enefg-2026",
+    "scope": "national",
+    "countries": [
+      "DE"
+    ],
+    "date": "2026-07-01",
+    "topics": [
+      "environment"
+    ],
+    "stage": "effective",
+    "title": "Premier palier du § 11 de l’EnEfG pour les nouveaux sites",
+    "summary": "Pour les centres entrant en service à compter du 1ᵉʳ juillet 2026, le § 11 fixe un PUE maximal de 1,2 et un premier objectif de réutilisation d’énergie de 10 %, avec des paliers ultérieurs et des exceptions précisées par le texte.",
+    "sourceIds": [
+      "de-enefg-2026-1",
+      "de-enefg-2026-2"
+    ],
+    "effectiveFrom": "2026-07-01"
+  },
+  {
+    "id": "eu-efficiency-2023",
+    "scope": "eu",
+    "countries": [],
+    "date": "2023-09-20",
+    "stage": "published",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "title": "Directive européenne sur l’efficacité énergétique",
+    "summary": "L’article 12 prévoit un cadre de transparence et de suivi de la performance énergétique des centres de données concernés.",
+    "sourceIds": [
+      "eu-efficiency-directive",
+      "eu-reporting-explainer"
+    ]
+  },
+  {
+    "id": "eu-reporting-2024",
+    "scope": "eu",
+    "countries": [],
+    "date": "2024-05-17",
+    "effectiveFrom": "2024-06-06",
+    "stage": "effective",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "title": "Règlement délégué (UE) 2024/1364",
+    "summary": "Le règlement harmonise les indicateurs et les modalités de déclaration à la base européenne pour les centres de données dont la puissance informatique installée atteint au moins 500 kW.",
+    "sourceIds": [
+      "eu-reporting-law",
+      "eu-reporting-explainer"
+    ],
+    "impacts": {
+      "operator": "Déclarer les données et les indicateurs requis selon la méthodologie commune."
+    }
+  },
+  {
+    "id": "eu-minimum-standards-2026",
+    "scope": "eu",
+    "countries": [],
+    "date": "2026",
+    "stage": "emerging",
+    "topics": [
+      "environment"
+    ],
+    "title": "Étude sur des normes minimales de performance",
+    "summary": "La Commission a lancé début 2026 une étude préparatoire portant sur l’efficacité et la durabilité des centres de données. L’étude doit éclairer un éventuel règlement européen.",
+    "milestone": "Étude annoncée pour une durée de 24 mois.",
+    "sourceIds": [
+      "eu-minimum-standards",
+      "eu-reporting-explainer"
+    ]
+  }
+]
