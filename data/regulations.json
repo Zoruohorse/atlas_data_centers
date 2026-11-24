@@ -37,16 +37,20 @@
     ],
     "stage": "temporary",
     "title": "Statnett suspend les nouvelles réservations",
-    "summary": "Statnett suspend les nouvelles réservations de capacité réseau pour les data centers. Le gouvernement prévoit une levée au plus tard le 1ᵉʳ août 2027.",
+    "summary": "Statnett suspend les nouvelles réservations de capacité réseau pour les data centers. Le gouvernement prévoit une levée au plus tard le 1ᵉʳ août 2027. Statnett maintient notamment le traitement de certaines demandes déjà reçues au titre du § 14 pour des installations proches de la mise en service sur le réseau régional.",
     "sourceIds": [
       "no-statnett-2026-1",
-      "no-statnett-2026-2"
+      "no-statnett-2026-2",
+      "reuters-com-ae38c1e3"
     ],
     "impacts": {
       "operator": "Les projets sans capacité réservée peuvent voir leur calendrier décalé.",
       "grid": "La suspension porte sur les nouvelles réservations de capacité, afin de préserver la sécurité d’exploitation du système."
     },
-    "milestone": "Levée attendue au plus tard le 1ᵉʳ août 2027."
+    "milestone": "Levée attendue au plus tard le 1ᵉʳ août 2027.",
+    "actorIds": [
+      "no-statnett"
+    ]
   },
   {
     "id": "no-licensing-2026",
@@ -192,6 +196,921 @@
     "sourceIds": [
       "eu-minimum-standards",
       "eu-reporting-explainer"
+    ]
+  },
+  {
+    "id": "fi-electricity-tax-2026",
+    "scope": "national",
+    "countries": [
+      "FI"
+    ],
+    "date": "2026-07-01",
+    "topics": [
+      "tax"
+    ],
+    "stage": "effective",
+    "title": "Fin du taux réduit d’accise sur l’électricité",
+    "summary": "L’électricité consommée par les centres de données est passée de la classe fiscale II à la classe générale I le 1ᵉʳ juillet 2026.",
+    "sourceIds": [
+      "finlex-fi-62530a95",
+      "vero-fi-05622e86",
+      "valtioneuvosto-fi-dc94fae0"
+    ],
+    "effectiveFrom": "2026-07-01",
+    "impacts": {
+      "operator": "Recalculer le coût de l’électricité selon le taux général."
+    }
+  },
+  {
+    "id": "fi-fingrid-kjv-2026",
+    "scope": "national",
+    "countries": [
+      "FI"
+    ],
+    "date": "2026-06-12",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "stage": "consultation",
+    "title": "Fingrid prépare de nouvelles spécifications pour les grandes charges",
+    "summary": "Le projet KJV2026 prévoit de nouvelles capacités de pilotage de la puissance active des installations de consommation, avec des exigences graduées selon la puissance. La catégorie supérieure commence à 30 MW.",
+    "sourceIds": [
+      "fingrid-fi-34883113",
+      "fingrid-fi-34b81a22",
+      "acer-europa-eu-0028d96b"
+    ],
+    "actorIds": [
+      "fi-fingrid"
+    ],
+    "impacts": {
+      "operator": "Vérifier les capacités de commande, de réduction de charge et de tenue aux perturbations prévues par le projet.",
+      "grid": "L’objectif est de rendre les grandes charges pilotables lors de contraintes réseau."
+    },
+    "milestone": "Consultation close le 21 août 2026. Confirmation par l’Autorité de l’énergie visée en mars 2027."
+  },
+  {
+    "id": "dk-grid-pause-2026",
+    "scope": "national",
+    "countries": [
+      "DK"
+    ],
+    "date": "2026-03-02",
+    "topics": [
+      "grid"
+    ],
+    "stage": "published",
+    "title": "Pause des nouveaux accords pour les grands raccordements",
+    "summary": "Energinet a suspendu en mars 2026 les nouveaux accords pour les grands raccordements afin de recalculer les capacités du réseau de transport. Les petits raccordements ont continué à être traités.",
+    "sourceIds": [
+      "dinel-dk-fbf8ba95",
+      "ens-dk-74d0f1e5"
+    ],
+    "actorIds": [
+      "dk-energinet"
+    ],
+    "impacts": {
+      "operator": "Vérifier le calendrier de traitement applicable à la puissance et au site du projet.",
+      "grid": "Recalcul des capacités selon les consommations, les accords existants et les renforcements décidés."
+    }
+  },
+  {
+    "id": "dk-grid-restart-2026",
+    "scope": "national",
+    "countries": [
+      "DK"
+    ],
+    "date": "2026-10-21",
+    "topics": [
+      "grid"
+    ],
+    "stage": "published",
+    "title": "Premières réponses annoncées après la pause des grands raccordements",
+    "summary": "À la suite du recalcul de capacité, des premières réponses aux demandes étaient annoncées pour novembre, avec une reprise sélective selon les possibilités du réseau et la nouvelle méthode de priorisation. L’attribution selon ce nouveau modèle a ensuite été confirmée le 13 novembre.",
+    "sourceIds": [
+      "dinel-dk-fbf8ba95",
+      "danskerhverv-dk-be3dc7ba"
+    ],
+    "actorIds": [
+      "dk-energinet"
+    ],
+    "impacts": {
+      "operator": "L’avancement dépend du projet et de la capacité locale."
+    }
+  },
+  {
+    "id": "pl-energy-law-2026",
+    "scope": "national",
+    "countries": [
+      "PL"
+    ],
+    "date": "2026-03-13",
+    "topics": [
+      "grid"
+    ],
+    "stage": "published",
+    "title": "Réforme générale de l’accès au réseau électrique",
+    "summary": "La loi du 13 mars 2026 modifie le droit polonais de l’énergie, notamment en introduisant des conventions de raccordement flexibles et en révisant les conditions financières de certaines demandes. Son champ dépasse les data centers.",
+    "sourceIds": [
+      "eli-gov-pl-b742e4c1",
+      "ure-gov-pl-bb1e66ab"
+    ],
+    "actorIds": [
+      "pl-ure"
+    ],
+    "impacts": {
+      "operator": "Vérifier l’éligibilité de la demande aux nouvelles modalités contractuelles et les dates d’application propres à chaque disposition.",
+      "grid": "Les conventions flexibles ouvrent une voie à des raccordements soumis à des limitations contractuelles."
+    }
+  },
+  {
+    "id": "be-creg-3027-2026",
+    "scope": "national",
+    "countries": [
+      "BE"
+    ],
+    "date": "2026-01-29",
+    "topics": [
+      "grid"
+    ],
+    "stage": "effective",
+    "title": "La CREG revoit le traitement des demandes sur le réseau Elia",
+    "summary": "La décision B3027 modifie le code de bonne conduite du transport pour filtrer les demandes insuffisamment matures et limiter les réservations inutilisées. Cette réforme s’applique aux demandes sur le réseau de transport dans son champ général.",
+    "sourceIds": [
+      "creg-be-044041ac",
+      "creg-be-923eeeaf"
+    ],
+    "effectiveFrom": "2026-03-09",
+    "actorIds": [
+      "be-creg",
+      "be-elia"
+    ],
+    "impacts": {
+      "operator": "Préparer les pièces de maturité et suivre la durée de validité de la réservation.",
+      "grid": "Elia peut concentrer les études sur les projets les plus avancés."
+    }
+  },
+  {
+    "id": "be-creg-3297-2026",
+    "scope": "national",
+    "countries": [
+      "BE"
+    ],
+    "date": "2026-10-15",
+    "topics": [
+      "grid"
+    ],
+    "stage": "published",
+    "title": "Prolongation de la période transitoire d’Elia",
+    "summary": "La CREG a prolongé jusqu’au 9 mars 2027 la période de résorption des études de raccordement en retard prévue par B3027.",
+    "sourceIds": [
+      "creg-be-e87dfdf8",
+      "creg-be-923eeeaf"
+    ],
+    "milestone": "Fin de la période transitoire prévue le 9 mars 2027.",
+    "actorIds": [
+      "be-creg",
+      "be-elia"
+    ]
+  },
+  {
+    "id": "nl-hyperscale-bkl-2024",
+    "scope": "national",
+    "countries": [
+      "NL"
+    ],
+    "date": "2023-12-20",
+    "topics": [
+      "planning",
+      "grid"
+    ],
+    "stage": "effective",
+    "title": "Restriction d’implantation des très grands hyperscales",
+    "summary": "Le Besluit kwaliteit leefomgeving limite les nouveaux hyperscales dont la surface bâtie excède 10 hectares et dont le raccordement électrique atteint au moins 70 MW. Les deux critères sont cumulatifs. Les zones désignées comprennent Eemshaven et Middenmeer.",
+    "sourceIds": [
+      "zoek-officielebekendmakingen-nl-ee227f45",
+      "zoek-officielebekendmakingen-nl-0496d2cd"
+    ],
+    "effectiveFrom": "2024-01-01",
+    "impacts": {
+      "operator": "Vérifier le zonage dès le choix du site et calculer les seuils à l’échelle de l’installation fonctionnelle."
+    }
+  },
+  {
+    "id": "pt-zgp-2026",
+    "scope": "national",
+    "countries": [
+      "PT"
+    ],
+    "date": "2026-04-15",
+    "topics": [
+      "grid"
+    ],
+    "stage": "published",
+    "title": "Attribution exceptionnelle de capacité dans les zones de forte demande",
+    "summary": "La directive ERSE 2/2026 précise le régime exceptionnel de raccordement des installations de consommation dans les zones de forte demande. Le dispositif, initialement appliqué à Sines, concerne le territoire continental couvert par le réseau électrique de service public depuis sa désignation en février 2026.",
+    "sourceIds": [
+      "diariodarepublica-pt-9632d4f6",
+      "dgeg-gov-pt-1fab866d"
+    ],
+    "actorIds": [
+      "pt-erse"
+    ],
+    "impacts": {
+      "operator": "Vérifier si la demande entre dans la procédure exceptionnelle et ses modalités de mise en concurrence.",
+      "grid": "Le mécanisme traite la concentration de demandes de consommation qui dépasse les possibilités des plans de réseau."
+    }
+  },
+  {
+    "id": "gb-ofgem-dc-consultation-2026",
+    "scope": "national",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-07-29",
+    "topics": [
+      "grid"
+    ],
+    "stage": "consultation",
+    "title": "Ofgem propose de réformer la file des data centers",
+    "summary": "Ofgem a consulté sur le filtrage des demandes spéculatives et sur la réforme des règles de raccordement des data centers en Grande-Bretagne. Le dossier de consultation décrit des options de réforme.",
+    "sourceIds": [
+      "ofgem-gov-uk-fe0b3991",
+      "ofgem-gov-uk-f2619bbb"
+    ],
+    "actorIds": [
+      "gb-ofgem"
+    ],
+    "impacts": {
+      "operator": "Suivre les décisions qui préciseront les preuves de maturité et le traitement des réservations.",
+      "grid": "La réforme vise à libérer des capacités prises par les projets peu susceptibles d’aboutir."
+    }
+  },
+  {
+    "id": "gb-strategic-demand-2026",
+    "scope": "national",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026",
+    "topics": [
+      "grid"
+    ],
+    "stage": "announced",
+    "title": "Réponse du gouvernement sur le raccordement des projets stratégiques",
+    "summary": "Le gouvernement a publié sa réponse à la consultation sur l’accélération des raccordements des grands projets stratégiques et a exprimé son soutien à la réforme de la file pilotée par Ofgem. Le périmètre est la Grande-Bretagne.",
+    "sourceIds": [
+      "gov-uk-75a6fc42",
+      "ofgem-gov-uk-331fbeda"
+    ],
+    "actorIds": [
+      "gb-ofgem"
+    ]
+  },
+  {
+    "id": "se-electricity-tax-2023",
+    "scope": "national",
+    "countries": [
+      "SE"
+    ],
+    "date": "2023-07-01",
+    "topics": [
+      "tax"
+    ],
+    "stage": "effective",
+    "title": "Suppression de la réduction d’accise pour les data centers",
+    "summary": "Depuis le 1ᵉʳ juillet 2023, les data centers ne peuvent plus bénéficier de la déduction ou du remboursement de taxe énergétique lié à l’électricité consommée dans les salles informatiques.",
+    "sourceIds": [
+      "skatteverket-se-2288dc4b",
+      "data-riksdagen-se-cb3445d7"
+    ],
+    "effectiveFrom": "2023-07-01",
+    "impacts": {
+      "operator": "Prévoir le coût de l’électricité sans l’ancien allègement sectoriel."
+    }
+  },
+  {
+    "id": "it-single-permit-2026",
+    "scope": "national",
+    "countries": [
+      "IT"
+    ],
+    "date": "2026-04-10",
+    "topics": [
+      "planning",
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Procédure unique d’autorisation des centres de données",
+    "summary": "Le décret-loi 21/2026, converti par la loi 49/2026, instaure une procédure unique pour la réalisation, l’extension et l’exploitation des projets concernés. Le ministère a publié ses premières consignes opérationnelles en juillet.",
+    "sourceIds": [
+      "gazzettaufficiale-it-5328abb2",
+      "gazzettaufficiale-it-4bb99544",
+      "va-mite-gov-it-29faa03f",
+      "tplex-eu-02573798"
+    ],
+    "impacts": {
+      "operator": "Constituer un dossier unique et documenter dès le départ les pièces nécessaires aux évaluations environnementales."
+    }
+  },
+  {
+    "id": "it-environmental-guidance-2024",
+    "scope": "national",
+    "countries": [
+      "IT"
+    ],
+    "date": "2024-08-02",
+    "topics": [
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Guide d’évaluation environnementale des centres de données",
+    "summary": "Le ministère a adopté des lignes directrices pour les projets équipés de groupes électrogènes de secours dépassant ensemble 50 MW thermiques. Elles guident l’instruction environnementale de ces installations.",
+    "sourceIds": [
+      "va-mite-gov-it-ed60d3cf",
+      "va-mite-gov-it-545d6526"
+    ],
+    "impacts": {
+      "operator": "Vérifier la puissance thermique cumulée des groupes de secours et le besoin d’évaluation."
+    }
+  },
+  {
+    "id": "gr-operating-notification-2024",
+    "scope": "national",
+    "countries": [
+      "GR"
+    ],
+    "date": "2024-12-31",
+    "topics": [
+      "planning",
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Notification d’exploitation propre aux centres de données",
+    "summary": "L’arrêté interministériel 96038/2024 précise le contenu, les justificatifs, les frais et les sanctions de la notification d’exploitation prévue dans la loi 4442/2016, telle que modifiée par la loi 5069/2023.",
+    "sourceIds": [
+      "openbusiness-portal-mindev-gov-gr-f167c925",
+      "ggb-gr-23cacc64"
+    ],
+    "impacts": {
+      "operator": "Préparer la notification auprès du service de développement de l’unité régionale compétente et vérifier les obligations environnementales."
+    }
+  },
+  {
+    "id": "fr-heat-2025",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025",
+    "topics": [
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Valorisation de la chaleur fatale à partir de 1 MW",
+    "summary": "L’article L.236-2 du code de l’énergie prévoit la valorisation de la chaleur fatale des data centers d’au moins 1 MW de puissance installée. Le texte renvoie à un décret pour les exigences précises et les dérogations, dont la justification d’une impossibilité technique ou économique selon le cadre européen.",
+    "sourceIds": [
+      "legifrance-gouv-fr-6cf281e0",
+      "entreprises-gouv-fr-2895992f"
+    ],
+    "impacts": {
+      "operator": "Étudier les débouchés de chaleur et l’applicabilité des dérogations."
+    }
+  },
+  {
+    "id": "fr-rte-queue-2026",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-03",
+    "topics": [
+      "grid"
+    ],
+    "stage": "announced",
+    "title": "RTE annonce une refonte de la file de raccordement",
+    "summary": "RTE a annoncé une évolution vers une priorité fondée sur la maturité des projets (« premier prêt, premier servi »). L’annonce s’inscrit dans la réponse à l’afflux de demandes industrielles, dont celles des data centers.",
+    "sourceIds": [
+      "rte-france-com-068f59e6",
+      "arec-idf-fr-6c8fc542"
+    ],
+    "actorIds": [
+      "fr-rte"
+    ],
+    "impacts": {
+      "operator": "Suivre les modalités finales et documenter les jalons de maturité.",
+      "grid": "Le changement vise à orienter la capacité vers les projets capables d’avancer."
+    }
+  },
+  {
+    "id": "de-tso-technical-2026",
+    "scope": "national",
+    "countries": [
+      "DE"
+    ],
+    "date": "2026-10-16",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "stage": "published",
+    "title": "Exigences techniques communes des quatre GRT",
+    "summary": "Les quatre gestionnaires de transport allemands ont publié un document commun sur le raccordement des centres de données en haute et très haute tension. Il complète les règles techniques existantes et précise les attentes relatives au comportement en cas de perturbation, à la puissance réactive et aux modèles de simulation.",
+    "sourceIds": [
+      "netztransparenz-de-87be5989"
+    ],
+    "impacts": {
+      "operator": "Intégrer les études dynamiques et les exigences de comportement électrique dès la conception.",
+      "grid": "Les exigences visent à éviter les perturbations collectives et à garantir la reprise de charge."
+    },
+    "actorIds": [
+      "de-transmission-operators"
+    ]
+  },
+  {
+    "id": "no-nkom-registration-2025",
+    "scope": "national",
+    "countries": [
+      "NO"
+    ],
+    "date": "2025",
+    "topics": [
+      "sovereignty",
+      "transparency"
+    ],
+    "stage": "published",
+    "title": "Enregistrement des exploitants auprès de Nkom",
+    "summary": "L’obligation d’enregistrement des opérateurs de centres de données auprès de l’autorité norvégienne des communications est entrée en application en janvier 2025.",
+    "sourceIds": [
+      "nkom-no-c0597faf",
+      "nkom-no-ff9d1010"
+    ],
+    "impacts": {
+      "operator": "Vérifier si le site relève de l’obligation et procéder à l’enregistrement électronique."
+    }
+  },
+  {
+    "id": "dk-2026-capacity-priority",
+    "scope": "national",
+    "countries": [
+      "DK"
+    ],
+    "date": "2026-11-13",
+    "topics": [
+      "grid"
+    ],
+    "stage": "effective",
+    "title": "Première attribution de capacité selon le nouveau modèle danois",
+    "summary": "Energinet attribue de nouveau des capacités aux projets de consommation et de production selon le modèle entré en vigueur à l’automne 2026. Le ministère souligne les difficultés persistantes d’accès complet pour certaines catégories de projets et les besoins de renforcement entre transport et distribution.",
+    "sourceIds": [
+      "retsinformation-dk-33b25d5c",
+      "retsinformation-dk-eb27b6d1",
+      "ft-dk-42c0f981",
+      "danskerhverv-dk-be3dc7ba"
+    ],
+    "effectiveFrom": "2026-10-19",
+    "actorIds": [
+      "dk-energinet"
+    ],
+    "impacts": {
+      "operator": "Documenter la maturité du projet et vérifier son classement, la capacité locale et les options d’accès limité.",
+      "grid": "Priorisation des demandes et développement de solutions de flexibilité lorsque l’accès complet est difficile."
+    }
+  },
+  {
+    "id": "fr-heat-decree-2025",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-12-29",
+    "topics": [
+      "environment"
+    ],
+    "stage": "effective",
+    "title": "Le décret fixe le seuil de réutilisation de chaleur",
+    "summary": "Le décret 2025-1382 applique le principe de valorisation prévu à partir de 1 MW de puissance installée. Depuis le 1ᵉʳ janvier 2026, l’exigence est réputée satisfaite si le facteur de réutilisation de l’énergie (ERF) atteint au moins 0,20, sous réserve des dispositions de dérogation.",
+    "sourceIds": [
+      "legifrance-gouv-fr-a1a5879f",
+      "legifrance-gouv-fr-6cf281e0"
+    ],
+    "effectiveFrom": "2026-01-01",
+    "impacts": {
+      "operator": "Calculer le seuil à l’échelle du SIRET et étudier les débouchés de chaleur."
+    }
+  },
+  {
+    "id": "at-eeffg-reporting-2024",
+    "scope": "national",
+    "countries": [
+      "AT"
+    ],
+    "date": "2024-04-18",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "effective",
+    "title": "Déclaration de performance au titre du § 72a EEffG",
+    "summary": "L’Autriche impose aux propriétaires et opérateurs concernés de publier les données de performance à partir de 500 kW de puissance IT nominale installée. L’organisme de suivi précise les modalités de dépôt et les exceptions.",
+    "sourceIds": [
+      "ris-bka-gv-at-61c57059",
+      "energieeffizienzmonitoring-at-3312d507"
+    ],
+    "effectiveFrom": "2024-04-18",
+    "impacts": {
+      "operator": "Organiser la publication annuelle et le dépôt via le portail national."
+    }
+  },
+  {
+    "id": "cz-energy-reporting-2025",
+    "scope": "national",
+    "countries": [
+      "CZ"
+    ],
+    "date": "2025-08-01",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "effective",
+    "title": "Nouvelles obligations d’efficacité et de reporting",
+    "summary": "La modification de la loi 406/2000 introduit des obligations relatives à l’énergie des data centers. Le ministère indique notamment une transmission annuelle des indicateurs à la base européenne selon le seuil applicable et des dispositions supplémentaires pour les plus grands sites.",
+    "sourceIds": [
+      "mpo-gov-cz-dde5ce2a",
+      "e-sbirka-gov-cz-c63273c3"
+    ],
+    "effectiveFrom": "2025-08-01",
+    "impacts": {
+      "operator": "Lire le texte et le guide pour contrôler le seuil, la publication et les modalités de transmission."
+    }
+  },
+  {
+    "id": "hr-energy-efficiency-2025",
+    "scope": "national",
+    "countries": [
+      "HR"
+    ],
+    "date": "2025",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Loi croate sur l’efficacité énergétique des data centers",
+    "summary": "La loi sur l’efficacité énergétique publiée au Journal officiel 155/2025 prévoit le suivi des performances des centres concernés et renvoie au règlement délégué européen pour les indicateurs.",
+    "sourceIds": [
+      "narodne-novine-nn-hr-73e031a1",
+      "narodne-novine-nn-hr-4490ea8a"
+    ],
+    "impacts": {
+      "operator": "Préparer les données de performance et vérifier les modalités de transmission prévues en droit croate."
+    }
+  },
+  {
+    "id": "lv-dc-energy-2025",
+    "scope": "national",
+    "countries": [
+      "LV"
+    ],
+    "date": "2025-03-20",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "effective",
+    "title": "Publication et déclaration des données de performance",
+    "summary": "L’article 15¹ de la loi lettone sur l’efficacité énergétique fixe des obligations pour les propriétaires et exploitants. Il prévoit aussi des règles spécifiques pour les infrastructures utilisées pour fournir des services à d’autres personnes morales.",
+    "sourceIds": [
+      "likumi-lv-aedf6c83"
+    ],
+    "effectiveFrom": "2025-04-18",
+    "impacts": {
+      "operator": "Qualifier les infrastructures et déclarer à la base européenne selon le périmètre et le seuil prévus."
+    }
+  },
+  {
+    "id": "lt-dc-energy-2025",
+    "scope": "national",
+    "countries": [
+      "LT"
+    ],
+    "date": "2025-10-01",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "effective",
+    "title": "Obligations des propriétaires et exploitants de centres de données",
+    "summary": "L’article 16 de la loi lituanienne sur l’amélioration de l’efficacité énergétique encadre la publication annuelle des informations et la transmission à la base européenne.",
+    "sourceIds": [
+      "e-tar-lt-6d74f115",
+      "e-tar-lt-95b79ceb"
+    ],
+    "impacts": {
+      "operator": "Contrôler les critères d’assujettissement et l’articulation avec le règlement européen."
+    }
+  },
+  {
+    "id": "bg-energy-reporting-2025",
+    "scope": "national",
+    "countries": [
+      "BG"
+    ],
+    "date": "2025-06-10",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "effective",
+    "title": "Publication des indicateurs et bonnes pratiques d’efficacité",
+    "summary": "L’article 70a impose une publication annuelle au-delà de 500 kW de puissance IT selon la définition nationale, avec exceptions. À partir de 1 MW, propriétaires et exploitants doivent prendre en compte les bonnes pratiques européennes.",
+    "sourceIds": [
+      "dker-bg-46a2457c",
+      "magistrat-bg-0b7b98db"
+    ],
+    "effectiveFrom": "2025-06-10"
+  },
+  {
+    "id": "hu-dc-reporting-2024",
+    "scope": "national",
+    "countries": [
+      "HU"
+    ],
+    "date": "2024",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Déclaration hongroise à la base européenne",
+    "summary": "La loi modificative LXXXVII de 2024 introduit l’article 21/F dans la loi sur l’efficacité énergétique. Les propriétaires ou exploitants des sites d’au moins 500 kW de puissance IT installée doivent déclarer leurs indicateurs de l’année précédente à la base européenne au plus tard le 15 mai.",
+    "sourceIds": [
+      "njt-jog-gov-hu-24a0e5a6",
+      "njt-jog-gov-hu-84493f53"
+    ]
+  },
+  {
+    "id": "mt-ln271-data-centres-2025",
+    "scope": "national",
+    "countries": [
+      "MT"
+    ],
+    "date": "2025",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Règlement maltais sur le reporting de durabilité",
+    "summary": "Le Legal Notice 271 de 2025 définit les obligations de reporting des centres de données, avec des informations sur la capacité, le trafic, la consommation et la performance. Il transpose également la disposition européenne sur la récupération de chaleur pour les installations concernées.",
+    "sourceIds": [
+      "legislation-mt-cf4df90c",
+      "legislation-mt-5b74ec6a"
+    ]
+  },
+  {
+    "id": "cy-dc-energy-order-2025",
+    "scope": "national",
+    "countries": [
+      "CY"
+    ],
+    "date": "2025-03-21",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Ordonnance chypriote sur les performances des centres de données",
+    "summary": "L’ordonnance 83/2025 précise les obligations des propriétaires et exploitants des sites d’au moins 500 kW de puissance IT installée, ainsi que les exigences minimales de suivi et de publication des performances.",
+    "sourceIds": [
+      "gov-cy-cd1767ee"
+    ]
+  },
+  {
+    "id": "si-green-procurement-pue-2025",
+    "scope": "national",
+    "countries": [
+      "SI"
+    ],
+    "date": "2025-06-17",
+    "topics": [
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Critère de PUE dans la commande publique verte",
+    "summary": "La modification du règlement sur la commande publique verte introduit notamment un PUE maximal de 1,5 pour la construction d’un nouveau data center ou la rénovation complète d’un data center existant, dans le champ des marchés concernés.",
+    "sourceIds": [
+      "uradni-list-si-18b9daea",
+      "zakonodaja-ulinfotok-si-0089ad86"
+    ],
+    "impacts": {
+      "operator": "Intégrer la preuve prévue par le règlement pour les marchés publics concernés."
+    }
+  },
+  {
+    "id": "tr-hit-data-centre-2025",
+    "scope": "national",
+    "countries": [
+      "TR"
+    ],
+    "date": "2025-10-17",
+    "topics": [
+      "planning",
+      "sovereignty"
+    ],
+    "stage": "published",
+    "title": "Appel à investissements HIT pour les centres de données",
+    "summary": "Le programme turc HIT-30 a lancé un appel de soutien aux projets de centres de données d’au moins 30 MW de capacité IT, dont au moins la moitié compatible IA. Il s’agit de critères d’éligibilité à un soutien à l’investissement.",
+    "sourceIds": [
+      "euas-gov-tr-e08610e7",
+      "sanayi-gov-tr-e3e6c547"
+    ],
+    "impacts": {
+      "operator": "Vérifier les seuils et les conditions de l’appel pour solliciter le soutien."
+    }
+  },
+  {
+    "id": "ua-cloud-data-centres-bill",
+    "scope": "national",
+    "countries": [
+      "UA"
+    ],
+    "date": "2025",
+    "topics": [
+      "sovereignty"
+    ],
+    "stage": "announced",
+    "title": "Projet de loi sur le cloud et les services de centres de données",
+    "summary": "La fiche du gouvernement ukrainien identifie un projet de modification de plusieurs lois encadrant les services cloud et les services de centres de traitement de données.",
+    "sourceIds": [
+      "kmu-gov-ua-9e934fb0"
+    ]
+  },
+  {
+    "id": "ru-data-centre-registry-2025",
+    "scope": "national",
+    "countries": [
+      "RU"
+    ],
+    "date": "2025-07-23",
+    "topics": [
+      "sovereignty",
+      "transparency"
+    ],
+    "stage": "published",
+    "title": "Cadre fédéral pour un registre des centres de données",
+    "summary": "La loi fédérale 244‑FZ modifie le droit des communications et prévoit un registre des centres de traitement de données. Les modalités opérationnelles relèvent des textes d’application.",
+    "sourceIds": [
+      "base-garant-ru-d31e4bb6",
+      "consultant-ru-73b27136"
+    ]
+  },
+  {
+    "id": "ch-zurich-waste-heat",
+    "scope": "territorial",
+    "countries": [
+      "CH"
+    ],
+    "date": "2023",
+    "topics": [
+      "environment"
+    ],
+    "stage": "published",
+    "title": "Zurich — valorisation de la chaleur dans le cadre cantonal",
+    "summary": "La fiche du canton de Zurich explique comment les articles de l’ordonnance cantonale sur les constructions s’appliquent aux centres de données, notamment la valorisation de la chaleur disponible selon les conditions techniques et économiques.",
+    "sourceIds": [
+      "zh-ch-676f23c0",
+      "zh-ch-942bedff"
+    ],
+    "territory": "Canton de Zurich"
+  },
+  {
+    "id": "nl-amsterdam-plan-2026",
+    "scope": "territorial",
+    "countries": [
+      "NL"
+    ],
+    "date": "2026-09-16",
+    "topics": [
+      "planning"
+    ],
+    "stage": "published",
+    "title": "Amsterdam — modification du plan d’urbanisme des data centers",
+    "summary": "La ville a publié une modification de son plan d’urbanisme thématique sur les centres de données, dans le prolongement du cadre d’implantation municipal 2020–2030. Le zonage et les règles sont à vérifier à l’échelle du projet.",
+    "sourceIds": [
+      "zoek-officielebekendmakingen-nl-21e4d30b",
+      "zoek-officielebekendmakingen-nl-11154bb7"
+    ],
+    "territory": "Amsterdam"
+  },
+  {
+    "id": "eu-minimum-standards-consultation-2026",
+    "scope": "eu",
+    "countries": [],
+    "date": "2026-09-21",
+    "topics": [
+      "environment",
+      "transparency"
+    ],
+    "stage": "consultation",
+    "title": "Consultation européenne sur les normes minimales de performance",
+    "summary": "La Commission consulte sur des normes minimales de performance pour les centres de données. La consultation alimente les travaux préparatoires d’une proposition législative annoncée pour le deuxième trimestre 2027.",
+    "sourceIds": [
+      "energy-ec-europa-eu-e0283f2a",
+      "eu-minimum-standards"
+    ],
+    "milestone": "Clôture de la consultation le 14 décembre 2026.",
+    "impacts": {
+      "operator": "Suivre les métriques et seuils envisagés."
+    }
+  },
+  {
+    "id": "gr-environment-category-b-2025",
+    "scope": "national",
+    "countries": [
+      "GR"
+    ],
+    "date": "2025-07-29",
+    "topics": [
+      "environment",
+      "planning"
+    ],
+    "stage": "published",
+    "title": "Prescriptions environnementales standardisées pour la catégorie B",
+    "summary": "La décision ministérielle conjointe publiée au Journal officiel B 4095/2025 fixe les prescriptions environnementales standard applicables aux centres de données classés en catégorie B.",
+    "sourceIds": [
+      "ggb-gr-c739e9ae",
+      "ggb-gr-23cacc64"
+    ],
+    "impacts": {
+      "operator": "Vérifier la catégorie du projet et intégrer les prescriptions applicables."
+    }
+  },
+  {
+    "id": "ro-anre-connection-procedures-2026",
+    "scope": "national",
+    "countries": [
+      "RO"
+    ],
+    "date": "2026-11-09",
+    "topics": [
+      "grid"
+    ],
+    "stage": "published",
+    "title": "Démarches générales de raccordement au réseau public",
+    "summary": "L’ANRE publie un parcours de raccordement des utilisateurs au réseau et renvoie au cadre général de l’ordonnance 59/2013. Les démarches peuvent servir de point de départ aux projets de data centers.",
+    "sourceIds": [
+      "anre-ro-af9ad469",
+      "distributie-energie-ro-fa8829a0"
+    ],
+    "impacts": {
+      "operator": "Identifier le gestionnaire compétent et la procédure correspondant au site."
+    }
+  },
+  {
+    "id": "fi-fingrid-large-loads-2026",
+    "scope": "national",
+    "countries": [
+      "FI"
+    ],
+    "date": "2026-06-12",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "stage": "effective",
+    "title": "Exigences immédiates pour les grandes charges raccordées directement à Fingrid",
+    "summary": "Fingrid applique des exigences techniques supplémentaires aux grandes charges raccordées directement à son réseau de transport. Le code KJV2026 soumis à consultation prévoit d’étendre ces exigences aux installations concernées raccordées via les réseaux de distribution après confirmation.",
+    "sourceIds": [
+      "fingrid-fi-34883113",
+      "fingrid-fi-34b81a22"
+    ],
+    "effectiveFrom": "2026-06-12",
+    "actorIds": [
+      "fi-fingrid"
+    ],
+    "impacts": {
+      "operator": "Vérifier les exigences de commande de puissance et de tenue aux perturbations dès la conception."
+    }
+  },
+  {
+    "id": "sk-efficiency-bill-2026",
+    "scope": "national",
+    "countries": [
+      "SK"
+    ],
+    "date": "2026-08-28",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "stage": "announced",
+    "title": "Projet slovaque de loi sur l’efficacité énergétique",
+    "summary": "Le projet transmis au Parlement prévoit notamment l’enregistrement des exploitants des data centers dont la puissance IT installée dépasse 500 kW. Le dispositif est présenté au stade du dépôt parlementaire.",
+    "sourceIds": [
+      "nrsr-sk-d98b5147",
+      "nrsr-sk-4b4c5551"
     ]
   }
 ]

@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-11-24",
+    "title": "Extension documentaire des fiches pays",
+    "summary": "Ajout de textes, procédures de raccordement, projets et acteurs. Les références nationales, territoriales et européennes sont identifiées dans les fiches."
+  },
+  {
+    "date": "2026-11-24",
     "title": "Création du socle documentaire",
     "summary": "Migration des cinq fiches nationales et ajout du cadre de l’Union européenne et de la première campagne documentée."
   }

@@ -2,12 +2,21 @@
   {
     "code": "AD",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "summary": "Andorra Telecom publie les appels d’offres et marchés liés à ses équipements de data center.",
+    "contextSourceIds": [
+      "transparencia-andorratelecom-com-a71afc2d"
+    ]
   },
   {
     "code": "AL",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "summary": "L’Agence nationale albanaise de la société de l’information coordonne les systèmes publics. La Banque mondiale documente la modernisation du socle numérique dans le programme GovTech.",
+    "contextSourceIds": [
+      "interoperable-europe-ec-europa-eu-bd9310fe",
+      "documents1-worldbank-org-efb50796"
+    ]
   },
   {
     "code": "AT",
@@ -22,7 +31,8 @@
   {
     "code": "BE",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "summary": "La CREG a durci le traitement des demandes de raccordement au transport. La période transitoire d’Elia court jusqu’en mars 2027."
   },
   {
     "code": "BG",
@@ -32,7 +42,11 @@
   {
     "code": "BY",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "summary": "Un projet de centre national beCloud à Kolodichtchi a été documenté par la presse spécialisée en 2016.",
+    "contextSourceIds": [
+      "datacenterdynamics-com-baf3155b"
+    ]
   },
   {
     "code": "CH",
@@ -52,12 +66,17 @@
   {
     "code": "DE",
     "euMember": true,
-    "priority": true
+    "priority": true,
+    "summary": "L’EnEfG fixe des exigences d’efficacité et de réutilisation de chaleur. Les gestionnaires de transport ont publié des attentes techniques communes pour le raccordement.",
+    "contextSourceIds": [
+      "netztransparenz-de-87be5989"
+    ]
   },
   {
     "code": "DK",
     "euMember": true,
-    "priority": true
+    "priority": true,
+    "summary": "Après la pause de mars 2026, Energinet a repris les attributions selon un nouveau modèle de priorisation. Certaines catégories restent contraintes."
   },
   {
     "code": "EE",
@@ -72,22 +91,30 @@
   {
     "code": "FI",
     "euMember": true,
-    "priority": true
+    "priority": true,
+    "summary": "L’accise électrique est au taux général depuis juillet 2026. Fingrid applique des exigences pour les grandes charges raccordées à son réseau et prépare leur extension."
   },
   {
     "code": "FR",
     "euMember": true,
-    "priority": true
+    "priority": true,
+    "summary": "Le statut de projet d’intérêt national majeur ouvre une voie d’implantation. La récupération de chaleur à partir de 1 MW est encadrée par décret et RTE prépare une nouvelle gestion des demandes.",
+    "contextSourceIds": [
+      "legifrance-gouv-fr-a1a5879f",
+      "rte-france-com-068f59e6"
+    ]
   },
   {
     "code": "GB",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "summary": "Ofgem et le gouvernement réforment en Grande-Bretagne le traitement des demandes de raccordement, dont celles des data centers."
   },
   {
     "code": "GR",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "summary": "L’exploitation relève d’une notification spécifique auprès de l’autorité régionale selon le cadre national."
   },
   {
     "code": "HR",
@@ -112,12 +139,17 @@
   {
     "code": "IT",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "summary": "Une procédure unique est prévue pour les projets concernés. Un guide traite l’évaluation des installations dotées de groupes de secours de forte puissance."
   },
   {
     "code": "LI",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "summary": "L’AELE suit l’examen du règlement européen de reporting pour son incorporation à l’accord EEE.",
+    "contextSourceIds": [
+      "efta-int-c1df4129"
+    ]
   },
   {
     "code": "LT",
@@ -152,7 +184,11 @@
   {
     "code": "MK",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "summary": "L’agence publique d’investissement présente les centres de données comme un secteur d’implantation en Macédoine du Nord.",
+    "contextSourceIds": [
+      "investnorthmacedonia-gov-mk-98dad4ac"
+    ]
   },
   {
     "code": "MT",
@@ -162,27 +198,38 @@
   {
     "code": "NL",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "summary": "L’implantation des très grands hyperscales est limitée par une règle nationale de zonage. Amsterdam dispose également d’un cadre local."
   },
   {
     "code": "NO",
     "euMember": false,
-    "priority": true
+    "priority": true,
+    "summary": "Statnett a suspendu les nouvelles réservations de capacité pour les data centers. Le gouvernement prépare un régime de licences.",
+    "contextSourceIds": [
+      "no-statnett-2026-1"
+    ]
   },
   {
     "code": "PL",
     "euMember": true,
-    "priority": true
+    "priority": true,
+    "summary": "La réforme générale du raccordement de 2026 est documentée, ainsi que les obligations européennes de reporting."
   },
   {
     "code": "PT",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "summary": "Le dispositif d’allocation des capacités en zone de forte demande s’étend à la partie continentale couverte par le réseau public."
   },
   {
     "code": "RO",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "summary": "L’ANRE publie les étapes du raccordement des utilisateurs et les textes applicables au réseau public.",
+    "contextSourceIds": [
+      "anre-ro-af9ad469"
+    ]
   },
   {
     "code": "RS",
@@ -197,7 +244,8 @@
   {
     "code": "SE",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "summary": "L’allègement de taxe énergétique sur l’électricité consommée par les data centers a pris fin en 2023."
   },
   {
     "code": "SI",
@@ -207,7 +255,11 @@
   {
     "code": "SK",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "summary": "L’agence slovaque de l’énergie publie les instructions de reporting pour les data centers concernés par le cadre européen.",
+    "contextSourceIds": [
+      "siea-sk-5408e7a4"
+    ]
   },
   {
     "code": "SM",
@@ -227,7 +279,11 @@
   {
     "code": "VA",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "summary": "Le Centre informatique de la Bibliothèque apostolique vaticane soutient la numérisation et la conservation de ses collections.",
+    "contextSourceIds": [
+      "vaticanlibrary-va-1445e493"
+    ]
   },
   {
     "code": "XK",

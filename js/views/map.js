@@ -85,7 +85,7 @@ export function createMap(atlas, state, selectCountry) {
         signal = atlas.filter(state, atlas.data.regulations, code).find(row => radarStages.includes(row.stage));
         if (signal) color = 'covered';
       } else if (state.mode === 'regulation') {
-        const rows = atlas.filter(state, atlas.data.regulations, code).filter(row => row.scope === 'national');
+        const rows = atlas.filter(state, atlas.data.regulations, code).filter(row => row.scope !== 'eu');
         signal = rows.find(row => ['effective', 'temporary', 'published'].includes(row.stage)) ?? rows[0];
         const cutoff = state.year ? state.year + '-12-31' : atlas.latestRevision;
         const activeTemporary = rows.some(row => row.stage === 'temporary' && (!row.effectiveUntil || row.effectiveUntil >= cutoff));
@@ -109,7 +109,7 @@ export function createMap(atlas, state, selectCountry) {
       path.setAttribute('aria-pressed', String(selected));
     }
     const description = {
-      regulation: ['covered','Signal national documenté'],
+      regulation: ['covered','Signal national ou territorial documenté'],
       radar: ['covered','Évolution à suivre, nationale ou européenne'],
       contests: ['covered','Événement documenté'],
       similarities: ['related','Mécanisme national comparable'],

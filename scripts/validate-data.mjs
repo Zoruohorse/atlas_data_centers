@@ -31,9 +31,10 @@ const campaignIds = ids('campaigns');
 const actorIds = ids('actors');
 const topics = new Set(Object.keys(data.taxonomy.topics));
 
-for (const {code, euMember, priority} of data.countries) {
+for (const {code, euMember, priority, contextSourceIds} of data.countries) {
   assert(/^[A-Z]{2}$/.test(code), 'Code pays invalide');
   assert(typeof euMember === 'boolean' && typeof priority === 'boolean', code + ' doit qualifier le périmètre');
+  if (contextSourceIds) references(contextSourceIds, atlas.sources, code + ' · sources de contexte', 1);
 }
 references(Object.keys(geo.paths), atlas.countries, 'Tracés géographiques', 1);
 references(Object.keys(geo.labels), new Set(Object.keys(geo.paths)), 'Libellés géographiques');
@@ -54,8 +55,9 @@ for (const name of ['regulations', 'actors', 'events', 'campaigns', 'relations']
   }
 }
 for (const row of data.regulations) {
-  assert(['eu','national'].includes(row.scope), row.id + ' · périmètre invalide');
+  assert(['eu','national','territorial'].includes(row.scope), row.id + ' · périmètre invalide');
   assert(row.scope === 'eu' ? !row.countries.length : row.countries.length === 1, row.id + ' · renseigner le territoire');
+  if (row.scope === 'territorial') required(row.territory, row.id + ' · territoire');
   assert(Object.hasOwn(data.taxonomy.stages, row.stage), row.id + ' · stade inconnu');
   assert(row.sourceIds.some(id => atlas.sources.get(id).type === 'primary'), row.id + ' · source primaire requise');
   if (row.effectiveFrom) validDate(row.effectiveFrom, row.id);

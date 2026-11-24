@@ -48,5 +48,284 @@
       "sddc-announcement"
     ],
     "campaignId": "sddc-nov-2026"
+  },
+  {
+    "id": "pl-microsoft-investment-2025",
+    "date": "2025-02-17",
+    "type": "project",
+    "title": "Annonce d’un investissement Microsoft dans les infrastructures cloud et IA",
+    "summary": "Le gouvernement polonais a annoncé un programme d’investissement de près de 3 milliards de zlotys annoncé avec Microsoft, couvrant des infrastructures de centres de données ainsi que des activités liées à l’IA.",
+    "countries": [
+      "PL"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "gov-pl-f058d5ef"
+    ]
+  },
+  {
+    "id": "fi-hamina-land-2026",
+    "date": "2026-09-14",
+    "type": "project",
+    "title": "Google acquiert des terrains supplémentaires à Hamina",
+    "summary": "Google et la ville ont signé un acte de vente pour des terrains destinés à une extension éventuelle des activités du centre de données.",
+    "countries": [
+      "FI"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "hamina-fi-972bdd85"
+    ],
+    "territory": "Hamina"
+  },
+  {
+    "id": "dk-odense-data-heat",
+    "date": "2017",
+    "type": "project",
+    "title": "Data center de Meta et valorisation de chaleur à Odense",
+    "summary": "La municipalité a annoncé l’implantation de Facebook, devenu Meta, en 2017. Un document municipal de 2022 revient sur les investissements locaux en lien avec la valorisation de la chaleur de l’installation.",
+    "countries": [
+      "DK"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "odense-dk-1260fefe",
+      "dagsordener-odense-dk-e31f729c"
+    ],
+    "territory": "Odense"
+  },
+  {
+    "id": "es-aragon-aws",
+    "date": "2026-04-07",
+    "type": "project",
+    "title": "Programme régional d’implantation d’AWS en Aragon",
+    "summary": "L’arrêté PEJ/523/2026 publie la décision du gouvernement d’Aragon reconnaissant l’intérêt régional du programme de consolidation AWS. Le plan prévoit trois campus dans les provinces de Huesca, Teruel et Saragosse.",
+    "countries": [
+      "ES"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "aragon-es-05abf408",
+      "aragon-es-a1a8ecfb"
+    ],
+    "territory": "Aragon"
+  },
+  {
+    "id": "is-borealis-ppa-2026",
+    "date": "2026-06-23",
+    "type": "project",
+    "title": "Accord de fourniture pour l’extension du campus de Blönduós",
+    "summary": "Landsvirkjun et Borealis ont annoncé un accord d’achat d’électricité de 12 MW lié à la croissance du campus islandais. Le contrat illustre un montage d’approvisionnement propre à ce projet.",
+    "countries": [
+      "IS"
+    ],
+    "topics": [
+      "territory",
+      "supply"
+    ],
+    "sourceIds": [
+      "landsvirkjun-com-805ed243"
+    ],
+    "territory": "Blönduós",
+    "actorIds": [
+      "is-landsvirkjun"
+    ]
+  },
+  {
+    "id": "is-atnorth-ppa-2025",
+    "date": "2025-09-02",
+    "type": "project",
+    "title": "Accord ferme de fourniture à Akureyri",
+    "summary": "Landsvirkjun et atNorth ont annoncé un contrat ferme jusqu’à 12 MW sur cinq ans, à partir du second semestre 2026.",
+    "countries": [
+      "IS"
+    ],
+    "topics": [
+      "territory",
+      "supply"
+    ],
+    "sourceIds": [
+      "landsvirkjun-com-e9b6287e"
+    ],
+    "territory": "Akureyri",
+    "actorIds": [
+      "is-landsvirkjun"
+    ]
+  },
+  {
+    "id": "ee-greenergy-opening-2022",
+    "date": "2022-02-18",
+    "type": "project",
+    "title": "Ouverture d’un centre Greenergy près de Tallinn",
+    "summary": "Greenergy a ouvert son premier data center estonien aux clients en février 2022, selon son rapport annuel.",
+    "countries": [
+      "EE"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "regia-ee-be74b3f7",
+      "datacenterdynamics-com-3c57a7b2"
+    ],
+    "territory": "Région de Tallinn"
+  },
+  {
+    "id": "lu-luxconnect-reuse-2026",
+    "date": "2026-03-24",
+    "type": "project",
+    "title": "LuxConnect installe un système de récupération de chaleur",
+    "summary": "LuxConnect annonce l’achèvement des équipements du centre DC1.3 destinés à alimenter en chaleur son futur bâtiment de bureaux.",
+    "countries": [
+      "LU"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "old-luxconnect-lu-49947ada"
+    ]
+  },
+  {
+    "id": "rs-kragujevac-government-2020",
+    "date": "2020-12-18",
+    "type": "project",
+    "title": "Ouverture du centre de données d’État de Kragujevac",
+    "summary": "La Serbie a inauguré une infrastructure d’État destinée à l’hébergement de données et de services. Le dossier du projet documente aussi les installations et les travaux du site.",
+    "countries": [
+      "RS"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "srbija-gov-rs-c055f13f",
+      "ite-gov-rs-15f586f7"
+    ],
+    "territory": "Kragujevac"
+  },
+  {
+    "id": "ba-government-data-centre-2025",
+    "date": "2025",
+    "type": "context",
+    "title": "Cartographie des infrastructures de données publiques",
+    "summary": "Une étude de la Banque mondiale identifie un centre de données au niveau central et documente les lacunes et disparités des capacités d’hébergement entre niveaux administratifs.",
+    "countries": [
+      "BA"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "documents1-worldbank-org-3a8a91e6"
+    ]
+  },
+  {
+    "id": "me-government-cloud-2026",
+    "date": "2026",
+    "type": "context",
+    "title": "État des centres de données et de reprise gouvernementaux",
+    "summary": "Le ministère de l’Administration publique indique exploiter un centre de données et une infrastructure de reprise hébergeant des systèmes gouvernementaux sur un cloud privé commun.",
+    "countries": [
+      "ME"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "wapi-gov-me-0d2232ae"
+    ]
+  },
+  {
+    "id": "md-mcloud-storage-2025",
+    "date": "2025-12-23",
+    "type": "project",
+    "title": "Modernisation du stockage du cloud public MCloud",
+    "summary": "Le bilan de l’Agence de gouvernance électronique indique la mise en place d’une solution de stockage pour l’infrastructure publique partagée MCloud.",
+    "countries": [
+      "MD"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "egov-md-02d82f58"
+    ]
+  },
+  {
+    "id": "xk-state-data-centre-2026",
+    "date": "2026",
+    "type": "context",
+    "title": "Centre de données d’État et services publics numériques",
+    "summary": "La Banque mondiale identifie le centre de données d’État comme l’un des socles du programme de modernisation numérique des services publics.",
+    "countries": [
+      "XK"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "documents1-worldbank-org-45affef0",
+      "worldbank-org-cf740f73"
+    ]
+  },
+  {
+    "id": "sm-public-data-centre-2026",
+    "date": "2026-03-04",
+    "type": "project",
+    "title": "Cahier des charges pour un nouveau centre de données public",
+    "summary": "L’administration de Saint-Marin a publié un cahier des charges relatif à un nouveau centre de données et à la continuité d’activité. Il documente un projet public au stade de l’appel d’offres.",
+    "countries": [
+      "SM"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "gov-sm-80bbc385"
+    ]
+  },
+  {
+    "id": "mc-sovereign-cloud-2021",
+    "date": "2021",
+    "type": "project",
+    "title": "Lancement du cloud souverain monégasque",
+    "summary": "Dans le programme Extended Monaco, la Principauté a lancé un opérateur de cloud souverain et décrit son infrastructure dans le dossier public du projet.",
+    "countries": [
+      "MC"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "gouv-mc-1325aa0d",
+      "gouv-mc-e99a18c0"
+    ]
+  },
+  {
+    "id": "no-stargate-announcement-2025",
+    "date": "2025-07-31",
+    "type": "project",
+    "title": "Annonce du projet Stargate Norway à Narvik",
+    "summary": "Aker et Nscale ont présenté un projet de centre de calcul pour l’IA à Narvik. Le gouvernement norvégien a indiqué vouloir examiner les possibilités offertes aux acteurs norvégiens de l’IA.",
+    "countries": [
+      "NO"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "regjeringen-no-ce47489e",
+      "openai-com-6a25e4b8"
+    ],
+    "territory": "Narvik"
   }
 ]

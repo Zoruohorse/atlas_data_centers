@@ -43,7 +43,7 @@ export function article(atlas, record) {
   const metadata = [
     record.date && formatDate(record.date), stages[record.stage],
     record.scope === 'eu' && 'Union européenne',
-    record.territory, relations[record.type] || record.actorType,
+    record.territory, relations[record.type] || atlas.data.taxonomy.eventTypes?.[record.type] || record.actorType,
   ].filter(Boolean).join(' · ');
   if (metadata) node.append(element('div', metadata, 'meta'));
   node.append(element('strong', record.title, 'article-title'), element('p', record.summary));

@@ -68,5 +68,61 @@
     "kind": "mandatory",
     "mechanism": "eu-reporting",
     "detail": "Déclaration harmonisée à partir de 500 kW de puissance informatique installée."
+  },
+  {
+    "criterionId": "tax",
+    "regulationId": "fi-electricity-tax-2026",
+    "kind": "mandatory",
+    "mechanism": "abolished-reduced-electricity-tax",
+    "detail": "Passage de la classe réduite II au taux général I le 1ᵉʳ juillet 2026."
+  },
+  {
+    "criterionId": "maturity",
+    "regulationId": "be-creg-3027-2026",
+    "kind": "procedure",
+    "mechanism": "project-maturity-screening",
+    "detail": "Contrôle de la maturité des demandes par la procédure du réseau de transport."
+  },
+  {
+    "criterionId": "territorial-moratorium",
+    "regulationId": "nl-hyperscale-bkl-2024",
+    "kind": "mandatory",
+    "mechanism": "hyperscale-siting-restriction",
+    "detail": "Restriction nationale sur les hyperscales de plus de 10 ha et d’au moins 70 MW, avec zones désignées."
+  },
+  {
+    "criterionId": "tax",
+    "regulationId": "se-electricity-tax-2023",
+    "kind": "mandatory",
+    "mechanism": "abolished-reduced-electricity-tax",
+    "detail": "Suppression de la déduction ou du remboursement sectoriel en juillet 2023."
+  },
+  {
+    "criterionId": "strategic-permit",
+    "regulationId": "it-single-permit-2026",
+    "kind": "procedure",
+    "mechanism": "single-data-centre-permit",
+    "detail": "Procédure unique spécifique aux centres de données concernés par l’article 8 du décret-loi 21/2026."
+  },
+  {
+    "criterionId": "heat",
+    "regulationId": "fr-heat-2025",
+    "kind": "mandatory",
+    "mechanism": "heat-reuse",
+    "detail": "Principe de valorisation à partir de 1 MW de puissance installée, avec modalités et dérogations réglementaires."
+  },
+  {
+    "criterionId": "maturity",
+    "regulationId": "dk-2026-capacity-priority",
+    "kind": "procedure",
+    "mechanism": "project-maturity-screening",
+    "detail": "Priorisation par catégories tenant compte du caractère critique et de la maturité du projet."
+  },
+  {
+    "criterionId": "heat",
+    "regulationId": "fr-heat-decree-2025",
+    "kind": "mandatory",
+    "mechanism": "heat-reuse",
+    "detail": "À partir de 1 MW installé par SIRET, ERF d’au moins 0,20 pour satisfaire le critère, hors dérogation."
   }
 ]

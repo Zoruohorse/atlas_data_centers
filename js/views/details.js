@@ -1,11 +1,11 @@
 import {radarStages} from '../model.js';
-import {article, button, countryName, element, formatDate, renderList} from '../ui.js';
+import {article, button, countryName, element, formatDate, links, renderList} from '../ui.js';
 import {renderComparison} from './comparison.js';
 
 export const modes = {
   regulation: 'Réglementation',
   similarities: 'Similarités',
-  contests: 'Contestations',
+  contests: 'Projets et contestations',
   influences: 'Influences',
   radar: 'Radar',
 };
@@ -21,7 +21,16 @@ function renderRules(target, atlas, state, rows) {
   const national = rows.filter(row => row.scope === 'national' && !radarStages.includes(row.stage));
   target.append(element('h3', 'Historique national'));
   renderList(target, atlas, national, 'Aucune règle nationale renseignée pour cette sélection.');
-  if (!atlas.countries.get(state.country).euMember) return;
+  const territorial = rows.filter(row => row.scope === 'territorial' && !radarStages.includes(row.stage));
+  if (territorial.length) {
+    target.append(element('h3', 'Règles territoriales'));
+    renderList(target, atlas, territorial);
+  }
+  const {euMember, contextSourceIds} = atlas.countries.get(state.country);
+  if (!state.year && !state.topic && contextSourceIds?.length) {
+    target.append(element('h3', 'Sources de contexte'), links(atlas, contextSourceIds));
+  }
+  if (!euMember) return;
   target.append(element('h3', 'Cadre de l’Union européenne'));
   renderList(target, atlas, rows.filter(row => row.scope === 'eu' && !radarStages.includes(row.stage)));
 }
@@ -101,9 +110,12 @@ export function renderDetails(target, atlas, state, actions) {
   close.setAttribute('aria-label', 'Fermer la fiche pays');
   const info = atlas.countries.get(state.country);
   const national = atlas.filter(state, atlas.data.regulations, state.country).filter(row => row.scope === 'national');
-  const subtitle = info.summary || (national.length
-    ? 'Dernier signal national · ' + national[0].title
-    : 'Couverture réglementaire nationale à compléter.');
+  const subnational = atlas.filter(state, atlas.data.regulations, state.country).find(row => row.scope === 'territorial');
+  const latestEvent = atlas.filter(state, atlas.data.events, state.country)[0];
+  const fallback = subnational ? 'Repère territorial · ' + subnational.title
+    : latestEvent ? 'Événement documenté · ' + latestEvent.title : 'Couverture réglementaire nationale à compléter.';
+  const subtitle = (!state.year && !state.topic && info.summary)
+    || (national.length ? 'Dernier signal national · ' + national[0].title : fallback);
   target.append(close, element('h2', countryName(state.country)), element('p', subtitle, 'muted'));
 
   const navigation = element('nav', '', 'tabs');

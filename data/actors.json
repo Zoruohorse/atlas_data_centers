@@ -57,5 +57,126 @@
     "sourceIds": [
       "sddc-announcement"
     ]
+  },
+  {
+    "id": "fi-fingrid",
+    "name": "Fingrid",
+    "type": "Gestionnaire de transport",
+    "countries": [
+      "FI"
+    ],
+    "summary": "Élabore les spécifications de raccordement des installations de consommation.",
+    "sourceIds": [
+      "fingrid-fi-34b81a22"
+    ]
+  },
+  {
+    "id": "dk-energinet",
+    "name": "Energinet",
+    "type": "Gestionnaire de transport",
+    "countries": [
+      "DK"
+    ],
+    "summary": "Instruit les grands raccordements au réseau de transport et réévalue sa capacité disponible.",
+    "sourceIds": [
+      "dinel-dk-fbf8ba95"
+    ]
+  },
+  {
+    "id": "pl-ure",
+    "name": "Urząd Regulacji Energetyki (URE)",
+    "type": "Régulateur",
+    "countries": [
+      "PL"
+    ],
+    "summary": "Publie le référentiel législatif et réglementaire de l’énergie en Pologne.",
+    "sourceIds": [
+      "ure-gov-pl-bb1e66ab"
+    ]
+  },
+  {
+    "id": "be-creg",
+    "name": "CREG",
+    "type": "Régulateur",
+    "countries": [
+      "BE"
+    ],
+    "summary": "Fixe notamment les conditions de raccordement et d’accès au réseau fédéral de transport.",
+    "sourceIds": [
+      "creg-be-044041ac"
+    ]
+  },
+  {
+    "id": "be-elia",
+    "name": "Elia Transmission Belgium",
+    "type": "Gestionnaire de transport",
+    "countries": [
+      "BE"
+    ],
+    "summary": "Traite les demandes d’étude et de réservation de capacité sur le réseau de transport.",
+    "sourceIds": [
+      "creg-be-923eeeaf"
+    ]
+  },
+  {
+    "id": "pt-erse",
+    "name": "ERSE",
+    "type": "Régulateur",
+    "countries": [
+      "PT"
+    ],
+    "summary": "Réglemente l’attribution exceptionnelle de capacité de raccordement en zone de forte demande.",
+    "sourceIds": [
+      "diariodarepublica-pt-9632d4f6"
+    ]
+  },
+  {
+    "id": "gb-ofgem",
+    "name": "Ofgem",
+    "type": "Régulateur",
+    "countries": [
+      "GB"
+    ],
+    "summary": "Pilote, avec le gouvernement et NESO, la réforme des raccordements de la consommation en Grande-Bretagne.",
+    "sourceIds": [
+      "ofgem-gov-uk-fe0b3991"
+    ]
+  },
+  {
+    "id": "no-statnett",
+    "name": "Statnett",
+    "type": "Gestionnaire de transport",
+    "countries": [
+      "NO"
+    ],
+    "summary": "Décide des mesures de réservation de capacité nécessaires à l’exploitation sûre du réseau norvégien.",
+    "sourceIds": [
+      "no-statnett-2026-1"
+    ]
+  },
+  {
+    "id": "de-transmission-operators",
+    "name": "50Hertz, Amprion, TenneT et TransnetBW",
+    "type": "Gestionnaires de transport",
+    "countries": [
+      "DE"
+    ],
+    "summary": "Ont publié une position technique commune sur le raccordement des data centers à la haute et très haute tension.",
+    "sourceIds": [
+      "netztransparenz-de-87be5989"
+    ]
+  },
+  {
+    "id": "is-landsvirkjun",
+    "name": "Landsvirkjun",
+    "type": "Producteur d’électricité",
+    "countries": [
+      "IS"
+    ],
+    "summary": "A signé des contrats d’approvisionnement avec Borealis et atNorth pour leurs sites islandais.",
+    "sourceIds": [
+      "landsvirkjun-com-805ed243",
+      "landsvirkjun-com-e9b6287e"
+    ]
   }
 ]

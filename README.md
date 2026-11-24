@@ -19,7 +19,7 @@ Ouvrir http://localhost:8000. Le site lit des fichiers JSON via HTTP. GitHub Pag
 | `js/app.js`, `js/model.js`, `js/ui.js` | Navigation, chargement et requêtes documentaires, composants DOM |
 | `js/views/` | Carte, fiche pays et comparaison |
 | `geo/europe.json` | Tracés, coordonnées des libellés et attribution Natural Earth |
-| `data/countries.json` | Codes ISO, appartenance à l’UE, priorité et synthèse nationale facultative |
+| `data/countries.json` | Codes ISO, appartenance à l’UE, priorité, synthèse et références de contexte facultatives |
 | `data/regulations.json` | Textes et mesures, stades, dates d’effet, échéances et impacts |
 | `data/events.json`, `data/campaigns.json` | Événements structurants et campagnes transnationales |
 | `data/actors.json`, `data/relations.json` | Organisations et liens documentés |
@@ -32,7 +32,7 @@ Ouvrir http://localhost:8000. Le site lit des fichiers JSON via HTTP. GitHub Pag
 ## Ajouter une évolution
 
 1. Identifier le changement à partir de la veille, vérifier le document primaire et rechercher un commentaire utile. Réutiliser les identifiants des sources déjà présentes. Une source officielle suffit pour intégrer une décision récente.
-2. Ajouter un identifiant stable, une date documentaire et une synthèse factuelle. Utiliser `AAAA-MM-JJ` quand la date est connue et `AAAA` si seule l’année est établie. Préciser le stade, le périmètre et, s’ils sont connus, `effectiveFrom`, `effectiveUntil` ou l’échéance textuelle `milestone`. Renseigner `impacts.operator` et `impacts.grid` selon les éléments étayés. Employer `scope: "eu"` avec une liste `countries` vide pour un texte de l’Union, ou `scope: "national"` et le code du pays.
+2. Ajouter un identifiant stable, une date documentaire et une synthèse factuelle. Utiliser `AAAA-MM-JJ` quand la date est connue et `AAAA` si seule l’année est établie. Préciser le stade, le périmètre et, s’ils sont connus, `effectiveFrom`, `effectiveUntil` ou l’échéance textuelle `milestone`. Renseigner `impacts.operator` et `impacts.grid` selon les éléments étayés. Employer `scope: "eu"` avec une liste `countries` vide pour un texte de l’Union, ou `scope: "national"` et le code du pays. Pour une règle locale, utiliser `scope: "territorial"` et nommer le territoire dans `territory`.
 3. Associer les acteurs existants par `actorIds`. Pour une mobilisation transfrontalière, créer la campagne, nommer les pays étayés puis référencer son identifiant dans la relation. Pour un lien direct, préciser le type, les pays, les thèmes, la date et les sources. Une coordination, une convergence, une harmonisation et une influence explicite correspondent à des preuves différentes.
 4. Pour alimenter le comparateur, ajouter une évaluation par critère et par référence réglementaire. Réutiliser une valeur `mechanism` quand le mécanisme est de même nature. Le champ `detail` explicite les seuils et le périmètre. Les données communes de l’UE apparaissent dans le tableau. La mise en lumière des pays similaires sur la carte s’appuie sur les mesures nationales.
 5. Mettre à jour le journal, lancer le validateur et vérifier l’affichage du pays concerné. Conserver les entrées historiques et indiquer la fin d’application si elle est documentée. Pour une modification régulière, utiliser une pull request avec le delta et ses sources.
