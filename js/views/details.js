@@ -79,7 +79,7 @@ function renderFeed(target, atlas, state, actions) {
   target.append(element('h2', 'Derniers signaux'));
   target.append(element('p', 'Survolez un pays pour un aperçu ou sélectionnez-le pour ouvrir sa fiche.', 'muted'));
   const feed = atlas.filter(state, [...atlas.data.regulations, ...atlas.data.events]).slice(0, 6);
-  if (!feed.length) target.append(element('p', 'Aucun signal documenté pour cette sélection.', 'muted'));
+  if (!feed.length) target.append(element('p', 'Aucune information recensée avec ces filtres.', 'muted'));
   for (const row of feed) {
     if (row.scope === 'eu' || row.countries.length !== 1) {
       target.append(article(atlas, row));
@@ -98,7 +98,7 @@ export function renderDetails(target, atlas, state, actions) {
   target.scrollTop = 0;
   if (!state.country) {
     if (state.mode === 'regulation') return renderFeed(target, atlas, state, actions);
-    target.append(element('h2',state.mode==='radar'?'Radar réglementaire':modes[state.mode]));
+    target.append(element('h2',state.mode==='radar'?'Évolutions à venir':modes[state.mode]));
     if (state.mode === 'similarities') {
       renderComparison(target, atlas, state, state.comparison, actions.compare);
     } else if (state.mode === 'contests') {
@@ -142,7 +142,7 @@ export function renderDetails(target, atlas, state, actions) {
   if (state.tab === 'rules') {
     renderRules(target, atlas, state, regulations);
   } else if (state.tab === 'upcoming') {
-    target.append(element('h3','Radar réglementaire'));
+    target.append(element('h3','Évolutions à venir'));
     renderRadar(target,atlas,state,actions,state.country);
   } else if (state.tab === 'comparison') {
     const related = atlas.related(state);

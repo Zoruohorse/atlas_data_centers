@@ -95,7 +95,7 @@ function start(atlas) {
     state.comparison = code ? [code] : [];
     writeHash();
     render();
-    if (focus) details.focus();
+    if (focus) {details.focus({preventScroll:true});if(window.matchMedia('(max-width: 800px)').matches)details.scrollIntoView({block:'start',behavior:'auto'});}
   }
 
   function readHash() {

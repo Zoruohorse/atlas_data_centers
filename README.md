@@ -50,3 +50,7 @@ Le champ facultatif milestoneDate (ISO) indique une échéance dont le jour est 
 ## Interface V3 — lecture visuelle
 
 La feuille css/visual-atlas.css contient la nouvelle identité graphique. La carte distingue les stades documentés, non une mesure de restrictivité. Les arcs de similarité relient les pays comparés ; les campagnes et le cadre UE sont représentés par un nœud commun, sans inventer de liens bilatéraux. Une seule relation est tracée à la fois pour limiter l’encombrement. Les drapeaux utilisent les petites images de FlagCDN (avec code pays de secours) et peuvent être masqués sur la carte. Les repères nationaux ne localisent pas des projets précis. Les micro-États non dessinés restent accessibles depuis le sélecteur.
+
+## V3.1 — statuts coexistants
+
+La couleur de fond conserve le statut principal, les hachures indiquent le premier statut complémentaire, les points sous les drapeaux indiquent les autres statuts. L’infobulle liste tous les statuts recensés ; les drapeaux et les surfaces sont cliquables. Le gris signifie absence de donnée correspondant aux filtres, non absence de réglementation. « Évolutions à venir » remplace « radar réglementaire » dans l’interface.
