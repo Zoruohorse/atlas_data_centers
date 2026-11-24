@@ -18,7 +18,11 @@
     "sourceIds": [
       "es-1032-2026-1",
       "es-1032-2026-2",
-      "curebot-20261124-3"
+      "curebot-20261124-3",
+      "curebot2-20261124-4",
+      "curebot2-20261124-7",
+      "curebot2-20261124-10",
+      "curebot2-20261124-13"
     ],
     "effectiveFrom": "2026-11-22",
     "impacts": {
@@ -399,7 +403,8 @@
     "summary": "Le Besluit kwaliteit leefomgeving limite les nouveaux hyperscales dont la surface bâtie excède 10 hectares et dont le raccordement électrique atteint au moins 70 MW. Les deux critères sont cumulatifs. Les zones désignées comprennent Eemshaven et Middenmeer.",
     "sourceIds": [
       "zoek-officielebekendmakingen-nl-ee227f45",
-      "zoek-officielebekendmakingen-nl-0496d2cd"
+      "zoek-officielebekendmakingen-nl-0496d2cd",
+      "curebot2-20261124-31"
     ],
     "effectiveFrom": "2024-01-01",
     "impacts": {
@@ -599,13 +604,18 @@
     ],
     "stage": "announced",
     "title": "RTE annonce une refonte de la file de raccordement",
-    "summary": "RTE a annoncé une évolution vers une priorité fondée sur la maturité des projets (« premier prêt, premier servi »). L’annonce s’inscrit dans la réponse à l’afflux de demandes industrielles, dont celles des data centers.",
+    "summary": "RTE a annoncé une évolution vers une priorité fondée sur la maturité des projets (« premier prêt, premier servi »). L’annonce s’inscrit dans la réponse à l’afflux de demandes industrielles, dont celles des data centers. En octobre, RTE précise les engagements de maturité et de montée en charge envisagés ainsi que les modalités d’accès sans limitation en contrepartie d’engagements. La surréservation francilienne fait l’objet d’une entrée territoriale distincte.",
     "sourceIds": [
       "rte-france-com-068f59e6",
       "arec-idf-fr-6c8fc542",
       "curebot-20261124-15",
       "curebot-20261124-33",
-      "curebot-20261124-22"
+      "curebot-20261124-22",
+      "curebot2-20261124-21",
+      "curebot2-20261124-23",
+      "curebot2-20261124-28",
+      "curebot2-20261124-32",
+      "curebot2-20261124-18"
     ],
     "actorIds": [
       "fr-rte"
@@ -705,7 +715,8 @@
     "summary": "Le décret 2025-1382 applique le principe de valorisation prévu à partir de 1 MW de puissance installée. Depuis le 1ᵉʳ janvier 2026, l’exigence est réputée satisfaite si le facteur de réutilisation de l’énergie (ERF) atteint au moins 0,20, sous réserve des dispositions de dérogation.",
     "sourceIds": [
       "legifrance-gouv-fr-a1a5879f",
-      "legifrance-gouv-fr-6cf281e0"
+      "legifrance-gouv-fr-6cf281e0",
+      "curebot2-20261124-20"
     ],
     "effectiveFrom": "2026-01-01",
     "impacts": {
@@ -1205,6 +1216,64 @@
     "impacts": {
       "operator": "Suivre les futurs critères de souveraineté, d’autorisation et de durabilité.",
       "grid": "Les objectifs de développement des capacités numériques pourraient accroître les besoins de raccordement ; les modalités finales restent soumises à la procédure législative."
+    }
+  },
+  {
+    "id": "gb-data-centre-covenant-2026",
+    "scope": "national",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-10-28",
+    "stage": "announced",
+    "title": "Data Centre Covenant — soutien conditionnel aux projets stratégiques",
+    "summary": "Le gouvernement britannique annonce des critères de contribution aux coûts énergétiques, aux communautés, à l’emploi, à l’environnement et à la résilience. Les projets stratégiques satisfaisant les tests pourraient accéder à des mécanismes de réservation et de réallocation de capacité ; un cadre de production sur site temporaire est envisagé pour des projets exceptionnellement stratégiques. Les modalités et critères détaillés restent à définir.",
+    "topics": [
+      "grid",
+      "planning",
+      "power",
+      "environment",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "gb-covenant-official-2026",
+      "curebot2-20261124-17"
+    ],
+    "actorIds": [
+      "gb-ofgem"
+    ],
+    "impacts": {
+      "grid": "Priorisation ciblée, réallocation de capacités et possibilités de raccordement flexible ; suivre les garanties pour les autres usages et les conditions de mise en œuvre.",
+      "operator": "Anticiper les engagements de bénéfices locaux, de maturité, d’efficacité et de couverture des coûts."
+    }
+  },
+  {
+    "id": "fr-idf-overbooking-2026",
+    "scope": "territorial",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-15",
+    "stage": "announced",
+    "title": "Île-de-France — surréservation de capacité et réforme de la file",
+    "summary": "La mesure 16 du plan gouvernemental d’électrification annonce au moins 1 GW de capacité supplémentaire pour les projets industriels et numériques franciliens grâce à un mécanisme de surréservation. La définition des paramètres est annoncée dès mi-octobre 2026, avant une éventuelle extension à d’autres régions contraintes.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-32",
+      "curebot2-20261124-28",
+      "curebot2-20261124-21",
+      "curebot2-20261124-23"
+    ],
+    "territory": "Île-de-France",
+    "actorIds": [
+      "fr-rte"
+    ],
+    "impacts": {
+      "grid": "Objectif de libérer des capacités sans confondre demande réservée, demande simultanée et consommation effective.",
+      "operator": "Engagements financiers et visibilité sur la montée en charge à suivre ; ne pas présenter la mesure comme un droit acquis au raccordement."
     }
   }
 ]

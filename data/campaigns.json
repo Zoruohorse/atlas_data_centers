@@ -29,5 +29,49 @@
       "sddc-announcement",
       "sddc-website"
     ]
+  },
+  {
+    "id": "sddc-nov-2026-expanded",
+    "date": "2026-11-06",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "title": "Stop Dirty Data Centres — périmètre actualisé",
+    "summary": "Euronews et The Guardian rapportent plus de 100 organisations dans 15 pays. Le programme et les soutiens identifiés permettent de cartographier 13 États distincts, dont la Finlande, l’Autriche et la Croatie en plus des dix pays recensés le 2 octobre. Les deux autres pays annoncés ne sont pas attribués sans preuve suffisante ; soutien ou action programmée ne signifie pas participation constatée.",
+    "countries": [
+      "BE",
+      "DK",
+      "FR",
+      "DE",
+      "IE",
+      "IT",
+      "NL",
+      "PL",
+      "ES",
+      "GB",
+      "FI",
+      "AT",
+      "HR"
+    ],
+    "topics": [
+      "territory"
+    ],
+    "actorIds": [
+      "sddc",
+      "aprs",
+      "fr-data-for-good",
+      "fi-stop-datakeskuksille",
+      "at-birk",
+      "hr-zelena-akcija",
+      "nl-geef-tegengas",
+      "nl-fossil-free"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-2",
+      "curebot2-20261124-14",
+      "sddc-november-programme",
+      "sddc-dcd-november",
+      "sddc-guardian-november",
+      "sddc-datacenters-news-november"
+    ]
   }
 ]

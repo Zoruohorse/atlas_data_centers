@@ -9,17 +9,20 @@
       "territory"
     ],
     "title": "Google à Ozans, près de Châteauroux",
-    "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet.",
+    "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet. Selon La Nouvelle République, le 28 octobre Gil Avérous a présenté un maximum envisagé de huit bâtiments, des pistes de valorisation de chaleur, une contribution socio-économique en négociation et un suivi des températures. Ces éléments sont des annonces et propositions de l’élu, non des engagements définitifs.",
     "sourceIds": [
       "fr-ozans-2026-1",
       "fr-ozans-2026-2",
       "curebot-20261124-2",
-      "curebot-20261124-10"
+      "curebot-20261124-10",
+      "curebot2-20261124-16",
+      "curebot2-20261124-30"
     ],
     "type": "project",
     "territory": "Ozans, Indre",
     "actorIds": [
-      "fr-rte"
+      "fr-rte",
+      "fr-gil-averous"
     ],
     "impacts": {
       "grid": "La concertation couvre aussi le raccordement électrique porté par RTE."
@@ -432,7 +435,10 @@
     ],
     "sourceIds": [
       "curebot-20261124-33",
-      "curebot-20261124-22"
+      "curebot-20261124-22",
+      "curebot2-20261124-3",
+      "curebot2-20261124-33",
+      "curebot2-20261124-28"
     ],
     "territory": "Île-de-France",
     "impacts": {
@@ -493,7 +499,10 @@
       "territory"
     ],
     "sourceIds": [
-      "curebot-20261124-9"
+      "curebot-20261124-9",
+      "curebot2-20261124-11",
+      "curebot2-20261124-30",
+      "fr-ruffin-resolution-dossier-2026"
     ],
     "actorIds": [
       "fr-ruffin"
@@ -513,7 +522,10 @@
       "environment"
     ],
     "sourceIds": [
-      "curebot-20261124-10"
+      "curebot-20261124-10",
+      "curebot2-20261124-9",
+      "curebot2-20261124-12",
+      "curebot2-20261124-30"
     ]
   },
   {
@@ -577,5 +589,246 @@
     "impacts": {
       "grid": "Les calendriers annoncés ne doivent pas être confondus avec la demande certaine à court terme."
     }
+  },
+  {
+    "id": "es-decree-revision-oct2026",
+    "countries": [
+      "ES"
+    ],
+    "date": "2026-10-26",
+    "type": "context",
+    "title": "Espagne — révision du projet de décret avant adoption",
+    "summary": "Reuters rapporte un relèvement du seuil d’application envisagé de 1 à 10 MW, un allongement des délais de justification de l’additionnalité et une transition pouvant atteindre cinq ans. Il s’agit du projet du 26 octobre, à distinguer du décret final du 21 novembre. Les études d’impact et EnergyTag alimentent le débat sur le couplage horaire ; leurs résultats sont des simulations, pas des hausses de facture constatées.",
+    "topics": [
+      "grid",
+      "supply",
+      "environment"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-13",
+      "curebot2-20261124-4",
+      "curebot2-20261124-7",
+      "curebot2-20261124-10",
+      "es-1032-2026-1"
+    ],
+    "actorIds": [
+      "es-spain-dc"
+    ]
+  },
+  {
+    "id": "fr-ruffin-resolution-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-13",
+    "type": "context",
+    "title": "Proposition de résolution pour un moratoire sur les data centers non souverains",
+    "summary": "Le dossier officiel de l’Assemblée nationale indique un dépôt le 13 octobre 2026. La proposition portée par François Ruffin et des cosignataires appelle à un moratoire sur les projets non souverains. Elle n’instaure pas de restriction juridique ; distinguer ce dépôt de la présentation politique du 8 octobre rapportée par la presse.",
+    "topics": [
+      "planning",
+      "sovereignty",
+      "territory"
+    ],
+    "sourceIds": [
+      "fr-ruffin-resolution-dossier-2026",
+      "curebot2-20261124-11",
+      "curebot2-20261124-30"
+    ],
+    "actorIds": [
+      "fr-ruffin"
+    ]
+  },
+  {
+    "id": "fr-bourget-permit-withdrawal-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-28",
+    "type": "context",
+    "title": "Le Bourget — refus de suspendre le retrait du permis de construire",
+    "summary": "Le juge des référés du tribunal administratif de Montreuil refuse de suspendre le retrait du permis du projet SEGRO. Cette ordonnance ne constitue pas un jugement définitif au fond ni un moratoire général. Le cas illustre le risque d’implantation lié aux autorisations.",
+    "topics": [
+      "planning",
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "fr-bourget-ta-20260728",
+      "fr-bourget-figaro-20260728",
+      "curebot2-20261124-5"
+    ],
+    "territory": "Le Bourget, Seine-Saint-Denis"
+  },
+  {
+    "id": "fr-de-petit-landau-heat-2026",
+    "countries": [
+      "FR",
+      "DE"
+    ],
+    "date": "2026-11-03",
+    "type": "project",
+    "title": "Petit-Landau – Bad Bellingen : piste de valorisation transfrontalière de chaleur",
+    "summary": "DNA rapporte que le conseil municipal évoque la création d’un comité consultatif pour une passerelle transfrontalière. Celle-ci pourrait aussi servir de support au transfert vers l’Allemagne de chaleur récupérée du projet de data center côté français. Le transfert reste une hypothèse de projet, pas un accord de fourniture signé.",
+    "topics": [
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-6"
+    ],
+    "territory": "Petit-Landau / Bad Bellingen"
+  },
+  {
+    "id": "fr-ozans-elected-resignations-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-16",
+    "type": "context",
+    "title": "Étrechet — démissions d’élus et contestation du processus de décision",
+    "summary": "Le Courrier des maires rapporte des démissions en septembre d’élus municipaux d’Étrechet, dont la maire, en lien avec le sentiment de ne pas disposer d’informations et de moyens de décision suffisants sur le projet d’Ozans. Date de publication retenue faute de date précise des démissions.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-30"
+    ],
+    "territory": "Étrechet, Indre"
+  },
+  {
+    "id": "nl-grid-queue-debate-2026",
+    "countries": [
+      "NL"
+    ],
+    "date": "2026-10-16",
+    "type": "context",
+    "title": "Pays-Bas — appel des gestionnaires de réseau à une politique d’implantation",
+    "summary": "Selon NOS/Nieuwsuur, les gestionnaires de réseau évaluent à 15 GW la puissance demandée par les data centers en attente de raccordement, soit près d’un tiers du total. Netbeheer Nederland demande des arbitrages nationaux sur le nombre, la localisation et les conditions d’accueil. La fédération des data centers rappelle que les demandes ne sont pas des réalisations certaines.",
+    "topics": [
+      "grid",
+      "planning",
+      "power"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-31"
+    ],
+    "impacts": {
+      "grid": "Risque de surdimensionnement des investissements si les demandes non mûres sont assimilées à des besoins fermes."
+    },
+    "actorIds": [
+      "nl-netbeheer",
+      "nl-ddca"
+    ]
+  },
+  {
+    "id": "eu-project-delays-oct2026",
+    "countries": [
+      "GB",
+      "FI"
+    ],
+    "date": "2026-10-19",
+    "type": "context",
+    "title": "Retards et remises en cause de mégaprojets européens",
+    "summary": "L’Usine Digitale rapporte des difficultés de réalisation de projets au Royaume-Uni et en Finlande, dont le renoncement de Microsoft à un contrat de location britannique attribué aux difficultés de raccordement. Ce signal industriel ne constitue ni un moratoire ni une règle de raccordement.",
+    "topics": [
+      "grid",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-22"
+    ]
+  },
+  {
+    "id": "fr-grid-reservations-scrutiny-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-10-19",
+    "type": "context",
+    "title": "France — hausse des puissances réservées et débat sur la maturité",
+    "summary": "News Tank rapporte 21 GW de puissance réservée auprès de RTE, contre 5 GW fin 2024. GreenUnivers et La Tribune distinguent réservations, montée en charge et besoins effectifs. Mediapart questionne l’opacité de certaines réservations et Radio Vinci relaie les préoccupations des consommateurs ; ces appréciations sont attribuées aux sources.",
+    "topics": [
+      "grid",
+      "power",
+      "transparency"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-23",
+      "curebot2-20261124-18",
+      "curebot2-20261124-21",
+      "curebot2-20261124-27",
+      "curebot2-20261124-26"
+    ],
+    "actorIds": [
+      "fr-rte"
+    ]
+  },
+  {
+    "id": "sddc-campaign-expanded-2026",
+    "countries": [
+      "BE",
+      "DK",
+      "FR",
+      "DE",
+      "IE",
+      "IT",
+      "NL",
+      "PL",
+      "ES",
+      "GB",
+      "FI",
+      "AT",
+      "HR"
+    ],
+    "date": "2026-11-06",
+    "type": "mobilisation",
+    "title": "Stop Dirty Data Centres — extension des soutiens et actions annoncées",
+    "summary": "La coalition annonce plus de 100 organisations dans 15 pays ; 13 États sont identifiés dans les sources retenues. Revendication commune : moratoire sur les nouveaux grands centres et débat public. Les appels et annonces ne prouvent pas à eux seuls la réalisation de chaque action.",
+    "topics": [
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-2",
+      "curebot2-20261124-14",
+      "sddc-november-programme",
+      "sddc-guardian-november",
+      "sddc-datacenters-news-november"
+    ],
+    "campaignId": "sddc-nov-2026-expanded",
+    "actorIds": [
+      "sddc",
+      "aprs",
+      "fr-data-for-good",
+      "fi-stop-datakeskuksille",
+      "at-birk",
+      "hr-zelena-akcija",
+      "nl-geef-tegengas",
+      "nl-fossil-free"
+    ]
+  },
+  {
+    "id": "fr-data-for-good-agora-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-11-07",
+    "type": "mobilisation",
+    "title": "Paris — agora annoncée par Data for Good",
+    "summary": "Data for Good appelle à une agora publique et à un moratoire immédiat sur les nouvelles autorisations de méga data centers. La source est un appel de l’organisateur ; le déroulement effectif et la fréquentation ne sont pas établis par cet export.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot2-20261124-14",
+      "sddc-november-programme"
+    ],
+    "actorIds": [
+      "fr-data-for-good",
+      "sddc"
+    ],
+    "campaignId": "sddc-nov-2026-expanded",
+    "territory": "Paris"
   }
 ]

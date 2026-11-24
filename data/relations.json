@@ -1,5 +1,19 @@
 [
   {
+    "id": "sddc-coordination-expanded",
+    "type": "coordination",
+    "date": "2026-11-06",
+    "campaignId": "sddc-nov-2026-expanded",
+    "title": "Périmètre élargi de la mobilisation européenne",
+    "summary": "Actualisation de la coalition : 13 États identifiés par leur présence dans le programme ou les soutiens. Le total de 15 pays annoncé par les organisateurs ne constitue pas une liste vérifiée.",
+    "sourceIds": [
+      "curebot2-20261124-2",
+      "sddc-november-programme",
+      "sddc-guardian-november",
+      "sddc-datacenters-news-november"
+    ]
+  },
+  {
     "id": "sddc-coordination",
     "type": "coordination",
     "date": "2026-10-02",

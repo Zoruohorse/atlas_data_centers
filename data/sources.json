@@ -940,5 +940,209 @@
     "label": "Sénat — réponse ministérielle du 19 novembre",
     "url": "https://www.senat.fr/questions/base/2026/qSEQ261010331.html",
     "type": "primary"
+  },
+  {
+    "id": "curebot2-20261124-2",
+    "label": "Euronews — mobilisation européenne",
+    "url": "https://www.euronews.com/2026/11/05/protesters-across-europe-to-call-for-freeze-on-energy-hungry-data-centres",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-3",
+    "label": "Enerzine — capacités franciliennes",
+    "url": "https://www.enerzine.com/data-centers-ile-de-france-defi-electrique/199471-2026-11",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-4",
+    "label": "El Correo — étude d’impact et débat sur le décret",
+    "url": "https://www.elcorreo.com/economia/gobierno-calcula-centros-datos-elevaran-200-factura-20261105113826-ntrc.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-5",
+    "label": "La Tribune — impacts et acceptabilité",
+    "url": "https://www.latribune.fr/article/economie/70803682365952/data-centers-et-ia-le-choc-energetique-et-environnemental-que-la-france-et-leurope-nont-pas-anticipe",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-6",
+    "label": "DNA — conseil municipal de Petit-Landau",
+    "url": "https://www.dna.fr/politique/2026/11/04/le-projet-de-centre-de-donnees-en-toile-fond-du-conseil-municipal",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-7",
+    "label": "EnergyTag — modélisation du projet de décret",
+    "url": "https://energytag.org/wp-content/uploads/2026/10/20261029-FINAL-Getting-Spain-Data-Center-Decree-Right_-Hourly-Matching-That-Cuts-Emissions-and-Costs-v4-1.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "curebot2-20261124-9",
+    "label": "La Tribune — entretien avec Irénée Regnauld",
+    "url": "https://www.latribune.fr/article/economie/57523999491514/data-centers-il-y-a-un-manque-d-informations-et-une-forte-aspiration-democratique-explique-le-sociologue-irenee-regnauld",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-10",
+    "label": "El País — modélisation des coûts du système électrique",
+    "url": "https://elpais.com/economia/2026-11-03/la-factura-de-la-luz-se-encarecera-en-2000-millones-al-ano-si-descarrila-el-decreto-de-centros-de-datos.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-11",
+    "label": "Bon Pote — analyse critique de la souveraineté numérique",
+    "url": "https://bonpote.com/data-centers-en-france-lenfumage-de-la-souverainete-numerique/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-12",
+    "label": "La Tribune — contestation des data centers",
+    "url": "https://www.latribune.fr/article/tech/59597158650558/pourquoi-l-explosion-de-l-ia-declenche-une-vague-de-rejet-des-data-centers",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-13",
+    "label": "Reuters — révision du projet de décret espagnol",
+    "url": "https://www.reuters.com/business/energy/spain-relaxes-initial-proposal-data-center-rules-2026-10-26/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-14",
+    "label": "Data for Good — appel à la mobilisation, LinkedIn",
+    "url": "https://fr.linkedin.com/posts/dataforgood_data-centers-partout-d%C3%A9mocratie-nulle-activity-7521850858582577152-qJ0v",
+    "type": "primary"
+  },
+  {
+    "id": "curebot2-20261124-16",
+    "label": "La Nouvelle République — réunion du Poinçonnet",
+    "url": "https://www.lanouvellerepublique.fr/indre/commune/le-poinconnet/retombees-pour-toute-l-agglo-de-chateauroux-garanties-d-emplois-mesures-des-temperatures-gil-averous-brandit-de-nouveaux-arguments-pour-le-projet-de-data-center-de-google-1793301098",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-17",
+    "label": "DataCenterDynamics — Data Centre Covenant",
+    "url": "https://www.datacenterdynamics.com/en/news/uk-budget-grid-connection-incentives-for-data-centers-under-new-covenant/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-18",
+    "label": "GreenUnivers — estimation de la demande",
+    "url": "https://www.greenunivers.com/2026/10/pourquoi-la-consommation-electrique-des-centres-de-donnees-est-surestimee-436616/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-20",
+    "label": "Next — réutilisation de la chaleur",
+    "url": "https://next.ink/262995/gros-consommateurs-ou-acteurs-innovants-les-data-centers-face-au-reusage-de-la-chaleur/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-21",
+    "label": "La Tribune — réforme des raccordements RTE",
+    "url": "https://www.latribune.fr/article/tech/intelligence-artificielle/14912157253811/il-n-y-aura-pas-besoin-de-moratoire-rte-assure-pouvoir-absorber-lexplosion-des-data-centers-en-france",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-22",
+    "label": "L’Usine Digitale — retards et abandons de projets",
+    "url": "https://www.usine-digitale.fr/informatique/data-centers/en-europe-aussi-les-megaprojets-de-data-centers-dia-se-prennent-les-pieds-dans-le-tapis.3Z7VBKFXQBGSLMPJ24Q3NCJZIA.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-23",
+    "label": "News Tank — puissances réservées et réforme RTE",
+    "url": "https://energies.newstank.fr/article/view/457506/rte-21-gw-puissance-raccordement-reserves-data-centers-4-fois-plus-fin-2024.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-26",
+    "label": "Radio Vinci Autoroutes — inquiétudes des consommateurs",
+    "url": "https://radio.vinci-autoroutes.com/article/data-centers-de-l-ia-un-defi-pour-l-electricite-francaise-19462",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-27",
+    "label": "Mediapart — enquête sur les réservations de puissance",
+    "url": "https://www.mediapart.fr/journal/ecologie/161026/de-totalenergies-au-groupe-dassault-la-grande-ruee-vers-les-data-centers",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-28",
+    "label": "GreenUnivers — stratégie de raccordement francilienne",
+    "url": "https://www.greenunivers.com/2026/10/comment-rte-veut-raccorder-les-data-centers-en-ile-de-france-436284/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-30",
+    "label": "Courrier des maires — structuration des oppositions",
+    "url": "https://www.courrierdesmaires.fr/article/data-centers-la-fronde-s-organise-en-attendant-un-hypothetique-debat.60389",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-31",
+    "label": "NOS / Nieuwsuur — demandes de raccordement néerlandaises",
+    "url": "https://nos.nl/nieuwsuur/artikel/2635097-een-derde-aangevraagde-stroom-komt-van-datacenters-genoeg-voor-alle-huishoudens",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot2-20261124-32",
+    "label": "Ministère de l’Économie — plan d’électrification, mesure 16",
+    "url": "https://www.economie.gouv.fr/actualites/lancement-de-la-seconde-phase-du-plan-delectrification",
+    "type": "primary"
+  },
+  {
+    "id": "curebot2-20261124-33",
+    "label": "Institut Paris Region — note rapide 1070",
+    "url": "https://www.institutparisregion.fr/nos-travaux/publications/data-centers-lattractivite-de-lile-de-france-au-defi-de-ses-capacites-energetiques/",
+    "type": "primary"
+  },
+  {
+    "id": "gb-covenant-official-2026",
+    "label": "GOV.UK — Data Centre Covenant, 28 octobre",
+    "url": "https://www.gov.uk/government/publications/data-centre-covenant/the-data-centre-covenant",
+    "type": "primary"
+  },
+  {
+    "id": "fr-ruffin-resolution-dossier-2026",
+    "label": "Assemblée nationale — dossier de la proposition de résolution",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/moratoire_centres_donnees_non_souverains",
+    "type": "primary"
+  },
+  {
+    "id": "fr-bourget-ta-20260728",
+    "label": "Tribunal administratif — ordonnance du 28 juillet",
+    "url": "https://opendata.justice-administrative.fr/recherche/shareFile/TA93/DTA_2615465_20260728?trk=article-ssr-frontend-pulse_little-text-block",
+    "type": "primary"
+  },
+  {
+    "id": "fr-bourget-figaro-20260728",
+    "label": "Le Figaro — retrait du permis au Bourget",
+    "url": "https://www.lefigaro.fr/secteur/high-tech/la-justice-valide-l-annulation-du-permis-de-construire-d-un-data-center-au-bourget-signe-deux-jours-avant-les-municipales-20260728",
+    "type": "analysis"
+  },
+  {
+    "id": "sddc-november-programme",
+    "label": "Stop Dirty Data Centres — programme et soutiens",
+    "url": "https://stopdirtydatacentres.eu/en/",
+    "type": "primary"
+  },
+  {
+    "id": "sddc-dcd-november",
+    "label": "DataCenterDynamics — programme européen",
+    "url": "https://www.datacenterdynamics.com/en/news/two-days-of-anti-data-center-protest-planned-across-europe/",
+    "type": "analysis"
+  },
+  {
+    "id": "sddc-guardian-november",
+    "label": "The Guardian — mobilisation européenne",
+    "url": "https://www.theguardian.com/world/2026/nov/05/activists-across-europe-protests-ai-against-datacentres",
+    "type": "analysis"
+  },
+  {
+    "id": "sddc-datacenters-news-november",
+    "label": "Datacenters.news — liste des pays",
+    "url": "https://datacenters.news/2026/11/06/stop-dirty-data-centres-europe-protests/",
+    "type": "analysis"
   }
 ]

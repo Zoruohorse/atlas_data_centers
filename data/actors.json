@@ -261,5 +261,104 @@
     "sourceIds": [
       "no-statnett-2026-1"
     ]
+  },
+  {
+    "id": "es-spain-dc",
+    "name": "Spain DC",
+    "type": "Fédération professionnelle",
+    "countries": [
+      "ES"
+    ],
+    "summary": "Selon El Correo, la fédération a demandé à être entendue par le Conseil d’État sur le projet de décret et contesté ses modalités transitoires.",
+    "sourceIds": [
+      "curebot2-20261124-4"
+    ]
+  },
+  {
+    "id": "fr-gil-averous",
+    "name": "Gil Avérous",
+    "type": "Élu local",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Président de Châteauroux Métropole, défend le projet Google et présente des propositions de partage des retombées et de suivi environnemental lors des réunions municipales.",
+    "sourceIds": [
+      "curebot2-20261124-16"
+    ]
+  },
+  {
+    "id": "nl-netbeheer",
+    "name": "Netbeheer Nederland",
+    "type": "Association de gestionnaires de réseau",
+    "countries": [
+      "NL"
+    ],
+    "summary": "Demande au gouvernement des arbitrages sur les implantations et conditions de raccordement des data centers, selon NOS/Nieuwsuur.",
+    "sourceIds": [
+      "curebot2-20261124-31"
+    ]
+  },
+  {
+    "id": "nl-ddca",
+    "name": "Dutch Data Center Association",
+    "type": "Fédération professionnelle",
+    "countries": [
+      "NL"
+    ],
+    "summary": "Stijn Grove souligne auprès de NOS que la puissance demandée en file ne préjuge pas de la réalisation effective des sites.",
+    "sourceIds": [
+      "curebot2-20261124-31"
+    ]
+  },
+  {
+    "id": "fr-data-for-good",
+    "name": "Data for Good",
+    "type": "Association",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Appelle à une agora populaire à Paris et à un moratoire sur les grands data centers dans le cadre de Stop Dirty Data Centres.",
+    "sourceIds": [
+      "curebot2-20261124-14",
+      "sddc-november-programme"
+    ]
+  },
+  {
+    "id": "fi-stop-datakeskuksille",
+    "name": "Stop datakeskuksille",
+    "type": "Collectif",
+    "countries": [
+      "FI"
+    ],
+    "summary": "Le programme de la campagne recense des mobilisations annoncées dans plusieurs villes finlandaises le 7 novembre.",
+    "sourceIds": [
+      "sddc-november-programme",
+      "sddc-dcd-november"
+    ]
+  },
+  {
+    "id": "at-birk",
+    "name": "Bürger*innen Initiative Rechenzentrum Kronstorf (BIRK)",
+    "type": "Collectif local",
+    "countries": [
+      "AT"
+    ],
+    "summary": "Organise une visite revendicative annoncée à Kronstorf le 7 novembre dans le cadre de la campagne.",
+    "sourceIds": [
+      "sddc-november-programme"
+    ]
+  },
+  {
+    "id": "hr-zelena-akcija",
+    "name": "Zelena akcija / Friends of the Earth Croatia",
+    "type": "Association",
+    "countries": [
+      "HR"
+    ],
+    "summary": "Figure dans la liste de soutiens de Stop Dirty Data Centres.",
+    "sourceIds": [
+      "sddc-november-programme",
+      "sddc-datacenters-news-november"
+    ]
   }
 ]
