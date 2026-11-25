@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-11-25",
+    "title": "Delta Curebot 8 — février-mai 2026",
+    "summary": "100 lignes examinées : piquage HTB3, décret contentieux et référé, rapport ENTSO-E, Interface, correction DSIT, appel EuroHPC, oppositions historiques et contributions. Journal docs/veille/2026-11-25-curebot-fevrier-mai.md."
+  },
+  {
+    "date": "2026-11-25",
     "title": "Delta Curebot 7 — Data center Europe, mai-juillet",
     "summary": "100 ressources examinées : orientations d’agrément franciliennes, stratégie Paris-Saclay, déclaration d’intention européenne, statistiques SDES/CSO/Arcep, recommandations iliad et France Datacenter, jalons territoriaux. Journal dans docs/veille/2026-11-25-data-centers-europe.md."
   },

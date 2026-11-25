@@ -262,7 +262,8 @@
     "summary": "Statnett indique qu’il examinera les exigences techniques et travaux d’ENTSO-E pour élaborer ses futures conditions de raccordement. Ce n’est pas une preuve d’influence bilatérale.",
     "sourceIds": [
       "no-statnett-2026-1",
-      "eu-energy-declaration-signatories-2026"
+      "eu-energy-declaration-signatories-2026",
+      "eu-entsoe-dc-report-2026"
     ]
   },
   {
@@ -1015,6 +1016,117 @@
     "sourceIds": [
       "fr-an-coquio-20260512",
       "dc-europe-20261125-97"
+    ]
+  },
+  {
+    "id": "eu-interface",
+    "name": "Interface",
+    "type": "Think tank",
+    "countries": [
+      "DE"
+    ],
+    "summary": "Publie des recherches sur les infrastructures de calcul et les contraintes énergétiques.",
+    "sourceIds": [
+      "eu-interface-chips-grids-2026"
+    ]
+  },
+  {
+    "id": "eu-eurohpc",
+    "name": "EuroHPC Joint Undertaking",
+    "type": "Institution européenne",
+    "countries": [],
+    "summary": "Organise l’appel d’offres relatif aux gigafactories d’IA.",
+    "sourceIds": [
+      "eu-eurohpc-gigafactory-call-2026",
+      "eu-eurohpc-gigafactory-launch-2026"
+    ]
+  },
+  {
+    "id": "fr-inbi",
+    "name": "Institut national de Bitcoin (INBi)",
+    "type": "Association / institut",
+    "countries": [
+      "FR"
+    ],
+    "summary": "A soumis une contribution à la consultation RTE sur la refonte du raccordement des clients consommateurs le 20 mars.",
+    "sourceIds": [
+      "curebot8-20261125-45"
+    ]
+  },
+  {
+    "id": "fr-hubblo",
+    "name": "Hubblo / DCWatch",
+    "type": "Projet de recherche collaborative",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Met à disposition une cartographie collaborative des infrastructures et de leurs impacts, avec limites de complétude signalées.",
+    "sourceIds": [
+      "curebot8-20261125-55"
+    ]
+  },
+  {
+    "id": "fr-inr",
+    "name": "Institut du Numérique Responsable",
+    "type": "Association",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Déclare avoir proposé une évolution de la loi REEN lors de son audition au Sénat.",
+    "sourceIds": [
+      "curebot8-20261125-56",
+      "curebot8-20261125-98"
+    ]
+  },
+  {
+    "id": "fr-infranum",
+    "name": "InfraNum",
+    "type": "Fédération professionnelle",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Défend notamment la valorisation du mix français et des centres de données de proximité lors de la mission sénatoriale.",
+    "sourceIds": [
+      "curebot8-20261125-63",
+      "curebot8-20261125-98"
+    ]
+  },
+  {
+    "id": "fr-cepg-gardanne",
+    "name": "Convergence écologique du pays de Gardanne",
+    "type": "Collectif territorial",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Coorganise avec Le Nuage était sous nos pieds une discussion publique sur les data centers annoncée pour le 31 mars.",
+    "sourceIds": [
+      "curebot8-20261125-60",
+      "fr-nuage-agenda-2026"
+    ]
+  },
+  {
+    "id": "be-growthkills",
+    "name": "GrowthKills",
+    "type": "Collectif militant",
+    "countries": [
+      "BE"
+    ],
+    "summary": "Son porte-parole est cité par Belga lors du rassemblement bruxellois du 25 mars.",
+    "sourceIds": [
+      "curebot8-20261125-71",
+      "be-bx1-protest-20260325"
+    ]
+  },
+  {
+    "id": "de-gda",
+    "name": "German Datacenter Association",
+    "type": "Fédération professionnelle",
+    "countries": [
+      "DE"
+    ],
+    "summary": "Salue la stratégie fédérale et demande notamment une meilleure prise en compte de l’acceptabilité locale.",
+    "sourceIds": [
+      "curebot8-20261125-75"
     ]
   }
 ]

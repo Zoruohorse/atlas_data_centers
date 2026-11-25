@@ -681,7 +681,8 @@
     "sourceIds": [
       "fr-bourget-ta-20260728",
       "fr-bourget-figaro-20260728",
-      "curebot2-20261124-5"
+      "curebot2-20261124-5",
+      "curebot8-20261125-90"
     ],
     "territory": "Le Bourget, Seine-Saint-Denis"
   },
@@ -780,7 +781,7 @@
     "date": "2026-10-19",
     "type": "context",
     "title": "France — hausse des puissances réservées et débat sur la maturité",
-    "summary": "News Tank rapporte 21 GW de puissance réservée auprès de RTE, contre 5 GW fin 2024. GreenUnivers et La Tribune distinguent réservations, montée en charge et besoins effectifs. Mediapart questionne l’opacité de certaines réservations et Radio Vinci relaie les préoccupations des consommateurs ; ces appréciations sont attribuées aux sources.",
+    "summary": "News Tank rapporte 21 GW de puissance réservée auprès de RTE, contre 5 GW fin 2024. GreenUnivers et La Tribune distinguent réservations, montée en charge et besoins effectifs. Mediapart questionne l’opacité de certaines réservations et Radio Vinci relaie les préoccupations des consommateurs ; ces appréciations sont attribuées aux sources. Le bilan électrique 2025 de RTE indique près de 1 TWh consommé en 2025 par les centres sur site dédié raccordés au transport, contre environ 0,8 TWh en 2024 ; ce périmètre exclut les installations raccordées à la distribution et les usages intégrés non isolables. Les chiffres historiques de réservations rapportés en mars sont distincts des chiffres d’octobre.",
     "topics": [
       "grid",
       "power",
@@ -792,7 +793,10 @@
       "curebot2-20261124-21",
       "curebot2-20261124-27",
       "curebot2-20261124-26",
-      "carto-20261125-94"
+      "carto-20261125-94",
+      "curebot8-20261125-100",
+      "curebot8-20261125-84",
+      "curebot8-20261125-91"
     ],
     "actorIds": [
       "fr-rte"
@@ -818,7 +822,7 @@
     "date": "2026-11-06",
     "type": "mobilisation",
     "title": "Stop Dirty Data Centres — extension des soutiens et actions annoncées",
-    "summary": "La coalition annonce plus de 100 organisations dans 15 pays ; 13 États sont identifiés dans les sources retenues. Revendication commune : moratoire sur les nouveaux grands centres et débat public. Les appels et annonces ne prouvent pas à eux seuls la réalisation de chaque action.",
+    "summary": "La coalition annonce plus de 100 organisations dans 15 pays ; 13 États sont identifiés dans les sources retenues. Revendication commune : moratoire sur les nouveaux grands centres et débat public. Les appels et annonces ne prouvent pas à eux seuls la réalisation de chaque action. Le Monde du 8 novembre rapporte des manifestations effectivement tenues dans une quinzaine de pays, notamment à Londres et Dublin. Ce complément ne valide pas individuellement chaque action du programme.",
     "topics": [
       "territory"
     ],
@@ -827,7 +831,8 @@
       "curebot2-20261124-14",
       "sddc-november-programme",
       "sddc-guardian-november",
-      "sddc-datacenters-news-november"
+      "sddc-datacenters-news-november",
+      "sddc-lemonde-20261108"
     ],
     "campaignId": "sddc-nov-2026-expanded",
     "actorIds": [
@@ -1029,7 +1034,8 @@
       "curebot3-20261124-25",
       "curebot3-20261124-26",
       "curebot4-20261124-54",
-      "dc-europe-20261125-64"
+      "dc-europe-20261125-64",
+      "curebot8-20261125-32"
     ],
     "scope": "eu",
     "actorIds": [
@@ -1097,7 +1103,7 @@
     "date": "2026-09-16",
     "type": "context",
     "title": "Rapport sénatorial sur l’empreinte environnementale de l’IA",
-    "summary": "Le rapport n° 949, adopté le 16 septembre par la commission, formule 16 recommandations sur une IA durable. Il défend l’accueil de capacités de calcul en France en raison du mix électrique peu carboné, tout en préconisant la frugalité et la mesure des impacts. Les Numériques et Télérama discutent ses limites, dont les effets de volume et le périmètre environnemental. Il ne crée aucune obligation réglementaire.",
+    "summary": "Le rapport n° 949, adopté le 16 septembre par la commission, formule 16 recommandations sur une IA durable. Il défend l’accueil de capacités de calcul en France en raison du mix électrique peu carboné, tout en préconisant la frugalité et la mesure des impacts. Les Numériques et Télérama discutent ses limites, dont les effets de volume et le périmètre environnemental. Il ne crée aucune obligation réglementaire. La mission a été lancée le 10 décembre 2025. Les déclarations publiques des acteurs auditionnés documentent des positions distinctes : INR propose une loi REEN renforcée ; InfraNum défend les infrastructures de proximité ; RTE explique sa méthode fondée sur les infrastructures physiques et les profils de charge.",
     "topics": [
       "environment",
       "sovereignty",
@@ -1109,11 +1115,18 @@
       "curebot3-20261124-21",
       "curebot3-20261124-35",
       "carto-20261125-4",
-      "carto-20261125-5"
+      "carto-20261125-5",
+      "curebot8-20261125-56",
+      "curebot8-20261125-61",
+      "curebot8-20261125-63",
+      "curebot8-20261125-98"
     ],
     "actorIds": [
       "fr-senat-cadt",
-      "fr-shift-project"
+      "fr-shift-project",
+      "fr-inr",
+      "fr-infranum",
+      "fr-rte"
     ]
   },
   {
@@ -1322,7 +1335,11 @@
     "sourceIds": [
       "de-dc-strategy-review-2026",
       "curebot4-20261124-62",
-      "curebot4-20261124-67"
+      "curebot4-20261124-67",
+      "curebot8-20261125-75"
+    ],
+    "actorIds": [
+      "de-gda"
     ]
   },
   {
@@ -2392,7 +2409,8 @@
       "carto-20261125-96",
       "carto-20261125-99",
       "carto-20261125-91",
-      "dc-europe-20261125-8"
+      "dc-europe-20261125-8",
+      "curebot8-20261125-88"
     ],
     "actorIds": [
       "fr-philippe-latombe",
@@ -2668,7 +2686,8 @@
     ],
     "sourceIds": [
       "fr-dge-tainturier-2026",
-      "dc-europe-20261125-9"
+      "dc-europe-20261125-9",
+      "curebot8-20261125-20"
     ],
     "actorIds": [
       "fr-olivier-tainturier"
@@ -2973,7 +2992,7 @@
     "date": "2026-05-12",
     "type": "context",
     "title": "France Datacenter et iliad — 19 recommandations au gouvernement",
-    "summary": "Le groupe de travail propose d’accélérer les procédures et raccordements (premier prêt, premier servi), d’ouvrir le statut de projet industriel d’intérêt national majeur aux centres stratégiques, d’adapter la fiscalité électrique et de valoriser les friches. Les recommandations sont distinctes des dispositions ensuite adoptées et des réformes annoncées ; elles ne créent pas d’obligations.",
+    "summary": "Le groupe de travail propose d’accélérer les procédures et raccordements (premier prêt, premier servi), d’ouvrir le statut de projet industriel d’intérêt national majeur aux centres stratégiques, d’adapter la fiscalité électrique et de valoriser les friches. Les recommandations sont distinctes des dispositions ensuite adoptées et des réformes annoncées ; elles ne créent pas d’obligations. Anne Le Hénanff annonce le lancement du groupe le 3 mars, coprésidé par Michaël Reffay (France Datacenter) et Ombeline Bartin (iliad). GreenUnivers rapporte 24 mesures, tandis que le communiqué iliad présente 19 recommandations ; les deux décomptes ne sont pas réconciliés sans le document intégral.",
     "topics": [
       "grid",
       "planning",
@@ -2982,7 +3001,10 @@
     ],
     "sourceIds": [
       "dc-europe-20261125-99",
-      "dc-europe-20261125-100"
+      "dc-europe-20261125-100",
+      "curebot8-20261125-2",
+      "curebot8-20261125-43",
+      "curebot8-20261125-93"
     ],
     "actorIds": [
       "fr-france-datacenter",
@@ -3010,5 +3032,414 @@
     "actorIds": [
       "fr-digital-realty"
     ]
+  },
+  {
+    "id": "fr-contentieux-302-refere-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-06-25",
+    "type": "context",
+    "title": "Contentieux environnemental — rejet des demandes de suspension du décret 302",
+    "summary": "Le Conseil d’État rejette les demandes introduites le 19 juin par des associations et syndicats, dont FNE, Les Amis de la Terre et Data for Good, ainsi que par Les Écologistes. Le motif est l’absence d’urgence ; le juge ne statue pas sur les moyens de légalité au fond. Aucun jugement définitif au fond n’est établi lors de cette vérification.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "fr-contentieux-ce-516882-2026"
+    ],
+    "actorIds": [
+      "fr-fne",
+      "fr-amis-terre",
+      "fr-data-for-good",
+      "fr-les-ecologistes"
+    ]
+  },
+  {
+    "id": "eu-entsoe-grid-report-2026",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2026-05-08",
+    "type": "context",
+    "title": "ENTSO-E — exigences techniques et potentiel de flexibilité des data centers",
+    "summary": "ENTSO-E examine les effets des nouvelles grandes charges sur la sécurité du réseau, les variations rapides de puissance, le soutien en tension et les évolutions des codes de raccordement. Les services de flexibilité dépendent de l’architecture de contrôle et des règles de marché. Il s’agit de recommandations et d’analyses, non de nouvelles obligations uniformément applicables.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "eu-entsoe-dc-report-2026",
+      "curebot8-20261125-4"
+    ],
+    "scope": "eu",
+    "actorIds": [
+      "entso-e"
+    ]
+  },
+  {
+    "id": "eu-interface-chips-grids-2026",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2026-05-05",
+    "type": "context",
+    "title": "Interface — utilisation effective des capacités et contraintes réseau",
+    "summary": "L’étude From Chips to Grids souligne les risques de sous-utilisation des capacités contractualisées et les variations rapides de charge des clusters IA. Elle appelle à des indicateurs complémentaires de l’efficacité informatique et à des règles adaptées. Les ratios cités dans le rapport proviennent de périmètres et d’hypothèses spécifiques ; ils ne sont pas des taux d’utilisation universels.",
+    "topics": [
+      "grid",
+      "power",
+      "transparency"
+    ],
+    "sourceIds": [
+      "eu-interface-chips-grids-2026",
+      "curebot8-20261125-13"
+    ],
+    "scope": "eu",
+    "actorIds": [
+      "eu-interface"
+    ]
+  },
+  {
+    "id": "gb-compute-emissions-correction-2026",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-04-23",
+    "type": "context",
+    "title": "Royaume-Uni — révision des scénarios d’émissions du calcul IA",
+    "summary": "Le DSIT corrige l’annexe de sa feuille de route : les émissions cumulées du calcul IA britannique sur 2025–2035 pourraient atteindre 34 à 123 MtCO₂ selon les scénarios. Ces résultats dépendent notamment de l’efficacité du calcul et de la décarbonation de l’électricité. Les comparer directement à une estimation annuelle antérieure est trompeur ; il ne s’agit pas d’émissions mesurées.",
+    "topics": [
+      "environment",
+      "power",
+      "transparency"
+    ],
+    "sourceIds": [
+      "gb-compute-correction-2026",
+      "curebot8-20261125-6"
+    ]
+  },
+  {
+    "id": "eu-gigafactories-call-2026",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2026-07-30",
+    "type": "context",
+    "title": "EuroHPC — appel d’offres pour les gigafactories d’IA",
+    "summary": "L’appel EUROHPC-2026-CEI-AIGF-01 vise la sélection de consortiums et l’acquisition de temps de calcul. Il exige notamment des infrastructures électriques adaptées et des pratiques de sobriété énergétique et hydrique. L’actualisation officielle du 25 novembre fixe la clôture du lot 2 au 30 décembre 2026 à 17 h et celle du lot 1 au 4 février 2027 à 17 h (heure de Luxembourg). Les sites ne sont pas présumés sélectionnés. Les critiques rapportées en mai précèdent le lancement de juillet.",
+    "topics": [
+      "sovereignty",
+      "planning",
+      "power",
+      "environment"
+    ],
+    "sourceIds": [
+      "eu-eurohpc-gigafactory-call-2026",
+      "eu-eurohpc-gigafactory-launch-2026",
+      "curebot8-20261125-15"
+    ],
+    "scope": "eu",
+    "actorIds": [
+      "eu-eurohpc"
+    ]
+  },
+  {
+    "id": "fr-idf-jll-market-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-05-12",
+    "type": "context",
+    "title": "Île-de-France — indicateurs de marché JLL pour 2025",
+    "summary": "JLL rapporte 41 MW absorbés en 2025 et 66 MW de capacité neuve mise en service. Ces indicateurs de marché ne mesurent ni l’intégralité de la puissance électrique des data centers franciliens ni les nouvelles réservations RTE. Date de collecte retenue pour cette page de bilan.",
+    "topics": [
+      "power",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-3",
+      "curebot8-20261125-5"
+    ],
+    "territory": "Île-de-France"
+  },
+  {
+    "id": "fr-notre-dame-launch-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-04-22",
+    "type": "context",
+    "title": "Plan d’accélération industrielle — 150 projets stratégiques annoncés",
+    "summary": "Le président annonce un plan d’accompagnement de 150 grands projets industriels. Les catégories incluent des infrastructures numériques selon la presse ; le nombre n’est pas un décompte de data centers. Cette annonce précède la nomination du coordonnateur de juillet.",
+    "topics": [
+      "planning",
+      "territory",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-20"
+    ]
+  },
+  {
+    "id": "fr-inbi-rte-consultation-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-03-20",
+    "type": "context",
+    "title": "INBi — contribution à la consultation raccordement RTE",
+    "summary": "L’Institut national de Bitcoin défend des critères technologiquement neutres : fermeté demandée, flexibilité effective, montée en charge, maturité et coûts induits. C’est la contribution publique d’un participant à la consultation et non une doctrine adoptée par RTE.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-45"
+    ],
+    "actorIds": [
+      "fr-inbi"
+    ]
+  },
+  {
+    "id": "fr-shift-dc-cap-advocacy-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "The Shift Project — plaidoyer pour un plafonnement de la consommation",
+    "summary": "Dans un entretien publié par L’Humanité, Pauline Denis défend un plafond de consommation et une planification nationale, dans le prolongement du rapport final 2025. Ces propositions n’ont pas valeur de réglementation.",
+    "topics": [
+      "power",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-48",
+      "fr-shift-ia-report-2025"
+    ],
+    "actorIds": [
+      "fr-shift-project"
+    ]
+  },
+  {
+    "id": "fr-dinum-dependencies-seminar-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-04-08",
+    "type": "context",
+    "title": "DINUM — séminaire sur les dépendances numériques extra-européennes",
+    "summary": "Le communiqué Bercy du 9 avril décrit une démarche de réduction des dépendances numériques de l’État, associant DINUM, DGE, ANSSI et DAE. Il ne constitue pas une obligation générale d’hébergement européen pour tout opérateur privé.",
+    "topics": [
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-50"
+    ]
+  },
+  {
+    "id": "fr-dcwatch-map-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "DCWatch — cartographie collaborative des centres de données",
+    "summary": "Hubblo met à disposition des données issues de sources publiques et invite à les compléter. L’inventaire collaboratif ne constitue pas un registre réglementaire exhaustif et ses données sont susceptibles d’évoluer.",
+    "topics": [
+      "transparency",
+      "environment"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-55"
+    ],
+    "actorIds": [
+      "fr-hubblo"
+    ]
+  },
+  {
+    "id": "nl-existing-hyperscale-permits-2026",
+    "countries": [
+      "NL"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Pays-Bas — poursuite rapportée de projets hyperscale déjà autorisés",
+    "summary": "DCmag rapporte en mars qu’au moins sept projets en construction bénéficiaient d’autorisations antérieures aux restrictions. Le décompte n’a pas été vérifié projet par projet ; ne pas assimiler des permis antérieurs à une nouvelle exception générale. Les critères juridiques de l’entrée nationale existante restent la référence.",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-59"
+    ]
+  },
+  {
+    "id": "fr-gardanne-debate-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-03-31",
+    "type": "mobilisation",
+    "title": "Gardanne — débat public annoncé sur les data centers",
+    "summary": "La Provence et l’agenda du collectif annoncent une soirée de discussion sur les projets et leurs impacts. L’annonce ne suffit pas à établir sa tenue, sa fréquentation ou l’existence d’une autorisation de projet à Gardanne.",
+    "topics": [
+      "territory",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-60",
+      "fr-nuage-agenda-2026"
+    ],
+    "territory": "Gardanne",
+    "actorIds": [
+      "fr-cepg-gardanne",
+      "fr-nuage-sous-pieds"
+    ]
+  },
+  {
+    "id": "fr-bosquel-fluidstack-withdrawal-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-03-20",
+    "type": "context",
+    "title": "Le Bosquel — retrait du projet Fluidstack rapporté en mars",
+    "summary": "La presse rapporte le retrait de Fluidstack de son projet de supercalculateur de 1 GW et 10 Md€ envisagés. L’information concerne le projet initial annoncé en 2025, non l’abandon du site : le projet ultérieur de SoftBank/Sesterce fait l’objet de sa propre concertation. Les causes précises du retrait ne sont pas établies par les sources.",
+    "topics": [
+      "planning",
+      "grid",
+      "territory"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-68",
+      "fr-fluidstack-dcd-2026"
+    ],
+    "territory": "Le Bosquel"
+  },
+  {
+    "id": "be-brussels-forum-protest-2026",
+    "countries": [
+      "BE"
+    ],
+    "date": "2026-03-25",
+    "type": "mobilisation",
+    "title": "Bruxelles — manifestation devant un forum data centers",
+    "summary": "Belga et BX1 rapportent une vingtaine de manifestants demandant un moratoire et davantage de transparence sur les impacts des infrastructures. GrowthKills est identifié parmi les acteurs. Les comparaisons de consommation avancées par les militants ne sont pas reprises comme données techniques établies.",
+    "topics": [
+      "territory",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-71",
+      "be-bx1-protest-20260325"
+    ],
+    "territory": "Bruxelles",
+    "actorIds": [
+      "be-growthkills"
+    ]
+  },
+  {
+    "id": "fr-vitry-mobilisation-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-02-15",
+    "type": "mobilisation",
+    "title": "Vitry-sur-Seine — mobilisation contre deux projets industriels",
+    "summary": "Next rapporte une mobilisation associant 3R, Pour une écologie populaire et sociale et les Soulèvements de la Terre, avec la liste Vitry Unie et populaire, contre un projet de data center sur une ancienne emprise pétrolière et un projet d’incinérateur. Il s’agit d’une action locale rapportée, non d’une décision de refus.",
+    "topics": [
+      "territory",
+      "planning",
+      "environment"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-95"
+    ],
+    "territory": "Vitry-sur-Seine"
   }
 ]

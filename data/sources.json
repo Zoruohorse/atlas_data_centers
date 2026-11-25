@@ -2770,5 +2770,317 @@
     "label": "Assemblée nationale — audition du 12 mai",
     "url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2026PO878304N043.html",
     "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-2",
+    "label": "GreenUnivers — remise du rapport le 12 mai",
+    "url": "https://www.greenunivers.com/2026/05/electrification-du-numerique-comment-accelerer-le-raccordement-des-centres-de-donnees-423702/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-3",
+    "label": "JLL — marché francilien 2025",
+    "url": "https://www.jll.com/fr-fr/insights/market-dynamics/data-center-france",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-4",
+    "label": "pv magazine — recommandations ENTSO-E",
+    "url": "https://www.pv-magazine.fr/2026/05/12/les-gestionnaires-de-reseau-pourraient-freiner-les-enr-si-limplantation-des-data-centers-se-poursuit-sans-controle/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-5",
+    "label": "La Croix — marché francilien",
+    "url": "https://www.la-croix.com/economie/intelligence-artificielle-le-marche-se-tend-pour-les-data-centers-en-ile-de-france-20260510",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-6",
+    "label": "The Guardian — correction du Compute Roadmap",
+    "url": "https://www.theguardian.com/technology/2026/apr/24/officials-hugely-underestimated-impact-of-ai-datacentres-on-uk-carbon-emissions",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-13",
+    "label": "Euronews — étude Interface",
+    "url": "https://fr.euronews.com/next/2026/05/05/leurope-veut-des-centres-de-donnees-dia-mais-son-reseau-electrique-ne-suit-pas",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-14",
+    "label": "CNBC — situation danoise de mai",
+    "url": "https://www.cnbc.com/2026/05/04/denmark-data-centers-moratorium-grid-pause-power-demand.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-15",
+    "label": "Politico — débat sur les gigafactories",
+    "url": "https://www.politico.eu/article/eu-accused-wasting-20-billion-euro-ai-computing-dreams/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-16",
+    "label": "Légifrance — arrêté du 29 avril 2026",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054023291",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-20",
+    "label": "Banque des Territoires — accélération industrielle",
+    "url": "https://www.banquedesterritoires.fr/emmanuel-macron-veut-batir-les-150-cathedrales-de-lindependance-industrielle",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-21",
+    "label": "Banque des Territoires — décret contentieux",
+    "url": "https://www.banquedesterritoires.fr/acceleration-des-procedures-un-decret-introduit-un-nouveau-regime-derogatoire-pour-le-contentieux",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-32",
+    "label": "The Guardian — enquête sur la confidentialité",
+    "url": "https://www.theguardian.com/technology/2026/apr/17/microsoft-us-tech-firms-lobbied-eu-secrecy-rules-datacentre-emissions",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-37",
+    "label": "France Datacenter — communiqué du 15 avril",
+    "url": "https://www.francedatacenter.com/wp-content/uploads/ressources/8mkr7ipfba/CP_FDC_PJL_simplification.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-41",
+    "label": "La Tribune — annonce de réforme contentieuse",
+    "url": "https://www.latribune.fr/article/entreprises-finance/industrie/54751950628427/les-projets-industriels-ne-pourront-plus-etre-contestes-devant-le-tribunal-administratif?id=54751950628427",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-43",
+    "label": "L’Usine Digitale — travaux du groupe électrification",
+    "url": "https://www.usine-digitale.fr/informatique/data-centers/data-centers-ce-que-bercy-prepare-pour-accelerer-les-deploiements-et-securiser-les-investissements-en-france.NUUHXYQUU5AUTFCAFPH7IBJL5U.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-45",
+    "label": "INBi — contribution du 20 mars",
+    "url": "https://inbi.fr/wp-content/uploads/2026/03/INBi-Contribution-consultation-RTE-20-mars-2026.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-48",
+    "label": "L’Humanité — entretien Pauline Denis",
+    "url": "https://www.humanite.fr/social-et-economie/data/data-centers-pour-le-shift-project-il-faut-imposer-un-plafond-a-la-consommation-des-centres-de-donnees",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-50",
+    "label": "Bercy — souveraineté numérique, communiqué 557",
+    "url": "https://presse.economie.gouv.fr/souverainete-numerique-letat-accelere-la-reduction-de-ses-dependances-extra-europeennes/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-55",
+    "label": "Hubblo — cartographie DCWatch",
+    "url": "https://datacenters.hubblo.org/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-56",
+    "label": "INR — déclaration relative à son audition",
+    "url": "https://fr.linkedin.com/posts/institutnr_numeriqueresponsable-iaresponsable-impactnumerique-activity-7445083758937915392-TmyY",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-59",
+    "label": "DCmag — projets néerlandais antérieurs aux restrictions",
+    "url": "https://dcmag.fr/aux-pays-bas-au-moins-7-hyperscales-en-construction-malgre-les-oppositions/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-60",
+    "label": "La Provence — débat Gardanne",
+    "url": "https://www.laprovence.com/article/ecoplanete/6325399874151114/une-soiree-et-un-debat-pour-eclairer-les-habitants-sur-les-enjeux-des-data-centers-a-gardanne?id=6325399874151114",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-61",
+    "label": "Maïté Jauréguy — audition sénatoriale RTE",
+    "url": "https://fr.linkedin.com/posts/ma%C3%AFt%C3%A9-jaur%C3%A9guy-43a8a016_ia-transitionenerg%C3%A9tique-datacenters-activity-7442974594900185088-PW6f",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-62",
+    "label": "Sénat — débats du 25 mars",
+    "url": "https://www.senat.fr/cra/s20260325/s20260325_7.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-63",
+    "label": "InfraNum — déclaration relative à son audition",
+    "url": "https://fr.linkedin.com/posts/infranum_infranum-auditionn%C3%A9e-au-s%C3%A9nat-dans-le-cadre-activity-7442897569711738880-xlgD",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-68",
+    "label": "Les Échos — retrait Fluidstack rapporté",
+    "url": "https://www.lesechos.fr/tech-medias/hightech/mais-ou-est-la-strategie-nationale-apres-le-retrait-de-fluidstack-et-ses-10-milliards-le-coup-de-mou-sur-les-data-centers-en-france-2222960",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-71",
+    "label": "La Libre / Belga — mobilisation de Bruxelles",
+    "url": "https://www.lalibre.be/dernieres-depeches/2026/03/25/des-manifestants-rassembles-devant-un-forum-dedie-aux-centres-de-donnees-a-bruxelles-KRCRBJJ53RCQPIZD7OFZS7U5PY/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-75",
+    "label": "German Datacenter Association — réaction à la stratégie",
+    "url": "https://www.germandatacenters.com/en/news-en/detail/bundesregierung-beschliesst-rechenzentrumsstrategie-starkes-signal-umsetzung-jetzt-entscheidend/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-84",
+    "label": "pv magazine — flexibilité RTE/Enedis",
+    "url": "https://www.pv-magazine.fr/2026/03/16/les-data-centers-peuvent-ils-jouer-le-role-dactifs-de-flexibilite-sur-le-reseau/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-88",
+    "label": "Assemblée nationale — commission d’enquête numérique",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/organes/autres-commissions/commissions-enquete/ce-vulnerabilites-numeriques",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-90",
+    "label": "L’Opinion — municipales et oppositions",
+    "url": "https://www.lopinion.fr/economie/les-elections-municipales-caisse-de-resonance-des-tensions-autour-des-data-centers",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-91",
+    "label": "Techniques de l’ingénieur — délais de raccordement",
+    "url": "https://www.techniques-ingenieur.fr/actualite/articles/les-operateurs-de-datacenters-font-face-a-des-delais-de-raccordement-qui-sallongent-156141/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-93",
+    "label": "Anne Le Hénanff — lancement du groupe de travail",
+    "url": "https://fr.linkedin.com/posts/anne-le-h%C3%A9nanff-7505a26b_electrification-et-num%C3%A9rique-m%C3%AAme-combat-activity-7434898042060865536-bWZm",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-95",
+    "label": "Next — mobilisation de Vitry-sur-Seine",
+    "url": "https://next.ink/225475/face-aux-projets-de-centres-de-donnees-des-resistances-sorganisent/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot8-20261125-97",
+    "label": "Sénat — exposé des motifs Ros",
+    "url": "https://www.senat.fr/leg/exposes-des-motifs/ppl24-348-expose.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-98",
+    "label": "Sénat — mission IA, auditions",
+    "url": "https://www.senat.fr/travaux-parlementaires/commissions/commission-de-lamenagement-du-territoire-et-du-developpement-durable/controle-en-clair/empreinte-environnementale-de-lintelligence-artificielle.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot8-20261125-100",
+    "label": "RTE — bilan électrique 2025, consommation",
+    "url": "https://analysesetdonnees.rte-france.com/bilan-electrique-2025/consommation",
+    "type": "primary"
+  },
+  {
+    "id": "fr-piquage-art107-2026",
+    "label": "Légifrance — article 107 consolidé",
+    "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054024901",
+    "type": "primary"
+  },
+  {
+    "id": "fr-cre-piquage-2026",
+    "label": "CRE — avis favorable du 5 mars",
+    "url": "https://www.cre.fr/documents/deliberations/projet-darrete-introduisant-une-derogation-a-linterdiction-de-raccordement-en-piquage-en-htb3-pour-les-installations-de-consommation-dans-larrete-du-9-juin-2020-relatif-aux-prescriptions-techniques-de-conception-et-de-fonctionnement-pour-le-raccordement-aux-reseaux-delectricite.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-contentieux-302-2026",
+    "label": "Légifrance — décret 2026-302",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053925515",
+    "type": "primary"
+  },
+  {
+    "id": "fr-contentieux-ce-516882-2026",
+    "label": "Conseil d’État — ordonnance 516882 du 25 juin",
+    "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2026-06-25/516882",
+    "type": "primary"
+  },
+  {
+    "id": "fr-contentieux-r3115-2026",
+    "label": "Code de justice administrative — R.311-5",
+    "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053927633/2026-09-01",
+    "type": "primary"
+  },
+  {
+    "id": "eu-entsoe-dc-report-2026",
+    "label": "ENTSO-E — From Energy Demand to Grid Support, 8 mai",
+    "url": "https://www.entsoe.eu/news/2026/05/08/from-energy-demand-to-grid-support-entso-e-explores-data-centres-dual-role/",
+    "type": "primary"
+  },
+  {
+    "id": "eu-interface-chips-grids-2026",
+    "label": "Interface — From Chips to Grids, 5 mai",
+    "url": "https://www.interface-eu.org/publications/ai-compute-energy-bottlenecks",
+    "type": "primary"
+  },
+  {
+    "id": "gb-compute-correction-2026",
+    "label": "DSIT — correction du 23 avril",
+    "url": "https://www.gov.uk/government/publications/uk-compute-roadmap/compute-evidence-annex-changes-corrected-23-april-2026",
+    "type": "primary"
+  },
+  {
+    "id": "eu-eurohpc-gigafactory-call-2026",
+    "label": "EuroHPC JU — appel EUROHPC-2026-CEI-AIGF-01",
+    "url": "https://www.eurohpc-ju.europa.eu/call-tenders-selection-artificial-intelligence-gigafactory-consortia-and-establishment-ai_en",
+    "type": "primary"
+  },
+  {
+    "id": "eu-eurohpc-gigafactory-launch-2026",
+    "label": "EuroHPC JU — lancement du 30 juillet",
+    "url": "https://www.eurohpc-ju.europa.eu/eurohpc-joint-undertaking-launches-ai-gigafactories-call-2026-07-30_en",
+    "type": "primary"
+  },
+  {
+    "id": "fr-shift-ia-report-2025",
+    "label": "The Shift Project — rapport final IA et infrastructures",
+    "url": "https://theshiftproject.org/publications/intelligence-artificielle-centres-de-donnees-rapport-final/",
+    "type": "primary"
+  },
+  {
+    "id": "be-bx1-protest-20260325",
+    "label": "BX1 — manifestation du 25 mars",
+    "url": "https://bx1.be/categories/reportages/lia-bousille-tout-manifestation-devant-un-forum-dedie-aux-centres-de-donnees-a-bruxelles/",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-nuage-agenda-2026",
+    "label": "Le Nuage était sous nos pieds — agenda",
+    "url": "https://lenuageetaitsousnospieds.org/agenda/",
+    "type": "primary"
+  },
+  {
+    "id": "fr-fluidstack-dcd-2026",
+    "label": "DataCenterDynamics — retrait Fluidstack rapporté",
+    "url": "https://www.datacenterdynamics.com/en/news/fluidstack-drops-projects-in-france-to-focus-on-us-report/",
+    "type": "analysis"
+  },
+  {
+    "id": "sddc-lemonde-20261108",
+    "label": "Le Monde — mobilisations constatées en novembre",
+    "url": "https://www.lemonde.fr/economie/article/2026/11/08/la-contestation-contre-les-data-centers-monte-en-europe_6808448_3234.html",
+    "type": "analysis"
   }
 ]

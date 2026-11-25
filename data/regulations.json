@@ -103,7 +103,7 @@
     ],
     "stage": "published",
     "title": "Qualification de projet d’intérêt national majeur",
-    "summary": "L’article 35 ouvre à certains centres de données la possibilité d’être qualifiés par décret de projets d’intérêt national majeur selon leur envergure et leur contribution à la transition ou à la souveraineté. Cela donne accès à des procédures d’urbanisme adaptées.",
+    "summary": "L’article 35 ouvre à certains centres de données la possibilité d’être qualifiés par décret de projets d’intérêt national majeur selon leur envergure et leur contribution à la transition ou à la souveraineté. Cela donne accès à des procédures d’urbanisme adaptées. Le communiqué de France Datacenter du 15 avril salue le vote parlementaire ; cette date n’est pas celle de promulgation de la loi.",
     "sourceIds": [
       "fr-pinm-2026-1",
       "fr-pinm-2026-2",
@@ -117,7 +117,8 @@
       "curebot4-20261124-75",
       "fr-ros-senat-adopted-2026",
       "carto-20261125-15",
-      "dc-europe-20261125-100"
+      "dc-europe-20261125-100",
+      "curebot8-20261125-37"
     ]
   },
   {
@@ -206,7 +207,8 @@
       "curebot3-20261124-25",
       "curebot3-20261124-29",
       "eu-aarhus-lighthouse-communication-2026",
-      "curebot4-20261124-54"
+      "curebot4-20261124-54",
+      "curebot8-20261125-32"
     ],
     "impacts": {
       "operator": "Déclarer les données et les indicateurs requis selon la méthodologie commune."
@@ -292,10 +294,11 @@
     ],
     "stage": "published",
     "title": "Pause des nouveaux accords pour les grands raccordements",
-    "summary": "Energinet a suspendu en mars 2026 les nouveaux accords pour les grands raccordements afin de recalculer les capacités du réseau de transport. Les petits raccordements ont continué à être traités.",
+    "summary": "Energinet a suspendu en mars 2026 les nouveaux accords pour les grands raccordements afin de recalculer les capacités du réseau de transport. Les petits raccordements ont continué à être traités. En mai CNBC rapporte, d’après Energinet, 60 GW de demandes potentielles dont environ 14 GW pour les data centers. Cet instantané ne correspond pas à des contrats de raccordement et précède la réforme d’octobre.",
     "sourceIds": [
       "dinel-dk-fbf8ba95",
-      "ens-dk-74d0f1e5"
+      "ens-dk-74d0f1e5",
+      "curebot8-20261125-14"
     ],
     "actorIds": [
       "dk-energinet"
@@ -1606,7 +1609,9 @@
       "curebot4-20261124-75",
       "curebot4-20261124-73",
       "fr-ros-senat-adopted-2026",
-      "fr-ros-legislative-dossier-2026"
+      "fr-ros-legislative-dossier-2026",
+      "curebot8-20261125-62",
+      "curebot8-20261125-97"
     ],
     "actorIds": [
       "fr-david-ros"
@@ -1716,6 +1721,62 @@
     "impacts": {
       "operator": "Anticiper les justificatifs de foncier, de puissance, de chaleur et les avis des collectivités dès l’agrément ; distinguer les critères d’examen et les obligations légales autonomes.",
       "grid": "Favoriser les tracés courts et éviter d’obérer l’accès des autres utilisateurs ; le seuil de 40 MW n’est pas une interdiction de raccordement."
+    }
+  },
+  {
+    "id": "fr-htb3-piquage-2026",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-04-29",
+    "effectiveFrom": "2026-05-04",
+    "stage": "effective",
+    "title": "Raccordement provisoire en piquage HTB3 — dérogation",
+    "summary": "L’arrêté du 29 avril, publié le 3 mai, complète l’article 107 de l’arrêté du 9 juin 2020. RTE peut proposer un piquage provisoire sur une liaison HTB3 à une installation de consommation, pour 240 MW maximum et trois ans au plus, sous réserve de l’absence de risque particulier pour la sécurité d’exploitation. Une prolongation de deux ans est possible par décision du GRT si la ligne ne participe pas aux scénarios de renvoi de tension ou de reconstitution visés à l’article 116. C’est une faculté technique générale, et non un droit automatique au raccordement propre aux data centers.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "curebot8-20261125-16",
+      "fr-piquage-art107-2026",
+      "fr-cre-piquage-2026"
+    ],
+    "actorIds": [
+      "fr-rte"
+    ],
+    "impacts": {
+      "operator": "Examiner avec le GRT la faisabilité d’un raccordement transitoire et anticiper la solution pérenne.",
+      "grid": "Accélérer certaines mises sous tension sans compromettre la sécurité d’exploitation ; vérifier les conditions de prolongation."
+    }
+  },
+  {
+    "id": "fr-environmental-litigation-302-2026",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-04-21",
+    "effectiveFrom": "2026-07-01",
+    "stage": "effective",
+    "title": "Décret 2026-302 — régime accéléré de certains contentieux environnementaux",
+    "summary": "Le décret publié le 22 avril établit un régime dérogatoire applicable aux actes entrant dans son champ pris à compter du 1er juillet. Pour les litiges visés à l’article R.311-5 du code de justice administrative, les cours administratives d’appel jugent en premier et dernier ressort et doivent statuer dans un délai de dix mois ; des formalités particulières et des délais spécifiques s’appliquent. Les projets de souveraineté économique et industrielle figurent parmi les catégories visées, selon les conditions du texte. Tous les data centers ne sont pas automatiquement concernés. Le recours juridictionnel n’est pas supprimé. Le Conseil d’État a rejeté les demandes de suspension le 25 juin faute d’urgence, sans trancher la légalité au fond.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "fr-contentieux-302-2026",
+      "fr-contentieux-r3115-2026",
+      "curebot8-20261125-21",
+      "curebot8-20261125-41",
+      "fr-contentieux-ce-516882-2026"
+    ],
+    "impacts": {
+      "operator": "Qualifier l’éligibilité du projet et des actes contestés au régime dérogatoire ; ne pas assimiler accélération et immunité contentieuse.",
+      "grid": "Vérifier le champ applicable aux ouvrages connexes et à leurs autorisations."
     }
   }
 ]
