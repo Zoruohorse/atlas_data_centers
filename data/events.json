@@ -1103,7 +1103,7 @@
     "date": "2026-09-16",
     "type": "context",
     "title": "Rapport sénatorial sur l’empreinte environnementale de l’IA",
-    "summary": "Le rapport n° 949, adopté le 16 septembre par la commission, formule 16 recommandations sur une IA durable. Il défend l’accueil de capacités de calcul en France en raison du mix électrique peu carboné, tout en préconisant la frugalité et la mesure des impacts. Les Numériques et Télérama discutent ses limites, dont les effets de volume et le périmètre environnemental. Il ne crée aucune obligation réglementaire. La mission a été lancée le 10 décembre 2025. Les déclarations publiques des acteurs auditionnés documentent des positions distinctes : INR propose une loi REEN renforcée ; InfraNum défend les infrastructures de proximité ; RTE explique sa méthode fondée sur les infrastructures physiques et les profils de charge.",
+    "summary": "Le rapport n° 949, adopté le 16 septembre par la commission, formule 16 recommandations sur une IA durable. Il défend l’accueil de capacités de calcul en France en raison du mix électrique peu carboné, tout en préconisant la frugalité et la mesure des impacts. Les Numériques et Télérama discutent ses limites, dont les effets de volume et le périmètre environnemental. Il ne crée aucune obligation réglementaire. La mission a été lancée le 10 décembre 2025. Les déclarations publiques des acteurs auditionnés documentent des positions distinctes : INR propose une loi REEN renforcée ; InfraNum défend les infrastructures de proximité ; RTE explique sa méthode fondée sur les infrastructures physiques et les profils de charge. La table ronde inaugurale du 4 février 2026 a réuni Anne Bouverot, Baptiste Perrissin Fabert, Guillaume Pitron et Audrey Herblin-Stoop. Les propos de ces intervenants ne sont pas assimilés aux conclusions de la commission, rendues en septembre.",
     "topics": [
       "environment",
       "sovereignty",
@@ -1119,7 +1119,10 @@
       "curebot8-20261125-56",
       "curebot8-20261125-61",
       "curebot8-20261125-63",
-      "curebot8-20261125-98"
+      "curebot8-20261125-98",
+      "feb-20261125-18",
+      "feb-20261125-21",
+      "fr-senat-20260204-roundtable"
     ],
     "actorIds": [
       "fr-senat-cadt",
@@ -1434,7 +1437,7 @@
     "date": "2026-01-26",
     "type": "context",
     "title": "Amsterdam — débat sur la qualification du campus Pure DC",
-    "summary": "NRC rapporte la confirmation de Microsoft comme locataire unique et la division du site en trois bâtiments pour les permis. L’article questionne la compatibilité avec la restriction nationale sur les hyperscales et rapporte des demandes d’explication d’élus provinciaux. Il ne constitue pas une décision de justice établissant un contournement illégal.",
+    "summary": "NRC rapporte la confirmation de Microsoft comme locataire unique et la division du site en trois bâtiments pour les permis. L’article questionne la compatibilité avec la restriction nationale sur les hyperscales et rapporte des demandes d’explication d’élus provinciaux. Il ne constitue pas une décision de justice établissant un contournement illégal. Le communiqué du 26 janvier confirme la démarche de cinq organisations (Leitmotiv, Advocates for the Future, Bits of Freedom, critical infrastructure lab et DeGoedeZaak) assistées par PILP, demandant des précisions aux autorités municipales et provinciales. La contestation n’établit pas une illégalité.",
     "topics": [
       "planning",
       "territory",
@@ -1442,9 +1445,14 @@
     ],
     "sourceIds": [
       "curebot4-20261124-81",
-      "zoek-officielebekendmakingen-nl-ee227f45"
+      "zoek-officielebekendmakingen-nl-ee227f45",
+      "nl-leitmotiv-sloterdijk-letter-2026"
     ],
-    "territory": "Amsterdam"
+    "territory": "Amsterdam",
+    "actorIds": [
+      "nl-leitmotiv",
+      "nl-pilp"
+    ]
   },
   {
     "id": "fr-pinm-association-opposition-2026",
@@ -2410,7 +2418,8 @@
       "carto-20261125-99",
       "carto-20261125-91",
       "dc-europe-20261125-8",
-      "curebot8-20261125-88"
+      "curebot8-20261125-88",
+      "feb-20261125-31"
     ],
     "actorIds": [
       "fr-philippe-latombe",
@@ -2604,7 +2613,9 @@
     "sourceIds": [
       "fr-paris-saclay-2026-244",
       "dc-europe-20261125-5",
-      "dc-europe-20261125-53"
+      "dc-europe-20261125-53",
+      "fr-cndp-ipr-20251118",
+      "feb-20261125-85"
     ],
     "territory": "Paris-Saclay",
     "actorIds": [
@@ -2888,14 +2899,15 @@
     "date": "2025",
     "type": "context",
     "title": "Marseille — tensions territoriales liées aux centres de données",
-    "summary": "Le Nouvel Obs republie le 1er juin 2026 un reportage initialement paru en septembre 2025 sur les tensions liées aux implantations marseillaises et aux ressources en eau, énergie et foncier. Il constitue un contexte historique, non un nouvel événement de juin 2026 ni une interdiction locale.",
+    "summary": "Le Nouvel Obs republie le 1er juin 2026 un reportage initialement paru en septembre 2025 sur les tensions liées aux implantations marseillaises et aux ressources en eau, énergie et foncier. Il constitue un contexte historique, non un nouvel événement de juin 2026 ni une interdiction locale. Le Parisien du 21 février 2026 rapporte les inquiétudes de riverains sur l’électrification des quais. RTE et le port contestent l’attribution du retard aux centres de données ; l’existence d’une concurrence locale pour la capacité ne démontre donc pas cette causalité.",
     "topics": [
       "territory",
       "environment",
       "grid"
     ],
     "sourceIds": [
-      "dc-europe-20261125-68"
+      "dc-europe-20261125-68",
+      "feb-20261125-3"
     ],
     "territory": "Marseille"
   },
@@ -3441,5 +3453,495 @@
       "curebot8-20261125-95"
     ],
     "territory": "Vitry-sur-Seine"
+  },
+  {
+    "id": "eu-grid-connection-guidance-2025",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2025-12-10",
+    "type": "context",
+    "title": "Commission européenne — orientations sur les raccordements efficaces et rapides",
+    "summary": "La communication C/2025/8473, adoptée avec le paquet réseaux, propose des critères transparents de maturité, des jalons de développement, des contrôles réguliers des files, des mécanismes use it or lose it et, dans les zones à délais longs, des priorités objectives et non discriminatoires associées à une logique premier prêt, premier servi. Les mesures concernent l’ensemble des demandes de raccordement, pas uniquement les centres de données. Il s’agit d’orientations non contraignantes ; leur mise en œuvre dépend des cadres nationaux et des décisions des autorités compétentes.",
+    "topics": [
+      "grid",
+      "planning",
+      "transparency"
+    ],
+    "sourceIds": [
+      "eu-grid-guidance-c2025-8473",
+      "eu-grid-package-com2025-1005",
+      "feb-20261125-81"
+    ],
+    "scope": "eu",
+    "impacts": {
+      "grid": "Référence comparative pour les critères de maturité, la gestion des files et la transparence des capacités."
+    }
+  },
+  {
+    "id": "gb-ofgem-demand-snapshot-2026",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-02-13",
+    "type": "context",
+    "title": "Ofgem — état initial de la file de grandes consommations",
+    "summary": "Le Call for Input identifie environ 140 projets de data centers totalisant 50 GW ; 71 (environ 20 GW) déclarent une décision finale d’investissement. Ce jalon précède la consultation Curate de juillet. La comparaison avec la pointe britannique ne signifie pas que ces charges seront réalisées ou simultanément appelées.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "gb-ofgem-feb-cfi-2026",
+      "gb-ofgem-feb-cfi-document",
+      "feb-20261125-5"
+    ],
+    "actorIds": [
+      "gb-ofgem"
+    ]
+  },
+  {
+    "id": "de-distribution-regional-scenarios-2045",
+    "countries": [
+      "DE"
+    ],
+    "date": "2026-01-28",
+    "type": "context",
+    "title": "Allemagne — scénarios régionaux des GRD à 2045",
+    "summary": "Les six scénarios régionaux de distribution publiés le 28 janvier 2026, présentés par le BDEW le 29, envisagent près de 37 GW de puissance de raccordement pour les centres de données autonomes en distribution à 2045, contre moins de 2 GW alors raccordés. Le chiffre relève d’un scénario de planification des GRD, non d’une prévision ferme de charge appelée ni d’un total transport et distribution. Il alimente les plans de développement des réseaux.",
+    "topics": [
+      "grid",
+      "power",
+      "planning"
+    ],
+    "sourceIds": [
+      "de-bdew-regionalszenarien-2026",
+      "de-bnetza-distribution-planning"
+    ],
+    "actorIds": [
+      "de-bdew"
+    ]
+  },
+  {
+    "id": "fr-ademe-dc-scenarios-2060",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-01-06",
+    "type": "context",
+    "title": "ADEME — cinq scénarios de consommation des centres de données à 2060",
+    "summary": "L’étude distingue la consommation des infrastructures implantées en France de celle liée aux usages français, y compris à l’étranger. Dans le scénario tendanciel, cette seconde consommation pourrait être multipliée par 3,7 d’ici 2035, dont environ deux tiers à l’étranger. Les quatre autres scénarios sont Génération Frugale, Coopérations Territoriales, Technologies Vertes et Pari Réparateur. L’hypothèse de moratoire figure dans un scénario de sobriété ; elle ne constitue ni une interdiction proposée au vote ni une règle en vigueur. France Datacenter et Joël Vormus critiquent publiquement certaines hypothèses et leur interprétation ; leurs positions sont distinguées de l’étude.",
+    "topics": [
+      "power",
+      "environment",
+      "planning",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "feb-20261125-47",
+      "feb-20261125-48",
+      "feb-20261125-39",
+      "feb-20261125-44",
+      "feb-20261125-37",
+      "feb-20261125-43"
+    ],
+    "actorIds": [
+      "fr-ademe",
+      "fr-france-datacenter",
+      "fr-gimelec"
+    ]
+  },
+  {
+    "id": "fr-adlc-ai-energy-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-12-17",
+    "type": "context",
+    "title": "Autorité de la concurrence — accès à l’énergie et frugalité de l’IA",
+    "summary": "L’étude identifie trois enjeux : accès à l’énergie et maîtrise des coûts, frugalité comme critère de concurrence, transparence et standards de mesure des impacts. Elle appelle à surveiller les risques de préemption des ressources et de conditions d’approvisionnement discriminatoires, notamment dans les contrats de long terme. Les difficultés de raccordement peuvent constituer des barrières à l’entrée. Il s’agit de points de vigilance, non d’une sanction ou d’une nouvelle règle sectorielle.",
+    "topics": [
+      "grid",
+      "supply",
+      "transparency",
+      "environment"
+    ],
+    "sourceIds": [
+      "feb-20261125-55",
+      "fr-adlc-study-2025",
+      "feb-20261125-40"
+    ],
+    "actorIds": [
+      "fr-autorite-concurrence"
+    ]
+  },
+  {
+    "id": "fr-dge-dc-guide-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-11-28",
+    "type": "context",
+    "title": "DGE — guide pratique d’implantation des centres de données",
+    "summary": "Le guide s’adresse aux collectivités, propriétaires fonciers et porteurs de projet. Il décrit la qualification des sites, les étapes d’attribution et les possibilités d’accompagnement par la task force. Il présente le cadre de référence à sa date, mais ne crée aucune autorisation ni nouvelle obligation ; les évolutions ultérieures du PINM et de l’agrément doivent être consultées séparément.",
+    "topics": [
+      "planning",
+      "territory",
+      "grid"
+    ],
+    "sourceIds": [
+      "feb-20261125-73",
+      "feb-20261125-74",
+      "feb-20261125-67",
+      "feb-20261125-72"
+    ],
+    "actorIds": [
+      "fr-dge",
+      "fr-rte"
+    ]
+  },
+  {
+    "id": "fr-dge-dc-meeting-20260130",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-01-30",
+    "type": "context",
+    "title": "Bercy — état d’avancement des projets et des capacités recherchées",
+    "summary": "La DGE indique 63 sites identifiés, 26 sécurisés par un porteur, 52 entreprises accompagnées et 28,6 GW de puissance recherchée, dont 5,8 GW associés à un site sécurisé et à des engagements de raccordement. Les cinq sites fast-track cités sont Escaudain, Le Bosquel, Dunkerque, Fouju et Montereau ; le potentiel de raccordement annoncé est supérieur à 700 MW sur les sites concernés, avec un horizon de trois à quatre ans. Ces chiffres sont un état historique, non des sites en service ni des capacités actuelles. Ils ne doivent pas être additionnés aux réservations RTE d’octobre.",
+    "topics": [
+      "grid",
+      "planning",
+      "territory",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "feb-20261125-29",
+      "fr-dge-20260130-meeting"
+    ],
+    "actorIds": [
+      "fr-dge",
+      "fr-rte"
+    ]
+  },
+  {
+    "id": "fr-fdc-gimelec-serce-pinm-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-02-20",
+    "type": "context",
+    "title": "France Datacenter, GIMELEC et SERCE — appel à la simplification",
+    "summary": "Les trois fédérations alertent sur le report de l’examen du projet de loi de simplification, notamment de l’article 15. Elles défendent la réduction des délais et une régulation prévisible. Ce communiqué précède le vote et la promulgation : il est intégré comme plaidoyer professionnel, non comme règle juridique.",
+    "topics": [
+      "planning",
+      "grid",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "feb-20261125-2",
+      "fr-fdc-serce-gimelec-20260220",
+      "feb-20261125-98"
+    ],
+    "actorIds": [
+      "fr-france-datacenter",
+      "fr-gimelec",
+      "fr-serce"
+    ]
+  },
+  {
+    "id": "fr-an-dataforgood-colloquium-20260121",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-01-21",
+    "type": "context",
+    "title": "Assemblée nationale — colloque Data for Good sur les infrastructures IA",
+    "summary": "Next rapporte un colloque organisé à l’initiative de Nicolas Bonnet et Data for Good, avec notamment une formation par Benoît Petit et Gauthier Roussilhe. Les intervenants discutent de la concentration des infrastructures, de la spéculation sur les capacités et du projet PINM alors en débat. Le colloque n’est pas une décision parlementaire ni une prise de position de l’Assemblée dans son ensemble.",
+    "topics": [
+      "territory",
+      "planning",
+      "environment",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "feb-20261125-34",
+      "feb-20261125-38"
+    ],
+    "actorIds": [
+      "fr-nicolas-bonnet",
+      "fr-data-for-good",
+      "fr-hubblo"
+    ]
+  },
+  {
+    "id": "fr-nuage-participatory-map-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-12-11",
+    "type": "context",
+    "title": "Le Nuage était sous nos pieds — cartographie participative",
+    "summary": "Le collectif publie un inventaire des sites existants, projets et oppositions, avec un objectif déclaré d’appui aux mobilisations. Les chiffres évoluent au fil des mises à jour ; les décomptes de projets et sous-catégories de l’extrait ne se recoupent pas exactement. Il s’agit d’une source militante utile pour identifier des signaux à vérifier, non d’un registre officiel exhaustif.",
+    "topics": [
+      "territory",
+      "planning",
+      "transparency"
+    ],
+    "sourceIds": [
+      "feb-20261125-41",
+      "feb-20261125-42",
+      "feb-20261125-28"
+    ],
+    "actorIds": [
+      "fr-nuage-sous-pieds"
+    ]
+  },
+  {
+    "id": "nl-leitmotiv-ms-energy-estimate-2026",
+    "countries": [
+      "NL"
+    ],
+    "date": "2026-02-13",
+    "type": "context",
+    "title": "Pays-Bas — estimation de l’empreinte de Microsoft par Leitmotiv",
+    "summary": "Leitmotiv estime à environ 548 MW la capacité réseau revendiquée par les centres opérationnels de Microsoft et à 1,68 TWh leur consommation annuelle, en appliquant une utilisation supposée de 35 %. Les auteurs signalent explicitement l’absence de données contractuelles et de consommation complètes ; il s’agit d’une estimation indépendante, non d’une mesure officielle. Ne pas confondre puissance de raccordement et consommation effective.",
+    "topics": [
+      "power",
+      "grid",
+      "transparency"
+    ],
+    "sourceIds": [
+      "feb-20261125-11"
+    ],
+    "actorIds": [
+      "nl-leitmotiv"
+    ]
+  },
+  {
+    "id": "nl-leitmotiv-plan-letter-2026",
+    "countries": [
+      "NL"
+    ],
+    "date": "2026-11-06",
+    "type": "context",
+    "title": "Pays-Bas — lettre de la société civile demandant une planification",
+    "summary": "Leitmotiv annonce une lettre collective adressée aux autorités et partis néerlandais, appelant à mieux évaluer les besoins et les impacts des centres de données. Le communiqué mentionne les manifestations européennes contemporaines mais ne démontre pas, à lui seul, une coordination opérationnelle transnationale.",
+    "topics": [
+      "territory",
+      "planning",
+      "transparency"
+    ],
+    "sourceIds": [
+      "nl-leitmotiv-plan-20261106"
+    ],
+    "actorIds": [
+      "nl-leitmotiv"
+    ]
+  },
+  {
+    "id": "gb-london-gridlocked-2025",
+    "countries": [
+      "GB"
+    ],
+    "date": "2025-12-01",
+    "type": "context",
+    "title": "Londres — recommandations d’urbanisme et de planification électrique",
+    "summary": "La commission de la London Assembly recommande une catégorie d’usage urbanistique spécifique aux data centers, une politique dédiée dans le prochain London Plan et la publication des projections de demande. Le rapport analyse les contraintes ayant affecté les logements à l’ouest de Londres ; le développement des centres est l’un des facteurs, pas la cause exclusive. Les recommandations ne constituent pas une nouvelle catégorie réglementaire en vigueur.",
+    "topics": [
+      "planning",
+      "territory",
+      "grid"
+    ],
+    "sourceIds": [
+      "gb-london-gridlocked-2025",
+      "gb-london-housing-release-2025",
+      "feb-20261125-69"
+    ],
+    "territory": "Grand Londres",
+    "actorIds": [
+      "gb-london-assembly"
+    ]
+  },
+  {
+    "id": "fr-idf-cndp-ipr-debate-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-11-18",
+    "type": "context",
+    "title": "Île-de-France — débat CNDP et Institut Paris Region sur le raccordement",
+    "summary": "Dans le cadre du débat public sur le SDDR, les collectivités, RTE et autres participants discutent de la concentration des besoins électriques, du foncier, de la concertation et des solutions de mutualisation. Les critiques locales rapportées par la presse sont des positions exprimées, non des décisions d’urbanisme. Les unités manifestement incohérentes dans Batiactu (GW au lieu de MW pour des raccordements individuels) ne sont pas reprises.",
+    "topics": [
+      "grid",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "fr-cndp-ipr-20251118",
+      "feb-20261125-71",
+      "feb-20261125-85",
+      "feb-20261125-24"
+    ],
+    "territory": "Île-de-France",
+    "actorIds": [
+      "fr-rte",
+      "fr-paris-saclay"
+    ]
+  },
+  {
+    "id": "fr-grand-paris-assises-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-11-27",
+    "type": "context",
+    "title": "Grand Paris — débat sur la croissance des infrastructures IA",
+    "summary": "Le Journal du Grand Paris rapporte les échanges des Assises du 27 novembre entre collectivités, énergéticiens et acteurs de l’innovation sur l’articulation des implantations, de la demande électrique et de la décarbonation. Cette séquence éclaire les orientations franciliennes ultérieures ; les propos ne sont pas des engagements de raccordement.",
+    "topics": [
+      "grid",
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "feb-20261125-66"
+    ],
+    "territory": "Île-de-France"
+  },
+  {
+    "id": "eu-iea-grid-constraints-2025",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2025-11-16",
+    "type": "context",
+    "title": "AIE — conditions énergétiques du développement des capacités européennes",
+    "summary": "L’AIE rappelle l’objectif de triplement de capacité de l’UE en cinq à sept ans fixé par le plan AI Continent, et modélise une croissance de capacité installée en Europe de 70 % entre 2024 et 2030, tenant compte de contraintes et retards. Elle recommande la maturité des projets, les raccordements non fermes et la localisation sur les zones de capacité disponible. La publication a été corrigée le 25 novembre 2025 ; l’objectif UE et la projection Europe ont des périmètres et horizons distincts.",
+    "topics": [
+      "grid",
+      "power",
+      "planning"
+    ],
+    "sourceIds": [
+      "feb-20261125-78",
+      "feb-20261125-88"
+    ],
+    "scope": "eu"
+  },
+  {
+    "id": "fr-data4-edf-capn-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-09-04",
+    "type": "context",
+    "title": "Data4 / EDF — contrat d’allocation de production nucléaire",
+    "summary": "EDF annonce une quote-part de 40 MW du parc nucléaire existant pour douze ans, avec premières livraisons prévues en 2026 et environ 230 GWh annuels prévisionnels. Le CAPN implique un partage des coûts et risques sur les volumes effectivement produits. Ce contrat n’est ni une réservation réseau de 40 MW ni une fourniture garantie à puissance constante.",
+    "topics": [
+      "power",
+      "supply"
+    ],
+    "sourceIds": [
+      "fr-data4-edf-capn-2025",
+      "feb-20261125-95"
+    ],
+    "actorIds": [
+      "fr-data4"
+    ]
+  },
+  {
+    "id": "es-data4-total-ppa-2025",
+    "countries": [
+      "ES"
+    ],
+    "date": "2025-11-04",
+    "type": "context",
+    "title": "Data4 / TotalEnergies — contrat d’électricité renouvelable",
+    "summary": "Contrat de dix ans annoncé à partir de janvier 2026, pour 610 GWh au total, avec profil de fourniture stable et parcs éoliens et solaires équivalant à 30 MW de puissance de production. Ce volume correspond à 61 GWh/an en moyenne, non à 610 GWh annuels. La signature précède le décret espagnol de novembre 2026 et ne prouve pas sa conformité à ce dernier.",
+    "topics": [
+      "supply",
+      "power",
+      "environment"
+    ],
+    "sourceIds": [
+      "es-data4-totalenergies-ppa-2025",
+      "feb-20261125-96"
+    ],
+    "actorIds": [
+      "fr-data4"
+    ]
+  },
+  {
+    "id": "fr-fdc-ey-barometer-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "France Datacenter/EY — baromètre de la filière 2025",
+    "summary": "L’étude sectorielle de juin 2025 documente la dynamique économique, les emplois, l’énergie et les difficultés de déploiement. Le document dans l’export est tronqué ; ses estimations ne sont pas fusionnées avec les données SDES, Arcep ou le baromètre 2026, dont les méthodes et années peuvent différer.",
+    "topics": [
+      "power",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "feb-20261125-75"
+    ],
+    "actorIds": [
+      "fr-france-datacenter"
+    ]
   }
 ]

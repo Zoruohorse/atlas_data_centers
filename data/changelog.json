@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-11-25",
+    "title": "Delta Curebot 9 — octobre 2025 à février 2026",
+    "summary": "100 ressources examinées : orientations européennes de raccordement, scénarios ADEME, Autorité de la concurrence, état de file Ofgem, scénarios GRD allemands, Bercy, CNDP, London Assembly, Leitmotiv et contrats Data4. Journal docs/veille/2026-11-25-data-center-fevrier.md."
+  },
+  {
+    "date": "2026-11-25",
     "title": "Delta Curebot 8 — février-mai 2026",
     "summary": "100 lignes examinées : piquage HTB3, décret contentieux et référé, rapport ENTSO-E, Interface, correction DSIT, appel EuroHPC, oppositions historiques et contributions. Journal docs/veille/2026-11-25-curebot-fevrier-mai.md."
   },

@@ -3082,5 +3082,335 @@
     "label": "Le Monde — mobilisations constatées en novembre",
     "url": "https://www.lemonde.fr/economie/article/2026/11/08/la-contestation-contre-les-data-centers-monte-en-europe_6808448_3234.html",
     "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-2",
+    "label": "France Datacenter — appel à la simplification",
+    "url": "https://fr.linkedin.com/posts/francedatacenter_communique-de-presse-de-france-datacenter-activity-7430623527189446657-q47c",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-3",
+    "label": "Le Parisien — tensions de voisinage",
+    "url": "https://www.leparisien.fr/societe/les-data-center-ces-nouveaux-voisins-qui-derangent-21-02-2026-EGFCJ3NPORGRJIIU72LRFER4OQ.php",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-5",
+    "label": "The Times — demandes de raccordement britanniques",
+    "url": "https://www.thetimes.com/uk/environment/article/ai-data-centres-uk-climate-change-7l5bwnmtd",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-11",
+    "label": "Leitmotiv — estimation de l’empreinte électrique de Microsoft",
+    "url": "https://leitmotiv.digital/publications/estimating-microsoft-energy-footprint-in-the-netherlands",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-18",
+    "label": "Baptiste Perrissin Fabert — position sur IA et environnement",
+    "url": "https://fr.linkedin.com/posts/baptiste-perrissin-fabert-8aa8b21b_le-d%C3%A9bat-sur-limpact-environnemental-de-activity-7425478496308776960-dIpK",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-21",
+    "label": "Banque des Territoires — table ronde du Sénat",
+    "url": "https://www.banquedesterritoires.fr/datacenters-le-senat-valide-la-necessite-de-relocaliser-les-centres-de-donnees-en-france",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-22",
+    "label": "TransnetBW — communiqué commun, version de l’export",
+    "url": "https://www.transnetbw.de/de/newsroom/pressemitteilungen/uebertragungsnetzbetreiber-fuehren-reifegradverfahren-ein",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-24",
+    "label": "Le Monde — modernisation du réseau francilien",
+    "url": "https://www.lemonde.fr/planete/article/2026/02/04/data-centers-crues-et-pylones-corrodes-en-ile-de-france-l-enorme-chantier-de-la-modernisation-du-reseau-electrique_6665419_3244.html",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-28",
+    "label": "La Relève et La Peste — carte participative",
+    "url": "https://lareleveetlapeste.fr/explosion-des-data-centers-en-france-une-trajectoire-hors-de-controle/",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-29",
+    "label": "Ministère — rencontres des centres de données",
+    "url": "https://www.economie.gouv.fr/actualites/rencontres-des-centres-de-donnees-la-dynamique-des-projets-dinfrastructures-numeriques-se-confirme",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-31",
+    "label": "L’Usine Digitale — création de la commission numérique",
+    "url": "https://www.usine-digitale.fr//souverainete/souverainete-numerique-lassemblee-nationale-vote-la-creation-dune-commission-denquete-sur-les-dependances-structurelles-et-vulnerabilites-systemiques.T6ZHYHBUOBGSZJFRLOK3NPZBMA.html",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-34",
+    "label": "Next — colloque à l’Assemblée nationale",
+    "url": "https://next.ink/220723/data-centers-a-lassemblee-nationale-des-appels-a-questionner-la-course-au-gigantisme/",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-37",
+    "label": "France Datacenter — réaction à la prospective ADEME",
+    "url": "https://fr.linkedin.com/posts/francedatacenter_les-paniques-num%C3%A9riques-de-lademe-activity-7417196378579345408-q3-8",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-38",
+    "label": "Data for Good — annonce du colloque",
+    "url": "https://fr.linkedin.com/posts/dataforgood_colloque-assembl%C3%A9e-nationale-activity-7417158581138907136-scL5",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-39",
+    "label": "Next — lecture de la prospective ADEME",
+    "url": "https://next.ink/218679/consommations-des-datacenters-dici-2035-et-2060-le-numero-dequilibriste-de-lademe/",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-40",
+    "label": "Banque des Territoires — frugalité et concurrence",
+    "url": "https://www.banquedesterritoires.fr/datacenters-une-frugalite-bonne-pour-la-concurrence-et-indispensable-au-respect-des-objectifs",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-41",
+    "label": "Le Nuage était sous nos pieds — carte participative",
+    "url": "https://lenuageetaitsousnospieds.org/articles/2025-12-11-carte-des-data-centers-des-projets-et-des-contestations-en-france.html",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-42",
+    "label": "Next — carte des contestations",
+    "url": "https://next.ink/brief_article/les-centres-de-donnees-francais-cartographies-par-le-collectif-le-nuage-etait-sous-nos-pieds/",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-43",
+    "label": "Joël Vormus — lecture critique de la prospective",
+    "url": "https://fr.linkedin.com/posts/jo%C3%ABl-vormus_centres-de-donn%C3%A9es-remettre-la-prospective-activity-7414716212980563968-Hivw",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-44",
+    "label": "Le Monde — scénarios de l’ADEME",
+    "url": "https://www.lemonde.fr/planete/article/2026/01/07/de-la-denumerisation-a-l-explosion-des-usages-l-impact-des-data-centers-sur-la-consommation-electrique-en-france-auscultee_6660919_3244.html",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-47",
+    "label": "ADEME — communiqué du 6 janvier",
+    "url": "https://www.ademe.fr/presse/communique-national/centres-de-donnees-numeriques-perspectives-devolution-de-leurs-consommations/",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-48",
+    "label": "ADEME — étude prospective 2024–2060",
+    "url": "https://librairie.ademe.fr/energies/8910-prospective-d-evolution-des-consommations-des-data-centers-a-court-moyen-et-long-terme-de-2024-a-2060.html",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-55",
+    "label": "Autorité de la concurrence — communiqué du 17 décembre",
+    "url": "https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/lautorite-rend-publique-son-etude-sur-les-enjeux-concurrentiels-lies-limpact",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-66",
+    "label": "Journal du Grand Paris — assises du 27 novembre",
+    "url": "https://www.lejournaldugrandparis.fr/ia-et-data-centers-comment-canaliser-la-vague/",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-67",
+    "label": "Banque des Territoires — guide DGE",
+    "url": "https://www.banquedesterritoires.fr/accueil-de-datacenters-le-gouvernement-deroule-son-argumentaire",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-69",
+    "label": "DataCenterDynamics — recommandations londoniennes",
+    "url": "https://www.datacenterdynamics.com/en/news/uk-data-centers-need-separate-use-class-to-avoid-housing-construction-delays-says-london-committee/",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-71",
+    "label": "Acteurs publics — débat sur l’implantation",
+    "url": "https://acteurspublics.fr/articles/les-datacenters-un-enjeu-de-territorialisation-du-numerique-et-de-transition-ecologique-pour-les-collectivites/",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-72",
+    "label": "Next — guide DGE",
+    "url": "https://next.ink/211342/bercy-met-de-lhuile-dans-les-rouages-de-limplantation-de-datacenters-en-france/",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-73",
+    "label": "DGE — guide d’accompagnement",
+    "url": "https://www.entreprises.gouv.fr/la-dge/publications/implantation-de-centres-de-donnees",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-74",
+    "label": "Ministère — communiqué de publication du guide",
+    "url": "https://presse.economie.gouv.fr/data-centers-roland-lescure-et-anne-le-henanff-publient-un-guide-pour-accompagner-limplantation-des-centres-de-donnees-en-france/",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-75",
+    "label": "France Datacenter/EY — baromètre 2025",
+    "url": "https://www.francedatacenter.com/wp-content/uploads/ressources/pfwgk7ynxi/Etude_EY_France_Datacenter_2025_VF.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-78",
+    "label": "AIE — contraintes énergétiques des data centers européens",
+    "url": "https://www.iea.org/commentaries/overcoming-energy-constraints-is-key-to-delivering-on-europe-s-data-centre-goals",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-81",
+    "label": "Contexte — projet de communication sur les raccordements",
+    "url": "https://www.contexte.com/fr/actualite/energie/document-la-commission-envisage-lintroduction-de-criteres-de-priorisation-pour-le-raccordement-au-reseau-electrique_246113",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-85",
+    "label": "Batiactu — collectivités et encadrement",
+    "url": "https://www.batiactu.com/edito/collectivites-souhaitent-que-essor-data-centers-soit-72912.php",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-88",
+    "label": "Commission européenne — synthèse énergie et data centers",
+    "url": "https://energy.ec.europa.eu/news/focus-data-centres-energy-hungry-challenge-2025-11-17_en",
+    "type": "primary"
+  },
+  {
+    "id": "feb-20261125-95",
+    "label": "L’Usine Nouvelle — contrats nucléaires de long terme",
+    "url": "https://www.usinenouvelle.com/article/prix-de-l-electricite-pourquoi-les-datacenters-lorgnent-les-contrats-nucleaires-long-terme-d-edf-mais-en-signent-peu.N2240977",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-96",
+    "label": "AFP — contrat TotalEnergies/Data4",
+    "url": "https://www.connaissancedesenergies.org/afp/centres-de-donnees-totalenergies-signe-un-contrat-de-10-ans-avec-data4-en-espagne-251104",
+    "type": "analysis"
+  },
+  {
+    "id": "feb-20261125-98",
+    "label": "Filière 3e — tribune Joël Vormus",
+    "url": "https://www.filiere-3e.fr/2025/10/27/datacenters-ia-aligner-ambitions-publiques-et-conditions-dexecution/",
+    "type": "analysis"
+  },
+  {
+    "id": "eu-grid-guidance-c2025-8473",
+    "label": "Commission — orientations C/2025/8473 du 10 décembre",
+    "url": "https://eur-lex.europa.eu/eli/C/2025/6703/oj/eng",
+    "type": "primary"
+  },
+  {
+    "id": "eu-grid-package-com2025-1005",
+    "label": "Commission — paquet réseaux COM(2025)1005",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52025DC1005",
+    "type": "primary"
+  },
+  {
+    "id": "gb-ofgem-feb-cfi-2026",
+    "label": "Ofgem — Call for Input du 13 février",
+    "url": "https://www.ofgem.gov.uk/call-for-input/demand-connections-reform",
+    "type": "primary"
+  },
+  {
+    "id": "gb-ofgem-feb-cfi-document",
+    "label": "Ofgem — document de consultation",
+    "url": "https://www.ofgem.gov.uk/sites/default/files/2026-02/2026-02-12-Demand-Connections-Call-for-Input.pdf?outputType=chromeless",
+    "type": "primary"
+  },
+  {
+    "id": "fr-fdc-serce-gimelec-20260220",
+    "label": "France Datacenter, GIMELEC, SERCE — communiqué commun",
+    "url": "https://www.francedatacenter.com/wp-content/uploads/2026/02/CP_FDC_Gimelec_Serce_PJL_simplification_VDEF.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "fr-senat-20260204-roundtable",
+    "label": "Sénat — compte rendu de la table ronde du 4 février",
+    "url": "https://www.senat.fr/compte-rendu-commissions/20260202/devdur.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-dge-20260130-meeting",
+    "label": "DGE — communiqué des rencontres du 30 janvier",
+    "url": "https://www.entreprises.gouv.fr/espace-presse/rencontres-des-centres-de-donnees-pres-dun-apres-le-sommet-pour-laction-sur-lia-de",
+    "type": "primary"
+  },
+  {
+    "id": "de-bdew-regionalszenarien-2026",
+    "label": "BDEW — scénarios de distribution à 2045",
+    "url": "https://www.bdew.de/energie/stromverteilnetzbetreiber-veroeffentlichen-regionalszenarien/",
+    "type": "primary"
+  },
+  {
+    "id": "de-bnetza-distribution-planning",
+    "label": "Bundesnetzagentur — planification de la distribution",
+    "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/VerteilerNetz/artikel.html?nn=686258",
+    "type": "primary"
+  },
+  {
+    "id": "nl-leitmotiv-sloterdijk-letter-2026",
+    "label": "Leitmotiv — communiqué du 26 janvier",
+    "url": "https://leitmotiv.digital/publications/persbericht-hyperscaler-datacenter-sloterdijk",
+    "type": "primary"
+  },
+  {
+    "id": "nl-leitmotiv-plan-20261106",
+    "label": "Leitmotiv — lettre de mobilisation du 6 novembre",
+    "url": "https://leitmotiv.digital/publications/tijd-voor-een-plan",
+    "type": "primary"
+  },
+  {
+    "id": "fr-adlc-study-2025",
+    "label": "Autorité de la concurrence — étude du 17 décembre",
+    "url": "https://www.autoritedelaconcurrence.fr/fr/publications/etude-sur-les-enjeux-concurrentiels-lies-limpact-energetique-et-environnemental-de-lia",
+    "type": "primary"
+  },
+  {
+    "id": "gb-london-gridlocked-2025",
+    "label": "London Assembly — rapport Gridlocked du 1er décembre",
+    "url": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-work/london-assembly-publications/gridlocked-how-planning-can-ease-londons-electricity-constraints",
+    "type": "primary"
+  },
+  {
+    "id": "gb-london-housing-release-2025",
+    "label": "London Assembly — communiqué du 1er décembre",
+    "url": "https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-press-releases/data-centres-delay-housing-delivery",
+    "type": "primary"
+  },
+  {
+    "id": "fr-cndp-ipr-20251118",
+    "label": "CNDP — débat public du 18 novembre 2025",
+    "url": "https://www.debatpublic.fr/reseau-electrique-en-debat/le-raccordement-electrique-des-data-centers-un-enjeu-damenagement-du",
+    "type": "primary"
+  },
+  {
+    "id": "fr-data4-edf-capn-2025",
+    "label": "EDF — contrat Data4 du 4 septembre",
+    "url": "https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/data4-signe-un-accord-avec-edf-pour-l-approvisionnement-en-electricite-bas-carbone-de-ses-datacenters-en-france",
+    "type": "primary"
+  },
+  {
+    "id": "es-data4-totalenergies-ppa-2025",
+    "label": "TotalEnergies — contrat du 4 novembre",
+    "url": "https://totalenergies.com/newsroom/espagne-totalenergies-fournira-de-lelectricite-renouvelable-aux/?lang=fra",
+    "type": "primary"
   }
 ]

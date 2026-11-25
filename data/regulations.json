@@ -118,7 +118,8 @@
       "fr-ros-senat-adopted-2026",
       "carto-20261125-15",
       "dc-europe-20261125-100",
-      "curebot8-20261125-37"
+      "curebot8-20261125-37",
+      "fr-fdc-serce-gimelec-20260220"
     ]
   },
   {
@@ -473,7 +474,7 @@
     ],
     "stage": "consultation",
     "title": "Ofgem propose de réformer la file des data centers",
-    "summary": "Ofgem a consulté sur le filtrage des demandes spéculatives et sur la réforme des règles de raccordement des data centers en Grande-Bretagne. Le dossier de consultation décrit des options de réforme. Le volet Curate propose une garantie financière à maintenir de l’acceptation de l’offre jusqu’au raccordement et des jalons portant notamment sur un utilisateur final crédible, la commande d’équipements à long délai, et les capacités financières et techniques. La page officielle indique la consultation close le 17 septembre, décision attendue. Le 19 novembre Ofgem confirme poursuivre les travaux sur les projets spéculatifs.",
+    "summary": "Ofgem a consulté sur le filtrage des demandes spéculatives et sur la réforme des règles de raccordement des data centers en Grande-Bretagne. Le dossier de consultation décrit des options de réforme. Le volet Curate propose une garantie financière à maintenir de l’acceptation de l’offre jusqu’au raccordement et des jalons portant notamment sur un utilisateur final crédible, la commande d’équipements à long délai, et les capacités financières et techniques. La page officielle indique la consultation close le 17 septembre, décision attendue. Le 19 novembre Ofgem confirme poursuivre les travaux sur les projets spéculatifs. Le Call for Input du 13 février identifie environ 140 projets de centres de données représentant 50 GW, dont 71 projets (environ 20 GW) déclarant avoir pris une décision finale d’investissement. Ce sont des déclarations et des volumes de projets dans la file, non une pointe de consommation simultanée. Les offres de raccordement de consommation contractualisées, tous usages, sont passées de 41 à 125 GW entre novembre 2024 et juin 2025 selon Ofgem.",
     "sourceIds": [
       "ofgem-gov-uk-fe0b3991",
       "ofgem-gov-uk-f2619bbb",
@@ -483,7 +484,10 @@
       "carto-20261125-82",
       "carto-20261125-55",
       "gb-ofgem-curate-status-2026",
-      "gb-ofgem-delivery-inquiry-2026"
+      "gb-ofgem-delivery-inquiry-2026",
+      "gb-ofgem-feb-cfi-2026",
+      "gb-ofgem-feb-cfi-document",
+      "feb-20261125-5"
     ],
     "actorIds": [
       "gb-ofgem"
@@ -661,7 +665,9 @@
       "curebot4-20261124-8",
       "curebot4-20261124-9",
       "curebot4-20261124-80",
-      "dc-europe-20261125-100"
+      "dc-europe-20261125-100",
+      "fr-dge-20260130-meeting",
+      "feb-20261125-29"
     ],
     "actorIds": [
       "fr-rte"
@@ -1407,7 +1413,8 @@
     ],
     "sourceIds": [
       "de-reifegrad-announce-2026",
-      "de-reifegrad-operational-2026"
+      "de-reifegrad-operational-2026",
+      "feb-20261125-22"
     ],
     "effectiveFrom": "2026-04-01",
     "actorIds": [

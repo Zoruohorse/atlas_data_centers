@@ -464,7 +464,8 @@
     ],
     "summary": "Cartographie des projets de data centers et mobilisation autour des procédures d’implantation, selon La Lettre.",
     "sourceIds": [
-      "curebot3-20261124-36"
+      "curebot3-20261124-36",
+      "feb-20261125-41"
     ]
   },
   {
@@ -1127,6 +1128,137 @@
     "summary": "Salue la stratégie fédérale et demande notamment une meilleure prise en compte de l’acceptabilité locale.",
     "sourceIds": [
       "curebot8-20261125-75"
+    ]
+  },
+  {
+    "id": "de-bdew",
+    "name": "BDEW",
+    "type": "Fédération de l’énergie et de l’eau",
+    "countries": [
+      "DE"
+    ],
+    "summary": "Coordonne les scénarios de développement des six régions de planification de la distribution avec les GRD et la Bundesnetzagentur.",
+    "sourceIds": [
+      "de-bdew-regionalszenarien-2026",
+      "de-bnetza-distribution-planning"
+    ]
+  },
+  {
+    "id": "fr-ademe",
+    "name": "ADEME",
+    "type": "Agence publique",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Publie une prospective sur la consommation des centres de données de 2024 à 2060, avec plusieurs hypothèses de sobriété et de développement.",
+    "sourceIds": [
+      "feb-20261125-47",
+      "feb-20261125-48"
+    ]
+  },
+  {
+    "id": "fr-autorite-concurrence",
+    "name": "Autorité de la concurrence",
+    "type": "Autorité administrative indépendante",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Étudie les enjeux concurrentiels de l’accès à l’énergie et de l’empreinte de l’IA.",
+    "sourceIds": [
+      "fr-adlc-study-2025",
+      "feb-20261125-55"
+    ]
+  },
+  {
+    "id": "fr-dge",
+    "name": "Direction générale des entreprises (DGE)",
+    "type": "Administration centrale",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Pilote avec Business France et RTE la démarche d’accompagnement des implantations de centres de données.",
+    "sourceIds": [
+      "feb-20261125-73",
+      "fr-dge-20260130-meeting"
+    ]
+  },
+  {
+    "id": "fr-serce",
+    "name": "SERCE",
+    "type": "Fédération professionnelle",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Cosigne le communiqué du 20 février avec France Datacenter et le GIMELEC en faveur de la simplification des implantations.",
+    "sourceIds": [
+      "fr-fdc-serce-gimelec-20260220",
+      "feb-20261125-2"
+    ]
+  },
+  {
+    "id": "fr-nicolas-bonnet",
+    "name": "Nicolas Bonnet",
+    "type": "Député",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Organise avec Data for Good un colloque parlementaire sur les enjeux politiques, environnementaux et stratégiques de l’IA.",
+    "sourceIds": [
+      "feb-20261125-34",
+      "feb-20261125-38"
+    ]
+  },
+  {
+    "id": "nl-leitmotiv",
+    "name": "Leitmotiv",
+    "type": "Organisation de la société civile / recherche",
+    "countries": [
+      "NL"
+    ],
+    "summary": "Publie des estimations de consommation et interpelle les autorités sur les implantations et la transparence.",
+    "sourceIds": [
+      "feb-20261125-11",
+      "nl-leitmotiv-sloterdijk-letter-2026",
+      "nl-leitmotiv-plan-20261106"
+    ]
+  },
+  {
+    "id": "nl-pilp",
+    "name": "PILP",
+    "type": "Organisation juridique",
+    "countries": [
+      "NL"
+    ],
+    "summary": "Apporte un soutien juridique aux organisations ayant adressé une lettre sur les permis de Sloterdijk.",
+    "sourceIds": [
+      "nl-leitmotiv-sloterdijk-letter-2026"
+    ]
+  },
+  {
+    "id": "gb-london-assembly",
+    "name": "London Assembly",
+    "type": "Assemblée territoriale",
+    "countries": [
+      "GB"
+    ],
+    "summary": "Sa commission de planification et régénération formule des recommandations sur les contraintes électriques et le logement.",
+    "sourceIds": [
+      "gb-london-gridlocked-2025",
+      "gb-london-housing-release-2025"
+    ]
+  },
+  {
+    "id": "fr-data4",
+    "name": "Data4",
+    "type": "Opérateur de centres de données",
+    "countries": [
+      "FR",
+      "ES"
+    ],
+    "summary": "Signe des contrats de long terme pour l’approvisionnement bas-carbone de ses centres en France et en Espagne.",
+    "sourceIds": [
+      "fr-data4-edf-capn-2025",
+      "es-data4-totalenergies-ppa-2025"
     ]
   }
 ]
