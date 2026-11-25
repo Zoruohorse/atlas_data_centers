@@ -1,7 +1,7 @@
 import {article,button,countryName,element,formatDate,disclosure} from '../ui.js';
 const stages=[['emerging','Signal émergent'],['announced','Annonce officielle'],['consultation','Consultation'],['adopted','Adoption'],['published','Publication / mise en œuvre'],['temporary','Mesures temporaires'],['effective','Suivi d’application']];
 export function renderRadar(target,atlas,state,actions,code=''){
- const rows=atlas.radarFor(state,code),cutoff=state.year?state.year+'-12-31':atlas.latestRevision;
+ const rows=atlas.radarFor(state,code),cutoff=state.cutoff||atlas.latestRevision;
  target.append(element('p','Propositions, consultations et mesures transitoires à suivre. Une consultation ancienne n’est pas nécessairement encore ouverte.','muted'));
  const upcoming=rows.filter(r=>r.milestoneDate&&r.milestoneDate>=cutoff).sort((a,b)=>a.milestoneDate.localeCompare(b.milestoneDate));
  if(upcoming.length){const agenda=element('section','','radar-agenda');agenda.append(element('h3','Échéances datées à suivre'));for(const r of upcoming){const item=element('div','','agenda-item');item.append(element('strong',formatDate(r.milestoneDate)),element('span',r.title),element('small',r.scope==='eu'?'Union européenne':r.countries.map(countryName).join(', ')));agenda.append(item);}target.append(agenda);}

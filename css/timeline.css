@@ -1,0 +1,13 @@
+/* Curseur trimestriel, repères annuels espacés et navigation précise. */
+.timeline-heading{flex-wrap:wrap;gap:6px 10px}
+.timeline-heading output{margin-left:auto;white-space:nowrap;font-variant-numeric:tabular-nums}
+.timeline-controls{display:flex;align-items:flex-start;gap:9px;margin-top:8px}
+.timeline-track{flex:1;min-width:0;padding:0 7px}
+.timeline-track input{display:block;width:100%;margin:8px 0 5px;padding:0;cursor:pointer}
+.timeline-ticks{height:18px;position:relative;margin:0 8px}
+.timeline-tick{position:absolute;top:0;transform:translateX(-50%);font-size:.68rem;color:var(--muted);white-space:nowrap;line-height:1.5}
+.timeline-tick.first{transform:none}.timeline-tick.last{transform:translateX(-100%)}
+.quarter-step{flex:0 0 30px;height:30px;display:grid;place-items:center;border:1px solid var(--line);border-radius:6px;background:#fff;color:#496a89;font-size:1.25rem;line-height:1;padding:0;cursor:pointer}
+.quarter-step:disabled,.timeline-heading button:disabled{opacity:.45;cursor:default}
+.quarter-step:focus-visible,.timeline-track input:focus-visible{outline:2px solid #527da7;outline-offset:2px}
+@media(max-width:480px){.timeline-heading output{margin-left:0}.timeline-controls{gap:5px}.timeline-tick{font-size:.62rem}.timeline-tick:not(.first):not(.last):nth-child(even){display:none}}

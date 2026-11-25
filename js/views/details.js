@@ -37,7 +37,7 @@ function renderRules(target, atlas, state, rows) {
       target.append(panel);
     }
   }
-  if (!state.year && !state.topic && contextSourceIds?.length) {
+  if (!state.cutoff && !state.topic && contextSourceIds?.length) {
     const {panel,content}=disclosure('Sources de contexte',{count:contextSourceIds.length});
     content.append(links(atlas,contextSourceIds));target.append(panel);
   }
@@ -75,7 +75,7 @@ function renderActors(target, atlas, state, actions, rows) {
   const events = atlas.filter(state, atlas.data.events, state.country);
   const actorIds = new Set([...rows, ...events].flatMap(row => row.actorIds || []));
   const countryActors = atlas.data.actors.filter(actor => actorIds.has(actor.id)
-    || (!state.year && !state.topic && actor.countries.includes(state.country)));
+    || (!state.cutoff && !state.topic && actor.countries.includes(state.country)));
   const actorRows=countryActors.map(actor=>({...actor,title:actor.name,actorType:actor.type}));
   if(state.mode==='influences'){
     target.append(element('h3','Relations documentées'));renderRelations(target,atlas,state,actions);
@@ -134,7 +134,7 @@ export function renderDetails(target, atlas, state, actions) {
   const latestEvent = atlas.filter(state, atlas.data.events, state.country)[0];
   const fallback = subnational ? 'Repère territorial · ' + subnational.title
     : latestEvent ? 'Événement documenté · ' + latestEvent.title : 'Couverture réglementaire nationale à compléter.';
-  const subtitle = (!state.year && !state.topic && info.summary)
+  const subtitle = (!state.cutoff && !state.topic && info.summary)
     || (national.length ? 'Dernier signal national · ' + national[0].title : fallback);
   const hero=element('div','','country-hero');const identity=element('div','','country-identity');
   const title=element('div');title.append(element('div',info.euMember?'ÉTAT MEMBRE · UE':'EUROPE · HORS UE','eyebrow'),element('h2',countryName(state.country)));

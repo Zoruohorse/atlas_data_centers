@@ -1,3 +1,4 @@
+import {isDocumentedBy} from './chronology.js';
 export const collections = [
   'countries', 'regulations', 'actors', 'events', 'campaigns',
   'relations', 'sources', 'assessments', 'taxonomy', 'changelog',
@@ -35,7 +36,7 @@ export function createAtlas(data, geo) {
 
   function filter(state, rows, code = '') {
     return rows.filter(record =>
-      (!state.year || record.date.slice(0, 4) <= state.year)
+      isDocumentedBy(record.date,state.cutoff)
       && (!state.topic || record.topics.includes(state.topic))
       && (!state.eventType || !data.events.includes(record) || record.type===state.eventType)
       && appliesTo(record, code),
@@ -44,7 +45,7 @@ export function createAtlas(data, geo) {
 
   function compare(state, codes, nationalOnly = false) {
     const documents = filter({...state, topic: ''}, data.regulations);
-    const cutoff = state.year ? state.year + '-12-31' : latestRevision;
+    const cutoff = state.cutoff || latestRevision;
     const rows = data.taxonomy.criteria
       .filter(criterion => !state.topic || criterion.topic === state.topic)
       .map(criterion => ({
@@ -90,7 +91,7 @@ export function createAtlas(data, geo) {
   function relationsFor(state, code = '') {
     return data.relations.flatMap(relation => {
       const origin = campaigns.get(relation.campaignId) ?? regulations.get(relation.regulationId) ?? relation;
-      if ((state.year && relation.date.slice(0, 4) > state.year)
+      if (!isDocumentedBy(relation.date,state.cutoff)
           || !filter(state, [origin], code).length) return [];
       const countriesInvolved = origin.scope === 'eu'
         ? data.countries.filter(country => country.euMember).map(country => country.code)
@@ -106,7 +107,7 @@ export function createAtlas(data, geo) {
     });
   }
   function radarFor(state,code=''){
-    const cutoff=state.year?state.year+'-12-31':latestRevision;
+    const cutoff=state.cutoff||latestRevision;
     return filter(state,data.regulations,code).filter(r=>radarStages.includes(r.stage)||(['published','effective','temporary'].includes(r.stage)&&((r.effectiveFrom&&r.effectiveFrom>cutoff)||(r.milestone&&(!r.milestoneDate||r.milestoneDate>=cutoff)))));
   }
   return {data, geo, countries, sources, actors, criteria, latestRevision, filter, compare, related, relationsFor, convergenceFor, radarFor};

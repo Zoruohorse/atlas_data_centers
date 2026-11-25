@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Atlas européen de la réglementation, de l’acceptabilité et des réseaux d’influence autour des data centers.">
 <title>Atlas européen des data centers</title>
-<link rel="stylesheet" href="./css/atlas.css"><link rel="stylesheet" href="./css/observatory.css"><link rel="stylesheet" href="./css/visual-atlas.css"><link rel="stylesheet" href="./css/disclosure.css">
+<link rel="stylesheet" href="./css/atlas.css"><link rel="stylesheet" href="./css/observatory.css"><link rel="stylesheet" href="./css/visual-atlas.css"><link rel="stylesheet" href="./css/disclosure.css"><link rel="stylesheet" href="./css/timeline.css">
 <script type="module" src="./js/app.js"></script>
 </head>
 <body>
@@ -25,7 +25,7 @@
 <div id="map-relations" class="map-relations" hidden></div>
 <div class="map"><svg id="map" role="group" aria-label="Pays d’Europe"><g id="borders"></g><g id="status-overlays" aria-hidden="true"></g><g id="connections" aria-hidden="true"></g><g id="labels" aria-hidden="true"></g></svg><div class="tip" id="tip" hidden></div><span class="map-caption">EUROPE · VUE DOCUMENTAIRE</span></div>
 <div class="legend" id="legend"></div>
-<section class="timeline"><div class="timeline-heading"><label for="year">Chronologie documentaire</label><output id="year-label" for="year"></output><button id="reset-year" type="button">Aujourd’hui</button></div><input type="range" id="year" step="1"><div class="timeline-bounds"><span id="first-year"></span><span id="last-year"></span></div><p class="meta">Documents connus à la date sélectionnée ; historique juridique non exhaustif.</p></section>
+<section class="timeline" aria-label="Chronologie documentaire trimestrielle"><div class="timeline-heading"><label for="year">Chronologie trimestrielle</label><output id="year-label" for="year" aria-live="polite"></output><button id="reset-year" type="button">Base actuelle</button></div><div class="timeline-controls"><button id="previous-quarter" type="button" class="quarter-step" aria-label="Trimestre précédent" title="Trimestre précédent">‹</button><div class="timeline-track"><input type="range" id="year" step="1" aria-describedby="timeline-note"><div id="timeline-ticks" class="timeline-ticks" aria-hidden="true"></div></div><button id="next-quarter" type="button" class="quarter-step" aria-label="Trimestre suivant" title="Trimestre suivant">›</button></div><p id="timeline-note" class="meta">Vue cumulative à la date sélectionnée. Les documents datés uniquement à l’année sont affichés à partir du 31 décembre ou dans la base actuelle. Historique juridique non exhaustif.</p></section>
 </section>
 <section class="panel details" id="details" aria-label="Fiche pays et analyse" tabindex="-1"></section>
 </div>

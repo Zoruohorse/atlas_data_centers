@@ -57,7 +57,7 @@ export function createMap(atlas,state,selectCountry,actions){
   const related=state.mode==='similarities'?atlas.related(state):[];
   const relations=state.mode==='influences'?[...atlas.relationsFor(state,state.country),...atlas.convergenceFor(state)].filter(r=>!state.relationType||r.type===state.relationType):[];
   const active=relations.find(r=>r.id===state.relation)||relations[0];
-  const cutoff=state.year?state.year+'-12-31':atlas.latestRevision;
+  const cutoff=state.cutoff||atlas.latestRevision;
   const relationBox=get('map-relations');relationBox.replaceChildren();relationBox.hidden=state.mode!=='influences';
   if(state.mode==='influences'){
    if(relations.length){const label=element('label','Relation affichée');const select=element('select');select.setAttribute('aria-label','Relation affichée');for(const r of relations)addOption(select,r.id,(atlas.data.taxonomy.relations[r.type]||r.type)+' · '+(r.origin.title||r.title)+(r.derived?' · '+r.countries.map(countryName).join(' / '):''));select.value=active.id;select.addEventListener('change',()=>actions.relation(select.value));label.append(select);relationBox.append(label,element('span',active.countries.length+' pays associés','meta'));}

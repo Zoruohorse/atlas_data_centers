@@ -1,4 +1,5 @@
 import {loadAtlas} from './model.js';
+import {makeTimeline} from './chronology.js';
 import {addOption, button, countryName, element, formatDate, get} from './ui.js';
 import {initialTab, modes, renderDetails} from './views/details.js';
 import {createMap} from './views/map.js';
@@ -9,22 +10,39 @@ function start(atlas) {
   const topic = get('topic');
   const year = get('year');
   const details = get('details');
-  const state = {country:'', topic:'', year:'', mode:'regulation', tab:'rules', comparison:[], relation:'', eventType:'', relationType:''};
+  const state = {country:'', topic:'', cutoff:'', mode:'regulation', tab:'rules', comparison:[], relation:'', eventType:'', relationType:''};
   const codes = [...atlas.countries.keys()].sort((a, b) =>
     Number(atlas.countries.get(b).priority) - Number(atlas.countries.get(a).priority)
     || countryName(a).localeCompare(countryName(b), 'fr'),
   );
   for (const code of codes) addOption(country, code, countryName(code));
   for (const [key, label] of Object.entries(atlas.data.taxonomy.topics)) addOption(topic, key, label);
-  const dates = [...atlas.data.regulations, ...atlas.data.events, ...atlas.data.relations].map(row => row.date.slice(0, 4));
-  const firstYear = Math.min(...dates);
-  const lastYear = Math.max(...dates);
-  const currentYear=Math.max(lastYear,Number(atlas.latestRevision.slice(0,4))||lastYear),latest=currentYear+1;
-  year.min=String(firstYear);year.max=String(latest);year.value=String(latest);
-  get('first-year').textContent=String(firstYear);get('last-year').textContent=currentYear+' · À jour';
+  const dates=[...atlas.data.regulations,...atlas.data.events,...atlas.data.relations].map(row=>row.date);
+  const periods=makeTimeline(dates,atlas.latestRevision),latest=periods.length-1;
+  year.min='0';year.max=String(latest);year.value=String(latest);
+  const ticks=get('timeline-ticks');
+  // Repères annuels espacés : le curseur conserve un pas de trois mois.
+  const first=Number(periods[0].date.slice(0,4)||atlas.latestRevision.slice(0,4));
+  const last=Number(atlas.latestRevision.slice(0,4));
+  const interval=Math.max(1,Math.ceil((last-first)/5));
+  periods.forEach((period,index)=>{
+    if(index===0||index===latest||(period.date.endsWith('03-31')&& (Number(period.date.slice(0,4))-first)%interval===0&&Number(period.date.slice(0,4))<last)){
+      const tick=element('span',index===latest?'À jour':period.date.slice(0,4),'timeline-tick');
+      tick.style.left=(latest?index/latest*100:100)+'%';
+      if(index===0&&latest>0)tick.classList.add('first');
+      if(index===latest)tick.classList.add('last');
+      ticks.append(tick);
+    }
+  });
+  function selectPeriod(index){
+    const selected=Math.max(0,Math.min(latest,index));
+    state.cutoff=periods[selected].date;state.relation='';render();
+  }
+  get('previous-quarter').addEventListener('click',()=>selectPeriod(Number(year.value)-1));
+  get('next-quarter').addEventListener('click',()=>selectPeriod(Number(year.value)+1));
   for(const [key,label] of Object.entries(atlas.data.taxonomy.eventTypes))addOption(get('event-type'),key,label);
   get('event-type').addEventListener('change',()=>{state.eventType=get('event-type').value;render();});
-  get('reset-year').addEventListener('click',()=>{state.year='';state.relation='';render();});
+  get('reset-year').addEventListener('click',()=>{state.cutoff='';state.relation='';render();});
 
   const actions = {
     country: selectCountry,
@@ -70,11 +88,17 @@ function start(atlas) {
   get('radar').addEventListener('click',()=>{state.mode='radar';state.tab='upcoming';state.eventType='';state.relation='';state.relationType='';render();});
   const drawMap = createMap(atlas, state, selectCountry,actions);
   get('show-flags').addEventListener('change',drawMap);
-  get('clear-filters').addEventListener('click',()=>{state.country='';state.topic='';state.year='';state.eventType='';state.relation='';state.relationType='';state.comparison=[];state.tab=initialTab(state.mode);topic.value='';writeHash();render();});
+  get('clear-filters').addEventListener('click',()=>{state.country='';state.topic='';state.cutoff='';state.eventType='';state.relation='';state.relationType='';state.comparison=[];state.tab=initialTab(state.mode);topic.value='';writeHash();render();});
   function render() {
     country.value = state.country;
     get('workspace').dataset.mode=state.mode;
-    year.value=state.year||String(latest);get('year-label').textContent=state.year?'31 décembre '+state.year:'Base au '+formatDate(atlas.latestRevision);year.setAttribute('aria-valuetext',get('year-label').textContent);
+    const index=state.cutoff?periods.findIndex(p=>p.date===state.cutoff):latest;
+    year.value=String(index);
+    get('year-label').textContent=state.cutoff?periods[index].label+' · '+formatDate(state.cutoff):'Base au '+formatDate(atlas.latestRevision);
+    year.setAttribute('aria-valuetext',get('year-label').textContent);
+    get('previous-quarter').disabled=index<=0;
+    get('next-quarter').disabled=index>=latest;
+    get('reset-year').disabled=index===latest;
     get('radar').setAttribute('aria-pressed',String(state.mode==='radar'));get('event-filter').hidden=state.mode!=='contests';get('event-type').value=state.eventType;
     for (const [mode, node] of modeButtons) node.setAttribute('aria-pressed', String(state.mode === mode));
     drawMap();
@@ -112,11 +136,7 @@ function start(atlas) {
     state.relation = '';
     render();
   });
-  year.addEventListener('input', () => {
-    state.year=Number(year.value)===latest?'':year.value;
-    state.relation = '';
-    render();
-  });
+  year.addEventListener('input',()=>selectPeriod(Number(year.value)));
   window.addEventListener('hashchange', readHash);
 
   const footer = get('footer');

@@ -37,11 +37,11 @@ Ouvrir http://localhost:8000. Le site lit des fichiers JSON via HTTP. GitHub Pag
 4. Pour alimenter le comparateur, ajouter une évaluation par critère et par référence réglementaire. Réutiliser une valeur `mechanism` quand le mécanisme est de même nature. Le champ `detail` explicite les seuils et le périmètre. Les données communes de l’UE apparaissent dans le tableau. La mise en lumière des pays similaires sur la carte s’appuie sur les mesures nationales.
 5. Mettre à jour le journal, lancer le validateur et vérifier l’affichage du pays concerné. Conserver les entrées historiques et indiquer la fin d’application si elle est documentée. Pour une modification régulière, utiliser une pull request avec le delta et ses sources.
 
-Le filtre chronologique affiche les documents enregistrés jusqu’à l’année choisie. Il représente la chronologie de la base à date de publication ou d’annonce. La reconstitution juridique dépend de la complétude des dates, des versions et des mesures abrogées. Un champ manquant signifie que la veille n’a pas renseigné ce point. Le comparateur ne décompte que les critères documentés pour tous les pays sélectionnés.
+Le filtre chronologique affiche les documents enregistrés jusqu’à la fin du trimestre choisi. Il représente la chronologie de la base à date de publication ou d’annonce. La reconstitution juridique dépend de la complétude des dates, des versions et des mesures abrogées. Un champ manquant signifie que la veille n’a pas renseigné ce point. Le comparateur ne décompte que les critères documentés pour tous les pays sélectionnés.
 
 ## Interface V2
 
-Quatre modes cartographiques et radar autonome. Le curseur représente les documents connus à la fin de l’année, pas une reconstruction juridique exhaustive. Le fil européen suit le thème et la date indépendamment du pays. Un projet n'est pas nécessairement contesté.
+Quatre modes cartographiques et radar autonome. Le curseur représente les documents connus à la fin du trimestre, pas une reconstruction juridique exhaustive. Le fil européen suit le thème et la date indépendamment du pays. Un projet n'est pas nécessairement contesté.
 
 Le classement national exclut le socle UE, les données manquantes et les mesures suspendues. Les couleurs distinguent une concordance de plusieurs concordances, pas des niveaux de sévérité. Les convergences calculées sont sourcées, mais n'établissent aucune causalité. Les relations explicites exigent une preuve distincte. Le graphe matérialise le cadre ou la campagne commune.
 
@@ -58,3 +58,7 @@ La couleur de fond conserve le statut principal, les hachures indiquent le premi
 ## V3.2 — consultation progressive
 
 Le bandeau des compteurs globaux est retiré de la page principale. Les cartes documentaires utilisent désormais un composant commun natif `details/summary` : titre, statut, date, aperçu et nombre de sources restent visibles ; le texte complet, les échéances, impacts et liens restent disponibles au dépliage. Le fil européen conserve les douze entrées habituelles ; ses cartes s'ouvrent indépendamment et gardent leur état lors d'un changement de filtre si l'entrée reste affichée. Dans les fiches pays, deux entrées sont visibles par groupe avant un accordéon des entrées restantes ; les cadres secondaires et sources de contexte sont accessibles sur demande. Les données JSON et le modèle documentaire ne sont pas modifiés.
+
+## V3.3 — chronologie trimestrielle
+
+La frise reste cumulative : chaque position correspond au 31 mars, 30 juin, 30 septembre ou 31 décembre, puis à la dernière révision réelle de la base (position « Base actuelle »). Aucun trimestre futur n’est créé. Les boutons précédent/suivant et le clavier permettent de parcourir les trimestres. La carte, les fiches pays, le comparateur, les relations, le radar et le fil européen utilisent une date de coupure commune. Les entrées datées seulement à l’année sont retenues à partir du 31 décembre en vue historique et restent visibles dans la base actuelle ; cette convention n’attribue aucune date fictive aux documents. Les statuts et résumés proviennent des documents actuels : la frise n’est pas une reconstitution exhaustive de leurs versions historiques.

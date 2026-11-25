@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {collections, createAtlas} from '../js/model.js';
+import {makeTimeline,isDocumentedBy,quarterLabel} from '../js/chronology.js';
 
 const read = async path => JSON.parse(await readFile(new URL(path, import.meta.url), 'utf8'));
 const data = Object.fromEntries(await Promise.all(collections.map(async name => [name, await read('../data/' + name + '.json')])));
@@ -106,12 +107,35 @@ for (const row of data.changelog) {
 
 console.log('Données valides · ' + data.countries.length + ' pays, ' + data.regulations.length + ' entrées réglementaires et ' + data.sources.length + ' sources.');
 
-const current={year:'',topic:'',eventType:'',country:'ES'};
+const current={cutoff:'',topic:'',eventType:'',country:'ES'};
 const national=atlas.compare(current,['ES','IE'],true);
 assert(national.matching.some(r=>r.criterion.id==='renewable-additionality'));
 assert(national.common.every(r=>r.values.every(v=>v.record.scope==='national')));
-assert(!atlas.compare({...current,year:'2024'},['ES','IE'],true).matching.length);
+assert(!atlas.compare({...current,cutoff:'2024-12-31'},['ES','IE'],true).matching.length);
 assert(atlas.convergenceFor(current).every(r=>r.type==='convergence'&&r.sourceIds.length));
 assert(atlas.radarFor(current).some(r=>r.id==='eu-minimum-standards-consultation-2026'));
 assert(atlas.filter({...current,eventType:'mobilisation'},data.events).every(r=>r.type==='mobilisation'));
 console.log('Régressions du modèle OK.');
+
+const timeline=makeTimeline([...data.regulations,...data.events,...data.relations].map(r=>r.date),atlas.latestRevision);
+assert.equal(timeline.at(-1).date,'');
+assert.equal(timeline.at(-1).revision,atlas.latestRevision);
+assert(timeline.slice(0,-1).every(p=>p.date<atlas.latestRevision&&/-(03-31|06-30|09-30|12-31)$/.test(p.date)));
+assert.equal(quarterLabel('2026-09-30'),'T3 2026');
+assert(isDocumentedBy('2026-03-31','2026-03-31'));
+assert(!isDocumentedBy('2026-04-01','2026-03-31'));
+assert(!isDocumentedBy('2026','2026-09-30'));
+assert(isDocumentedBy('2026','2026-12-31'));
+assert(isDocumentedBy('2026',''));
+const q1={...current,cutoff:'2026-03-31'},q2={...current,cutoff:'2026-06-30'};
+const rows1=atlas.filter(q1,data.events),rows2=atlas.filter(q2,data.events);
+assert(rows1.every(r=>rows2.includes(r)));
+assert(rows2.length>rows1.length);
+assert(rows2.every(r=>isDocumentedBy(r.date,q2.cutoff)));
+assert(atlas.filter(current,data.events).some(r=>r.date==='2026'));
+assert(!atlas.filter(q2,data.events).some(r=>r.date==='2026'));
+assert(atlas.relationsFor(q2).every(r=>isDocumentedBy(r.date,q2.cutoff)));
+assert(!atlas.filter(q1,data.regulations).some(r=>r.id==='fr-htb3-piquage-2026'));
+assert(atlas.filter(q2,data.regulations).some(r=>r.id==='fr-htb3-piquage-2026'));
+assert(atlas.compare({...current,cutoff:'2025-06-30'},['FR']).rows.every(r=>r.values.every(v=>!v||!v.record.effectiveFrom||v.record.effectiveFrom<='2025-06-30')));
+console.log('Chronologie trimestrielle OK.');
