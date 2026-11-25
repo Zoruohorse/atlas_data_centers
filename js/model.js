@@ -8,7 +8,7 @@ export const radarStages = ['emerging', 'announced', 'consultation', 'adopted'];
 const benchmarkStages = new Set(['published', 'effective', 'temporary']);
 const byId = rows => new Map(rows.map(row => [row.id, row]));
 
-export async function loadAtlas() {
+export async function loadAtlas(view = "europe") {
   async function read(path) {
     const response = await fetch(new URL(path, import.meta.url));
     if (!response.ok) throw new Error(path + ' · HTTP ' + response.status);
@@ -16,13 +16,14 @@ export async function loadAtlas() {
   }
   const [entries, geo] = await Promise.all([
     Promise.all(collections.map(async key => [key, await read('../data/' + key + '.json')])),
-    read('../geo/europe.json'),
+    read('../geo/'+(view==='world'?'world':'europe')+'.json'),
   ]);
-  return createAtlas(Object.fromEntries(entries), geo);
+  return createAtlas(Object.fromEntries(entries), geo, view);
 }
 
-export function createAtlas(data, geo) {
-  const countries = new Map(data.countries.map(country => [country.code, country]));
+export function createAtlas(data, geo, view='world') {
+  const countries = new Map(data.countries.filter(c=>view==='world'||c.europe===true).map(country => [country.code, country]));
+  const allCountries = new Map(data.countries.map(country=>[country.code,country]));
   const regulations = byId(data.regulations);
   const campaigns = byId(data.campaigns);
   const sources = byId(data.sources);
@@ -31,7 +32,8 @@ export function createAtlas(data, geo) {
   const latestRevision = data.changelog.reduce((latest, change) => change.date > latest ? change.date : latest, '');
 
   function appliesTo(record, code) {
-    return !code || (record.scope === 'eu' ? countries.get(code)?.euMember : record.countries.includes(code));
+    if(code)return countries.has(code)&&(record.scope==='eu'?countries.get(code)?.euMember:record.countries.includes(code));
+    return record.scope==='eu' ? [...countries.values()].some(c=>c.euMember) : record.countries.some(c=>countries.has(c));
   }
 
   function filter(state, rows, code = '') {
@@ -74,7 +76,7 @@ export function createAtlas(data, geo) {
 
   function related(state) {
     if (!state.country) return [];
-    return data.countries
+    return [...countries.values()]
       .filter(country => country.code !== state.country)
       .map(country => {
         const result = compare(state, [state.country, country.code], true);
@@ -110,5 +112,5 @@ export function createAtlas(data, geo) {
     const cutoff=state.cutoff||latestRevision;
     return filter(state,data.regulations,code).filter(r=>radarStages.includes(r.stage)||(['published','effective','temporary'].includes(r.stage)&&((r.effectiveFrom&&r.effectiveFrom>cutoff)||(r.milestone&&(!r.milestoneDate||r.milestoneDate>=cutoff)))));
   }
-  return {data, geo, countries, sources, actors, criteria, latestRevision, filter, compare, related, relationsFor, convergenceFor, radarFor};
+  return {data, geo, view, countries, allCountries, sources, actors, criteria, latestRevision, filter, compare, related, relationsFor, convergenceFor, radarFor};
 }

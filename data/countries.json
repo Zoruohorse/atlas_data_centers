@@ -6,7 +6,26 @@
     "summary": "Andorra Telecom publie les appels d’offres et marchés liés à ses équipements de data center.",
     "contextSourceIds": [
       "transparencia-andorratelecom-com-a71afc2d"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "AE",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "AF",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "AG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "AL",
@@ -16,28 +35,135 @@
     "contextSourceIds": [
       "interoperable-europe-ec-europa-eu-bd9310fe",
       "documents1-worldbank-org-efb50796"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "AM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "AO",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "AR",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "AT",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "AU",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "AZ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "BA",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "BB",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "BD",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "BE",
     "euMember": true,
     "priority": false,
-    "summary": "La CREG a durci le traitement des demandes de raccordement au transport. La période transitoire d’Elia court jusqu’en mars 2027."
+    "summary": "La CREG a durci le traitement des demandes de raccordement au transport. La période transitoire d’Elia court jusqu’en mars 2027.",
+    "europe": true
+  },
+  {
+    "code": "BF",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "BG",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "BH",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "BI",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "BJ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "BN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "BO",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "BR",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "BS",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "BT",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "BW",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "BY",
@@ -46,22 +172,104 @@
     "summary": "Un projet de centre national beCloud à Kolodichtchi a été documenté par la presse spécialisée en 2016.",
     "contextSourceIds": [
       "datacenterdynamics-com-baf3155b"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "BZ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CA",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CD",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CF",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "CH",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "CI",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CL",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CO",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CR",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CU",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "CV",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "CY",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
   },
   {
     "code": "CZ",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
   },
   {
     "code": "DE",
@@ -70,29 +278,94 @@
     "summary": "L’EnEfG fixe des exigences d’efficacité et de réutilisation de chaleur. Les gestionnaires de transport ont publié des attentes techniques communes pour le raccordement.",
     "contextSourceIds": [
       "netztransparenz-de-87be5989"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "DJ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "DK",
     "euMember": true,
     "priority": true,
-    "summary": "Après la pause de mars 2026, Energinet a repris les attributions selon un nouveau modèle de priorisation. Certaines catégories restent contraintes."
+    "summary": "Après la pause de mars 2026, Energinet a repris les attributions selon un nouveau modèle de priorisation. Certaines catégories restent contraintes.",
+    "europe": true
+  },
+  {
+    "code": "DM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "DO",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "DZ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "EC",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "EE",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "EG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "ER",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "ES",
     "euMember": true,
-    "priority": true
+    "priority": true,
+    "europe": true
+  },
+  {
+    "code": "ET",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "FI",
     "euMember": true,
     "priority": true,
-    "summary": "L’accise électrique est au taux général depuis juillet 2026. Fingrid applique des exigences pour les grandes charges raccordées à son réseau et prépare leur extension."
+    "summary": "L’accise électrique est au taux général depuis juillet 2026. Fingrid applique des exigences pour les grandes charges raccordées à son réseau et prépare leur extension.",
+    "europe": true
+  },
+  {
+    "code": "FJ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "FM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "FR",
@@ -102,45 +375,251 @@
     "contextSourceIds": [
       "legifrance-gouv-fr-a1a5879f",
       "rte-france-com-068f59e6"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "GA",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "GB",
     "euMember": false,
     "priority": false,
-    "summary": "Ofgem et le gouvernement réforment en Grande-Bretagne le traitement des demandes de raccordement, dont celles des data centers."
+    "summary": "Ofgem et le gouvernement réforment en Grande-Bretagne le traitement des demandes de raccordement, dont celles des data centers.",
+    "europe": true
+  },
+  {
+    "code": "GD",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "GE",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "GH",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "GM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "GN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "GQ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "GR",
     "euMember": true,
     "priority": false,
-    "summary": "L’exploitation relève d’une notification spécifique auprès de l’autorité régionale selon le cadre national."
+    "summary": "L’exploitation relève d’une notification spécifique auprès de l’autorité régionale selon le cadre national.",
+    "europe": true
+  },
+  {
+    "code": "GT",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "GW",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "GY",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "HN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "HR",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "HT",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "HU",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "ID",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "IE",
     "euMember": true,
-    "priority": true
+    "priority": true,
+    "europe": true
+  },
+  {
+    "code": "IL",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "IN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "IQ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "IR",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "IS",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
   },
   {
     "code": "IT",
     "euMember": true,
     "priority": false,
-    "summary": "Une procédure unique est prévue pour les projets concernés. Un guide traite l’évaluation des installations dotées de groupes de secours de forte puissance."
+    "summary": "Une procédure unique est prévue pour les projets concernés. Un guide traite l’évaluation des installations dotées de groupes de secours de forte puissance.",
+    "europe": true
+  },
+  {
+    "code": "JM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "JO",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "JP",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KE",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KH",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KI",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KP",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KR",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KW",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "KZ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "LA",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "LB",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "LC",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "LI",
@@ -149,37 +628,86 @@
     "summary": "L’AELE suit l’examen du règlement européen de reporting pour son incorporation à l’accord EEE.",
     "contextSourceIds": [
       "efta-int-c1df4129"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "LK",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "LR",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "LS",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "LT",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
   },
   {
     "code": "LU",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
   },
   {
     "code": "LV",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "LY",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MA",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "MC",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
   },
   {
     "code": "MD",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
   },
   {
     "code": "ME",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "MG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MH",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "MK",
@@ -188,18 +716,105 @@
     "summary": "L’agence publique d’investissement présente les centres de données comme un secteur d’implantation en Macédoine du Nord.",
     "contextSourceIds": [
       "investnorthmacedonia-gov-mk-98dad4ac"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "ML",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MR",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "MT",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "MU",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MV",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MW",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MX",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MY",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "MZ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "NA",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "NE",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "NG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "NI",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "NL",
     "euMember": true,
     "priority": false,
-    "summary": "L’implantation des très grands hyperscales est limitée par une règle nationale de zonage. Amsterdam dispose également d’un cadre local."
+    "summary": "L’implantation des très grands hyperscales est limitée par une règle nationale de zonage. Amsterdam dispose également d’un cadre local.",
+    "europe": true
   },
   {
     "code": "NO",
@@ -208,19 +823,100 @@
     "summary": "Statnett a suspendu les nouvelles réservations de capacité pour les data centers. Le gouvernement prépare un régime de licences.",
     "contextSourceIds": [
       "no-statnett-2026-1"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "NP",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "NR",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "NZ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "OM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "PA",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "PE",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "PG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "PH",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "PK",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "PL",
     "euMember": true,
     "priority": true,
-    "summary": "La réforme générale du raccordement de 2026 est documentée, ainsi que les obligations européennes de reporting."
+    "summary": "La réforme générale du raccordement de 2026 est documentée, ainsi que les obligations européennes de reporting.",
+    "europe": true
+  },
+  {
+    "code": "PS",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "PT",
     "euMember": true,
     "priority": false,
-    "summary": "Le dispositif d’allocation des capacités en zone de forte demande s’étend à la partie continentale couverte par le réseau public."
+    "summary": "Le dispositif d’allocation des capacités en zone de forte demande s’étend à la partie continentale couverte par le réseau public.",
+    "europe": true
+  },
+  {
+    "code": "PW",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "PY",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "QA",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "RO",
@@ -229,28 +925,69 @@
     "summary": "L’ANRE publie les étapes du raccordement des utilisateurs et les textes applicables au réseau public.",
     "contextSourceIds": [
       "anre-ro-af9ad469"
-    ]
+    ],
+    "europe": true
   },
   {
     "code": "RS",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
   },
   {
     "code": "RU",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "RW",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SA",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SB",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SC",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SD",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "SE",
     "euMember": true,
     "priority": false,
-    "summary": "L’allègement de taxe énergétique sur l’électricité consommée par les data centers a pris fin en 2023."
+    "summary": "L’allègement de taxe énergétique sur l’électricité consommée par les data centers a pris fin en 2023.",
+    "europe": true
+  },
+  {
+    "code": "SG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "SI",
     "euMember": true,
-    "priority": false
+    "priority": false,
+    "europe": true
   },
   {
     "code": "SK",
@@ -259,22 +996,176 @@
     "summary": "L’agence slovaque de l’énergie publie les instructions de reporting pour les data centers concernés par le cadre européen.",
     "contextSourceIds": [
       "siea-sk-5408e7a4"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "SL",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "SM",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "SN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SO",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SR",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SS",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "ST",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SV",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SY",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "SZ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TD",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TH",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TJ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TL",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TO",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "TR",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "TT",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TV",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TW",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "TZ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "UA",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "UG",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "US",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "UY",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "UZ",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "VA",
@@ -283,11 +1174,67 @@
     "summary": "Le Centre informatique de la Bibliothèque apostolique vaticane soutient la numérisation et la conservation de ses collections.",
     "contextSourceIds": [
       "vaticanlibrary-va-1445e493"
-    ]
+    ],
+    "europe": true
+  },
+  {
+    "code": "VC",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "VE",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "VN",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "VU",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "WS",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   },
   {
     "code": "XK",
     "euMember": false,
-    "priority": false
+    "priority": false,
+    "europe": true
+  },
+  {
+    "code": "YE",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "ZA",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "ZM",
+    "euMember": false,
+    "priority": false,
+    "europe": false
+  },
+  {
+    "code": "ZW",
+    "euMember": false,
+    "priority": false,
+    "europe": false
   }
 ]

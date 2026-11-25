@@ -4,12 +4,13 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Atlas européen de la réglementation, de l’acceptabilité et des réseaux d’influence autour des data centers.">
 <title>Atlas européen des data centers</title>
-<link rel="stylesheet" href="./css/atlas.css"><link rel="stylesheet" href="./css/observatory.css"><link rel="stylesheet" href="./css/visual-atlas.css"><link rel="stylesheet" href="./css/disclosure.css"><link rel="stylesheet" href="./css/timeline.css">
+<link rel="stylesheet" href="./css/atlas.css"><link rel="stylesheet" href="./css/observatory.css"><link rel="stylesheet" href="./css/visual-atlas.css"><link rel="stylesheet" href="./css/disclosure.css"><link rel="stylesheet" href="./css/timeline.css"><link rel="stylesheet" href="./css/geographic-views.css">
 <script type="module" src="./js/app.js"></script>
 </head>
 <body>
-<header><div class="masthead"><div class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="17" fill="none" stroke="currentColor" stroke-width="1.5"/><ellipse cx="22" cy="22" rx="8" ry="17" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 22h34M8 13h28M8 31h28" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="30" cy="13" r="4" fill="#6b8aa5" stroke="white" stroke-width="2"/></svg></div><div><div class="label">OBSERVATOIRE EUROPÉEN</div><h1>Atlas des data centers</h1><p>Réglementation, acceptabilité et dynamiques d’influence</p></div><div class="masthead-end"><span class="eyebrow">VEILLE STRATÉGIQUE</span><span id="revision-label"></span></div></div></header>
+<header><div class="masthead"><div class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="17" fill="none" stroke="currentColor" stroke-width="1.5"/><ellipse cx="22" cy="22" rx="8" ry="17" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 22h34M8 13h28M8 31h28" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="30" cy="13" r="4" fill="#6b8aa5" stroke="white" stroke-width="2"/></svg></div><div><div class="label" id="atlas-scope-label">OBSERVATOIRE EUROPÉEN</div><h1>Atlas des data centers</h1><p>Réglementation, acceptabilité et dynamiques d’influence</p></div><div class="masthead-end"><span class="eyebrow">VEILLE STRATÉGIQUE</span><span id="revision-label"></span></div></div></header>
 <main>
+<nav class="geographic-navigation" aria-label="Périmètre géographique"><div class="geographic-tabs"><a id="view-europe" href="./" aria-current="page">Europe</a><a id="view-world" href="?view=world">Monde</a></div><p id="coverage-note">Vue européenne détaillée</p></nav>
 <div class="navigation"><nav class="mode-bar" id="modes" aria-label="Modes de lecture"></nav><button type="button" class="mode-button radar-button" id="radar" aria-pressed="false"><span aria-hidden="true">◉</span> Évolutions à venir</button></div>
 <div class="toolbar">
 <label>Pays <select id="country"><option value="">Tous les pays</option></select></label>
@@ -20,15 +21,15 @@
 <noscript>Activez JavaScript pour utiliser la carte et consulter les fiches.</noscript>
 <p id="notice" role="status">Chargement de l’atlas…</p>
 <div class="layout" id="workspace" hidden>
-<section class="panel map-panel" aria-label="Carte européenne">
+<section class="panel map-panel" id="map-panel" aria-label="Carte européenne">
 <div class="map-heading"><div><span class="eyebrow">CARTE INTERACTIVE</span><h2 id="map-title">Réglementation</h2><p id="map-description"></p></div><label class="flag-toggle"><input type="checkbox" id="show-flags" checked> Drapeaux</label></div>
 <div id="map-relations" class="map-relations" hidden></div>
-<div class="map"><svg id="map" role="group" aria-label="Pays d’Europe"><g id="borders"></g><g id="status-overlays" aria-hidden="true"></g><g id="connections" aria-hidden="true"></g><g id="labels" aria-hidden="true"></g></svg><div class="tip" id="tip" hidden></div><span class="map-caption">EUROPE · VUE DOCUMENTAIRE</span></div>
-<div class="legend" id="legend"></div>
+<div class="map"><svg id="map" role="group" aria-label="Pays d’Europe"><g id="borders"></g><g id="status-overlays" aria-hidden="true"></g><g id="connections" aria-hidden="true"></g><g id="labels" aria-hidden="true"></g></svg><div class="tip" id="tip" hidden></div><span class="map-caption" id="map-caption">EUROPE · VUE DOCUMENTAIRE</span></div>
+<div class="legend" id="legend"></div><p class="world-map-note meta" id="world-map-note" hidden>Fond mondial simplifié : petits États et îles accessibles via le sélecteur. Les zones grises ne signifient pas une absence de réglementation. Les limites cartographiques n’expriment aucune position sur la souveraineté.</p>
 <section class="timeline" aria-label="Chronologie documentaire trimestrielle"><div class="timeline-heading"><label for="year">Chronologie trimestrielle</label><output id="year-label" for="year" aria-live="polite"></output><button id="reset-year" type="button">Base actuelle</button></div><div class="timeline-controls"><button id="previous-quarter" type="button" class="quarter-step" aria-label="Trimestre précédent" title="Trimestre précédent">‹</button><div class="timeline-track"><input type="range" id="year" step="1" aria-describedby="timeline-note"><div id="timeline-ticks" class="timeline-ticks" aria-hidden="true"></div></div><button id="next-quarter" type="button" class="quarter-step" aria-label="Trimestre suivant" title="Trimestre suivant">›</button></div><p id="timeline-note" class="meta">Vue cumulative à la date sélectionnée. Les documents datés uniquement à l’année sont affichés à partir du 31 décembre ou dans la base actuelle. Historique juridique non exhaustif.</p></section>
 </section>
 <section class="panel details" id="details" aria-label="Fiche pays et analyse" tabindex="-1"></section>
 </div>
-<section class="panel feed-panel" id="feed" aria-label="Dernières évolutions européennes" hidden></section>
+<section class="panel feed-panel" id="feed" aria-label="Dernières évolutions documentaires" hidden></section>
 <footer id="footer"></footer>
 </main></body></html>

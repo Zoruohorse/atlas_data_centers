@@ -137,7 +137,7 @@ export function renderDetails(target, atlas, state, actions) {
   const subtitle = (!state.cutoff && !state.topic && info.summary)
     || (national.length ? 'Dernier signal national · ' + national[0].title : fallback);
   const hero=element('div','','country-hero');const identity=element('div','','country-identity');
-  const title=element('div');title.append(element('div',info.euMember?'ÉTAT MEMBRE · UE':'EUROPE · HORS UE','eyebrow'),element('h2',countryName(state.country)));
+  const title=element('div');title.append(element('div',info.euMember?'ÉTAT MEMBRE · UE':info.europe?'EUROPE · HORS UE':'COUVERTURE MONDIALE','eyebrow'),element('h2',countryName(state.country)));
   identity.append(flag(state.country),title);hero.append(close,identity);
   if(subtitle.length>260){
     const summary=disclosure('Contexte national',{className:'country-context',hint:excerpt(subtitle,200)});

@@ -6,6 +6,7 @@ import {makeTimeline,isDocumentedBy,quarterLabel} from '../js/chronology.js';
 const read = async path => JSON.parse(await readFile(new URL(path, import.meta.url), 'utf8'));
 const data = Object.fromEntries(await Promise.all(collections.map(async name => [name, await read('../data/' + name + '.json')])));
 const geo = await read('../geo/europe.json');
+const worldGeo=await read('../geo/world.json');
 const unique = (values, label) => assert.equal(new Set(values).size, values.length, label + ' contient un doublon');
 const required = (value, label) => assert(typeof value === 'string' && value.trim(), label + ' est obligatoire');
 const validDate = (value, label, allowYear = false) => {
@@ -35,6 +36,7 @@ const topics = new Set(Object.keys(data.taxonomy.topics));
 for (const {code, euMember, priority, contextSourceIds} of data.countries) {
   assert(/^[A-Z]{2}$/.test(code), 'Code pays invalide');
   assert(typeof euMember === 'boolean' && typeof priority === 'boolean', code + ' doit qualifier le périmètre');
+  assert(typeof atlas.countries.get(code).europe==='boolean',code+' · périmètre européen obligatoire');
   if (contextSourceIds) references(contextSourceIds, atlas.sources, code + ' · sources de contexte', 1);
 }
 references(Object.keys(geo.paths), atlas.countries, 'Tracés géographiques', 1);
@@ -139,3 +141,19 @@ assert(!atlas.filter(q1,data.regulations).some(r=>r.id==='fr-htb3-piquage-2026')
 assert(atlas.filter(q2,data.regulations).some(r=>r.id==='fr-htb3-piquage-2026'));
 assert(atlas.compare({...current,cutoff:'2025-06-30'},['FR']).rows.every(r=>r.values.every(v=>!v||!v.record.effectiveFrom||v.record.effectiveFrom<='2025-06-30')));
 console.log('Chronologie trimestrielle OK.');
+
+const europeAtlas=createAtlas(data,geo,'europe'),worldAtlas=createAtlas(data,worldGeo,'world');
+assert(worldAtlas.countries.size>=197);
+assert(europeAtlas.countries.size>=47);
+assert(worldAtlas.countries.has('US')&&!europeAtlas.countries.has('US'));
+references(Object.keys(worldGeo.paths),worldAtlas.countries,'Tracés mondiaux',1);
+references(Object.keys(worldGeo.labels),new Set(Object.keys(worldGeo.paths)),'Libellés mondiaux');
+assert(Object.keys(worldGeo.paths).length>=160);
+assert(Object.values(worldGeo.labels).every(p=>p.length===2&&p.every(Number.isFinite)));
+assert(Object.values(worldGeo.paths).every(p=>typeof p==='string'&&p.startsWith('M')&&!/NaN|Infinity/.test(p)));
+for(const row of data.regulations.filter(r=>r.scope==='eu'))assert(!worldAtlas.filter(current,[row],'US').length);
+assert.equal(worldAtlas.filter(current,data.regulations).length,data.regulations.length);
+assert.equal(worldAtlas.filter(current,data.events).length,data.events.length);
+assert.equal(europeAtlas.filter(current,data.regulations,'FR').length,worldAtlas.filter(current,data.regulations,'FR').length);
+assert.deepEqual(europeAtlas.compare(current,['ES','IE']),worldAtlas.compare(current,['ES','IE']));
+console.log('Vues Europe et Monde · intégrité géographique et documentaire OK.');

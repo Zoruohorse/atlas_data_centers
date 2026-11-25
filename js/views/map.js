@@ -13,6 +13,7 @@ function project(longitude,latitude){
 function arc(a,b,index=0){const dx=b[0]-a[0],dy=b[1]-a[1],len=Math.hypot(dx,dy)||1,bend=Math.min(55,len*.18)*(index%2===0?1:-1);return 'M'+a.join(',')+' Q'+((a[0]+b[0])/2-dy/len*bend)+','+((a[1]+b[1])/2+dx/len*bend)+' '+b.join(',');}
 export function createMap(atlas,state,selectCountry,actions){
  const tooltip=get('tip'),legend=get('legend'),connectionLayer=get('connections'),labelLayer=get('labels'),paths=new Map(),points=new Map();
+ const world=atlas.view==='world', [vx,vy,vw,vh]=atlas.geo.viewBox.split(/\s+/).map(Number);
  let signals=new Map(),statusByCountry=new Map();
  const hideTip=()=>{tooltip.hidden=true;};
  const statusLayer=get('status-overlays');
@@ -27,12 +28,13 @@ export function createMap(atlas,state,selectCountry,actions){
   tooltip.append(element('small','Un clic ouvre la fiche pays','tip-meta'));tooltip.hidden=false;
  }
  get('map').setAttribute('viewBox',atlas.geo.viewBox);
+ for(const d of atlas.geo.background||[])get('borders').append(svg('path',{d,class:'world-background',fill:' #d7dee7',stroke:'#fff','stroke-width':'.5','aria-hidden':'true'}));
  for(const [code,shape] of Object.entries(atlas.geo.paths)){
   const path=svg('path',{d:shape,tabindex:0,role:'button'});
   path.addEventListener('pointerenter',()=>showTip(code));path.addEventListener('pointermove',e=>{if(e.pointerType==='touch')return;const box=get('map').getBoundingClientRect(),w=tooltip.offsetWidth,h=tooltip.offsetHeight;const x=e.clientX-box.left,y=e.clientY-box.top;tooltip.style.left=Math.max(8,Math.min(box.width-w-8,x+17))+'px';tooltip.style.top=Math.max(8,Math.min(box.height-h-8,y+17))+'px';});path.addEventListener('pointerleave',hideTip);path.addEventListener('focus',()=>showTip(code));path.addEventListener('blur',hideTip);
   path.addEventListener('click',()=>selectCountry(code,true));path.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectCountry(code,true);}if(e.key==='Escape')hideTip();});
   paths.set(code,path);get('borders').append(path);
-  const coord=atlas.geo.labels[code]||anchor[code];if(coord)points.set(code,project(...coord));
+  const coord=atlas.geo.labels[code]||(world?null:anchor[code]);if(coord)points.set(code,world?coord:project(...coord));
  }
  function legendItem(color,txt){const item=element('span','','legend-item');item.append(element('i','','swatch-'+color),txt);return item;}
  function curve(a,b,type,index){connectionLayer.append(svg('path',{d:arc(a,b,index),class:'map-edge edge-'+type}));}
@@ -45,7 +47,7 @@ export function createMap(atlas,state,selectCountry,actions){
    if(coords.length===2){curve(coords[0],coords[1],relation.type,0);available.forEach(c=>node(c,relation.type));return;}
   }
   const center=coords.reduce((a,p)=>[a[0]+p[0]/coords.length,a[1]+p[1]/coords.length],[0,0]);
-  const hub=[Math.max(85,Math.min(855,center[0]+12)),Math.max(45,Math.min(665,center[1]-28))];
+  const hub=[Math.max(vx+85,Math.min(vx+vw-85,center[0]+12)),Math.max(vy+45,Math.min(vy+vh-50,center[1]-28))];
   coords.forEach((p,i)=>curve(hub,p,relation.type,i));available.forEach(c=>node(c,relation.type));
   const text=relation.type==='coordination'?'Campagne commune':relation.type==='harmonisation'?'Cadre UE':atlas.data.taxonomy.relations[relation.type];
   const width=Math.max(94,text.length*7+16);
@@ -89,9 +91,16 @@ export function createMap(atlas,state,selectCountry,actions){
   if(state.mode==='influences'&&active)hubFor(active);
   if(state.mode==='similarities'&&points.has(state.country)){related.filter(r=>points.has(r.code)).forEach((r,i)=>{curve(points.get(state.country),points.get(r.code),'similarity',i);node(r.code,'similarity');});node(state.country,'similarity');}
   const visibleFlags=get('show-flags').checked;
-  for(const [code,p] of points){
+  const occupied=[];
+  const markers=[...points].sort(([a],[b])=>Number(b===state.country)-Number(a===state.country));
+  for(const [code,p] of markers){
    const selected=code===state.country,linked=state.mode==='influences'&&active?.countries.includes(code),matched=state.mode==='similarities'&&related.some(r=>r.code===code);
-   if(small.has(code)&&!selected&&!linked&&!matched)continue;
+   if(world){
+    // La surface reste cliquable même quand le repère est masqué.
+    if(!selected&&!linked&&!matched&&!signals.has(code))continue;
+    if(!selected&&occupied.some(q=>Math.abs(q[0]-p[0])<44&&Math.abs(q[1]-p[1])<30))continue;
+    occupied.push(p);
+   }else if(small.has(code)&&!selected&&!linked&&!matched)continue;
    const [x,y]=p;
    if(state.mode==='contests'&&signals.has(code)){const kind=signals.get(code).type;labelLayer.append(svg('circle',{cx:x,cy:y,r:7,class:'event-dot '+kind}));}
    const yOffset=state.mode==='influences'||state.mode==='similarities'||state.mode==='contests'?-13:0;

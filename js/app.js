@@ -6,6 +6,20 @@ import {createMap} from './views/map.js';
 import {renderEuropeanFeed} from './views/feed.js';
 
 function start(atlas) {
+  const world=atlas.view==='world';
+  document.body.dataset.geography=atlas.view;
+  document.title='Atlas '+(world?'mondial':'européen')+' des data centers';
+  get('atlas-scope-label').textContent=world?'OBSERVATOIRE MONDIAL':'OBSERVATOIRE EUROPÉEN';
+  get('map-panel').setAttribute('aria-label',world?'Carte mondiale':'Carte européenne');
+  get('map').setAttribute('aria-label',world?'Pays et territoires du monde':'Pays d’Europe');
+  get('map-caption').textContent=(world?'MONDE':'EUROPE')+' · VUE DOCUMENTAIRE';
+  get('world-map-note').hidden=!world;
+  get('feed').setAttribute('aria-label','Dernières évolutions '+(world?'mondiales':'européennes'));
+  get('coverage-note').textContent=world?'Couverture mondiale progressive · '+atlas.countries.size+' fiches accessibles':'Vue européenne détaillée · '+atlas.countries.size+' fiches accessibles';
+  for(const name of ['europe','world']){
+    const link=get('view-'+name);
+    if(name===atlas.view)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
+  }
   const country = get('country');
   const topic = get('topic');
   const year = get('year');
@@ -91,6 +105,7 @@ function start(atlas) {
   get('clear-filters').addEventListener('click',()=>{state.country='';state.topic='';state.cutoff='';state.eventType='';state.relation='';state.relationType='';state.comparison=[];state.tab=initialTab(state.mode);topic.value='';writeHash();render();});
   function render() {
     country.value = state.country;
+    updateGeographicLinks();
     get('workspace').dataset.mode=state.mode;
     const index=state.cutoff?periods.findIndex(p=>p.date===state.cutoff):latest;
     year.value=String(index);
@@ -106,6 +121,16 @@ function start(atlas) {
     renderEuropeanFeed(get('feed'),atlas,state,actions);
   }
 
+  function updateGeographicLinks(){
+    for(const name of ['europe','world']){
+      const url=new URL(location.href);
+      if(name==='world')url.searchParams.set('view','world');else url.searchParams.delete('view');
+      if(name==='europe'&&state.country&&!atlas.allCountries.get(state.country)?.europe)url.hash='';
+      else url.hash=state.country;
+      get('view-'+name).href=url.href;
+    }
+  }
+
   function writeHash() {
     const url = new URL(location.href);
     url.hash = state.country;
@@ -113,7 +138,10 @@ function start(atlas) {
   }
 
   function selectCountry(code, focus = false, tab = initialTab(state.mode)) {
-    state.country = code;
+    if(code&&!atlas.countries.has(code)&&atlas.allCountries.has(code)){
+      const url=new URL(location.href);url.searchParams.set('view','world');url.hash=code;location.assign(url.href);return;
+    }
+    state.country = atlas.countries.has(code)?code:'';
     state.tab = tab;
     state.relation = '';
     state.comparison = code ? [code] : [];
@@ -140,7 +168,7 @@ function start(atlas) {
   window.addEventListener('hashchange', readHash);
 
   const footer = get('footer');
-  const national = new Set(atlas.data.regulations.filter(row => row.scope === 'national').flatMap(row => row.countries));
+  const national = new Set(atlas.data.regulations.filter(row => row.scope === 'national').flatMap(row => row.countries).filter(code=>atlas.countries.has(code)));
   const changes = [...atlas.data.changelog].sort((a, b) => b.date.localeCompare(a.date));
   const attribution = element('a', atlas.geo.attribution);
   attribution.href = atlas.geo.url;
@@ -159,7 +187,8 @@ function start(atlas) {
 }
 
 try {
-  start(await loadAtlas());
+  const view=new URL(location.href).searchParams.get('view')==='world'?'world':'europe';
+  start(await loadAtlas(view));
 } catch (error) {
   get('notice').textContent = 'Impossible de charger l’atlas. Actualisez la page ou consultez le site via un serveur HTTP.';
   console.error(error);

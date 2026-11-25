@@ -1,0 +1,13 @@
+/* Navigation géographique, sans duplication de la base. */
+.geographic-navigation{display:flex;align-items:center;gap:12px;justify-content:space-between;margin:0 0 11px;flex-wrap:wrap}
+.geographic-tabs{display:flex;gap:4px;padding:4px;border:1px solid var(--line);border-radius:9px;background:#f5f7fa}
+.geographic-tabs a{display:block;padding:7px 19px;color:#536b81;font-size:.85rem;font-weight:650;text-decoration:none;border-radius:6px}
+.geographic-tabs a[aria-current=page]{background:#fff;color:#315e87;box-shadow:0 1px 4px #243c5821}
+.geographic-tabs a:focus-visible{outline:2px solid #527da7;outline-offset:2px}
+.geographic-navigation p{margin:0;color:var(--muted);font-size:.76rem}
+.world-map-note{padding:0 16px 10px;margin:0;font-size:.72rem;line-height:1.4}
+.world-background{pointer-events:none}
+body[data-geography=world] .map .country{stroke-width:.65}
+body[data-geography=world] .map .country.selected,body[data-geography=world] .map .country:hover,body[data-geography=world] .map .country:focus-visible{stroke-width:2}
+body[data-geography=world] .map svg{min-height:0}
+@media(max-width:600px){.geographic-navigation{gap:5px}.geographic-navigation p{font-size:.7rem}.geographic-tabs a{padding:6px 14px}}
