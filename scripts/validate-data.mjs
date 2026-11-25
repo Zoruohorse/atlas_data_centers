@@ -157,3 +157,34 @@ assert.equal(worldAtlas.filter(current,data.events).length,data.events.length);
 assert.equal(europeAtlas.filter(current,data.regulations,'FR').length,worldAtlas.filter(current,data.regulations,'FR').length);
 assert.deepEqual(europeAtlas.compare(current,['ES','IE']),worldAtlas.compare(current,['ES','IE']));
 console.log('Vues Europe et Monde · intégrité géographique et documentaire OK.');
+
+const usGeo=await read('../geo/usa.json'),usIndex=await read('../data/us-jurisdictions.json');
+const {createUSModel,statusOf}=await import('../js/us-model.js');
+assert.equal(Object.keys(usGeo.states).length,51);
+assert(usGeo.states.AK&&usGeo.states.HI&&usGeo.states.DC);
+assert(Object.values(usGeo.states).every(s=>s.path.startsWith('M')&&!/NaN|Infinity/.test(s.path)&&s.center.every(Number.isFinite)&&s.label.every(Number.isFinite)));
+const usRows=[...data.regulations,...data.events].filter(r=>r.countries.includes('US'));
+for(const [id,j] of Object.entries(usIndex.jurisdictions)){
+ assert(usRows.some(r=>r.id===id),id+' · document US inconnu');
+ assert(['state','local','regional','federal','context'].includes(j.level));
+ assert(j.states.every(s=>Object.hasOwn(usGeo.states,s)));
+ if(j.level==='state'||j.level==='local')assert(j.states.length>0);
+ if(j.level==='federal')assert.equal(j.states.length,0);
+}
+assert.equal(usIndex.snapshot.rows.length,14);
+assert(usIndex.snapshot.rows.every(r=>Object.hasOwn(usGeo.states,r.state)));
+assert(atlas.sources.has(usIndex.snapshot.sourceId));
+const us=createUSModel(worldAtlas,usIndex,usGeo);
+const u={cutoff:'',topic:'',status:''};
+assert.equal(us.visible(u).length,usRows.length);
+assert.equal(us.paint(u,'ME').kind,'historical');
+assert.equal(us.paint(u,'WA').kind,'local');
+assert.equal(us.paint(u,'CA').kind,'local');
+assert.equal(us.paint(u,'TX').kind,'temporary');
+assert.equal(us.paint(u,'VA').kind,'effective');
+assert.equal(us.paint({...u,cutoff:'2026-03-31'},'TX').kind,'empty');
+assert(!us.snapshotFor({...u,cutoff:'2026-03-31'},'GA'));
+assert(us.snapshotFor(u,'GA'));
+assert(us.forState(u,'TX').every(r=>us.scope(r).level!=='federal'));
+assert(us.paint(u,'AK').kind==='empty');
+console.log('Vue États-Unis · intégrité des juridictions, statuts et chronologie OK.');

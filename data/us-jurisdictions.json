@@ -1,0 +1,261 @@
+{
+  "jurisdictions": {
+    "us-ny-eo62-moratorium-2026": {
+      "level": "state",
+      "states": [
+        "NY"
+      ]
+    },
+    "us-ny-cif-2026": {
+      "level": "state",
+      "states": [
+        "NY"
+      ]
+    },
+    "us-me-ld307-2026": {
+      "level": "state",
+      "states": [
+        "ME"
+      ]
+    },
+    "us-tx-batch-zero-2026": {
+      "level": "state",
+      "states": [
+        "TX"
+      ]
+    },
+    "us-tx-25-194-2026": {
+      "level": "state",
+      "states": [
+        "TX"
+      ]
+    },
+    "us-tx-audit-pause-2026": {
+      "level": "state",
+      "states": [
+        "TX"
+      ]
+    },
+    "us-tx-environment-permit-pause-2026": {
+      "level": "state",
+      "states": [
+        "TX"
+      ]
+    },
+    "us-tx-ride-through-review-2026": {
+      "level": "state",
+      "states": [
+        "TX"
+      ]
+    },
+    "us-tx-ratepayer-directive-2026": {
+      "level": "state",
+      "states": [
+        "TX"
+      ]
+    },
+    "us-va-electricity-tax-2026": {
+      "level": "state",
+      "states": [
+        "VA"
+      ]
+    },
+    "us-va-scc-transmission-costs-2026": {
+      "level": "state",
+      "states": [
+        "VA"
+      ]
+    },
+    "us-va-accountability-eo22-2026": {
+      "level": "state",
+      "states": [
+        "VA"
+      ]
+    },
+    "us-or-state-land-pause-2026": {
+      "level": "state",
+      "states": [
+        "OR"
+      ]
+    },
+    "us-or-environment-permit-pause-2026": {
+      "level": "state",
+      "states": [
+        "OR"
+      ]
+    },
+    "us-pa-grid-eo2026-05": {
+      "level": "state",
+      "states": [
+        "PA"
+      ]
+    },
+    "us-pa-local-acceptability-2026": {
+      "level": "local",
+      "states": [
+        "PA"
+      ]
+    },
+    "us-seattle-moratorium-2026": {
+      "level": "local",
+      "states": [
+        "WA"
+      ]
+    },
+    "us-monterey-park-ban-2026": {
+      "level": "local",
+      "states": [
+        "CA"
+      ]
+    },
+    "us-ferc-large-load-show-cause-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-power-up-bill-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-hr9340-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-baaja-permitting-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-congressional-inquiry-request-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-local-dividend-proposal-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-overseas-tax-threat-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-eia-energy-survey-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-pjm-emergency-backup-2026": {
+      "level": "regional",
+      "states": []
+    },
+    "us-pjm-reliability-review-2026": {
+      "level": "regional",
+      "states": [
+        "VA"
+      ]
+    },
+    "us-ballot-results-2026": {
+      "level": "context",
+      "states": []
+    },
+    "us-midterms-policy-debate-2026": {
+      "level": "context",
+      "states": []
+    },
+    "us-aws-local-commitments-2026": {
+      "level": "context",
+      "states": []
+    },
+    "us-ncsl-moratoria-tracker-2026": {
+      "level": "context",
+      "states": []
+    }
+  },
+  "snapshot": {
+    "date": "2026-05-07",
+    "sourceId": "us-curebot12-96",
+    "note": "Photographie du tableau NCSL reproduit à la ligne 96 de l’export Curebot, collecté le 7 mai 2026. Les statuts sont ceux de l’extrait, pas une vérification de la situation actuelle ; les textes détaillés de l’Atlas peuvent être plus récents.",
+    "rows": [
+      {
+        "state": "GA",
+        "bill": "HB 1059",
+        "status": "Introduced",
+        "summary": "Interdiction proposée de délivrance de permis locaux jusqu’en décembre 2028."
+      },
+      {
+        "state": "ME",
+        "bill": "LD 307",
+        "status": "Vetoed",
+        "summary": "Moratoire proposé sur les data centers de plus de 20 MW jusqu’en novembre 2027."
+      },
+      {
+        "state": "MD",
+        "bill": "HB 120",
+        "status": "Introduced",
+        "summary": "Interdiction proposée de construction ou de délivrance de permis."
+      },
+      {
+        "state": "MI",
+        "bill": "HB 5594 / HB 5595",
+        "status": "Introduced",
+        "summary": "Suspension proposée des approbations locales et du régulateur jusqu’en avril 2027."
+      },
+      {
+        "state": "MN",
+        "bill": "HB 4888 / SB 4298",
+        "status": "Introduced",
+        "summary": "Pause proposée des nouveaux permis jusqu’au rapport du régulateur, au moins jusqu’en juillet 2027."
+      },
+      {
+        "state": "NH",
+        "bill": "HB 1265",
+        "status": "Failed",
+        "summary": "Proposition de moratoire d’un an, non aboutie dans l’extrait."
+      },
+      {
+        "state": "NY",
+        "bill": "AB 10141 / SB 9144",
+        "status": "Introduced",
+        "summary": "Projet de moratoire et demande de nouvelles règles au régulateur ; distinct de l’Executive Order 62 ultérieur."
+      },
+      {
+        "state": "OK",
+        "bill": "SB 1488",
+        "status": "Introduced",
+        "summary": "Moratoire proposé sur la construction jusqu’en novembre 2029."
+      },
+      {
+        "state": "PA",
+        "bill": "Legislative Memos",
+        "status": "Possible",
+        "summary": "Pistes de moratoire de trois ans avec études ou de pouvoir municipal d’interdiction."
+      },
+      {
+        "state": "SC",
+        "bill": "H 5526",
+        "status": "Introduced",
+        "summary": "Suspension proposée des approbations locales jusqu’à un cadre complet de supervision."
+      },
+      {
+        "state": "SD",
+        "bill": "SB 232",
+        "status": "Introduced",
+        "summary": "Moratoire proposé d’un an sur la construction ou l’extension."
+      },
+      {
+        "state": "VT",
+        "bill": "S 205",
+        "status": "Introduced",
+        "summary": "Moratoire proposé jusqu’en 2030 et étude des impacts."
+      },
+      {
+        "state": "VA",
+        "bill": "HB 1515",
+        "status": "Continued",
+        "summary": "Proposition de suspension des approbations finales jusqu’à satisfaction des demandes de raccordement ou juillet 2028."
+      },
+      {
+        "state": "WI",
+        "bill": "SB 1061 / AB 1099",
+        "status": "Failed",
+        "summary": "Proposition d’interdiction d’exploitation avant satisfaction de 14 conditions, non aboutie dans l’extrait."
+      }
+    ]
+  }
+}

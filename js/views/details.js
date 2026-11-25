@@ -144,6 +144,7 @@ export function renderDetails(target, atlas, state, actions) {
     summary.content.append(element('p',subtitle,'country-summary'));hero.append(summary.panel);
   }else hero.append(element('p',subtitle,'country-summary'));
   if(national[0])hero.append(element('div','Dernier signal national · '+formatDate(national[0].date),'meta'));
+  if(state.country==='US'){const link=element('a','🇺🇸 Explorer les 50 États et le cadre fédéral','us-drilldown');link.href='./usa.html';hero.append(link);}
   target.append(hero);
   const metrics=element('div','','country-metrics');for(const [n,label] of [[national.length,'Textes nationaux'],[atlas.radarFor(state,state.country).length,'À suivre'],[atlas.filter(state,atlas.data.events,state.country).length,'Événements']]){const m=element('div');m.append(element('strong',String(n)),element('span',label));metrics.append(m);}target.append(metrics);
 

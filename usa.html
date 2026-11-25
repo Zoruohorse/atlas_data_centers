@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Veille réglementaire des États-Unis : États fédérés, municipalités et cadre fédéral.">
+<title>Atlas des data centers — États-Unis</title>
+<link rel="stylesheet" href="./css/atlas.css"><link rel="stylesheet" href="./css/observatory.css"><link rel="stylesheet" href="./css/visual-atlas.css"><link rel="stylesheet" href="./css/disclosure.css"><link rel="stylesheet" href="./css/timeline.css"><link rel="stylesheet" href="./css/geographic-views.css">
+<link rel="stylesheet" href="./css/us-atlas.css"><script type="module" src="./js/us-app.js"></script>
+</head>
+<body>
+<header><div class="masthead"><div class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="17" fill="none" stroke="currentColor" stroke-width="1.5"/><ellipse cx="22" cy="22" rx="8" ry="17" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 22h34M8 13h28M8 31h28" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="30" cy="13" r="4" fill="#6b8aa5" stroke="white" stroke-width="2"/></svg></div><div><div class="label" id="atlas-scope-label">OBSERVATOIRE DES ÉTATS-UNIS</div><h1>Atlas des data centers</h1><p>Réglementation, acceptabilité et dynamiques d’influence</p></div><div class="masthead-end"><span class="eyebrow">VEILLE STRATÉGIQUE</span><span id="revision-label"></span></div></div></header>
+<main class="us-atlas">
+<nav class="geographic-navigation" aria-label="Périmètre géographique"><div class="geographic-tabs"><a href="./"><span class="geo-icon" aria-hidden="true">🇪🇺</span><span>Europe</span></a><a href="./?view=world#US"><span class="geo-icon" aria-hidden="true">🌍</span><span>Monde</span></a><a href="./usa.html" aria-current="page"><span class="geo-icon" aria-hidden="true">🇺🇸</span><span>États-Unis</span></a></div><p>50 États + district de Columbia · veille multiniveau</p></nav>
+<div class="toolbar us-toolbar"><label>État <select id="us-state"><option value="">Tous les États</option></select></label><label>Thème <select id="us-topic"><option value="">Tous les thèmes</option></select></label><label>Statut <select id="us-status"><option value="">Tous les statuts</option></select></label><button type="button" id="us-reset">Réinitialiser</button></div>
+<p id="us-notice" role="status">Chargement de l’atlas…</p><noscript>Activez JavaScript pour afficher la carte.</noscript>
+<div id="us-workspace" hidden>
+<div class="layout"><section class="panel map-panel">
+<div class="map-heading"><div><span class="eyebrow">CARTE DES ÉTATS FÉDÉRÉS</span><h2>Réglementation et signaux locaux</h2><p>La couleur décrit le statut des mesures d’État documentées, jamais la sévérité de la réglementation.</p></div></div>
+<div class="us-map"><svg id="us-map" role="group" aria-label="Carte interactive des 50 États et du district de Columbia" viewBox="0 0 900 560"></svg></div><div id="us-legend" class="legend"></div>
+<section class="timeline"><div class="timeline-heading"><label for="us-period">Chronologie trimestrielle</label><output id="us-period-label" for="us-period" aria-live="polite"></output><button type="button" id="us-current">Base actuelle</button></div><div class="timeline-controls"><button id="us-prev" class="quarter-step" type="button" aria-label="Trimestre précédent">‹</button><div class="timeline-track"><input id="us-period" type="range" min="0" step="1"><div class="us-timeline-bounds"><span id="us-first"></span><span>À jour</span></div></div><button id="us-next" class="quarter-step" type="button" aria-label="Trimestre suivant">›</button></div><p class="meta">Vue cumulative ; dates annuelles seulement visibles en fin d’année ou dans la base actuelle. Statuts issus de la base actuelle, pas un historique juridique exhaustif.</p></section>
+</section><section class="panel details" id="us-details" aria-label="Fiche État" tabindex="-1"></section></div>
+<section class="panel us-section" id="us-federal"></section>
+<section class="panel us-section" id="us-regional"></section>
+<section class="panel us-section" id="us-context"></section>
+</div><footer id="us-footer"></footer></main></body></html>
