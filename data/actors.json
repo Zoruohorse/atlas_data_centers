@@ -1382,5 +1382,120 @@
       "cn-ndrc-green-plan-2024",
       "cn-green-plan-summary-2024"
     ]
+  },
+  {
+    "id": "us-ferc",
+    "name": "Federal Energy Regulatory Commission (FERC)",
+    "type": "Régulateur fédéral",
+    "countries": [
+      "US"
+    ],
+    "summary": "Compétent pour les tarifs et services de transport interétatiques relevant de sa juridiction.",
+    "sourceIds": [
+      "us-ferc-show-cause-20260618",
+      "us-ferc-deadlines-202611"
+    ]
+  },
+  {
+    "id": "us-ercot",
+    "name": "ERCOT",
+    "type": "Gestionnaire de réseau",
+    "countries": [
+      "US"
+    ],
+    "summary": "Met en œuvre les études groupées et la vérification des grandes charges au Texas.",
+    "sourceIds": [
+      "us-curebot12-86",
+      "us-tx-ercot-large-load-integration"
+    ]
+  },
+  {
+    "id": "us-puct",
+    "name": "Public Utility Commission of Texas (PUCT)",
+    "type": "Régulateur territorial",
+    "countries": [
+      "US"
+    ],
+    "summary": "Approuve les procédures ERCOT et les règles de raccordement des grandes charges.",
+    "sourceIds": [
+      "us-curebot12-86",
+      "us-tx-25-194-final"
+    ]
+  },
+  {
+    "id": "us-pjm",
+    "name": "PJM Interconnection",
+    "type": "Gestionnaire de réseau régional",
+    "countries": [
+      "US"
+    ],
+    "summary": "Évalue les effets des grandes charges et les modalités de stabilité du réseau.",
+    "sourceIds": [
+      "us-curebot12-46",
+      "us-doe-202-26-35"
+    ]
+  },
+  {
+    "id": "us-eia",
+    "name": "Energy Information Administration (EIA)",
+    "type": "Agence statistique fédérale",
+    "countries": [
+      "US"
+    ],
+    "summary": "Développe une enquête sur la consommation électrique des centres de données.",
+    "sourceIds": [
+      "us-eia-pilot-20260325"
+    ]
+  },
+  {
+    "id": "us-ny-hochul",
+    "name": "Kathy Hochul",
+    "type": "Gouverneure de New York",
+    "countries": [
+      "US"
+    ],
+    "summary": "Lance le moratoire et le cadre de négociation des retombées locales.",
+    "sourceIds": [
+      "us-ny-eo62-2026"
+    ]
+  },
+  {
+    "id": "us-tx-abbott",
+    "name": "Greg Abbott",
+    "type": "Gouverneur du Texas",
+    "countries": [
+      "US"
+    ],
+    "summary": "Ordonne une vérification des projets et des mesures de protection tarifaire.",
+    "sourceIds": [
+      "us-curebot12-85",
+      "us-tx-audit-20260803",
+      "us-tx-permit-directive-20260921"
+    ]
+  },
+  {
+    "id": "us-pa-shapiro",
+    "name": "Josh Shapiro",
+    "type": "Gouverneur de Pennsylvanie",
+    "countries": [
+      "US"
+    ],
+    "summary": "Adopte le décret 2026-05 et les conditions GRID.",
+    "sourceIds": [
+      "us-pa-eo-2026-05"
+    ]
+  },
+  {
+    "id": "us-va-spanberger",
+    "name": "Abigail Spanberger",
+    "type": "Gouverneure de Virginie",
+    "countries": [
+      "US"
+    ],
+    "summary": "Soutient les mesures de responsabilisation des opérateurs.",
+    "sourceIds": [
+      "us-va-scc-transmission-20260805",
+      "us-va-eo22-20260918"
+    ]
   }
 ]
