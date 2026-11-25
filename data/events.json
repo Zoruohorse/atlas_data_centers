@@ -449,7 +449,8 @@
       "curebot-20261124-22",
       "curebot2-20261124-3",
       "curebot2-20261124-33",
-      "curebot2-20261124-28"
+      "curebot2-20261124-28",
+      "avril-20261125-64"
     ],
     "territory": "Île-de-France",
     "impacts": {
@@ -2387,7 +2388,9 @@
     ],
     "sourceIds": [
       "fr-poulainville-fast-track-2026",
-      "carto-20261125-76"
+      "carto-20261125-76",
+      "avril-20261125-63",
+      "fr-fast-track-cre-2025-120"
     ],
     "territory": "Poulainville, Somme",
     "actorIds": [
@@ -3110,7 +3113,8 @@
     ],
     "sourceIds": [
       "eu-entsoe-dc-report-2026",
-      "curebot8-20261125-4"
+      "curebot8-20261125-4",
+      "avril-20261125-9"
     ],
     "scope": "eu",
     "actorIds": [
@@ -3942,6 +3946,460 @@
     ],
     "actorIds": [
       "fr-france-datacenter"
+    ]
+  },
+  {
+    "id": "es-demand-contest-outcome-2026",
+    "countries": [
+      "ES"
+    ],
+    "date": "2026-02-24",
+    "type": "context",
+    "title": "Espagne — résultats des premiers concours de capacité",
+    "summary": "La résolution du 24 février 2026 tranche le concours restant après exclusions et ajustements de septembre. L’annexe III attribue 928 MW au total à cinq installations : 500 MW à Hyndum Steel (libellé du BOE), 18,7 MW au complexe métallurgique de Huelva, 52 MW à Messer, 100 MW à Stellantis Vigo, 257,3 MW à l’installation de Palos. Les candidats CPD4GREEN, Benbros DC et ACS DC Infra figurent parmi les exclus de cette étape ; aucun data center n’apparaît parmi les cinq lauréats de l’annexe III. Cela ne signifie pas que tous les 3 681 MW initiaux ont été refusés aux data centers : certains dossiers ont été traités directement ou retirés avant la décision finale. Les lauréats doivent reprendre la procédure de permis d’accès et de connexion.",
+    "topics": [
+      "grid",
+      "planning"
+    ],
+    "sourceIds": [
+      "es-demand-contest-2025",
+      "es-demand-contest-result-2026"
+    ],
+    "actorIds": [
+      "es-red-electrica"
+    ]
+  },
+  {
+    "id": "fr-amp-dc-orientations-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-06-30",
+    "type": "context",
+    "title": "Aix-Marseille-Provence — orientations territoriales d’accueil",
+    "summary": "Les orientations métropolitaines votées le 30 juin visent une meilleure insertion territoriale, l’optimisation du foncier et la préservation des ressources, en cohérence avec la décarbonation de l’industrie, des transports et les activités logistiques. Elles doivent alimenter les documents urbanistiques ; elles ne constituent pas en elles-mêmes un moratoire ni un refus automatique d’autorisation.",
+    "topics": [
+      "territory",
+      "planning",
+      "environment",
+      "grid"
+    ],
+    "sourceIds": [
+      "fr-amp-dc-orientations-2025",
+      "avril-20261125-65"
+    ],
+    "territory": "Aix-Marseille-Provence",
+    "actorIds": [
+      "fr-metropole-amp"
+    ]
+  },
+  {
+    "id": "fr-paca-grid-priority-interview-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "Région Sud et Gard — position de RTE sur les usages électriques",
+    "summary": "Gilles Odone indique à Actu-Environnement un objectif de 3 700 MW supplémentaires à horizon 2029 dans le Gard et en PACA, dont moins de 10 % réservés à l’approvisionnement des centres de données. Il rappelle la priorité donnée aux catégories industrielles éligibles à l’article 28 de la loi APER. Ces chiffres constituent un état annoncé en 2025, non un volume actuellement disponible ni une mesure générale d’exclusion des data centers.",
+    "topics": [
+      "grid",
+      "power",
+      "territory"
+    ],
+    "sourceIds": [
+      "avril-20261125-30"
+    ],
+    "territory": "PACA / Gard",
+    "actorIds": [
+      "fr-rte"
+    ]
+  },
+  {
+    "id": "fr-sdes-consumption-2023",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-10-16",
+    "type": "context",
+    "title": "SDES — état de la consommation électrique en 2023",
+    "summary": "Le SDES identifie environ 460 centres de plus de 1 GWh/an consommant 3,9 TWh en 2023 ; l’estimation totale en métropole est comprise entre 4 et 6 TWh. Les sites du périmètre sont fortement concentrés : 21 % représentent 78 % de sa consommation et l’Île-de-France en représente 64 %. Attention : le résumé de l’étude attribue +21 % à 2022–2023 tandis que le corps du texte rattache une hausse proche de 21 % à 2018–2023. Ne pas reprendre ce taux comme une croissance annuelle vérifiée sans réconcilier les séries.",
+    "topics": [
+      "power",
+      "transparency",
+      "grid"
+    ],
+    "sourceIds": [
+      "avril-20261125-8"
+    ]
+  },
+  {
+    "id": "fr-enedis-dc-consumption-2024",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "Enedis — consommation des centres raccordés en distribution",
+    "summary": "Enedis indique 2,9 TWh en 2024, contre 2,3 TWh en 2019 (+26 %), pour près de 400 centres raccordés à son réseau. Ce périmètre n’inclut pas tous les gestionnaires de distribution ni le réseau de transport ; ne pas l’additionner aux totaux SDES qui recoupent ces données.",
+    "topics": [
+      "power",
+      "grid",
+      "transparency"
+    ],
+    "sourceIds": [
+      "avril-20261125-76"
+    ],
+    "actorIds": [
+      "fr-enedis"
+    ]
+  },
+  {
+    "id": "fr-arcep-environment-survey-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-04-17",
+    "type": "context",
+    "title": "Arcep — enquête environnementale, données 2023",
+    "summary": "L’édition 2025 porte sur les opérateurs enquêtés, près de 150 centres exploités en 2023. Le communiqué indique +8 % de consommation électrique et +11 % d’émissions de GES sur un an, ainsi que 681 000 m³ d’eau prélevée directement. Next rapporte 2,4 TWh et environ 6 millions de m³ en incluant l’eau indirectement associée à l’électricité ; ces périmètres hydriques ne sont pas interchangeables. Les éditions successives peuvent réviser les données historiques.",
+    "topics": [
+      "power",
+      "environment",
+      "transparency"
+    ],
+    "sourceIds": [
+      "avril-20261125-98",
+      "fr-arcep-enquete-2025",
+      "avril-20261125-99",
+      "avril-20261125-100"
+    ],
+    "actorIds": [
+      "fr-arcep"
+    ]
+  },
+  {
+    "id": "fr-shift-report-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-10-01",
+    "type": "context",
+    "title": "The Shift Project — rapport final sur les infrastructures de calcul",
+    "summary": "Le rapport examine les trajectoires de déploiement et leur compatibilité avec la décarbonation. À l’échelle française, les data centers pourraient représenter 7,5 % de la consommation électrique en 2035 si les annonces se réalisent, selon le scénario présenté par le think tank. Le titre affirmant que l’IA doublerait les émissions françaises confond une comparaison d’empreinte mondiale des centres de données avec un scénario d’émissions nationales : il n’est pas repris. Les recommandations de planification ne sont pas des obligations.",
+    "topics": [
+      "power",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "fr-shift-ia-report-2025",
+      "avril-20261125-19",
+      "avril-20261125-25"
+    ],
+    "actorIds": [
+      "fr-shift-project"
+    ]
+  },
+  {
+    "id": "fr-rte-veyrenc-oct2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "RTE — distinction entre droits de réseau et consommation, octobre 2025",
+    "summary": "Thomas Veyrenc indique publiquement plus de 10 GW de droits d’utilisation du réseau déjà accordés aux data centers hors fast-track, environ 5 TWh consommés sur l’ensemble du réseau français et un ordre de grandeur de 20 % d’utilisation de la capacité garantie sur le RPT par les centres déjà raccordés. Les 100–120 TWh évoqués sont une hypothèse extrême de concrétisation et utilisation intégrales, pas la prévision RTE. Chiffres historiques à distinguer des publications de 2026.",
+    "topics": [
+      "grid",
+      "power",
+      "transparency"
+    ],
+    "sourceIds": [
+      "avril-20261125-7"
+    ],
+    "actorIds": [
+      "fr-rte"
+    ]
+  },
+  {
+    "id": "de-tennet-grid-reform-2025",
+    "countries": [
+      "DE"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "TenneT Germany — propositions de réforme des raccordements",
+    "summary": "Dans son communiqué reproduit dans l’export, TenneT Germany appelle à sortir les batteries du dispositif de classement chronologique existant et à améliorer l’attribution des capacités rares, notamment pour les grandes consommations. Cette prise de position précède le Reifegradverfahren des quatre GRT ; elle n’est pas une règle applicable. Le site TenneT bloque l’accès direct lors de cette vérification.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "avril-20261125-34"
+    ],
+    "actorIds": [
+      "de-transmission-operators"
+    ]
+  },
+  {
+    "id": "eu-tennet-grid-codes-2025",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "TenneT — appel à la coordination des codes de raccordement européens",
+    "summary": "Le communiqué de TenneT reproduit dans l’export appelle à harmoniser les exigences techniques pour les nouvelles charges, dont les centres de données, et alerte sur le risque de fragmentation nationale. Le calendrier de révision évoqué en 2025 ne doit pas être considéré comme l’état actuel du dossier. Le site d’origine bloque l’accès direct ; le contenu est attribué à l’export.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "avril-20261125-9"
+    ],
+    "scope": "eu"
+  },
+  {
+    "id": "es-distribution-capacity-2025",
+    "countries": [
+      "ES"
+    ],
+    "date": "2025-09-10",
+    "type": "context",
+    "title": "Espagne — saturation des points de raccordement de distribution rapportée",
+    "summary": "El País cite Aelec, qui agrège les publications d’Iberdrola, Endesa, Naturgy et EDP : 83,4 % des nœuds étudiés seraient sans capacité pour de nouvelles connexions. Ce périmètre de données de distributeurs ne doit pas être assimilé à 83,4 % des nœuds du réseau de transport ni à une mesure de saturation due aux seuls data centers.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "avril-20261125-33"
+    ]
+  },
+  {
+    "id": "eu-cispe-water-advocacy-2025",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2025-06-30",
+    "type": "context",
+    "title": "CISPE — position sur la résilience hydrique",
+    "summary": "The Register rapporte que CISPE demande des règles harmonisées, des investissements et des exigences proportionnées en matière d’eau, et avertit d’un possible déplacement des investissements. Il s’agit d’une position de la filière et non d’une exemption ou d’une règle de consommation hydrique.",
+    "topics": [
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "avril-20261125-58"
+    ],
+    "scope": "eu",
+    "actorIds": [
+      "eu-cispe"
+    ]
+  },
+  {
+    "id": "fr-ipr-dc-observatory-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-06-27",
+    "type": "context",
+    "title": "Institut Paris Region — lancement de l’observatoire des data centers",
+    "summary": "L’observatoire vise à structurer la connaissance des infrastructures, de leurs implantations et de leurs enjeux territoriaux. La page est évolutive ; son inventaire ne doit pas être assimilé à une liste exhaustive des autorisations. Les définitions de périmètre varient entre cartographies publiques, commerciales et associatives.",
+    "topics": [
+      "territory",
+      "transparency",
+      "planning"
+    ],
+    "sourceIds": [
+      "avril-20261125-64",
+      "avril-20261125-57"
+    ],
+    "territory": "Île-de-France",
+    "actorIds": [
+      "fr-institut-paris-region"
+    ]
+  },
+  {
+    "id": "it-terna-queue-202505",
+    "countries": [
+      "IT"
+    ],
+    "date": "2025-06-10",
+    "type": "context",
+    "title": "Italie — état historique des demandes Terna",
+    "summary": "Milano Finanza rapporte environ 44 GW de demandes de raccordement des centres de données en mai 2025, après 40 GW en avril, et une forte concentration dans le nord. Il s’agit de chiffres rapportés et non de capacité attribuée ; le registre original historique n’a pas été retrouvé. L’export contient également un article interne d’août évoquant 55 GW ; ce second chiffre n’est pas intégré faute de référence publique corroborée.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "avril-20261125-84"
+    ],
+    "actorIds": [
+      "it-terna"
+    ]
+  },
+  {
+    "id": "eu-eudca-state-2025",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "EUDCA — rapport sectoriel européen 2025",
+    "summary": "Le rapport inaugural documente les marchés de colocation et hyperscale, la contribution économique et les performances environnementales. L’export du document est tronqué à 32 767 caractères. La page publique est retenue pour le suivi historique ; aucun chiffre prévisionnel n’est assimilé à une capacité ferme ou à une statistique publique harmonisée.",
+    "topics": [
+      "power",
+      "transparency",
+      "environment"
+    ],
+    "sourceIds": [
+      "eu-eudca-state-2025"
+    ],
+    "scope": "eu",
+    "actorIds": [
+      "eu-eudca"
+    ]
+  },
+  {
+    "id": "fr-pinm-moratorium-advocacy-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-04-29",
+    "type": "context",
+    "title": "PINM — premiers appels parlementaires et associatifs à un moratoire",
+    "summary": "Novethic rapporte une conférence de presse du 29 avril réunissant les députés Anne Stambach-Terrenoir et Nicolas Bonnet ainsi que des associations, demandant le retrait de l’article 15 du projet de loi et une pause de deux ans pour les plus grands centres de données. La tribune de Damien Desanti en juin exprime des critiques sur la souveraineté et les procédures. Il s’agit de positions exprimées lors du débat, non d’un moratoire adopté. Le texte finalement promulgué est documenté séparément.",
+    "topics": [
+      "planning",
+      "sovereignty",
+      "territory"
+    ],
+    "sourceIds": [
+      "avril-20261125-95",
+      "avril-20261125-69"
+    ],
+    "actorIds": [
+      "fr-nicolas-bonnet",
+      "fr-data-for-good"
+    ]
+  },
+  {
+    "id": "fr-territorial-digital-observatory-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "Observatoire de la transition numérique des territoires — centres de proximité",
+    "summary": "DCmag rapporte que l’étude InfraNum, Banque des Territoires et Avicca identifie les centres de données de proximité comme axe de développement territorial et appelle à une gouvernance renouvelée. Il s’agit de recommandations de filière, non d’un programme de raccordements autorisés.",
+    "topics": [
+      "territory",
+      "planning",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "avril-20261125-94"
+    ],
+    "actorIds": [
+      "fr-infranum"
+    ]
+  },
+  {
+    "id": "fr-investment-screening-analysis-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "Investissements étrangers — vigilance juridique pour les centres de données",
+    "summary": "Les auteurs de Reed Smith présentent l’applicabilité éventuelle du contrôle des investissements étrangers et du règlement européen sur les subventions étrangères selon les activités et seuils concernés. Leur analyse ne signifie pas que tout centre de données est automatiquement soumis à autorisation préalable, ni qu’un nouveau régime sectoriel a été adopté.",
+    "topics": [
+      "sovereignty",
+      "planning"
+    ],
+    "sourceIds": [
+      "avril-20261125-5"
     ]
   }
 ]

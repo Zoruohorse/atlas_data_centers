@@ -14,7 +14,7 @@
     ],
     "stage": "effective",
     "title": "Décret royal 1032/2026",
-    "summary": "Le décret royal 1032/2026 du 20 novembre, publié le 21 et applicable le 22 novembre, fixe des exigences de durabilité et de souveraineté. Les obligations générales visent les demandes de raccordement d’au moins 10 MW de puissance d’accès (agrégation des sites de même titulaire et localisation), non 10 MW IT. Les articles 7 et 8 prévoient respectivement une couverture de 80 % de la consommation par des capacités renouvelables additionnelles et une corrélation horaire de 80 %, avec exceptions et voie transitoire de cinq ans liée à la réduction automatique de puissance. L’article 13 concerne les sites d’au moins 500 kW IT ; l’article 5 s’applique indépendamment de la puissance aux systèmes publics de catégorie ALTA, sous ses conditions propres. Les exceptions de l’article 2 doivent être vérifiées.",
+    "summary": "Le décret royal 1032/2026 du 20 novembre, publié le 21 et applicable le 22 novembre, fixe des exigences de durabilité et de souveraineté. Les obligations générales visent les demandes de raccordement d’au moins 10 MW de puissance d’accès (agrégation des sites de même titulaire et localisation), non 10 MW IT. Les articles 7 et 8 prévoient respectivement une couverture de 80 % de la consommation par des capacités renouvelables additionnelles et une corrélation horaire de 80 %, avec exceptions et voie transitoire de cinq ans liée à la réduction automatique de puissance. L’article 13 concerne les sites d’au moins 500 kW IT ; l’article 5 s’applique indépendamment de la puissance aux systèmes publics de catégorie ALTA, sous ses conditions propres. Les exceptions de l’article 2 doivent être vérifiées. Le projet de reporting de l’été 2025 est un jalon antérieur ; ne pas appliquer ses seuils au décret final de novembre 2026.",
     "sourceIds": [
       "es-1032-2026-1",
       "es-1032-2026-2",
@@ -24,7 +24,8 @@
       "curebot2-20261124-10",
       "curebot2-20261124-13",
       "curebot4-20261124-3",
-      "es-miteco-decree-20261120"
+      "es-miteco-decree-20261120",
+      "avril-20261125-41"
     ],
     "effectiveFrom": "2026-11-22",
     "impacts": {
@@ -119,7 +120,9 @@
       "carto-20261125-15",
       "dc-europe-20261125-100",
       "curebot8-20261125-37",
-      "fr-fdc-serce-gimelec-20260220"
+      "fr-fdc-serce-gimelec-20260220",
+      "avril-20261125-95",
+      "avril-20261125-69"
     ]
   },
   {
@@ -229,7 +232,10 @@
     "milestone": "Étude annoncée pour une durée de 24 mois.",
     "sourceIds": [
       "eu-minimum-standards",
-      "eu-reporting-explainer"
+      "eu-reporting-explainer",
+      "avril-20261125-42",
+      "avril-20261125-44",
+      "avril-20261125-72"
     ]
   },
   {
@@ -1414,7 +1420,8 @@
     "sourceIds": [
       "de-reifegrad-announce-2026",
       "de-reifegrad-operational-2026",
-      "feb-20261125-22"
+      "feb-20261125-22",
+      "avril-20261125-34"
     ],
     "effectiveFrom": "2026-04-01",
     "actorIds": [
@@ -1694,7 +1701,8 @@
       "power"
     ],
     "sourceIds": [
-      "es-miteco-grid-tech-20261124"
+      "es-miteco-grid-tech-20261124",
+      "avril-20261125-40"
     ],
     "milestone": "Vérifier la publication officielle et les exigences applicables aux grandes charges."
   },
@@ -1785,5 +1793,115 @@
       "operator": "Qualifier l’éligibilité du projet et des actes contestés au régime dérogatoire ; ne pas assimiler accélération et immunité contentieuse.",
       "grid": "Vérifier le champ applicable aux ouvrages connexes et à leurs autorisations."
     }
+  },
+  {
+    "id": "fr-uioli-2025",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2024-12-18",
+    "stage": "effective",
+    "title": "Use it or lose it — adaptation des puissances de raccordement",
+    "summary": "L’article L.342-24, l’arrêté du 14 novembre 2024 et la délibération CRE 2024-229 encadrent l’ajustement des puissances de soutirage sous-utilisées, avec modalités applicables depuis le 1er août 2025 aux installations concernées HTA et HTB, nouvelles et existantes. Les data centers ne bénéficient pas d’une exemption sectorielle générale. Le régime distingue une attribution immédiate avec réévaluation après une période de montée en charge de cinq ans et une option d’attribution progressive jusqu’à dix ans. Les critères contractuels, l’historique de puissance et les règles de réduction de contribution financière doivent être examinés selon le cas. Ce mécanisme concerne la puissance de raccordement, distinct du filtrage initial de la file annoncé en 2026.",
+    "topics": [
+      "grid"
+    ],
+    "sourceIds": [
+      "fr-uioli-l34224",
+      "fr-uioli-arrete-2024",
+      "fr-uioli-cre-2024-229",
+      "fr-uioli-cre-text",
+      "avril-20261125-79"
+    ],
+    "effectiveFrom": "2025-08-01",
+    "actorIds": [
+      "fr-rte"
+    ],
+    "impacts": {
+      "operator": "Prévoir une trajectoire de montée en charge réaliste et suivre les conditions de modification de la puissance.",
+      "grid": "Récupération des capacités sous-utilisées selon les modalités applicables ; ne pas assimiler automatiquement à une annulation de demande."
+    }
+  },
+  {
+    "id": "fr-fast-track-2025",
+    "scope": "national",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-06-24",
+    "stage": "effective",
+    "title": "Fast-track — convention de raccordement des grandes consommations",
+    "summary": "La CRE approuve le 7 mai 2025 la procédure alternative pour les consommateurs de très forte puissance, entre 400 MW et 1 GW, sur des sites identifiés par l’État et techniquement qualifiés par RTE. Le 24 juin, elle approuve les modalités contractuelles et financières ; le modèle est publié le 1er juillet. Les projets sélectionnés peuvent obtenir une offre de capacité ferme à 400 kV selon ce modèle. L’horizon initial de raccordement de trois à quatre ans est une cible conditionnée à la faisabilité et à la sélection ; il ne constitue pas un délai garanti pour tous les data centers.",
+    "topics": [
+      "grid",
+      "planning"
+    ],
+    "sourceIds": [
+      "fr-fast-track-cre-2025-120",
+      "avril-20261125-63"
+    ],
+    "effectiveFrom": "2025-07-01",
+    "actorIds": [
+      "fr-rte"
+    ],
+    "impacts": {
+      "operator": "Vérifier la sélection du site, la puissance et les engagements de montée en charge.",
+      "grid": "Offre alternative fondée sur des sites préqualifiés et une solution techniquement réalisable."
+    }
+  },
+  {
+    "id": "es-demand-competition-framework",
+    "scope": "national",
+    "countries": [
+      "ES"
+    ],
+    "date": "2025-07-11",
+    "stage": "effective",
+    "title": "Concours de capacité d’accès de la demande — RD 1183/2020",
+    "summary": "Le cadre des articles 20 bis et suivants permet, sous conditions, d’attribuer par concours la capacité de soutirage de certains nœuds du transport à partir de 220 kV lorsque les demandes concurrentes ne peuvent toutes être satisfaites. La première résolution du 11 juillet 2025 porte sur huit nœuds et 3 681 MW, tous usages éligibles. Elle applique un régime transitoire fondé sur les émissions évitées, la date de début de consommation et l’investissement ; garanties de 25 €/kW par critère pour ce concours. Le texte consolidé a évolué depuis ; ne pas extrapoler les critères de cette première procédure à tous les futurs concours. Les résultats de février 2026 sont documentés séparément.",
+    "topics": [
+      "grid",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "es-rd1183-consolidated",
+      "es-demand-contest-2025",
+      "es-demand-contest-miteco-2025",
+      "avril-20261125-45",
+      "es-demand-contest-result-2026"
+    ],
+    "effectiveFrom": "2025-07-18",
+    "actorIds": [
+      "es-red-electrica"
+    ],
+    "impacts": {
+      "operator": "Vérifier si le nœud est soumis à un concours, les critères applicables et les garanties.",
+      "grid": "Attribution concurrentielle en situation de capacité rare, distincte du principe chronologique général."
+    }
+  },
+  {
+    "id": "ie-private-wires-bill",
+    "scope": "national",
+    "countries": [
+      "IE"
+    ],
+    "date": "2025",
+    "stage": "announced",
+    "title": "Private Wires — projet d’ouverture encadrée des liaisons privées",
+    "summary": "La politique de juillet 2025 prévoit de permettre certaines liaisons électriques privées dans des circonstances limitées. Le gouvernement approuve le General Scheme en décembre 2025 et autorise la rédaction du projet législatif. La communication mise à jour en mars 2026 distingue quatre circonstances prévues. La source presse évoque un recours exceptionnel à des moyens fossiles ; ne pas en déduire une permission générale de raccordement direct au gaz. Aucun acte d’entrée en vigueur n’a été retrouvé lors de cette recherche. Les coûts du service fourni par le réseau public restent à traiter selon la politique.",
+    "topics": [
+      "grid",
+      "power",
+      "supply"
+    ],
+    "sourceIds": [
+      "ie-private-wires-policy-2025",
+      "ie-private-wires-general-scheme",
+      "ie-private-wires-drafting-2026",
+      "avril-20261125-29"
+    ],
+    "milestone": "Vérifier l’adoption et les textes d’application du Private Wires Bill."
   }
 ]

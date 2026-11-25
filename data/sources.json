@@ -3412,5 +3412,275 @@
     "label": "TotalEnergies — contrat du 4 novembre",
     "url": "https://totalenergies.com/newsroom/espagne-totalenergies-fournira-de-lelectricite-renouvelable-aux/?lang=fra",
     "type": "primary"
+  },
+  {
+    "id": "avril-20261125-5",
+    "label": "DCmag / Reed Smith — contrôle des investissements",
+    "url": "https://dcmag.fr/investir-dans-les-data-centers-en-france-anticipez-le-durcissement-du-cadre-reglementaire/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-7",
+    "label": "Thomas Veyrenc — analyse des puissances et consommations",
+    "url": "https://fr.linkedin.com/posts/thomas-veyrenc-3728803_outre-atlantique-des-inqui%C3%A9tudes-sur-laugmentation-activity-7384605808308928513--UrV",
+    "type": "primary"
+  },
+  {
+    "id": "avril-20261125-8",
+    "label": "SDES — consommation 2018–2023",
+    "url": "https://www.statistiques.developpement-durable.gouv.fr/la-consommation-delectricite-des-centres-de-donnees-entre-2018-et-2023",
+    "type": "primary"
+  },
+  {
+    "id": "avril-20261125-9",
+    "label": "TenneT — appel à l’harmonisation des codes",
+    "url": "https://www.tennet.eu/news/call-coordinated-european-actions-more-resilient-grid",
+    "type": "primary"
+  },
+  {
+    "id": "avril-20261125-19",
+    "label": "Le Monde — rapport Shift",
+    "url": "https://www.lemonde.fr/economie/article/2025/10/01/la-croissance-de-l-ia-sera-insoutenable-sans-planification-alerte-le-shift-project_6643824_3234.html",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-25",
+    "label": "Mediapart — risque de conflit d’usages",
+    "url": "https://www.mediapart.fr/journal/ecologie/011025/ia-un-rapport-alerte-sur-le-risque-de-conflit-d-usage-de-l-electricite",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-29",
+    "label": "DCmag — projet Private Wires",
+    "url": "https://dcmag.fr/lirlande-pourrait-faire-marche-arriere-pour-satisfaire-son-ecosysteme-de-datacenters/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-30",
+    "label": "Actu-Environnement — entretien Gilles Odone",
+    "url": "https://www.actu-environnement.com/ae/news/electrification-usages-approvisionnement-centres-donnees-pas-priorise-region-sud-46788.php4",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-33",
+    "label": "El País — saturation des réseaux de distribution",
+    "url": "https://elpais.com/economia/2025-09-10/el-mapa-de-una-red-electrica-al-limite-pais-vasco-aragon-andalucia-y-cataluna-entre-las-zonas-mas-saturadas.html",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-34",
+    "label": "TenneT Germany — propositions de réforme",
+    "url": "https://www.tennet.eu/de/news/tennet-germany-fordert-kurswechsel-bei-netzanschluessen",
+    "type": "primary"
+  },
+  {
+    "id": "avril-20261125-40",
+    "label": "El Mundo — consultation technique de Red Eléctrica",
+    "url": "https://www.elmundo.es/economia/empresas/2025/08/12/6891daa8e9cf4a84598b45b4.html",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-41",
+    "label": "DataCenterDynamics — projet espagnol de reporting",
+    "url": "https://www.datacenterdynamics.com/en/news/the-government-of-spain-will-link-the-data-centers-to-publish-energy-consumption-data/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-42",
+    "label": "Commission — premier rapport technique de juillet",
+    "url": "https://op.europa.eu/en/publication-detail/-/publication/83be4c3e-5c79-11f0-a9d0-01aa75ed71a1/",
+    "type": "primary"
+  },
+  {
+    "id": "avril-20261125-44",
+    "label": "The Register — réactions aux propositions d’efficacité",
+    "url": "https://www.theregister.com/2025/07/30/datacenter_lobby_eu_efficiency/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-45",
+    "label": "pv magazine — concours espagnols",
+    "url": "https://www.pv-magazine.fr/2025/07/23/lespagne-lance-un-appel-a-candidatures-pour-lacces-a-368-gw-de-capacite-reseau/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-57",
+    "label": "DCmag — périmètres cartographiques",
+    "url": "https://dcmag.fr/cartographie-des-datacenters-pourquoi-toutes-les-cartes-ne-donnent-pas-le-meme-resultat/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-58",
+    "label": "The Register — position CISPE sur l’eau",
+    "url": "https://www.theregister.com/2025/06/30/cispe_eu_water_resilience/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-63",
+    "label": "CRE — approbation de la convention fast-track",
+    "url": "https://www.cre.fr/actualites/toute-lactualite/la-cre-approuve-la-convention-de-raccordement-fast-track-au-reseau-tres-haute-tension-400-kv-de-rte-pour-les-sites-de-consommation-de-grande-puissance.html",
+    "type": "primary"
+  },
+  {
+    "id": "avril-20261125-64",
+    "label": "Institut Paris Region — observatoire",
+    "url": "https://www.institutparisregion.fr/amenagement-et-territoires/observatoire-des-data-centers-en-ile-de-france/",
+    "type": "primary"
+  },
+  {
+    "id": "avril-20261125-65",
+    "label": "La Marseillaise — orientations métropolitaines",
+    "url": "https://www.lamarseillaise.fr/economie/des-pistes-pour-mieux-reguler-les-centres-de-donnees-FM18417705",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-69",
+    "label": "Maddyness — tribune sur le PINM",
+    "url": "https://www.maddyness.com/2025/06/19/loi-de-simplification-pourquoi-autant-de-zones-dombre-autour-des-datacenters/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-72",
+    "label": "Reuters — préparation des mesures européennes",
+    "url": "https://www.reuters.com/sustainability/eu-plans-energy-saving-measures-data-centres-2025-06-12/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-76",
+    "label": "Enedis — consommation des data centers en distribution",
+    "url": "https://www.enedis.fr/presse/observatoire-de-la-transition-ecologique-la-data-enedis-data-centers-quelle-consommation",
+    "type": "primary"
+  },
+  {
+    "id": "avril-20261125-79",
+    "label": "DCmag / CMS — Use it or lose it",
+    "url": "https://dcmag.fr/use-it-or-lose-it-uioli-quels-impacts-pour-le-raccordement-des-datacenters/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-84",
+    "label": "Milano Finanza — demandes Terna mai 2025",
+    "url": "https://www.milanofinanza.it/news/data-center-boom-di-richieste-di-allaccio-alla-rete-elettrica-ma-e-allarme-consumi-202506101935321275",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-94",
+    "label": "DCmag — observatoire territorial InfraNum/Avicca",
+    "url": "https://dcmag.fr/appel-a-une-gouvernance-renouvelee-du-numerique-territorial/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-95",
+    "label": "Novethic — contestation du projet PINM",
+    "url": "https://www.novethic.fr/economie-et-social/business-model-en-transition/la-france-nouvel-eldorado-pour-les-data-centers",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-98",
+    "label": "Arcep — communiqué du 17 avril 2025",
+    "url": "https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/environnement-170425.html",
+    "type": "primary"
+  },
+  {
+    "id": "avril-20261125-99",
+    "label": "Next — enquête Arcep 2023",
+    "url": "https://next.ink/181389/consommation-des-datacenters-en-france-24-twh-delectricite-et-6-millions-de-m³-deau/",
+    "type": "analysis"
+  },
+  {
+    "id": "avril-20261125-100",
+    "label": "Le Figaro — enquête Arcep",
+    "url": "https://www.lefigaro.fr/secteur/high-tech/les-data-centers-sont-ils-des-gouffres-energetiques-l-arcep-nuance-le-debat-20250417",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-uioli-l34224",
+    "label": "Code de l’énergie — article L.342-24",
+    "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047990582/2026-10-26",
+    "type": "primary"
+  },
+  {
+    "id": "fr-uioli-arrete-2024",
+    "label": "Arrêté du 14 novembre 2024",
+    "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000050735573/2024-12-06/",
+    "type": "primary"
+  },
+  {
+    "id": "fr-uioli-cre-2024-229",
+    "label": "CRE — délibération 2024-229",
+    "url": "https://www.cre.fr/documents/deliberations/modalites-devolution-de-la-puissance-de-raccordement-electrique-en-soutirage-des-installations-et-les-modalites-dindemnisation.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-uioli-cre-text",
+    "label": "JORF — délibération et annexe",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050823761",
+    "type": "primary"
+  },
+  {
+    "id": "fr-fast-track-cre-2025-120",
+    "label": "CRE — procédure approuvée le 7 mai",
+    "url": "https://www.cre.fr/documents/communiques-de-presse/la-cre-approuve-la-procedure-de-raccordement-fast-track-pour-raccorder-les-sites-de-consommation-de-grande-puissance-au-reseau-tres-haute-tension-400-kv-de-rte.html",
+    "type": "primary"
+  },
+  {
+    "id": "es-rd1183-consolidated",
+    "label": "BOE — RD 1183/2020, version consolidée",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17278",
+    "type": "primary"
+  },
+  {
+    "id": "es-demand-contest-2025",
+    "label": "BOE — résolution du 11 juillet 2025",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-14863",
+    "type": "primary"
+  },
+  {
+    "id": "es-demand-contest-miteco-2025",
+    "label": "MITECO — lancement des concours",
+    "url": "https://www.miteco.gob.es/en/prensa/ultimas-noticias/2025/julio/el-miteco-convoca-los-primeros-concursos-de-acceso-de-demanda-a-0.html",
+    "type": "primary"
+  },
+  {
+    "id": "es-demand-contest-result-2026",
+    "label": "BOE — résolution du 24 février 2026",
+    "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-4357",
+    "type": "primary"
+  },
+  {
+    "id": "ie-private-wires-policy-2025",
+    "label": "Gouvernement irlandais — Private Wires Policy",
+    "url": "https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-obrien-secures-government-approval-for-new-private-wires-policy-to-unlock-private-sector-investment-in-electricity-infrastructure/",
+    "type": "primary"
+  },
+  {
+    "id": "ie-private-wires-general-scheme",
+    "label": "Gouvernement irlandais — General Scheme",
+    "url": "https://www.gov.ie/en/department-of-climate-energy-and-the-environment/publications/private-wires-bill-2025-general-scheme-and-regulatory-impact-analysis/",
+    "type": "primary"
+  },
+  {
+    "id": "ie-private-wires-drafting-2026",
+    "label": "Gouvernement irlandais — autorisation de rédaction",
+    "url": "https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/government-approves-the-drafting-of-the-private-wires-bill-2026/",
+    "type": "primary"
+  },
+  {
+    "id": "fr-amp-dc-orientations-2025",
+    "label": "Métropole Aix-Marseille-Provence — orientations votées",
+    "url": "https://deliberations.ampmetropole.fr/documents/metropole/deliberations/2025/06/30/DECISION/109681.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "fr-arcep-enquete-2025",
+    "label": "Arcep — enquête annuelle édition 2025",
+    "url": "https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/impact-environnemental/enquete-annuelle-pour-un-numerique-soutenable-edition-2025.html",
+    "type": "primary"
+  },
+  {
+    "id": "eu-eudca-state-2025",
+    "label": "EUDCA — State of European Data Centres 2025",
+    "url": "https://www.eudca.org/state-of-european-data-centres-2025",
+    "type": "primary"
   }
 ]

@@ -1260,5 +1260,52 @@
       "fr-data4-edf-capn-2025",
       "es-data4-totalenergies-ppa-2025"
     ]
+  },
+  {
+    "id": "fr-metropole-amp",
+    "name": "Métropole Aix-Marseille-Provence",
+    "type": "Collectivité territoriale",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Définit des orientations stratégiques territoriales pour l’accueil des centres de données en juin 2025.",
+    "sourceIds": [
+      "fr-amp-dc-orientations-2025",
+      "avril-20261125-65"
+    ]
+  },
+  {
+    "id": "fr-enedis",
+    "name": "Enedis",
+    "type": "Gestionnaire de distribution",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Publie des statistiques de consommation des centres raccordés à son réseau de distribution.",
+    "sourceIds": [
+      "avril-20261125-76"
+    ]
+  },
+  {
+    "id": "eu-cispe",
+    "name": "Cloud Infrastructure Service Providers in Europe (CISPE)",
+    "type": "Fédération professionnelle",
+    "countries": [],
+    "summary": "Présente des recommandations relatives à la stratégie européenne de résilience hydrique, selon The Register.",
+    "sourceIds": [
+      "avril-20261125-58"
+    ]
+  },
+  {
+    "id": "fr-institut-paris-region",
+    "name": "L’Institut Paris Region",
+    "type": "Organisme d’études territoriales",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Développe un observatoire des data centers franciliens, avec analyses territoriales et méthodologiques.",
+    "sourceIds": [
+      "avril-20261125-64"
+    ]
   }
 ]

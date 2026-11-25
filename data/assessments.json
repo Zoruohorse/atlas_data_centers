@@ -166,5 +166,19 @@
     "kind": "mandatory",
     "mechanism": "connection-financial-security",
     "detail": "Frais de dossier, acompte et garantie d’exécution distincts, sous conditions légales ; réforme générale des raccordements >1 kV, non garantie bancaire spécifique aux centres de données."
+  },
+  {
+    "criterionId": "grid-reservations",
+    "regulationId": "fr-uioli-2025",
+    "kind": "mandatory",
+    "mechanism": "use-it-or-lose-it",
+    "detail": "Réévaluation de la puissance de raccordement en soutirage selon les modalités CRE ; option progressive jusqu’à dix ans."
+  },
+  {
+    "criterionId": "grid-reservations",
+    "regulationId": "es-demand-competition-framework",
+    "kind": "procedure",
+    "mechanism": "competitive-capacity-allocation",
+    "detail": "Concours de capacité à certains nœuds de transport en cas de sursouscription ; critères et garanties selon le texte applicable."
   }
 ]
