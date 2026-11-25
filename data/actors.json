@@ -1497,5 +1497,17 @@
       "us-va-scc-transmission-20260805",
       "us-va-eo22-20260918"
     ]
+  },
+  {
+    "id": "us-food-water-watch",
+    "name": "Food & Water Watch",
+    "type": "Association environnementale",
+    "countries": [
+      "US"
+    ],
+    "summary": "Porte une mobilisation demandant au Congrès un moratoire sur les nouvelles implantations de data centers.",
+    "sourceIds": [
+      "us-fww-moratorium-20251208"
+    ]
   }
 ]

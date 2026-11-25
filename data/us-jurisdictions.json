@@ -165,6 +165,66 @@
     "us-ncsl-moratoria-tracker-2026": {
       "level": "context",
       "states": []
+    },
+    "us-ferc-rm26-4-2025": {
+      "level": "federal",
+      "states": []
+    },
+    "us-pjm-colocation-order-2025": {
+      "level": "regional",
+      "states": []
+    },
+    "us-ny-energize-2026": {
+      "level": "state",
+      "states": [
+        "NY"
+      ]
+    },
+    "us-va-dominion-queue-2026": {
+      "level": "state",
+      "states": [
+        "VA"
+      ]
+    },
+    "us-mi-hb5594-5595-2026": {
+      "level": "state",
+      "states": [
+        "MI"
+      ]
+    },
+    "us-epa-turbine-nsps-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-power-for-people-act-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-ratepayer-pledge-2026": {
+      "level": "federal",
+      "states": []
+    },
+    "us-oh-state-petition-2026": {
+      "level": "state",
+      "states": [
+        "OH"
+      ]
+    },
+    "us-nj-new-brunswick-project-withdrawal-2026": {
+      "level": "local",
+      "states": [
+        "NJ"
+      ]
+    },
+    "us-fww-moratorium-call-2025": {
+      "level": "context",
+      "states": []
+    },
+    "us-or-aws-pacificorp-complaint-2025": {
+      "level": "state",
+      "states": [
+        "OR"
+      ]
     }
   },
   "snapshot": {

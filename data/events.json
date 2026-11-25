@@ -4936,7 +4936,7 @@
     "date": "2026",
     "type": "context",
     "title": "États-Unis — engagements volontaires des opérateurs",
-    "summary": "Next rapporte les engagements publics annoncés par AWS le 2 octobre concernant les coûts électriques, les retombées locales et la transparence. Le WSJ rapporte l’élargissement des engagements volontaires de protection des consommateurs. Ils ne sont pas assimilés à une obligation réglementaire ni à la preuve de leur exécution.",
+    "summary": "Next rapporte les engagements publics annoncés par AWS le 2 octobre concernant les coûts électriques, les retombées locales et la transparence. Le WSJ rapporte l’élargissement des engagements volontaires de protection des consommateurs. Ils ne sont pas assimilés à une obligation réglementaire ni à la preuve de leur exécution. L’engagement initial signé le 4 mars est documenté dans une entrée historique distincte.",
     "topics": [
       "territory",
       "power",
@@ -4944,7 +4944,8 @@
     ],
     "sourceIds": [
       "us-curebot12-7",
-      "us-curebot12-65"
+      "us-curebot12-65",
+      "us-wh-ratepayer-pledge-20260304"
     ]
   },
   {
@@ -5028,7 +5029,8 @@
     ],
     "sourceIds": [
       "us-eia-pilot-20260325",
-      "us-curebot12-100"
+      "us-curebot12-100",
+      "us-curebot13-9"
     ],
     "actorIds": [
       "us-eia"
@@ -5069,5 +5071,105 @@
       "us-curebot12-89"
     ],
     "territory": "Pennsylvanie"
+  },
+  {
+    "id": "us-ratepayer-pledge-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-03-04",
+    "topics": [
+      "power",
+      "grid",
+      "territory"
+    ],
+    "title": "États-Unis — signature du Ratepayer Protection Pledge",
+    "summary": "Après l’annonce présidentielle de février, sept entreprises technologiques adhèrent le 4 mars à un engagement de financer les besoins de production et de réseau liés à leurs centres, négocier des structures tarifaires distinctes et soutenir la fiabilité. L’élargissement annoncé le 23 juillet est documenté par la Maison-Blanche. L’engagement reste volontaire : il ne vaut ni loi fédérale, ni preuve de l’exécution des engagements ou d’une baisse effective des factures.",
+    "sourceIds": [
+      "us-wh-ratepayer-pledge-20260304",
+      "us-wh-ratepayer-facts-20260304",
+      "us-wh-ratepayer-expansion-20260723",
+      "us-curebot13-30"
+    ],
+    "type": "context"
+  },
+  {
+    "id": "us-oh-state-petition-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-03-16",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "title": "Ohio — initiative citoyenne de restriction des centres de plus de 25 MW",
+    "summary": "La pétition déposée le 16 mars propose une modification de la Constitution de l’Ohio pour empêcher la construction de nouveaux centres dont la demande agrégée dépasse 25 MW. Le procureur général certifie le titre et le résumé le 26 mars ; ce n’est pas un vote d’adoption. Selon l’OEDA, l’initiative n’a pas obtenu sa qualification au scrutin de novembre 2026 et les promoteurs visent 2027. Les scrutins municipaux sont distincts.",
+    "sourceIds": [
+      "us-oh-ag-petition-20260326",
+      "us-oh-oeda-toolkit-2026",
+      "us-curebot13-24"
+    ],
+    "type": "mobilisation",
+    "territory": "Ohio"
+  },
+  {
+    "id": "us-nj-new-brunswick-project-withdrawal-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-02-18",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "title": "New Brunswick — retrait d’un usage data center du projet de réaménagement",
+    "summary": "À la suite d’une mobilisation de résidents, la municipalité annonce le retrait de l’usage data center envisagé pour un ancien site industriel. Rutgers Radio rapporte le 19 février que l’administration a demandé l’amendement du plan de réaménagement. L’épisode concerne ce site ; aucune interdiction générale de la commune ou de l’État n’est établie.",
+    "sourceIds": [
+      "us-curebot13-5",
+      "us-nj-rutgers-20260219"
+    ],
+    "type": "mobilisation",
+    "territory": "New Brunswick, New Jersey"
+  },
+  {
+    "id": "us-fww-moratorium-call-2025",
+    "countries": [
+      "US"
+    ],
+    "date": "2025-12-08",
+    "topics": [
+      "planning",
+      "territory",
+      "environment"
+    ],
+    "title": "États-Unis — appel associatif à un moratoire fédéral",
+    "summary": "Food & Water Watch annonce que plus de 230 organisations ont rejoint son appel au Congrès pour suspendre les nouvelles constructions, invoquant les impacts énergétiques, hydriques et environnementaux. Il s’agit d’une revendication associative, non d’un moratoire adopté ou d’une coordination internationale démontrée.",
+    "sourceIds": [
+      "us-fww-moratorium-20251208",
+      "us-curebot13-83"
+    ],
+    "type": "mobilisation",
+    "actorIds": [
+      "us-food-water-watch"
+    ]
+  },
+  {
+    "id": "us-or-aws-pacificorp-complaint-2025",
+    "countries": [
+      "US"
+    ],
+    "date": "2025-11-14",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "title": "Oregon — plainte d’AWS sur les engagements de fourniture électrique",
+    "summary": "DCD rapporte qu’Amazon a saisi la Public Utility Commission de l’Oregon au sujet d’engagements de fourniture électrique de PacifiCorp concernant plusieurs campus AWS. Les insuffisances alléguées et le refus de contractualisation sont les griefs du plaignant ; l’issue du litige et le dossier original ne sont pas confirmés. Aucune règle générale de raccordement n’en est déduite.",
+    "sourceIds": [
+      "us-curebot13-95"
+    ],
+    "type": "context",
+    "territory": "Oregon"
   }
 ]
