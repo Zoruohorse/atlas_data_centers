@@ -1014,7 +1014,7 @@
     "date": "2026-09-25",
     "type": "context",
     "title": "Transparence des data centers — saisine du comité d’Aarhus",
-    "summary": "Lighthouse Reports adresse une communication au Comité d’examen du respect des dispositions de la convention d’Aarhus concernant l’accès aux données de durabilité détenues par la Commission. Les enquêtes partenaires publiées le 30 septembre décrivent des difficultés d’accès à des données individualisées, notamment en France et aux Pays-Bas. La communication conteste les refus de divulgation ; elle ne constitue pas une constatation de violation ni une décision imposant la publication site par site.",
+    "summary": "Lighthouse Reports adresse une communication au Comité d’examen du respect des dispositions de la convention d’Aarhus concernant l’accès aux données de durabilité détenues par la Commission. Les enquêtes partenaires publiées le 30 septembre décrivent des difficultés d’accès à des données individualisées, notamment en France et aux Pays-Bas. La communication conteste les refus de divulgation ; elle ne constitue pas une constatation de violation ni une décision imposant la publication site par site. En juin, DCmag rapporte des accusations d’eurodéputés concernant l’influence de Microsoft sur un projet de disposition de confidentialité. Il s’agit d’allégations rapportées, pas d’une conclusion judiciaire ni d’une causalité démontrée.",
     "topics": [
       "transparency",
       "environment",
@@ -1028,7 +1028,8 @@
       "curebot3-20261124-24",
       "curebot3-20261124-25",
       "curebot3-20261124-26",
-      "curebot4-20261124-54"
+      "curebot4-20261124-54",
+      "dc-europe-20261125-64"
     ],
     "scope": "eu",
     "actorIds": [
@@ -1251,7 +1252,9 @@
       "sovereignty"
     ],
     "sourceIds": [
-      "fr-idf-strategy-2026"
+      "fr-idf-strategy-2026",
+      "dc-europe-20261125-22",
+      "dc-europe-20261125-25"
     ],
     "territory": "Île-de-France",
     "actorIds": [
@@ -2388,7 +2391,8 @@
       "fr-an-3054-texte-2026",
       "carto-20261125-96",
       "carto-20261125-99",
-      "carto-20261125-91"
+      "carto-20261125-91",
+      "dc-europe-20261125-8"
     ],
     "actorIds": [
       "fr-philippe-latombe",
@@ -2562,6 +2566,449 @@
     ],
     "sourceIds": [
       "carto-20261125-22"
+    ]
+  },
+  {
+    "id": "fr-paris-saclay-strategy-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-06-24",
+    "type": "context",
+    "title": "Paris-Saclay — stratégie territoriale d’accueil des data centers",
+    "summary": "La délibération 2026-244 approuve une stratégie d’encadrement, des perspectives d’action urbanistiques et environnementales et des actions de dialogue et de plaidoyer avec les opérateurs. Les Échos rapporte en juillet la préparation d’une charte d’accueil. La stratégie adoptée ne constitue pas une nouvelle interdiction générale ni un refus automatique de raccordement.",
+    "topics": [
+      "territory",
+      "planning",
+      "grid",
+      "environment"
+    ],
+    "sourceIds": [
+      "fr-paris-saclay-2026-244",
+      "dc-europe-20261125-5",
+      "dc-europe-20261125-53"
+    ],
+    "territory": "Paris-Saclay",
+    "actorIds": [
+      "fr-paris-saclay"
+    ]
+  },
+  {
+    "id": "ie-cso-consumption-2025",
+    "countries": [
+      "IE"
+    ],
+    "date": "2026-07-07",
+    "type": "context",
+    "title": "Irlande — 7,663 TWh consommés en 2025 selon le CSO",
+    "summary": "Les données officielles indiquent une consommation mesurée de 7,663 TWh pour les data centers en 2025, en hausse de 10 % sur un an (6,973 TWh en 2024), représentant 23 % de l’électricité mesurée au niveau national. Ce dénominateur n’est pas la production totale d’électricité ni nécessairement la consommation brute. La croissance du parc existant peut se poursuivre malgré les difficultés de nouveaux raccordements.",
+    "topics": [
+      "power",
+      "grid",
+      "transparency"
+    ],
+    "sourceIds": [
+      "ie-cso-dc-2025",
+      "dc-europe-20261125-2"
+    ]
+  },
+  {
+    "id": "fr-prefabrication-mission-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-09",
+    "type": "context",
+    "title": "Mission GIMELEC / France Datacenter — préfabrication et modularisation",
+    "summary": "Le GIMELEC annonce une mission confiée par le gouvernement, portant sur les capacités industrielles françaises et européennes, les dépendances critiques, les perspectives de marché et les leviers de compétences et de réglementation. Le rapport final était annoncé pour novembre 2026 ; sa remise n’a pas été confirmée lors de cette vérification. Ce mandat ne crée pas de nouvelle obligation de préfabrication.",
+    "topics": [
+      "planning",
+      "supply",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-4"
+    ],
+    "actorIds": [
+      "fr-gimelec",
+      "fr-france-datacenter"
+    ]
+  },
+  {
+    "id": "fr-petit-landau-council-opinion-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-07",
+    "type": "context",
+    "title": "Petit-Landau — avis favorable du conseil municipal",
+    "summary": "Les DNA rapportent que 14 conseillers votent en faveur du projet de centre de données et qu’un élu s’abstient le 7 juillet. Cet avis intervient dans le processus de consultation concernant Petit-Landau et Hombourg ; il n’est ni un permis ni une mesure représentative de l’opinion de toute la population.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-7",
+      "fr-petit-landau-prefecture-consultation-2026"
+    ],
+    "territory": "Petit-Landau"
+  },
+  {
+    "id": "fr-notre-dame-coordinator-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-07",
+    "type": "context",
+    "title": "Projets industriels Notre-Dame — nomination d’un coordonnateur",
+    "summary": "Le ministère de l’Industrie annonce la nomination d’Olivier Tainturier pour faciliter la réalisation des projets industriels stratégiques. Cette mission est transversale ; elle ne démontre pas que tous les data centers sont éligibles ni que leurs autorisations sont acquises.",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "fr-dge-tainturier-2026",
+      "dc-europe-20261125-9"
+    ],
+    "actorIds": [
+      "fr-olivier-tainturier"
+    ]
+  },
+  {
+    "id": "fr-be-heat-resilience-2026",
+    "countries": [
+      "FR",
+      "BE"
+    ],
+    "date": "2026-07-08",
+    "type": "context",
+    "title": "Canicule — perturbations informatiques et résilience thermique",
+    "summary": "L’Usine Nouvelle rapporte des perturbations dans des établissements hospitaliers en France et en Belgique fin juin, attribuées à une panne du logiciel Oracle possiblement liée à une surchauffe de serveur à Paris. Thibault Laconde signale séparément un incident de refroidissement à Rennes. Les causes techniques ne sont pas confirmées par un rapport d’incident officiel dans les sources retenues.",
+    "topics": [
+      "environment",
+      "power"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-10",
+      "dc-europe-20261125-23"
+    ]
+  },
+  {
+    "id": "fr-sdes-consumption-2024",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-02",
+    "type": "context",
+    "title": "SDES — consommation électrique des data centers en 2024",
+    "summary": "Le SDES identifie 471 centres métropolitains ayant dépassé 1 GWh annuel au moins une année entre 2018 et 2024 ; ils consomment 4,3 TWh en 2024 (+7,1 % sur un an). Avec les petits sites non intégralement identifiés, l’estimation totale est de 4,3 à 6 TWh, soit 1 à 1,5 % de l’électricité consommée en France. L’Île-de-France représente 63 % de la consommation du périmètre étudié. Ne pas confondre ce périmètre avec l’enquête Arcep, le numérique au sens large ou les puissances réservées.",
+    "topics": [
+      "power",
+      "transparency",
+      "grid"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-14"
+    ]
+  },
+  {
+    "id": "eu-eudca-energy-climate-debate-2026",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2026-06-18",
+    "type": "context",
+    "title": "EUDCA — débat sur l’alimentation électrique de l’IA et les objectifs climatiques",
+    "summary": "Politico rapporte que Lex Coors, président de l’EUDCA, envisage un recours temporaire au gaz pour soutenir les capacités IA. Next relaie ces propos ; le député européen Nicolás González Casares les critique publiquement. Le 1er juillet, l’EUDCA réaffirme officiellement ses engagements climatiques et l’intégration durable au réseau. Les propos du président ne sont pas une décision de l’UE et ne doivent pas être assimilés à un abandon collectif des objectifs climatiques.",
+    "topics": [
+      "power",
+      "supply",
+      "environment",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-37",
+      "dc-europe-20261125-31",
+      "dc-europe-20261125-33",
+      "dc-europe-20261125-16"
+    ],
+    "scope": "eu",
+    "actorIds": [
+      "eu-eudca",
+      "eu-nicolas-gonzalez-casares"
+    ]
+  },
+  {
+    "id": "eu-energy-dc-declaration-2026",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2026-06-03",
+    "type": "context",
+    "title": "UE — déclaration d’intention sur l’intégration des data centers au système énergétique",
+    "summary": "La Commission annonce une feuille de route et une déclaration d’intention signée par 14 associations européennes, dont EUDCA, ENTSO-E, EU DSO Entity, Eurelectric et des représentants de la production et du stockage. L’objectif est de structurer la coopération et de préparer des accords tripartites entre opérateurs numériques, acteurs énergétiques et autorités publiques. Il s’agit d’un engagement de coopération, pas de règles nationales harmonisées ni de raccordements garantis.",
+    "topics": [
+      "grid",
+      "power",
+      "environment",
+      "transparency"
+    ],
+    "sourceIds": [
+      "eu-energy-digital-roadmap-20260603",
+      "eu-energy-declaration-signatories-2026",
+      "dc-europe-20261125-16"
+    ],
+    "scope": "eu",
+    "actorIds": [
+      "eu-eudca",
+      "entso-e"
+    ]
+  },
+  {
+    "id": "fr-ozans-ps-indre-position-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-06-08",
+    "type": "context",
+    "title": "Ozans — inquiétudes du Parti socialiste de l’Indre",
+    "summary": "La Nouvelle République rapporte le communiqué de la fédération PS de l’Indre du 8 juin : inquiétudes concernant les emplois, la surface, la transparence des choix techniques et les ressources locales. Cette position ne constitue ni une opposition unanime du PS national ni une décision d’autorisation.",
+    "topics": [
+      "territory",
+      "sovereignty",
+      "environment"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-59"
+    ],
+    "territory": "Indre",
+    "actorIds": [
+      "fr-ps-indre"
+    ]
+  },
+  {
+    "id": "fr-softbank-choose-france-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-06-01",
+    "type": "project",
+    "title": "Choose France — programme d’investissement SoftBank",
+    "summary": "L’Élysée annonce 45 Md€ d’investissement et un potentiel à terme de 75 Md€, avec les sites du Bosquel, de Dunkerque et de Bouchain. Un message de Thomas Veyrenc évoque les dispositifs fast-track et la planification du réseau. Les montants sont annoncés, non des décaissements constatés ; les puissances et dates de raccordement de chaque site restent à distinguer.",
+    "topics": [
+      "grid",
+      "planning",
+      "territory",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "fr-softbank-elysee-20260601",
+      "dc-europe-20261125-72"
+    ],
+    "actorIds": [
+      "fr-rte"
+    ]
+  },
+  {
+    "id": "fr-marseille-acceptability-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "Marseille — tensions territoriales liées aux centres de données",
+    "summary": "Le Nouvel Obs republie le 1er juin 2026 un reportage initialement paru en septembre 2025 sur les tensions liées aux implantations marseillaises et aux ressources en eau, énergie et foncier. Il constitue un contexte historique, non un nouvel événement de juin 2026 ni une interdiction locale.",
+    "topics": [
+      "territory",
+      "environment",
+      "grid"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-68"
+    ],
+    "territory": "Marseille"
+  },
+  {
+    "id": "fr-arcep-environment-survey-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-05-21",
+    "type": "context",
+    "title": "Arcep — enquête environnementale, données 2024",
+    "summary": "Sur les centres étudiés, la consommation électrique progresse de 12 % et les émissions de GES de 23 % entre 2023 et 2024 ; la consommation d’électricité est en hausse de 38 % sur trois ans selon le régulateur. Les sites mis en service en 2024 disposent en moyenne de 20 MW de capacité informatique, contre 9 MW pour ceux ouverts en 2023. Les chiffres portent sur les opérateurs enquêtés, non sur l’intégralité du parc national.",
+    "topics": [
+      "power",
+      "environment",
+      "transparency"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-84",
+      "fr-arcep-enquete-2026",
+      "dc-europe-20261125-82"
+    ],
+    "actorIds": [
+      "fr-arcep"
+    ]
+  },
+  {
+    "id": "fr-arcep-genai-environment-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-05-21",
+    "type": "context",
+    "title": "Arcep — rapport sur l’empreinte environnementale de l’IA générative",
+    "summary": "Le rapport souligne les limites des données accessibles sur les modèles et services, ainsi que les besoins d’indicateurs et de transparence ; il formule des recommandations et présente des tests de consommation en phase d’usage. Ces recommandations ne constituent pas de nouvelles obligations réglementaires.",
+    "topics": [
+      "environment",
+      "transparency",
+      "power"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-85"
+    ],
+    "actorIds": [
+      "fr-arcep"
+    ]
+  },
+  {
+    "id": "fr-fouju-fne-enquiry-contribution-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-05-13",
+    "type": "context",
+    "title": "Fouju — contribution de FNE à l’enquête publique",
+    "summary": "Le Monde rapporte la remise d’une contribution par des représentants de FNE Seine-et-Marne le 13 mai pendant l’enquête publique. Le média mentionne également la constitution d’un collectif incluant plusieurs associations. Les arguments des opposants sont des positions ; le dépôt de la contribution est distinct des recours ultérieurs.",
+    "topics": [
+      "planning",
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-91",
+      "fr-fouju-prefecture-2026"
+    ],
+    "territory": "Fouju",
+    "actorIds": [
+      "fr-fne-idf"
+    ]
+  },
+  {
+    "id": "gb-gas-connection-enquiries-2026",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-05-18",
+    "type": "context",
+    "title": "Royaume-Uni — plus de 100 demandes de raccordement gazier rapportées",
+    "summary": "The Guardian cite Future Energy Networks, qui fait état de plus de 100 demandes de raccordement gazier d’opérateurs de centres de données sur deux ans, correspondant à plus de 15 TWh annuels de demande envisagée. Ces chiffres sont des demandes rapportées par la fédération, non des consommations constatées ni des centrales autorisées.",
+    "topics": [
+      "power",
+      "supply",
+      "grid"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-94"
+    ]
+  },
+  {
+    "id": "fr-plug-baby-plug-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-05-12",
+    "type": "context",
+    "title": "France Datacenter et iliad — 19 recommandations au gouvernement",
+    "summary": "Le groupe de travail propose d’accélérer les procédures et raccordements (premier prêt, premier servi), d’ouvrir le statut de projet industriel d’intérêt national majeur aux centres stratégiques, d’adapter la fiscalité électrique et de valoriser les friches. Les recommandations sont distinctes des dispositions ensuite adoptées et des réformes annoncées ; elles ne créent pas d’obligations.",
+    "topics": [
+      "grid",
+      "planning",
+      "tax",
+      "territory"
+    ],
+    "sourceIds": [
+      "dc-europe-20261125-99",
+      "dc-europe-20261125-100"
+    ],
+    "actorIds": [
+      "fr-france-datacenter",
+      "fr-iliad"
+    ]
+  },
+  {
+    "id": "fr-digital-realty-audition-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-05-12",
+    "type": "context",
+    "title": "Digital Realty — audition sur les dépendances numériques",
+    "summary": "Lors de son audition parlementaire, Fabrice Coquio présente le marché français comme en rattrapage et défend la simplification des démarches administratives plutôt que l’affaiblissement des exigences environnementales, selon Next. Le compte rendu officiel confirme l’audition et l’orthographe de son nom.",
+    "topics": [
+      "planning",
+      "sovereignty",
+      "environment"
+    ],
+    "sourceIds": [
+      "fr-an-coquio-20260512",
+      "dc-europe-20261125-97"
+    ],
+    "actorIds": [
+      "fr-digital-realty"
     ]
   }
 ]

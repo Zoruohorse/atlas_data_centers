@@ -261,7 +261,8 @@
     "countries": [],
     "summary": "Statnett indique qu’il examinera les exigences techniques et travaux d’ENTSO-E pour élaborer ses futures conditions de raccordement. Ce n’est pas une preuve d’influence bilatérale.",
     "sourceIds": [
-      "no-statnett-2026-1"
+      "no-statnett-2026-1",
+      "eu-energy-declaration-signatories-2026"
     ]
   },
   {
@@ -736,7 +737,9 @@
     "countries": [],
     "summary": "Publie un document de discussion sur les différentes formes de flexibilité des centres de données.",
     "sourceIds": [
-      "eu-eudca-flexibility-2026"
+      "eu-eudca-flexibility-2026",
+      "dc-europe-20261125-16",
+      "eu-energy-declaration-signatories-2026"
     ]
   },
   {
@@ -898,6 +901,120 @@
     "summary": "Publie des analyses critiques des impacts des infrastructures numériques ; Next rapporte la contestation de ses hypothèses par le gouvernement.",
     "sourceIds": [
       "carto-20261125-59"
+    ]
+  },
+  {
+    "id": "fr-drieat",
+    "name": "DRIEAT Île-de-France",
+    "type": "Service déconcentré de l’État",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Présente les critères d’instruction de l’agrément immobilier des centres de données.",
+    "sourceIds": [
+      "fr-drieat-agrement-2026",
+      "fr-drieat-fiche-20260601"
+    ]
+  },
+  {
+    "id": "fr-paris-saclay",
+    "name": "Communauté d’agglomération Paris-Saclay",
+    "type": "Collectivité",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Adopte une stratégie d’encadrement des implantations le 24 juin 2026.",
+    "sourceIds": [
+      "fr-paris-saclay-2026-244",
+      "dc-europe-20261125-5"
+    ]
+  },
+  {
+    "id": "fr-gimelec",
+    "name": "GIMELEC",
+    "type": "Fédération professionnelle",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Mandaté avec France Datacenter pour étudier la préfabrication et la modularisation des infrastructures numériques.",
+    "sourceIds": [
+      "dc-europe-20261125-4"
+    ]
+  },
+  {
+    "id": "fr-olivier-tainturier",
+    "name": "Olivier Tainturier",
+    "type": "Coordonnateur de projets industriels",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Nommé le 7 juillet pour accompagner les projets industriels dits Notre-Dame et résoudre les blocages opérationnels.",
+    "sourceIds": [
+      "fr-dge-tainturier-2026",
+      "dc-europe-20261125-9"
+    ]
+  },
+  {
+    "id": "eu-nicolas-gonzalez-casares",
+    "name": "Nicolás González Casares",
+    "type": "Député européen",
+    "countries": [
+      "ES"
+    ],
+    "summary": "Critique publiquement le recours accru au gaz et défend la souveraineté et l’approvisionnement décarboné des centres de données.",
+    "sourceIds": [
+      "dc-europe-20261125-33"
+    ]
+  },
+  {
+    "id": "fr-ps-indre",
+    "name": "Fédération du Parti socialiste de l’Indre",
+    "type": "Organisation politique",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Exprime des inquiétudes sur le projet Google à Ozans, notamment les retombées et la souveraineté.",
+    "sourceIds": [
+      "dc-europe-20261125-59"
+    ]
+  },
+  {
+    "id": "fr-arcep",
+    "name": "Arcep",
+    "type": "Autorité de régulation",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Publie l’enquête annuelle sur le numérique soutenable et le rapport IA générative et environnement.",
+    "sourceIds": [
+      "dc-europe-20261125-84",
+      "dc-europe-20261125-85",
+      "fr-arcep-enquete-2026"
+    ]
+  },
+  {
+    "id": "fr-iliad",
+    "name": "Groupe iliad",
+    "type": "Entreprise",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Copréside avec France Datacenter le groupe de travail sur l’électrification des usages numériques.",
+    "sourceIds": [
+      "dc-europe-20261125-100"
+    ]
+  },
+  {
+    "id": "fr-digital-realty",
+    "name": "Digital Realty",
+    "type": "Opérateur de centres de données",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Son dirigeant Fabrice Coquio défend lors d’une audition la simplification administrative sans affaiblir les règles environnementales.",
+    "sourceIds": [
+      "fr-an-coquio-20260512",
+      "dc-europe-20261125-97"
     ]
   }
 ]

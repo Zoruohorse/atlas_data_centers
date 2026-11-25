@@ -2482,5 +2482,293 @@
     "label": "Gouvernement écossais — communiqué sur l’EIE",
     "url": "https://www.gov.scot/news/direction-for-new-data-centres/",
     "type": "primary"
+  },
+  {
+    "id": "dc-europe-20261125-2",
+    "label": "The Register — statistiques irlandaises",
+    "url": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-4",
+    "label": "GIMELEC — mission de préfabrication",
+    "url": "https://gimelec.fr/prefabrication-des-data-centers-une-mission-strategique-confiee-au-gimelec-et-a-france-datacenter/",
+    "type": "primary"
+  },
+  {
+    "id": "dc-europe-20261125-5",
+    "label": "Les Échos — stratégie Paris-Saclay",
+    "url": "https://www.lesechos.fr/pme-regions/ile-de-france/paris-saclay-veut-mieux-encadrer-laccueil-des-data-centers-sur-son-territoire-2241450",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-7",
+    "label": "DNA — avis municipal Petit-Landau",
+    "url": "https://www.dna.fr/economie/2026/07/09/au-conseil-municipal-14-votes-en-faveur-du-projet-de-centre-de-donnees-1-abstention",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-8",
+    "label": "LCP — adoption du rapport numérique",
+    "url": "https://lcp.fr/actualites/numerique-le-rapport-de-la-commission-d-enquete-sur-les-vulnerabilites-de-la-france-a",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-9",
+    "label": "Le Monde — coordonnateur Notre-Dame",
+    "url": "https://www.lemonde.fr/economie/article/2026/07/07/le-gouvernement-nomme-olivier-tainturier-coordonnateur-des-projets-industriels-dits-notre-dame_6721437_3234.html",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-10",
+    "label": "L’Usine Nouvelle — résilience thermique",
+    "url": "https://www.usinenouvelle.com/electronique-informatique/cloud-computing/datacenters/on-etablit-les-hypotheses-de-temperatures-maximales-des-20-prochaines-annees-en-se-basant-sur-le-passe-pourquoi-les-canicules-affectent-autant-les-datacenters.FCQM3OH6UBFFBNT536WWXZNW5I.html",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-11",
+    "label": "Financial Times — projet de notation en juillet",
+    "url": "https://www.ft.com/content/21358a9a-b93b-443c-8a68-6fed89c8b3a6",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-12",
+    "label": "The Guardian — motion du SNP en juillet",
+    "url": "https://www.theguardian.com/uk-news/2026/jul/07/scotland-could-freeze-datacentre-projects-in-challenge-to-uks-ai-strategy",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-14",
+    "label": "SDES — consommation des centres de données 2024",
+    "url": "https://www.statistiques.developpement-durable.gouv.fr/la-consommation-delectricite-des-data-centers-en-2024",
+    "type": "primary"
+  },
+  {
+    "id": "dc-europe-20261125-16",
+    "label": "EUDCA — réaffirmation des engagements environnementaux",
+    "url": "https://www.eudca.org/blog/our-news-2/european-data-centre-association-reaffirms-its-commitment-to-a-sustainable-europe-24",
+    "type": "primary"
+  },
+  {
+    "id": "dc-europe-20261125-18",
+    "label": "La Tribune — annonce danoise de juin",
+    "url": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/16851351270501/le-danemark-rationne-son-reseau-electrique-et-penalise-les-data-centers",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-20",
+    "label": "L’Espresso — cadre lombard",
+    "url": "https://lespresso.it/c/innovazione/2026/06/29/data-center-milano-lombardia-dove-sono/63081",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-22",
+    "label": "ZDNet — stratégie régionale francilienne",
+    "url": "https://www.zdnet.fr/actualites/lile-de-france-encadre-limplantation-des-datacenters-face-a-letat-497861.htm",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-23",
+    "label": "Thibault Laconde — retour d’expérience thermique",
+    "url": "https://fr.linkedin.com/posts/thibaultlaconde_a-rennes-cogent-ne-parvient-plus-%C3%A0-refroidir-activity-7475212629892915200-oGvO",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-25",
+    "label": "Les Échos — stratégie Île-de-France",
+    "url": "https://www.lesechos.fr/pme-regions/ile-de-france/a-lheure-dune-nouvelle-vague-de-data-centers-xxl-la-region-ile-de-france-sorganise-2238805",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-31",
+    "label": "Next — débat IA et climat",
+    "url": "https://next.ink/243573/objectifs-climatiques-ou-ia-pour-le-lobby-des-data-centers-leurope-doit-choisir/",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-33",
+    "label": "Nicolás González Casares — réaction publique",
+    "url": "https://www.linkedin.com/posts/nicol%C3%A1s-gonz%C3%A1lez-casares-8b529153_the-president-of-the-the-european-data-centre-activity-7472929460749570049-OBM2",
+    "type": "primary"
+  },
+  {
+    "id": "dc-europe-20261125-34",
+    "label": "Sylvie Chandesris — orientations agrément",
+    "url": "https://fr.linkedin.com/posts/sylvie-chandesris-85b3357b_instruction-demandes-dagr%C3%A9ment-centre-activity-7469794453487063040-d301",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-36",
+    "label": "Lucas Buthion — orientations agrément",
+    "url": "https://fr.linkedin.com/posts/lucas-buthion_instruction-des-demandes-dagr%C3%A9ment-relatives-activity-7469838183606669312-I6I9",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-37",
+    "label": "Politico — entretien Lex Coors",
+    "url": "https://www.politico.eu/article/europe-choose-ai-climate-goals-data-center-chief-warns/",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-53",
+    "label": "Le Moniteur — place des collectivités",
+    "url": "https://www.lemoniteur.fr/mes-magazines/magazine-le-moniteur/data-centers-comment-les-maires-tentent-de-reprendre-la-main-face-a-la-multiplication-de-projets-dimplantation-qui-interrogent-la-souverainete-territoriale-des-collectivites.PH5BPRZWSBMPRJK6SF4APHTRBM.html",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-59",
+    "label": "La Nouvelle République — position du PS de l’Indre",
+    "url": "https://www.lanouvellerepublique.fr/indre/chateauroux-metropole/projet-de-data-center-a-ozans-le-ps-de-l-indre-craint-que-le-site-ne-devienne-une-colonie-numerique-des-etats-unis-1780938166",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-60",
+    "label": "ZDNet — lecture de la politique CRU",
+    "url": "https://www.zdnet.fr/actualites/data-centers-lirlande-sasphyxie-et-impose-le-bring-your-own-power-aux-geants-de-la-tech-496382.htm",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-64",
+    "label": "DCmag — accusations sur le projet de reporting",
+    "url": "https://dcmag.fr/la-commission-europeenne-accusee-davoir-copie-colle-un-amendement-sur-les-datacenters-propose-par-microsoft/",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-66",
+    "label": "La Lettre — débat interne sur le nucléaire",
+    "url": "https://www.lalettre.fr/fr/politique_executif/2026/06/03/data-centers--la-fronde-des-commissaires-en-faveur-du-nucleaire,110779904-bre",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-68",
+    "label": "Le Nouvel Obs — reportage marseillais republié",
+    "url": "https://www.nouvelobs.com/economie/20260601.OBS115407/a-marseille-la-proliferation-des-data-centers-cree-des-tensions.html",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-72",
+    "label": "Thomas Veyrenc — Choose France et fast-track",
+    "url": "https://fr.linkedin.com/posts/thomas-veyrenc-3728803_dossier-de-presse-choose-france-activity-7467190048833093632-GRci",
+    "type": "primary"
+  },
+  {
+    "id": "dc-europe-20261125-82",
+    "label": "Le Monde — enquête Arcep",
+    "url": "https://www.lemonde.fr/economie/article/2026/05/21/en-france-l-inquietante-envolee-des-emissions-de-co-des-data-centers_6691905_3234.html",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-84",
+    "label": "Arcep — enquête annuelle 2026",
+    "url": "https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/environnement-eapns-210526.html",
+    "type": "primary"
+  },
+  {
+    "id": "dc-europe-20261125-85",
+    "label": "Arcep — rapport IA et environnement",
+    "url": "https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/rapport-ia-et-environnement-210526.html",
+    "type": "primary"
+  },
+  {
+    "id": "dc-europe-20261125-89",
+    "label": "La Lettre — plaidoyer sur le nucléaire",
+    "url": "https://www.lalettre.fr/fr/entreprises_energie-et-environnement/2026/05/19/data-centers--christophe-grudler-et-le-medef-montent-au-front-pour-ne-pas-penaliser-le-nucleaire,110767949-art",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-91",
+    "label": "Le Monde — contribution associative à Fouju",
+    "url": "https://www.lemonde.fr/planete/article/2026/05/14/face-aux-data-centers-la-contestation-cherche-a-se-faire-entendre-c-est-difficile-de-s-opposer-la-force-de-propagande-des-promoteurs-est-tres-importante_6689132_3244.html",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-93",
+    "label": "Le Figaro — débat sur le nucléaire et le label",
+    "url": "https://www.lefigaro.fr/societes/ce-projet-de-bruxelles-qui-risque-d-exclure-le-nucleaire-des-projets-de-data-centers-20260514",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-94",
+    "label": "The Guardian — demandes gazières britanniques",
+    "url": "https://www.theguardian.com/business/2026/may/18/uk-datacentres-plan-to-burn-gas-to-generate-electricity",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-97",
+    "label": "Next — audition Digital Realty",
+    "url": "https://next.ink/237948/pour-digital-realty-les-data-centers-francais-sont-en-situation-de-rattrapage/",
+    "type": "analysis"
+  },
+  {
+    "id": "dc-europe-20261125-99",
+    "label": "France Datacenter — propositions du groupe de travail",
+    "url": "https://fr.linkedin.com/posts/francedatacenter_plug-baby-plug-19-propositions-pour-activity-7459998750032224256-7LEj",
+    "type": "primary"
+  },
+  {
+    "id": "dc-europe-20261125-100",
+    "label": "iliad — communiqué des 19 recommandations",
+    "url": "https://www.iliad.fr/media/CP_120526_fa890ba176.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "ie-cso-dc-2025",
+    "label": "CSO — Data Centres Metered Electricity Consumption 2025",
+    "url": "https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2025/",
+    "type": "primary"
+  },
+  {
+    "id": "fr-drieat-agrement-2026",
+    "label": "DRIEAT — nouvelles orientations d’agrément",
+    "url": "https://www.drieat.ile-de-france.developpement-durable.gouv.fr/immobilier-d-entreprise-en-ile-de-france-les-a13326.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-drieat-fiche-20260601",
+    "label": "Préfecture IDF — fiche repère du 1er juin",
+    "url": "https://www.drieat.ile-de-france.developpement-durable.gouv.fr/IMG/pdf/fiche_repere_relative_aux_demandes_agrement_des_centres_de_donnees_juin_2026.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "fr-paris-saclay-2026-244",
+    "label": "Paris-Saclay — délibération n°2026-244 du 24 juin",
+    "url": "https://www.registre-numerique.fr/pref91-dataserres-par03-ballainvilliers/telechargement?file=124330",
+    "type": "primary"
+  },
+  {
+    "id": "fr-dge-tainturier-2026",
+    "label": "DGE — nomination du coordonnateur le 7 juillet",
+    "url": "https://www.entreprises.gouv.fr/espace-presse/le-ministre-sebastien-martin-nomme-olivier-tainturier-coordonnateur-des-projets",
+    "type": "primary"
+  },
+  {
+    "id": "eu-energy-digital-roadmap-20260603",
+    "label": "Commission — feuille de route numérique et IA pour l’énergie",
+    "url": "https://energy.ec.europa.eu/news/commission-presents-measures-digitalise-europes-energy-system-while-ensuring-sustainable-2026-06-03_en",
+    "type": "primary"
+  },
+  {
+    "id": "eu-energy-declaration-signatories-2026",
+    "label": "Commission — signataires de la déclaration d’intention",
+    "url": "https://energy.ec.europa.eu/topics/eus-energy-system/digitalisation-energy-system_en",
+    "type": "primary"
+  },
+  {
+    "id": "fr-softbank-elysee-20260601",
+    "label": "Élysée — entretien avec Masayoshi Son",
+    "url": "https://www.elysee.fr/emmanuel-macron/2026/06/01/entretien-de-travail-avec-masayoshi-son-directeur-general-de-softbank",
+    "type": "primary"
+  },
+  {
+    "id": "fr-arcep-enquete-2026",
+    "label": "Arcep — enquête annuelle, édition 2026",
+    "url": "https://www.arcep.fr/cartes-et-donnees/nos-publications-chiffrees/impact-environnemental/enquete-annuelle-pour-un-numerique-soutenable-edition-2026.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-an-coquio-20260512",
+    "label": "Assemblée nationale — audition du 12 mai",
+    "url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2026PO878304N043.html",
+    "type": "primary"
   }
 ]

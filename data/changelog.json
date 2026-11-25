@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-11-25",
+    "title": "Delta Curebot 7 — Data center Europe, mai-juillet",
+    "summary": "100 ressources examinées : orientations d’agrément franciliennes, stratégie Paris-Saclay, déclaration d’intention européenne, statistiques SDES/CSO/Arcep, recommandations iliad et France Datacenter, jalons territoriaux. Journal dans docs/veille/2026-11-25-data-centers-europe.md."
+  },
+  {
+    "date": "2026-11-25",
     "title": "Delta Curebot 6 — Data centers - carto",
     "summary": "100 ressources de juillet à septembre : consultation CRU gaz interruptible, fast-track Poulainville, rapport 3054, demandes Terna, Curate Ofgem, oppositions et positions d’élus ; vérification complémentaire de l’annonce technique espagnole du 24 novembre. Journal dans docs/veille/2026-11-25-data-centers-carto.md."
   },

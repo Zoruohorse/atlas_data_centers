@@ -116,7 +116,8 @@
       "curebot4-20261124-68",
       "curebot4-20261124-75",
       "fr-ros-senat-adopted-2026",
-      "carto-20261125-15"
+      "carto-20261125-15",
+      "dc-europe-20261125-100"
     ]
   },
   {
@@ -133,11 +134,13 @@
     ],
     "stage": "published",
     "title": "Nouvelle politique de raccordement de la CRU",
-    "summary": "Pour les nouveaux sites concernés, la CRU ajoute une exigence de 80 % de consommation annuelle couverte par de nouvelles capacités renouvelables irlandaises, avec six ans à compter de la mise sous tension. La politique maintient l’exigence de production ou de stockage sur site ou à proximité et affine l’examen des contraintes réseau à l’échelle du point de raccordement.",
+    "summary": "Pour les nouveaux sites concernés, la CRU ajoute une exigence de 80 % de consommation annuelle couverte par de nouvelles capacités renouvelables irlandaises, avec six ans à compter de la mise sous tension. La politique maintient l’exigence de production ou de stockage sur site ou à proximité et affine l’examen des contraintes réseau à l’échelle du point de raccordement. Les commentaires de presse évoquent le Bring Your Own Power ; ne pas assimiler la politique CRU à une interdiction générale de raccordement ni à une obligation de production exclusivement autonome pour tous les sites. Les conditions précises figurent dans la décision officielle.",
     "sourceIds": [
       "ie-cru-2025-1",
       "ie-cru-2025-2",
-      "curebot4-20261124-82"
+      "curebot4-20261124-82",
+      "dc-europe-20261125-60",
+      "dc-europe-20261125-2"
     ],
     "actorIds": [
       "ie-cru"
@@ -654,7 +657,8 @@
       "curebot4-20261124-4",
       "curebot4-20261124-8",
       "curebot4-20261124-9",
-      "curebot4-20261124-80"
+      "curebot4-20261124-80",
+      "dc-europe-20261125-100"
     ],
     "actorIds": [
       "fr-rte"
@@ -732,7 +736,8 @@
       "dk-grid-priority-ministry-2026",
       "curebot3-20261124-14",
       "curebot3-20261124-18",
-      "curebot4-20261124-34"
+      "curebot4-20261124-34",
+      "dc-europe-20261125-18"
     ],
     "effectiveFrom": "2026-10-19",
     "actorIds": [
@@ -1472,7 +1477,7 @@
     "date": "2026-09-16",
     "stage": "announced",
     "title": "Écosse — motion de pause et préparation de lignes directrices",
-    "summary": "Le Parlement écossais a adopté une motion demandant des lignes directrices nationales et une pause des décisions de planification jusqu’à leur publication. Les débats d’octobre et de novembre confirment que les orientations restent en préparation ; une motion parlementaire n’équivaut pas à une interdiction juridiquement opposable à toutes les autorités locales. Aucune directive de gel général n’est établie par les sources retenues.",
+    "summary": "Le Parlement écossais a adopté une motion demandant des lignes directrices nationales et une pause des décisions de planification jusqu’à leur publication. Les débats d’octobre et de novembre confirment que les orientations restent en préparation ; une motion parlementaire n’équivaut pas à une interdiction juridiquement opposable à toutes les autorités locales. Aucune directive de gel général n’est établie par les sources retenues. Début juillet, le conseil national du SNP avait adopté une motion demandant un gel, transmise au gouvernement écossais selon The Guardian. Ce jalon partisan est distinct de la motion parlementaire de septembre et des directions juridiquement applicables.",
     "topics": [
       "planning",
       "environment",
@@ -1482,7 +1487,8 @@
       "gb-scotland-motion-2026",
       "gb-scotland-planning-debate-2026",
       "gb-scotland-planning-nov-2026",
-      "curebot4-20261124-33"
+      "curebot4-20261124-33",
+      "dc-europe-20261125-12"
     ],
     "territory": "Écosse",
     "actorIds": [
@@ -1511,7 +1517,8 @@
       "it-lombardy-law-11-2026",
       "it-lombardy-pucd-2026",
       "it-lombardy-assolombarda-2026",
-      "curebot4-20261124-46"
+      "curebot4-20261124-46",
+      "dc-europe-20261125-20"
     ],
     "territory": "Lombardie",
     "effectiveFrom": "2026-06-20",
@@ -1526,7 +1533,7 @@
     "date": "2026-09-21",
     "stage": "adopted",
     "title": "Étiquetage européen — acte délégué C(2026) 3472",
-    "summary": "La Commission a adopté un second acte délégué établissant un système commun de notation, sur la base du reporting prévu par le règlement 2024/1364. Il distingue efficacité énergétique et hydrique, avec étiquettes électroniques générées à partir des données déclarées. Les premières étiquettes sont prévues en 2027. Le classement est distinct des futures normes minimales, encore en consultation ; la publication au Journal officiel et l’entrée en vigueur doivent être confirmées avant de traiter le texte comme applicable. En juillet, Christophe Grudler a déclaré avoir coordonné une lettre transpartisane au sujet de la prise en compte des sources d’électricité bas-carbone, dont le nucléaire. Son message décrit la réponse de la Commission ; il ne démontre pas une modification du texte final à lui seul.",
+    "summary": "La Commission a adopté un second acte délégué établissant un système commun de notation, sur la base du reporting prévu par le règlement 2024/1364. Il distingue efficacité énergétique et hydrique, avec étiquettes électroniques générées à partir des données déclarées. Les premières étiquettes sont prévues en 2027. Le classement est distinct des futures normes minimales, encore en consultation ; la publication au Journal officiel et l’entrée en vigueur doivent être confirmées avant de traiter le texte comme applicable. En juillet, Christophe Grudler a déclaré avoir coordonné une lettre transpartisane au sujet de la prise en compte des sources d’électricité bas-carbone, dont le nucléaire. Son message décrit la réponse de la Commission ; il ne démontre pas une modification du texte final à lui seul. Les articles de mai à juillet documentent les débats sur la valorisation du nucléaire et les méthodes de comptabilisation des émissions dans les projets de texte. Les démarches attribuées à des commissaires par La Lettre et le plaidoyer de Christophe Grudler et du Medef ne démontrent pas une interdiction du nucléaire ni l’issue des arbitrages. Le texte adopté en septembre est la référence, distincte des brouillons.",
     "topics": [
       "environment",
       "transparency"
@@ -1537,7 +1544,11 @@
       "curebot4-20261124-12",
       "carto-20261125-10",
       "carto-20261125-13",
-      "carto-20261125-90"
+      "carto-20261125-90",
+      "dc-europe-20261125-11",
+      "dc-europe-20261125-66",
+      "dc-europe-20261125-89",
+      "dc-europe-20261125-93"
     ],
     "milestone": "Premières étiquettes prévues en 2027 ; vérifier la publication au JOUE et le calendrier d’application.",
     "impacts": {
@@ -1674,5 +1685,37 @@
       "es-miteco-grid-tech-20261124"
     ],
     "milestone": "Vérifier la publication officielle et les exigences applicables aux grandes charges."
+  },
+  {
+    "id": "fr-idf-agrement-drieat-2026",
+    "scope": "territorial",
+    "territory": "Île-de-France",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-06-01",
+    "effectiveFrom": "2026-07-01",
+    "stage": "effective",
+    "title": "Île-de-France — orientations d’instruction de l’agrément immobilier",
+    "summary": "Les nouvelles orientations préfectorales s’appliquent aux demandes déposées à compter du 1er juillet 2026. L’agrément immobilier concerne les projets dépassant 5 000 m² de surface de plancher. La fiche privilégie les friches et les sites d’activité existants, la proximité des débouchés thermiques et les raccordements courts vers le 225 ou 400 kV. Les projets de plus de 40 MW de puissance de raccordement font l’objet d’une attention renforcée dans les zones électriques tendues, notamment le cœur d’agglomération. Hors secours, le recours au gaz doit être évité. Une étude détaillée de valorisation de chaleur doit être fournie, avec engagement de principe d’un bénéficiaire si elle est favorable ; la cible de 20 % de l’énergie électrique utilisée est une recommandation dans les espaces urbains denses. Il s’agit de critères administratifs d’instruction, non d’un moratoire ni d’une nouvelle interdiction nationale.",
+    "topics": [
+      "planning",
+      "grid",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "fr-drieat-agrement-2026",
+      "fr-drieat-fiche-20260601",
+      "dc-europe-20261125-34",
+      "dc-europe-20261125-36"
+    ],
+    "actorIds": [
+      "fr-drieat"
+    ],
+    "impacts": {
+      "operator": "Anticiper les justificatifs de foncier, de puissance, de chaleur et les avis des collectivités dès l’agrément ; distinguer les critères d’examen et les obligations légales autonomes.",
+      "grid": "Favoriser les tracés courts et éviter d’obérer l’accès des autres utilisateurs ; le seuil de 40 MW n’est pas une interdiction de raccordement."
+    }
   }
 ]
