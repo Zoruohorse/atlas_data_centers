@@ -237,7 +237,9 @@
     "summary": "Porte les demandes d’accélération et de réduction des délais de raccordement de la filière française.",
     "sourceIds": [
       "curebot-20261124-26",
-      "curebot-20261124-23"
+      "curebot-20261124-23",
+      "carto-20261125-89",
+      "carto-20261125-86"
     ]
   },
   {
@@ -320,7 +322,8 @@
     "summary": "Appelle à une agora populaire à Paris et à un moratoire sur les grands data centers dans le cadre de Stop Dirty Data Centres.",
     "sourceIds": [
       "curebot2-20261124-14",
-      "sddc-november-programme"
+      "sddc-november-programme",
+      "carto-20261125-74"
     ]
   },
   {
@@ -734,6 +737,167 @@
     "summary": "Publie un document de discussion sur les différentes formes de flexibilité des centres de données.",
     "sourceIds": [
       "eu-eudca-flexibility-2026"
+    ]
+  },
+  {
+    "id": "eu-christophe-grudler",
+    "name": "Christophe Grudler",
+    "type": "Député européen",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Déclare avoir coordonné une lettre transpartisane relative à la neutralité technologique de l’étiquette de durabilité des centres de données.",
+    "sourceIds": [
+      "carto-20261125-90"
+    ]
+  },
+  {
+    "id": "fr-cecile-germain-ecuer",
+    "name": "Cécile Germain-Ecuer",
+    "type": "Élue régionale et porte-parole associative",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Présentée par Politico comme conseillère régionale écologiste et porte-parole d’IA pas moyen.",
+    "sourceIds": [
+      "carto-20261125-7"
+    ]
+  },
+  {
+    "id": "fr-stop-campus-ia",
+    "name": "Stop Campus IA",
+    "type": "Collectif territorial",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Identifié par Politico parmi les opposants au projet Fouju ; les actions précises sont distinguées des autres associations.",
+    "sourceIds": [
+      "carto-20261125-7",
+      "carto-20261125-51"
+    ]
+  },
+  {
+    "id": "fr-francois-bonneau",
+    "name": "François Bonneau",
+    "type": "Président de région",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Déclare à l’AFP le 21 septembre ne pas soutenir le projet Google à Ozans en l’état.",
+    "sourceIds": [
+      "carto-20261125-12"
+    ]
+  },
+  {
+    "id": "it-stop-data-center-network",
+    "name": "Rete dei comitati Stop data center",
+    "type": "Réseau de collectifs",
+    "countries": [
+      "IT"
+    ],
+    "summary": "Il Giorno rapporte le 8 septembre une plateforme commune signée par 22 comités, mouvements et observatoires locaux.",
+    "sourceIds": [
+      "carto-20261125-31"
+    ]
+  },
+  {
+    "id": "fr-roland-lescure",
+    "name": "Roland Lescure",
+    "type": "Responsable politique",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Selon l’AFP, appelle les constructeurs à démontrer les bénéfices territoriaux des infrastructures lors d’un point presse en septembre.",
+    "sourceIds": [
+      "carto-20261125-36"
+    ]
+  },
+  {
+    "id": "fr-christophe-dietrich",
+    "name": "Christophe Dietrich",
+    "type": "Élu territorial",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Maire de Laigneville et vice-président de la communauté de communes de la Vallée Dorée, favorable au projet Rantigny selon la revue de presse DCmag.",
+    "sourceIds": [
+      "carto-20261125-47"
+    ]
+  },
+  {
+    "id": "es-tu-nube-seca-mi-rio",
+    "name": "Tu nube seca mi río",
+    "type": "Collectif environnemental",
+    "countries": [
+      "ES"
+    ],
+    "summary": "El Salto cite sa porte-parole Aurora Gómez Delgado dans un reportage sur les oppositions aux grands centres de données.",
+    "sourceIds": [
+      "carto-20261125-60"
+    ]
+  },
+  {
+    "id": "it-terna",
+    "name": "Terna",
+    "type": "Gestionnaire de transport",
+    "countries": [
+      "IT"
+    ],
+    "summary": "Les données de son portail Econnextion sont rapportées par la presse italienne ; les demandes doivent être distinguées de leur réalisation.",
+    "sourceIds": [
+      "carto-20261125-66",
+      "it-terna-queue-20260831"
+    ]
+  },
+  {
+    "id": "fr-les-ecologistes",
+    "name": "Les Écologistes",
+    "type": "Parti politique",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Publie une prise de position sur Fouju et un programme politique en juillet 2026, commenté par DCmag.",
+    "sourceIds": [
+      "carto-20261125-69",
+      "carto-20261125-93",
+      "carto-20261125-98"
+    ]
+  },
+  {
+    "id": "fr-raphael-schellenberger",
+    "name": "Raphaël Schellenberger",
+    "type": "Député",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Auteur d’un rapport remis en juillet sur l’électrification industrielle et la planification des raccordements.",
+    "sourceIds": [
+      "carto-20261125-78",
+      "carto-20261125-88"
+    ]
+  },
+  {
+    "id": "gb-water-uk",
+    "name": "Water UK",
+    "type": "Fédération professionnelle",
+    "countries": [
+      "GB"
+    ],
+    "summary": "Porte les préoccupations des compagnies d’eau dans sa contribution au Parlement.",
+    "sourceIds": [
+      "gb-water-uk-evidence-2026"
+    ]
+  },
+  {
+    "id": "gb-foxglove",
+    "name": "Foxglove",
+    "type": "Association",
+    "countries": [
+      "GB"
+    ],
+    "summary": "Publie des analyses critiques des impacts des infrastructures numériques ; Next rapporte la contestation de ses hypothèses par le gouvernement.",
+    "sourceIds": [
+      "carto-20261125-59"
     ]
   }
 ]

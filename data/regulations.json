@@ -23,7 +23,8 @@
       "curebot2-20261124-7",
       "curebot2-20261124-10",
       "curebot2-20261124-13",
-      "curebot4-20261124-3"
+      "curebot4-20261124-3",
+      "es-miteco-decree-20261120"
     ],
     "effectiveFrom": "2026-11-22",
     "impacts": {
@@ -114,7 +115,8 @@
       "curebot4-20261124-60",
       "curebot4-20261124-68",
       "curebot4-20261124-75",
-      "fr-ros-senat-adopted-2026"
+      "fr-ros-senat-adopted-2026",
+      "carto-20261125-15"
     ]
   },
   {
@@ -465,12 +467,17 @@
     ],
     "stage": "consultation",
     "title": "Ofgem propose de réformer la file des data centers",
-    "summary": "Ofgem a consulté sur le filtrage des demandes spéculatives et sur la réforme des règles de raccordement des data centers en Grande-Bretagne. Le dossier de consultation décrit des options de réforme.",
+    "summary": "Ofgem a consulté sur le filtrage des demandes spéculatives et sur la réforme des règles de raccordement des data centers en Grande-Bretagne. Le dossier de consultation décrit des options de réforme. Le volet Curate propose une garantie financière à maintenir de l’acceptation de l’offre jusqu’au raccordement et des jalons portant notamment sur un utilisateur final crédible, la commande d’équipements à long délai, et les capacités financières et techniques. La page officielle indique la consultation close le 17 septembre, décision attendue. Le 19 novembre Ofgem confirme poursuivre les travaux sur les projets spéculatifs.",
     "sourceIds": [
       "ofgem-gov-uk-fe0b3991",
       "ofgem-gov-uk-f2619bbb",
       "gb-ofgem-call-input-2026",
-      "curebot4-20261124-76"
+      "curebot4-20261124-76",
+      "carto-20261125-80",
+      "carto-20261125-82",
+      "carto-20261125-55",
+      "gb-ofgem-curate-status-2026",
+      "gb-ofgem-delivery-inquiry-2026"
     ],
     "actorIds": [
       "gb-ofgem"
@@ -478,7 +485,8 @@
     "impacts": {
       "operator": "Suivre les décisions qui préciseront les preuves de maturité et le traitement des réservations.",
       "grid": "La réforme vise à libérer des capacités prises par les projets peu susceptibles d’aboutir."
-    }
+    },
+    "milestone": "Consultation close ; décision attendue selon la page officielle au 25 novembre 2026."
   },
   {
     "id": "gb-strategic-demand-2026",
@@ -1419,7 +1427,8 @@
     ],
     "sourceIds": [
       "gb-scotland-notification-2026",
-      "curebot4-20261124-15"
+      "curebot4-20261124-15",
+      "carto-20261125-50"
     ],
     "territory": "Écosse",
     "effectiveFrom": "2026-08-17",
@@ -1444,7 +1453,9 @@
     ],
     "sourceIds": [
       "gb-scotland-eia-2026",
-      "curebot4-20261124-15"
+      "curebot4-20261124-15",
+      "carto-20261125-21",
+      "gb-scotland-eia-news-2026"
     ],
     "territory": "Écosse",
     "effectiveFrom": "2026-09-17",
@@ -1515,7 +1526,7 @@
     "date": "2026-09-21",
     "stage": "adopted",
     "title": "Étiquetage européen — acte délégué C(2026) 3472",
-    "summary": "La Commission a adopté un second acte délégué établissant un système commun de notation, sur la base du reporting prévu par le règlement 2024/1364. Il distingue efficacité énergétique et hydrique, avec étiquettes électroniques générées à partir des données déclarées. Les premières étiquettes sont prévues en 2027. Le classement est distinct des futures normes minimales, encore en consultation ; la publication au Journal officiel et l’entrée en vigueur doivent être confirmées avant de traiter le texte comme applicable.",
+    "summary": "La Commission a adopté un second acte délégué établissant un système commun de notation, sur la base du reporting prévu par le règlement 2024/1364. Il distingue efficacité énergétique et hydrique, avec étiquettes électroniques générées à partir des données déclarées. Les premières étiquettes sont prévues en 2027. Le classement est distinct des futures normes minimales, encore en consultation ; la publication au Journal officiel et l’entrée en vigueur doivent être confirmées avant de traiter le texte comme applicable. En juillet, Christophe Grudler a déclaré avoir coordonné une lettre transpartisane au sujet de la prise en compte des sources d’électricité bas-carbone, dont le nucléaire. Son message décrit la réponse de la Commission ; il ne démontre pas une modification du texte final à lui seul.",
     "topics": [
       "environment",
       "transparency"
@@ -1523,13 +1534,19 @@
     "sourceIds": [
       "eu-rating-c2026-3472",
       "eu-rating-com2026-500",
-      "curebot4-20261124-12"
+      "curebot4-20261124-12",
+      "carto-20261125-10",
+      "carto-20261125-13",
+      "carto-20261125-90"
     ],
     "milestone": "Premières étiquettes prévues en 2027 ; vérifier la publication au JOUE et le calendrier d’application.",
     "impacts": {
       "operator": "Préparer des données de reporting fiables, sans confondre la classe affichée avec une obligation de performance minimale.",
       "grid": "L’amélioration de l’information peut éclairer les comparaisons ; la notation n’est pas une règle de priorité de raccordement."
-    }
+    },
+    "actorIds": [
+      "eu-christophe-grudler"
+    ]
   },
   {
     "id": "fr-cndp-decree-2026",
@@ -1608,5 +1625,54 @@
     "impacts": {
       "operator": "Risque de mobilisation de capacités informatiques et d’impact sur les engagements clients ; vérifier les mesures d’application."
     }
+  },
+  {
+    "id": "ie-cru-interruptible-gas-2026",
+    "scope": "national",
+    "countries": [
+      "IE"
+    ],
+    "date": "2026",
+    "stage": "consultation",
+    "title": "CRU — projet de raccordements gaziers interruptibles",
+    "summary": "La CRU a consulté sur une direction proposant un produit interruptible obligatoire pour les nouveaux clients industriels dont la demande horaire de pointe dépasse 50 MW thermiques, avec exception pour les candidats producteurs d’électricité au gaz participant au SEM. Une réduction du tarif d’utilisation du réseau gazier, non du prix de marché du gaz, est envisagée en contrepartie de l’interruptibilité. La consultation a pris fin le 10 août ; le régulateur déclarait le 7 septembre qu’aucune décision n’avait été prise. Aucun texte définitif n’a été identifié lors de cette vérification.",
+    "topics": [
+      "power",
+      "supply",
+      "grid"
+    ],
+    "sourceIds": [
+      "ie-cru-interruptible-gas-consult-2026",
+      "carto-20261125-33",
+      "ie-rte-gas-tariff-2026",
+      "ie-examiner-gas-tariff-2026"
+    ],
+    "actorIds": [
+      "ie-cru"
+    ],
+    "milestone": "Consultation close le 10 août 2026 ; vérifier la décision finale et les tarifs.",
+    "impacts": {
+      "operator": "Évaluer la continuité de service, les solutions alternatives et les conditions tarifaires ; ne pas supposer un gaz moins cher.",
+      "grid": "L’interruptibilité vise la sécurité du système gazier ; ses effets sur le réseau électrique dépendent des solutions d’alimentation de secours."
+    }
+  },
+  {
+    "id": "es-grid-minimum-requirements-20261124",
+    "scope": "national",
+    "countries": [
+      "ES"
+    ],
+    "date": "2026-11-24",
+    "stage": "announced",
+    "title": "Exigences techniques minimales de raccordement — annonce du 24 novembre",
+    "summary": "Le MITECO annonce l’approbation de nouvelles exigences techniques pour les installations raccordées aux réseaux, dans le contexte de l’électrification et des nouvelles grandes charges. Le communiqué mentionne notamment la prévention des oscillations adverses et des exigences de stabilité. La portée précise pour chaque catégorie de consommation et le texte publié au BOE restent à vérifier. Cette annonce complémentaire ne remplace pas le décret spécifique aux data centers.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "es-miteco-grid-tech-20261124"
+    ],
+    "milestone": "Vérifier la publication officielle et les exigences applicables aux grandes charges."
   }
 ]

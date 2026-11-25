@@ -538,7 +538,8 @@
       "curebot2-20261124-12",
       "curebot2-20261124-30",
       "curebot3-20261124-8",
-      "curebot3-20261124-36"
+      "curebot3-20261124-36",
+      "carto-20261125-2"
     ]
   },
   {
@@ -558,7 +559,8 @@
     "sourceIds": [
       "curebot-20261124-26",
       "curebot-20261124-23",
-      "fr-fdc-barometer-2026-public"
+      "fr-fdc-barometer-2026-public",
+      "carto-20261125-89"
     ],
     "actorIds": [
       "fr-france-datacenter"
@@ -707,10 +709,10 @@
     "countries": [
       "FR"
     ],
-    "date": "2026-09-29",
+    "date": "2026-09-10",
     "type": "context",
     "title": "Étrechet — démissions d’élus et contestation du processus de décision",
-    "summary": "Le Courrier des maires rapporte des démissions en septembre d’élus municipaux d’Étrechet, dont la maire, en lien avec le sentiment de ne pas disposer d’informations et de moyens de décision suffisants sur le projet d’Ozans. Date de publication retenue faute de date précise des démissions. Le Parisien publie le 29 septembre un entretien avec la maire démissionnaire Florence Laurent. ZDNet date la démission collective initiale du 11 septembre ; la presse et la proposition de résolution évoquent des décomptes différents selon les moments et les fonctions. Le 8 octobre, deux anciens adjoints d’Étrechet prennent la parole à l’Assemblée nationale.",
+    "summary": "La Nouvelle République rapporte un courrier daté du 10 septembre par lequel quatre élus (trois adjoints et une conseillère municipale) démissionnent de leurs fonctions après la réunion du 9 septembre. France 3 rapporte le 14 septembre pour l’annonce des quatre démissions et le communiqué de Florence Laurent le 15 septembre présentant sa propre démission. Les dates de courrier, d’annonce et de prise d’effet administrative ne doivent pas être confondues. Les élus invoquent notamment l’insuffisance des moyens de décision et d’information de la commune ; le 8 octobre deux anciens adjoints prennent la parole à l’Assemblée nationale.",
     "topics": [
       "territory",
       "planning"
@@ -720,7 +722,10 @@
       "curebot3-20261124-22",
       "curebot3-20261124-30",
       "curebot3-20261124-11",
-      "curebot3-20261124-34"
+      "curebot3-20261124-34",
+      "carto-20261125-19",
+      "carto-20261125-23",
+      "carto-20261125-25"
     ],
     "territory": "Étrechet, Indre"
   },
@@ -786,7 +791,8 @@
       "curebot2-20261124-18",
       "curebot2-20261124-21",
       "curebot2-20261124-27",
-      "curebot2-20261124-26"
+      "curebot2-20261124-26",
+      "carto-20261125-94"
     ],
     "actorIds": [
       "fr-rte"
@@ -1041,18 +1047,20 @@
     "date": "2026-09-19",
     "type": "mobilisation",
     "title": "Petit-Landau et Hombourg — mobilisation contre le projet Microsoft",
-    "summary": "ZDNet rapporte une journée de mobilisation organisée le 19 septembre par le collectif IA pas moyen ! autour des inquiétudes liées au campus numérique. À distinguer du projet de valorisation de chaleur transfrontalière évoqué en novembre.",
+    "summary": "ZDNet rapporte une journée de mobilisation organisée le 19 septembre par le collectif IA pas moyen ! autour des inquiétudes liées au campus numérique. À distinguer du projet de valorisation de chaleur transfrontalière évoqué en novembre. Politico situe la réunion du 19 septembre à Kingersheim et rapporte une cinquantaine de participants. Le collectif y cherche à fédérer des mobilisations locales ; ce nombre n’est pas une mesure de représentativité.",
     "topics": [
       "territory",
       "environment",
       "planning"
     ],
     "sourceIds": [
-      "curebot3-20261124-30"
+      "curebot3-20261124-30",
+      "carto-20261125-7"
     ],
     "territory": "Petit-Landau et Hombourg",
     "actorIds": [
-      "fr-ia-pas-moyen"
+      "fr-ia-pas-moyen",
+      "fr-cecile-germain-ecuer"
     ]
   },
   {
@@ -1070,7 +1078,8 @@
       "environment"
     ],
     "sourceIds": [
-      "curebot3-20261124-36"
+      "curebot3-20261124-36",
+      "carto-20261125-7"
     ],
     "actorIds": [
       "fr-fne",
@@ -1097,7 +1106,9 @@
     "sourceIds": [
       "curebot3-20261124-19",
       "curebot3-20261124-21",
-      "curebot3-20261124-35"
+      "curebot3-20261124-35",
+      "carto-20261125-4",
+      "carto-20261125-5"
     ],
     "actorIds": [
       "fr-senat-cadt",
@@ -1136,7 +1147,8 @@
       "territory"
     ],
     "sourceIds": [
-      "curebot3-20261124-3"
+      "curebot3-20261124-3",
+      "carto-20261125-29"
     ]
   },
   {
@@ -1542,7 +1554,8 @@
       "nldc-20261124-5",
       "nldc-20261124-55",
       "fr-bosquel-cndp-2026",
-      "fr-bosquel-cndp-20260902"
+      "fr-bosquel-cndp-20260902",
+      "carto-20261125-28"
     ],
     "territory": "Le Bosquel / Flers-sur-Noye",
     "actorIds": [
@@ -1654,12 +1667,14 @@
     "sourceIds": [
       "nldc-20261124-72",
       "nldc-20261124-96",
-      "fr-fouju-prefecture-2026"
+      "fr-fouju-prefecture-2026",
+      "carto-20261125-7"
     ],
     "territory": "Fouju",
     "actorIds": [
       "fr-fne-idf",
-      "fr-amis-terre"
+      "fr-amis-terre",
+      "fr-stop-campus-ia"
     ]
   },
   {
@@ -2095,5 +2110,458 @@
       "iea-weo-2026"
     ],
     "scope": "eu"
+  },
+  {
+    "id": "fr-ozans-bonneau-position-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-09-21",
+    "type": "context",
+    "title": "Ozans — position défavorable du président de région",
+    "summary": "François Bonneau déclare à l’AFP ne pas soutenir le projet Google en l’état, notamment en raison du foncier, de l’électricité et de la souveraineté. Il indique respecter la concertation. Cette prise de position personnelle du président ne constitue ni un vote du conseil régional ni un refus d’autorisation.",
+    "topics": [
+      "territory",
+      "planning",
+      "grid",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "carto-20261125-12"
+    ],
+    "territory": "Centre-Val de Loire",
+    "actorIds": [
+      "fr-francois-bonneau"
+    ]
+  },
+  {
+    "id": "it-lombardy-committee-network-2026",
+    "countries": [
+      "IT"
+    ],
+    "date": "2026-09-08",
+    "type": "mobilisation",
+    "title": "Lombardie — constitution d’un réseau de 22 collectifs",
+    "summary": "Il Giorno rapporte la création d’un réseau Stop data center et un manifeste commun signé par 22 organisations. Les demandes portent sur une planification nationale, l’évaluation des effets cumulés et des compensations territoriales. Des initiatives sont annoncées pour septembre et octobre ; leur tenue et leur fréquentation ne sont pas établies par cet article.",
+    "topics": [
+      "territory",
+      "planning",
+      "environment"
+    ],
+    "sourceIds": [
+      "carto-20261125-31"
+    ],
+    "territory": "Milan et territoires voisins",
+    "actorIds": [
+      "it-stop-data-center-network"
+    ]
+  },
+  {
+    "id": "fr-lescure-social-licence-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-09-02",
+    "type": "context",
+    "title": "Roland Lescure — alerte sur l’acceptabilité des centres de données",
+    "summary": "Lors d’un point presse à San Francisco, Roland Lescure avertit que les oppositions américaines pourraient se manifester en France et appelle les opérateurs à démontrer les retombées positives locales. Il ne s’agit pas d’une nouvelle mesure réglementaire.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "carto-20261125-36"
+    ],
+    "actorIds": [
+      "fr-roland-lescure"
+    ]
+  },
+  {
+    "id": "gb-dc-foi-transparency-2026",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-09-02",
+    "type": "context",
+    "title": "Royaume-Uni — transparence sur les usages des centres de données",
+    "summary": "Le Guardian rapporte qu’en réponse à une demande d’accès à l’information, le ministère DSIT a indiqué ne pas détenir les informations demandées sur les utilisateurs et usages des plus grands sites. La réponse ne démontre pas que toutes les administrations ignorent tous les usages.",
+    "topics": [
+      "transparency",
+      "power",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "carto-20261125-44"
+    ]
+  },
+  {
+    "id": "fr-rantigny-dietrich-position-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-08-26",
+    "type": "context",
+    "title": "Rantigny — soutien exprimé par le maire de Laigneville",
+    "summary": "DCmag relaie une prise de position de Christophe Dietrich le 26 août en faveur du projet. Ce soutien individuel précède la consultation de Cauffry et ne vaut pas position unanime des collectivités ni autorisation.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "carto-20261125-47"
+    ],
+    "territory": "Laigneville / Rantigny",
+    "actorIds": [
+      "fr-christophe-dietrich"
+    ]
+  },
+  {
+    "id": "fr-fouju-citizen-meeting-announcement-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-08-29",
+    "type": "mobilisation",
+    "title": "Fouju — journée citoyenne annoncée",
+    "summary": "FNE Île-de-France annonce une journée de rencontres le 29 août organisée par le collectif opposé au Campus IA. La source documente l’appel et le programme, non la tenue effective ni le nombre de participants ; les chiffres revendicatifs ne sont pas validés.",
+    "topics": [
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "carto-20261125-51"
+    ],
+    "territory": "Fouju",
+    "actorIds": [
+      "fr-fne-idf",
+      "fr-stop-campus-ia"
+    ]
+  },
+  {
+    "id": "es-local-oppositions-2026",
+    "countries": [
+      "ES"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Espagne — oppositions aux projets en Aragon et Castille-La Manche",
+    "summary": "El Salto décrit les contestations de projets portées par des associations, habitants et municipalités, notamment sur les ressources hydriques, le foncier et les procédures. Les témoignages et critiques sont attribués au média ; aucun jugement ou gel général n’est déduit de ce reportage.",
+    "topics": [
+      "territory",
+      "planning",
+      "environment"
+    ],
+    "sourceIds": [
+      "carto-20261125-60"
+    ],
+    "actorIds": [
+      "es-tu-nube-seca-mi-rio"
+    ]
+  },
+  {
+    "id": "es-grid-housing-competition-2026",
+    "countries": [
+      "ES"
+    ],
+    "date": "2026-08-26",
+    "type": "context",
+    "title": "Espagne — concurrence entre demandes résidentielles et industrielles",
+    "summary": "ABC rapporte une étude BBVA Research sur le manque de capacité électrique dans certaines zones. Plus de 80 000 logements prévus dépendraient de nouvelles infrastructures électriques, tous facteurs et usages concernés ; ce chiffre ne mesure pas des logements empêchés par les seuls data centers.",
+    "topics": [
+      "grid",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "carto-20261125-63"
+    ]
+  },
+  {
+    "id": "it-terna-queue-20260821",
+    "countries": [
+      "IT"
+    ],
+    "date": "2026-08-21",
+    "type": "context",
+    "title": "Italie — 95,38 GW de demandes de raccordement rapportées",
+    "summary": "Il Sole 24 Ore rapporte 531 demandes totalisant 95,38 GW dans les données Terna au 21 août, dont 15 (1,88 GW) au stade de maturité le plus avancé. Nextville rapporte 101,36 GW et 553 demandes au 31 août via Econnextion. Ces instantanés sont des chiffres de demandes rapportés par des médias, non des capacités attribuées ni une consommation future ; le registre historique original n’a pas été retrouvé.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "carto-20261125-66",
+      "carto-20261125-68",
+      "it-terna-queue-20260831"
+    ],
+    "actorIds": [
+      "it-terna"
+    ]
+  },
+  {
+    "id": "fr-ecologistes-programme-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-13",
+    "type": "context",
+    "title": "Les Écologistes — propositions pour les infrastructures numériques",
+    "summary": "Selon l’analyse de DCmag du programme publié en juillet, le parti envisage une planification des implantations, des infrastructures publiques décentralisées, un encadrement du PINM et l’extension de la taxe sur les services numériques aux entreprises exploitant des data centers. L’assiette et les modalités restent à préciser. La page de présentation ne contient pas le texte détaillé des mesures ; elles sont rapportées par la presse, non des règles adoptées.",
+    "topics": [
+      "planning",
+      "territory",
+      "tax",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "carto-20261125-93",
+      "carto-20261125-98"
+    ],
+    "actorIds": [
+      "fr-les-ecologistes"
+    ]
+  },
+  {
+    "id": "fr-ecologistes-fouju-position-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Fouju — prise de position des Écologistes",
+    "summary": "Le parti dénonce le développement du Campus IA et demande un changement de doctrine d’implantation. Source partisane : les allégations sur les impacts et les procédures ne sont pas assimilées à des conclusions administratives ou judiciaires.",
+    "topics": [
+      "territory",
+      "planning",
+      "environment"
+    ],
+    "sourceIds": [
+      "carto-20261125-69"
+    ],
+    "territory": "Fouju",
+    "actorIds": [
+      "fr-les-ecologistes"
+    ]
+  },
+  {
+    "id": "fr-poulainville-fast-track-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-31",
+    "type": "project",
+    "title": "Poulainville — pré-réservation fast-track de 700 MW",
+    "summary": "RTE indique que l’État lui a demandé de pré-réserver 700 MW pour l’ancien site Ynsect à Poulainville à compter du 31 juillet 2026, pour neuf mois au plus, prorogeables de trois mois si la sélection foncière est encore en cours. Aucun opérateur confirmé dans l’article ici. Une pré-réservation ne constitue ni un contrat de raccordement définitif ni une autorisation de construction.",
+    "topics": [
+      "grid",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "fr-poulainville-fast-track-2026",
+      "carto-20261125-76"
+    ],
+    "territory": "Poulainville, Somme",
+    "actorIds": [
+      "fr-rte"
+    ],
+    "impacts": {
+      "grid": "Capacité pré-réservée temporairement dans le dispositif fast-track ; suivre l’issue de la sélection."
+    }
+  },
+  {
+    "id": "fr-an-dependances-numeriques-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-08",
+    "type": "context",
+    "title": "Assemblée nationale — rapport n°3054 sur les dépendances numériques",
+    "summary": "La commission d’enquête présidée par Philippe Latombe, avec Cyrielle Chatelain rapporteure, adopte le rapport le 8 juillet, présenté à la presse le 15 juillet. Les articles rapportent une recommandation de moratoire sur les projets bénéficiant aux acteurs extra-européens. Il s’agit d’une recommandation parlementaire et non d’une mesure applicable, distincte de la proposition de résolution Ruffin d’octobre.",
+    "topics": [
+      "sovereignty",
+      "planning",
+      "power"
+    ],
+    "sourceIds": [
+      "fr-an-3054-2026",
+      "fr-an-3054-texte-2026",
+      "carto-20261125-96",
+      "carto-20261125-99",
+      "carto-20261125-91"
+    ],
+    "actorIds": [
+      "fr-philippe-latombe",
+      "fr-cyrielle-chatelain"
+    ]
+  },
+  {
+    "id": "fr-schellenberger-electrification-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-22",
+    "type": "context",
+    "title": "Rapport Schellenberger — recommandations sur l’électrification industrielle",
+    "summary": "La presse rapporte 29 propositions visant à accélérer l’électrification, dont la planification des raccordements selon des critères d’intérêt général. Ces recommandations concernent l’industrie dans son ensemble et ne constituent pas une règle de priorité applicable aux data centers.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "carto-20261125-78",
+      "carto-20261125-88"
+    ],
+    "actorIds": [
+      "fr-raphael-schellenberger"
+    ]
+  },
+  {
+    "id": "fr-fdc-smr-working-group-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-07-27",
+    "type": "context",
+    "title": "France Datacenter — groupe de travail SMR rapporté",
+    "summary": "La Lettre rapporte que France Datacenter a rejoint la gouvernance du comité stratégique de filière Infrastructures numériques et doit piloter un groupe de travail sur les petits réacteurs modulaires. Il ne s’agit ni d’une décision d’implantation de réacteur ni d’une capacité disponible.",
+    "topics": [
+      "power",
+      "supply"
+    ],
+    "sourceIds": [
+      "carto-20261125-86"
+    ],
+    "actorIds": [
+      "fr-france-datacenter"
+    ]
+  },
+  {
+    "id": "gb-water-demand-debate-2026",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026-07-23",
+    "type": "context",
+    "title": "Royaume-Uni — contribution Water UK sur la demande d’eau",
+    "summary": "Water UK demande dans une contribution parlementaire une meilleure prise en compte des besoins des centres de données dans les prévisions, des mesures d’efficacité et une répartition des coûts. Le gouvernement indique le 28 octobre que les sites existants représentent une faible part de la demande non domestique anglaise, tout en reconnaissant les enjeux de croissance et les arbitrages eau-énergie. Une demande sectorielle n’est pas une restriction applicable.",
+    "topics": [
+      "environment",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "carto-20261125-87",
+      "gb-water-uk-evidence-2026",
+      "gb-water-statement-20261028"
+    ],
+    "actorIds": [
+      "gb-water-uk"
+    ]
+  },
+  {
+    "id": "gb-foxglove-dc-emissions-debate-2026",
+    "countries": [
+      "GB"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Royaume-Uni — débat sur les émissions des grands projets",
+    "summary": "Next rapporte une analyse de Foxglove sur deux projets britanniques et les critiques du gouvernement concernant l’hypothèse de fonctionnement à pleine puissance. Les émissions calculées ne constituent pas des émissions observées ; ce débat illustre les limites des comparaisons fondées sur la puissance nominale.",
+    "topics": [
+      "environment",
+      "power",
+      "territory"
+    ],
+    "sourceIds": [
+      "carto-20261125-59"
+    ],
+    "actorIds": [
+      "gb-foxglove"
+    ]
+  },
+  {
+    "id": "eu-moratorium-advocacy-2026",
+    "countries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE"
+    ],
+    "date": "2026-07-29",
+    "type": "context",
+    "title": "Plaidoyer pour une pause européenne des grands data centers",
+    "summary": "Une tribune publiée dans Tech Policy Press appelle à suspendre les grands projets afin d’évaluer besoins, impacts et compatibilité avec les objectifs climatiques. Il s’agit d’une position d’auteurs, non d’une proposition officielle de la Commission ni d’un moratoire de l’UE.",
+    "topics": [
+      "territory",
+      "planning",
+      "environment"
+    ],
+    "sourceIds": [
+      "carto-20261125-83"
+    ],
+    "scope": "eu"
+  },
+  {
+    "id": "es-decree-second-consultation-2026",
+    "countries": [
+      "ES"
+    ],
+    "date": "2026-08-27",
+    "type": "context",
+    "title": "Espagne — seconde consultation sur le décret de durabilité",
+    "summary": "Le MITECO ouvre une seconde consultation du 27 août au 10 septembre. La presse décrit l’objectif de couverture renouvelable de 80 %. Les seuils et conditions du projet ne doivent pas être confondus avec le décret final du 20 novembre, désormais documenté dans la fiche réglementaire.",
+    "topics": [
+      "grid",
+      "environment",
+      "supply",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "es-miteco-consult-20260827",
+      "carto-20261125-46",
+      "carto-20261125-58",
+      "es-miteco-decree-20261120"
+    ]
+  },
+  {
+    "id": "fr-electricity-supplier-colocation-2026",
+    "countries": [
+      "FR"
+    ],
+    "date": "2026-09-16",
+    "type": "context",
+    "title": "Colocation — choix du fournisseur d’électricité et décompte",
+    "summary": "CMS analyse le choix du fournisseur pour les clients hébergés. En cas de raccordement unique, une prestation de décompte peut être nécessaire pour un client disposant d’un site de consommation propre. Il s’agit d’une analyse juridique du cadre existant, non d’une nouvelle obligation ; vérifier les conditions techniques et contractuelles avec le gestionnaire de réseau.",
+    "topics": [
+      "grid",
+      "supply"
+    ],
+    "sourceIds": [
+      "carto-20261125-22"
+    ]
   }
 ]

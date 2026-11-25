@@ -2104,5 +2104,383 @@
     "label": "La Lettre M — AMI et horizon 2034",
     "url": "https://www.lalettrem.fr/actualites/port-la-nouvelle-veut-accueillir-un-data-center-de-150-mw-dici-2034",
     "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-2",
+    "label": "Franceinfo — montée des oppositions",
+    "url": "https://www.franceinfo.fr/internet/les-couches-de-gigawatts-s-empilent-d-annee-en-annee-face-a-des-data-centers-toujours-plus-grands-la-contestation-grandit_8206493.html",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-4",
+    "label": "La Gazette — rapport sénatorial",
+    "url": "https://www.lagazettedescommunes.com/transition-ecologique/empreinte-environnementale-de-lintelligence-artificielle-pourquoi-le-senat-mise-sur-les-data-centers-en-france.PWQCK7FH4RHZXPR2PFHJ27JNXI.html",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-5",
+    "label": "Banque des Territoires — rapport sénatorial",
+    "url": "https://www.banquedesterritoires.fr/pour-le-senat-la-maitrise-de-lempreinte-environnementale-de-lia-passe-par-laccueil-de-datacenters",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-7",
+    "label": "Politico — coordination des collectifs à Kingersheim",
+    "url": "https://www.politico.eu/article/comment-la-grogne-contre-les-datacenters-pourrait-sinviter-dans-la-campagne-presidentielle/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-10",
+    "label": "Les Échos — étiquetage",
+    "url": "https://www.lesechos.fr/tech-medias/hightech/de-la-note-a-a-g-bruxelles-degaine-son-label-defficacite-energetique-pour-les-data-centers-2252699",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-12",
+    "label": "Le Figaro / AFP — position de François Bonneau",
+    "url": "https://www.lefigaro.fr/flash-eco/la-region-centre-val-de-loire-critique-le-projet-de-centre-de-donnees-google-20260921",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-13",
+    "label": "Connaissance des Énergies / AFP — étiquetage",
+    "url": "https://www.connaissancedesenergies.org/afp/empreinte-environnementale-des-centres-de-donnees-lue-promet-plus-de-transparence-260921",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-15",
+    "label": "Les Échos — tribune de Damien Desanti",
+    "url": "https://www.lesechos.fr/idees-debats/cercle/la-loi-simplifiant-limplantation-des-data-centers-va-t-elle-se-finir-en-cadeau-aux-geants-etrangers-du-cloud-2251657",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-19",
+    "label": "Sud Ouest — opposition Ozans",
+    "url": "https://www.sudouest.fr/environnement/environnement-la-fronde-s-organise-contre-le-projet-d-un-centre-de-donnees-google-pres-de-chateauroux-30679129.php",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-21",
+    "label": "The Guardian — Écosse",
+    "url": "https://www.theguardian.com/uk-news/2026/sep/16/datacentres-scotland-environmental-assessments-ai-boom",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-22",
+    "label": "CMS — choix du fournisseur d’électricité en hébergement",
+    "url": "https://cms.law/fr/fra/legal-updates/data-centers-et-electricite",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-23",
+    "label": "France 3 — démission de Florence Laurent",
+    "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre/data-center-geant-de-google-la-maire-demissionne-a-son-tour-apres-quatre-autres-elus-3417248.html",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-25",
+    "label": "La Nouvelle République — courrier des quatre élus",
+    "url": "https://www.lanouvellerepublique.fr/indre/commune/etrechet/data-center-dans-l-indre-quatre-elus-de-la-commune-d-etrechet-demissionnent-1789372498",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-28",
+    "label": "DCmag — entretien Grégory Berkovicz",
+    "url": "https://dcmag.fr/rencontre-avec-gregory-berkovicz-part-2-le-cas-decole-du-projet-bosquel-data-center-dia-de-1-gw/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-29",
+    "label": "Alternatives Économiques — récupération de chaleur",
+    "url": "https://www.alternatives-economiques.fr/data-centers-les-illusions-de-la-recuperation-de-chaleur_09-09-2026",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-31",
+    "label": "Il Giorno — réseau des comités Stop data center",
+    "url": "https://www.ilgiorno.it/milano/cronaca/comitati-milano-data-center-peschiera-borromeo-jzst2wz6",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-33",
+    "label": "DataCenterDynamics — gaz interruptible",
+    "url": "https://www.datacenterdynamics.com/en/news/ireland-weighs-cut-price-gas-for-data-centers-in-exchange-for-curtailment-report/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-36",
+    "label": "Connaissance des Énergies / AFP — déclarations Roland Lescure",
+    "url": "https://www.connaissancedesenergies.org/afp/centres-de-donnees-la-fronde-americaine-pourrait-aussi-arriver-en-france-met-en-garde-lescure-260903",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-44",
+    "label": "The Guardian — réponse à une demande FoI",
+    "url": "https://www.theguardian.com/uk-news/2026/sep/02/uk-datacentres-ai-boom-foi-environment",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-46",
+    "label": "L’Agefi — projet espagnol d’août",
+    "url": "https://www.agefi.fr/news/entreprises/madrid-place-la-durabilite-au-centre-de-son-projet-de-loi-sur-les-centres-de-donnees",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-47",
+    "label": "DCmag — position Christophe Dietrich",
+    "url": "https://dcmag.fr/revue-de-presse-christophe-dietrich-maire-de-laigneville-apporte-son-appui-au-projet-de-data-center-ia-de-rantigny/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-50",
+    "label": "Gouvernement écossais — communiqué notification",
+    "url": "https://www.gov.scot/news/data-centre-planning-direction/",
+    "type": "primary"
+  },
+  {
+    "id": "carto-20261125-51",
+    "label": "FNE Île-de-France — annonce rencontres citoyennes",
+    "url": "https://fne-idf.fr/agenda/rencontres-citoyennes-11-data-centers-pres-de-chez-nous",
+    "type": "primary"
+  },
+  {
+    "id": "carto-20261125-55",
+    "label": "Wired — file britannique",
+    "url": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-58",
+    "label": "DataCenterDynamics — projet espagnol",
+    "url": "https://www.datacenterdynamics.com/en/news/spain-drafts-rules-requiring-data-centers-to-source-80-of-power-from-new-renewables-report/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-59",
+    "label": "Next — oppositions britanniques",
+    "url": "https://next.ink/253226/au-royaume-uni-aussi-les-protestations-contre-les-centres-de-donnees-se-multiplient/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-60",
+    "label": "El Salto — oppositions en Espagne",
+    "url": "https://www.elsaltodiario.com/inteligencia-artificial/resistencia-centros-datos-vecinos-ayuntamientos-plantan-cara-multinacionales",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-63",
+    "label": "ABC — concurrence pour la capacité réseau",
+    "url": "https://www.abc.es/economia/planificacion-gobierno-provoca-pelea-acceso-red-electrica-20260826014131-nt.html",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-66",
+    "label": "Il Sole 24 Ore — chiffres Terna au 21 août",
+    "url": "https://www.ilsole24ore.com/art/data-center-italia-e-boom-richieste-rete-terna-48percento-AJUI5Zs?refresh_ce=1",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-68",
+    "label": "La Stampa — demandes de raccordement italiennes",
+    "url": "https://www.lastampa.it/economia/2026/08/17/news/data_center_assalto_italia_cantieri_rete_elettrica-15715962/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-69",
+    "label": "Les Écologistes — position Fouju",
+    "url": "https://lesecologistes.fr/posts/HMFHzVb8vhQ56vJ50MiZw/fouju-la-fuite-en-avant-des-data-centers-doit-s-arreter",
+    "type": "primary"
+  },
+  {
+    "id": "carto-20261125-74",
+    "label": "Data for Good — appel à une pause, LinkedIn",
+    "url": "https://www.linkedin.com/posts/dataforgood_moratoire-a-nypdf-activity-7492474894014820352-FGd-",
+    "type": "primary"
+  },
+  {
+    "id": "carto-20261125-76",
+    "label": "ici — reconversion Ynsect",
+    "url": "https://www.ici.fr/hauts-de-france/somme-80/poulainville/raccordement-electrique-jusqu-a-700-mw-l-ancien-site-ynsect-a-amiens-accueillera-t-il-un-data-center-4421566",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-78",
+    "label": "Révolution énergétique — rapport Schellenberger",
+    "url": "https://www.revolution-energetique.com/actus/hyper-electrification-de-la-france-ce-rapport-parlementaire-propose-29-solutions-pour-y-parvenir/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-80",
+    "label": "Ofgem — dossier Curate",
+    "url": "https://www.ofgem.gov.uk/sites/default/files/2026-07/Proposed-data-centre-connection-reforms-curate-consultation-document.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "carto-20261125-82",
+    "label": "The Guardian — propositions de garanties",
+    "url": "https://www.theguardian.com/uk-news/2026/jul/29/datacentre-projects-fees-grid-access-connection-queue-ofgem",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-83",
+    "label": "Tech Policy Press — plaidoyer pour un moratoire européen",
+    "url": "https://www.techpolicy.press/the-case-for-a-temporary-moratorium-on-large-data-centers-in-europe/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-86",
+    "label": "La Lettre — groupe de travail SMR",
+    "url": "https://www.lalettre.fr/fr/politique_lobbying/2026/07/27/france-datacenter-se-place-sur-les-mini-reacteurs-nucleaires-smr,110850712-art",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-87",
+    "label": "The Register — eau et politique britannique",
+    "url": "https://www.theregister.com/on-prem/2026/07/23/britain-isnt-considering-datacenters-thirst-for-water-in-its-ai-superpower-ambitions/5276363",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-88",
+    "label": "La Tribune — rapport sur l’électrification industrielle",
+    "url": "https://www.latribune.fr/article/entreprises-finance/industrie/2042558074163/electrification-de-lindustrie-un-depute-degaine-29-propositions-pour-encourager-les-usines-a-selectrifier",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-89",
+    "label": "France Datacenter — opposition aux moratoires",
+    "url": "https://fr.linkedin.com/posts/francedatacenter_datacenters-moratoire-m-m%C3%A9lenchon-sil-activity-7485689321300303872-3lHc",
+    "type": "primary"
+  },
+  {
+    "id": "carto-20261125-90",
+    "label": "Christophe Grudler — lettre sur le label",
+    "url": "https://www.linkedin.com/posts/christophe-grudler_ec-reply-on-data-center-green-label-activity-7485265150850224128-s3jU",
+    "type": "primary"
+  },
+  {
+    "id": "carto-20261125-91",
+    "label": "Politico — débat sur la stratégie d’attractivité",
+    "url": "https://www.politico.eu/article/attirer-les-datacenters-coute-que-coute-la-strategie-de-lelysee-de-plus-en-plus-critiquee/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-93",
+    "label": "DCmag — programme des Écologistes",
+    "url": "https://dcmag.fr/datacenters-la-prosperite-ecologique-des-verts-a-lepreuve-des-megawatts/",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-94",
+    "label": "RTE et Enedis — tableau de bord de l’électrification",
+    "url": "https://analysesetdonnees.rte-france.com/node/650",
+    "type": "primary"
+  },
+  {
+    "id": "carto-20261125-96",
+    "label": "Le Monde — rapport dépendances numériques",
+    "url": "https://www.lemonde.fr/economie/article/2026/07/15/participation-de-l-etat-dans-mistral-ai-moratoire-sur-les-data-centers-etrangers-les-propositions-chocs-de-la-commission-sur-les-dependances-numeriques_6723575_3234.html",
+    "type": "analysis"
+  },
+  {
+    "id": "carto-20261125-98",
+    "label": "Les Écologistes — page du programme",
+    "url": "https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet",
+    "type": "primary"
+  },
+  {
+    "id": "carto-20261125-99",
+    "label": "Sud Ouest — recommandations parlementaires",
+    "url": "https://www.sudouest.fr/economie/dependances-numeriques-un-rapport-parlementaire-demande-un-moratoire-sur-les-data-centers-extra-europeens-29940793.php",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-an-3054-2026",
+    "label": "Assemblée nationale — rapport d’enquête 3054",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cenum/l17b3054_rapport-enquete",
+    "type": "primary"
+  },
+  {
+    "id": "fr-an-3054-texte-2026",
+    "label": "Assemblée nationale — rapport intégral, tome I",
+    "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B3054-t1.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-poulainville-fast-track-2026",
+    "label": "RTE — validation du site fast-track Poulainville",
+    "url": "https://www.services-rte.com/fr/actualites/validation-par-l-Etat-d-un-nouveau-site-fast-track-a-Poulainville.html",
+    "type": "primary"
+  },
+  {
+    "id": "ie-cru-interruptible-gas-consult-2026",
+    "label": "CRU — consultation sur les raccordements gaziers interruptibles",
+    "url": "https://consult.cru.ie/en/consultation/cru-proposed-direction-related-interruptible-gas-connections",
+    "type": "primary"
+  },
+  {
+    "id": "ie-rte-gas-tariff-2026",
+    "label": "RTÉ — aucune décision au 7 septembre",
+    "url": "https://www.rte.ie/news/business/2026/0907/1590611-data-centres-gas-usage/",
+    "type": "analysis"
+  },
+  {
+    "id": "ie-examiner-gas-tariff-2026",
+    "label": "Irish Examiner — distinction prix du gaz / tarif réseau",
+    "url": "https://www.irishexaminer.com/news/arid-41917285.html",
+    "type": "analysis"
+  },
+  {
+    "id": "gb-ofgem-curate-status-2026",
+    "label": "Ofgem — consultation clôturée, décision attendue",
+    "url": "https://www.ofgem.gov.uk/consultation/proposed-data-centre-connection-reforms",
+    "type": "primary"
+  },
+  {
+    "id": "gb-ofgem-delivery-inquiry-2026",
+    "label": "Ofgem — point du 19 novembre sur les délais",
+    "url": "https://www.ofgem.gov.uk/news/grid-connections-delays-inquiry-phase-1-projects-drive-delivery-and-accountability",
+    "type": "primary"
+  },
+  {
+    "id": "es-miteco-consult-20260827",
+    "label": "MITECO — seconde consultation du décret",
+    "url": "https://www.miteco.gob.es/es/energia/participacion/2026/detalle-participacion-publica-k-851.html",
+    "type": "primary"
+  },
+  {
+    "id": "es-miteco-decree-20261120",
+    "label": "MITECO — approbation du décret final",
+    "url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-el-real-decreto-para-la-sostenibilidad-energ.html",
+    "type": "primary"
+  },
+  {
+    "id": "es-miteco-grid-tech-20261124",
+    "label": "MITECO — annonce des exigences minimales de raccordement",
+    "url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-requisitos-minimos-para-las-instalaciones-qu.html",
+    "type": "primary"
+  },
+  {
+    "id": "gb-water-uk-evidence-2026",
+    "label": "Parlement britannique — contribution de Water UK",
+    "url": "https://committees.parliament.uk/writtenevidence/164766/html",
+    "type": "primary"
+  },
+  {
+    "id": "gb-water-statement-20261028",
+    "label": "Parlement britannique — déclaration du 28 octobre",
+    "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-28/hcws426",
+    "type": "primary"
+  },
+  {
+    "id": "it-terna-queue-20260831",
+    "label": "Nextville — données Econnextion au 31 août",
+    "url": "https://www.nextville.it/news/64581/data-center-richieste-di-connessione-per-oltre-100-gw",
+    "type": "analysis"
+  },
+  {
+    "id": "gb-scotland-eia-news-2026",
+    "label": "Gouvernement écossais — communiqué sur l’EIE",
+    "url": "https://www.gov.scot/news/direction-for-new-data-centres/",
+    "type": "primary"
   }
 ]
