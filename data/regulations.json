@@ -673,7 +673,8 @@
       "curebot4-20261124-80",
       "dc-europe-20261125-100",
       "fr-dge-20260130-meeting",
-      "feb-20261125-29"
+      "feb-20261125-29",
+      "us-curebot12-6"
     ],
     "actorIds": [
       "fr-rte"
@@ -2007,5 +2008,465 @@
     ],
     "territory": "Alberta",
     "milestone": "Suivre l’adoption et les règlements d’application."
+  },
+  {
+    "id": "us-ny-eo62-moratorium-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-07-14",
+    "stage": "temporary",
+    "title": "New York — moratoire sur les nouveaux grands data centers",
+    "summary": "L’Executive Order 62 suspend les demandes de permis discrétionnaires relevant du DEC qui n’étaient pas déjà jugées complètes, pour les grands projets visés (50 MW ou plus selon l’annonce). Le gel accompagne une évaluation environnementale générique prévue sur un horizon maximal d’un an. Les dossiers déjà complets ne sont pas visés de la même façon. Ce n’est pas une interdiction fédérale ni un arrêt de tous les chantiers. Le projet législatif distinct à 20 MW ne doit pas être confondu avec le décret.",
+    "topics": [
+      "planning",
+      "environment",
+      "grid",
+      "territory"
+    ],
+    "sourceIds": [
+      "us-ny-eo62-2026",
+      "us-curebot12-57",
+      "us-curebot12-73"
+    ],
+    "territory": "État de New York",
+    "effectiveFrom": "2026-07-14",
+    "actorIds": [
+      "us-ny-hochul"
+    ],
+    "milestone": "Achèvement de l’évaluation environnementale et publication des standards ; vérifier la date de levée."
+  },
+  {
+    "id": "us-me-ld307-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-04-24",
+    "stage": "rejected",
+    "title": "Maine — projet LD 307 rejeté après veto",
+    "summary": "Le texte voté au printemps prévoyait une pause des permis pour les installations de 20 MW ou plus jusqu’au 1er novembre 2027. La gouverneure oppose son veto le 24 avril, notamment faute d’exception pour un projet engagé à Jay. La Chambre maintient le veto le 29 avril (72 voix contre 65 pour passer outre, majorité qualifiée non atteinte). LD 307 n’est pas devenu loi. Les moratoires municipaux sont distincts.",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "us-me-ld307-veto",
+      "us-me-ld307-status",
+      "us-curebot12-99",
+      "us-curebot12-96"
+    ],
+    "territory": "Maine"
+  },
+  {
+    "id": "us-tx-batch-zero-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-06-18",
+    "stage": "effective",
+    "title": "Texas — procédure groupée Batch Zero pour les grandes charges",
+    "summary": "La PUCT approuve le 18 juin une procédure d’étude groupée des projets éligibles de 75 MW ou plus. ERCOT indique alors plus de 438 GW de demandes de grandes charges, dont près de 89 % de data centers. Ce sont des demandes, non de la consommation ferme. La procédure étudie la maturité et les effets cumulés ; le classement conditionnel de septembre n’est pas une autorisation définitive.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "us-curebot12-86",
+      "us-tx-batch-classification-20260903",
+      "us-tx-ercot-large-load-integration"
+    ],
+    "territory": "Texas — ERCOT",
+    "actorIds": [
+      "us-ercot",
+      "us-puct"
+    ]
+  },
+  {
+    "id": "us-tx-25-194-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-10-02",
+    "stage": "published",
+    "title": "Texas — normes de raccordement des grandes charges §25.194",
+    "summary": "La règle adoptée publiée au Texas Register du 2 octobre met en œuvre SB 6. Elle concerne notamment les nouvelles installations non mises sous tension de 75 MW ou plus et prévoit un accord intermédiaire, des informations à fournir et une garantie financière de 50 000 USD/MW avant inclusion dans une étude ERCOT. Les exceptions et les dispositions transitoires doivent être examinées. La date d’effet exacte n’a pas été confirmée dans les éléments accessibles ; le brouillon de mars ne vaut pas texte final.",
+    "topics": [
+      "grid",
+      "transparency"
+    ],
+    "sourceIds": [
+      "us-tx-25-194-final",
+      "us-curebot12-84"
+    ],
+    "territory": "Texas — ERCOT",
+    "actorIds": [
+      "us-puct",
+      "us-ercot"
+    ],
+    "impacts": {
+      "operator": "Documenter la maturité et prévoir la garantie ; 50 000 USD/MW ne constitue pas un tarif de consommation."
+    }
+  },
+  {
+    "id": "us-tx-audit-pause-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-08-03",
+    "stage": "temporary",
+    "title": "Texas — audit préalable à la poursuite des raccordements",
+    "summary": "Le gouverneur demande à PUCT et ERCOT de vérifier tous les projets de data centers avançant dans le processus avant leur poursuite. Le classement initialement prévu le 7 août est différé ; les classifications conditionnelles sont communiquées en septembre avec vérifications complémentaires. ERCOT publie des procédures de collecte et d’audit. La clôture générale de l’audit n’est pas confirmée ; ne pas assimiler la pause à un refus définitif ou à une interdiction de tous les raccordements de consommation.",
+    "topics": [
+      "grid",
+      "transparency"
+    ],
+    "sourceIds": [
+      "us-tx-audit-20260803",
+      "us-tx-batch-classification-20260903",
+      "us-tx-ercot-large-load-integration",
+      "us-curebot12-39"
+    ],
+    "territory": "Texas — ERCOT",
+    "actorIds": [
+      "us-tx-abbott",
+      "us-ercot",
+      "us-puct"
+    ],
+    "milestone": "Suivre la vérification et les décisions de classement."
+  },
+  {
+    "id": "us-tx-environment-permit-pause-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-09-21",
+    "stage": "temporary",
+    "title": "Texas — suspension des permis TCEQ pendant l’audit",
+    "summary": "Le gouverneur ordonne à la TCEQ de suspendre les permis demandés par les data centers jusqu’à l’achèvement de l’audit ERCOT. La directive du 14 septembre charge aussi le TWDB d’exiger le respect du reporting hydrique existant. Les futures dispositions fiscales et de refroidissement évoquées par le gouverneur ne sont pas des lois déjà adoptées. La levée de la suspension n’est pas confirmée.",
+    "topics": [
+      "planning",
+      "environment",
+      "grid",
+      "territory"
+    ],
+    "sourceIds": [
+      "us-tx-permit-directive-20260921",
+      "us-tx-water-reporting-2026"
+    ],
+    "territory": "Texas",
+    "actorIds": [
+      "us-tx-abbott"
+    ],
+    "milestone": "Achèvement de l’audit et reprise des permis à vérifier."
+  },
+  {
+    "id": "us-va-electricity-tax-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-07-01",
+    "stage": "effective",
+    "title": "Virginie — taxe sur la consommation électrique des data centers",
+    "summary": "Le budget HB30 (session spéciale I, item 3-5.24) impose aux exploitants concernés 0,011 USD/kWh consommé du 1er juillet 2026 au 30 juin 2028. Le plafond annuel de 600 millions USD concerne le versement des recettes au fonds général, non un plafond individuel de taxation. Les obligations d’enregistrement et le champ des opérateurs sont précisés par la SCC.",
+    "topics": [
+      "tax",
+      "power"
+    ],
+    "sourceIds": [
+      "us-va-scc-tax-2026",
+      "us-curebot12-54",
+      "us-curebot12-82"
+    ],
+    "territory": "Virginie",
+    "effectiveFrom": "2026-07-01",
+    "effectiveUntil": "2028-06-30",
+    "actorIds": [
+      "us-va-spanberger"
+    ]
+  },
+  {
+    "id": "us-va-scc-transmission-costs-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-08-05",
+    "stage": "published",
+    "title": "Virginie — attribution des coûts de nouvelles infrastructures de transport",
+    "summary": "Le 5 août, la gouverneure annonce une décision SCC imposant aux grands consommateurs concernés de supporter les infrastructures de transport requises pour leurs projets. Le FT rapporte un recours de Microsoft ; la décision de justice et le champ précis des modalités financières restent à vérifier. Ne pas assimiler l’annonce à une garantie chiffrée d’économies pour les ménages.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "us-va-scc-transmission-20260805",
+      "us-curebot12-59",
+      "us-curebot12-37"
+    ],
+    "territory": "Virginie",
+    "actorIds": [
+      "us-va-spanberger"
+    ]
+  },
+  {
+    "id": "us-va-accountability-eo22-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-09-18",
+    "stage": "published",
+    "title": "Virginie — Data Center Accountability Framework et décret 22",
+    "summary": "La gouverneure annonce un cadre de responsabilisation et signe le décret 22 pour en mettre en œuvre plusieurs volets. Les limitations envisagées de la production au gaz sur site et les mesures environnementales doivent être distinguées des futures règles et lois d’application. Aucun plafond chiffré général sur le gaz n’est établi ici.",
+    "topics": [
+      "environment",
+      "power",
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "us-va-eo22-20260918",
+      "us-curebot12-30"
+    ],
+    "territory": "Virginie",
+    "actorIds": [
+      "us-va-spanberger"
+    ]
+  },
+  {
+    "id": "us-or-state-land-pause-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-09-08",
+    "stage": "temporary",
+    "title": "Oregon — pause des demandes sur les propriétés de l’État",
+    "summary": "Les agences doivent suspendre les demandes non approuvées portant sur les servitudes, baux, droits de passage, permis fonciers ou cessions de propriétés publiques pour des projets de data centers, jusqu’au 1er juillet 2027 sauf décision contraire. Cette mesure ne couvre pas à elle seule tous les terrains privés.",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "us-or-state-land-pause"
+    ],
+    "territory": "Oregon",
+    "effectiveFrom": "2026-09-08",
+    "effectiveUntil": "2027-07-01"
+  },
+  {
+    "id": "us-or-environment-permit-pause-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-10-09",
+    "stage": "temporary",
+    "title": "Oregon — pause des permis air et eau",
+    "summary": "Une lettre de la gouverneure du 9 octobre, rapportée le 13, demande à l’autorité environnementale de suspendre le traitement et la délivrance des permis air et eau pour les nouveaux centres et extensions jusqu’au 1er juillet 2027. Le texte original de la lettre n’a pas été retrouvé dans les résultats accessibles ; la portée est attribuée à la presse. Ce n’est pas une interdiction générale d’exploitation.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "us-curebot12-24",
+      "us-or-state-land-pause"
+    ],
+    "territory": "Oregon",
+    "effectiveUntil": "2027-07-01"
+  },
+  {
+    "id": "us-pa-grid-eo2026-05",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-08-18",
+    "stage": "effective",
+    "title": "Pennsylvanie — décret 2026-05 et conditions GRID",
+    "summary": "Le décret signé le 18 août modifie le traitement des nouveaux permis, retire les projets IA du fast-track et encadre les accords de confidentialité. Le modèle d’accord exécutoire GRID couvre les projets de plus de 25 MW de pointe ; il prévoit notamment la prise en charge des coûts énergétiques, des conditions environnementales et le dialogue local. Le DEP ne délivre pas de permis avant les approbations locales requises. Pour les développeurs refusant GRID, une procédure différée est prévue : il ne s’agit pas d’une interdiction absolue.",
+    "topics": [
+      "planning",
+      "grid",
+      "power",
+      "environment",
+      "transparency",
+      "territory"
+    ],
+    "sourceIds": [
+      "us-pa-grid-20260818",
+      "us-pa-eo-2026-05",
+      "us-curebot12-55"
+    ],
+    "territory": "Pennsylvanie",
+    "effectiveFrom": "2026-08-18",
+    "actorIds": [
+      "us-pa-shapiro"
+    ]
+  },
+  {
+    "id": "us-seattle-moratorium-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-06-09",
+    "stage": "temporary",
+    "title": "Seattle — moratoire municipal sur les data centers de plus de 20 MVA",
+    "summary": "Le conseil adopte CB 121214 le 9 juin ; ordonnance 127447. Le gel d’un an vise notamment les nouvelles implantations et extensions relevant de la définition locale, avec capacité supérieure à 20 MVA et alimentation sans interruption. Une prolongation de six mois est possible. MVA et MW ne sont pas interchangeables. La politique tarifaire ultérieure de Seattle City Light est distincte.",
+    "topics": [
+      "planning",
+      "territory",
+      "grid"
+    ],
+    "sourceIds": [
+      "us-seattle-cb121214",
+      "us-seattle-city-light-policy",
+      "us-curebot12-98"
+    ],
+    "territory": "Seattle, Washington",
+    "effectiveFrom": "2026-06-09",
+    "milestone": "Fin ou prolongation du moratoire à surveiller."
+  },
+  {
+    "id": "us-monterey-park-ban-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-06-02",
+    "stage": "effective",
+    "title": "Monterey Park — interdiction municipale des data centers",
+    "summary": "Le dossier municipal recense une ordonnance d’urgence du 20 avril et le référendum du 2 juin sur la mesure NDC. La page municipale relative au scrutin de novembre confirme que l’interdiction a été adoptée par les électeurs. Le périmètre est la commune de Monterey Park, non l’ensemble de la Californie.",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "us-monterey-park-dc-info",
+      "us-monterey-park-ban-confirmation",
+      "us-curebot12-97"
+    ],
+    "territory": "Monterey Park, Californie"
+  },
+  {
+    "id": "us-ferc-large-load-show-cause-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "national",
+    "date": "2026-06-18",
+    "stage": "consultation",
+    "title": "FERC — six procédures de justification des règles grandes charges",
+    "summary": "La FERC ouvre six procédures au titre de l’article 206 du Federal Power Act afin que les RTO/ISO et propriétaires de réseaux concernés justifient ou proposent des modifications de leurs tarifs. Les axes portent notamment sur études, coûts, colocalisation, services fermes/non fermes et raccordements transitoires. Les échéances initiales de 60 jours sont reportées au 16 novembre pour cinq régions et au 20 novembre pour SPP, avec réponses trente jours après. Aucune réforme uniforme définitive n’est établie. ERCOT n’est pas assimilé aux six régions visées.",
+    "topics": [
+      "grid",
+      "power",
+      "transparency"
+    ],
+    "sourceIds": [
+      "us-ferc-show-cause-20260618",
+      "us-ferc-deadlines-202611",
+      "us-curebot12-87"
+    ],
+    "actorIds": [
+      "us-ferc"
+    ],
+    "milestone": "Suivre les réponses et décisions spécifiques à chaque région."
+  },
+  {
+    "id": "us-power-up-bill-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "national",
+    "date": "2026-06-17",
+    "stage": "announced",
+    "title": "POWER Up Act — proposition de cadre fédéral des grandes charges",
+    "summary": "La sénatrice Cynthia Lummis dépose une proposition visant les raccordements interétatiques de charges de 100 MW ou plus, avec possibilité d’ajuster ce seuil et demande de normalisation des procédures par FERC. Le dépôt ne vaut pas adoption ; le statut législatif final n’est pas confirmé.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "us-power-up-act-20260617",
+      "us-curebot12-88"
+    ]
+  },
+  {
+    "id": "us-hr9340-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "national",
+    "date": "2026-09-16",
+    "stage": "adopted",
+    "title": "Ratepayer Protection Act H.R.9340 — adopté par la Chambre",
+    "summary": "La Chambre adopte le texte le 16 septembre (vote 312), visant les consommateurs numériques de pointe de 100 MW ou plus sur un site ou campus. Le texte porte sur la protection des autres consommateurs et le suivi des coûts, non une nouvelle obligation immédiate applicable à tous les sites. La promulgation n’est pas confirmée.",
+    "topics": [
+      "grid",
+      "power",
+      "transparency"
+    ],
+    "sourceIds": [
+      "us-hr9340-roll312",
+      "us-hr9340-cloud",
+      "us-curebot12-33"
+    ]
+  },
+  {
+    "id": "us-baaja-permitting-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "national",
+    "date": "2026-11-19",
+    "stage": "adopted",
+    "title": "Bipartisan American Affordability and Jobs Act — vote du Sénat",
+    "summary": "Le Sénat adopte le texte par 62 voix contre 33 le 19 novembre (AFP du 20). Il combine réforme des autorisations énergétiques et protection tarifaire face aux grandes consommations. Le 23 novembre, le sénateur Whitehouse appelle encore la Chambre à l’adopter. La promulgation n’est pas confirmée au 25 novembre ; ne pas présenter les propositions comme applicables.",
+    "topics": [
+      "planning",
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "us-curebot12-3",
+      "us-curebot12-18",
+      "us-baaja-20261123"
+    ]
+  },
+  {
+    "id": "us-pjm-emergency-backup-2026",
+    "countries": [
+      "US"
+    ],
+    "scope": "territorial",
+    "date": "2026-07-14",
+    "stage": "repealed",
+    "title": "PJM — ordre d’urgence temporaire 202-26-35 (expiré)",
+    "summary": "Le DOE autorise temporairement PJM à demander l’activation de moyens de secours éligibles de grandes charges en dernier recours, avant ou pendant une alerte EEA3. L’ordre du 14 juillet expire le 21 juillet à 23h59 EDT. D’autres ordres temporaires sont documentés séparément par le DOE ; cette entrée ne signifie pas une obligation permanente ni une activation effective de tous les moyens.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "us-doe-202-26-35",
+      "us-doe-202c-orders-2026",
+      "us-curebot12-56"
+    ],
+    "territory": "Région PJM",
+    "effectiveFrom": "2026-07-14",
+    "effectiveUntil": "2026-07-21",
+    "actorIds": [
+      "us-pjm"
+    ]
   }
 ]

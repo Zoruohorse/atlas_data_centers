@@ -4829,5 +4829,245 @@
       "world-20261125-11",
       "world-20261125-20"
     ]
+  },
+  {
+    "id": "us-ny-cif-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-09-15",
+    "type": "context",
+    "title": "New York — Community Investment Framework",
+    "summary": "Reuters et DCmag rapportent un cadre de négociation recommandant un montant de départ de 1 million USD par MW pour les retombées communautaires, en complément des coûts d’infrastructure. Il s’agit d’un repère de négociation et non d’une taxe obligatoire généralisée.",
+    "topics": [
+      "territory",
+      "planning",
+      "grid"
+    ],
+    "sourceIds": [
+      "us-curebot12-31",
+      "us-ny-cif-reuters",
+      "us-ny-eo62-2026"
+    ],
+    "territory": "New York",
+    "actorIds": [
+      "us-ny-hochul"
+    ]
+  },
+  {
+    "id": "us-ballot-results-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-11-03",
+    "type": "context",
+    "title": "États-Unis — référendums locaux sur les data centers",
+    "summary": "Les résultats actualisés par Ballotpedia recensent 46 des 47 consultations locales du 3 novembre favorables à limiter les implantations, dont 33 mesures approuvées limitant ou exprimant une opposition. Les trackers utilisent des périmètres différents, notamment mesures consultatives et contraignantes. Le chiffre de 33 mesures ne représente pas 33 projets individuels définitivement bloqués. Ohio et Maine figurent parmi les territoires concernés ; vérifier chaque texte local avant de l’inscrire comme règle.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "us-curebot12-10",
+      "us-curebot12-11",
+      "us-ballotpedia-2026",
+      "us-data-centers-ballot-tracker"
+    ]
+  },
+  {
+    "id": "us-midterms-policy-debate-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "États-Unis — politisation transpartisane des implantations",
+    "summary": "Brookings, DCD et Wired décrivent l’entrée des enjeux d’électricité, d’eau et d’urbanisme dans les campagnes électorales, y compris au Michigan. Les positions des candidats et les résultats de sondages ne démontrent pas à eux seuls un effet causal sur le résultat national.",
+    "topics": [
+      "territory",
+      "power"
+    ],
+    "sourceIds": [
+      "us-curebot12-48",
+      "us-curebot12-52",
+      "us-curebot12-81"
+    ]
+  },
+  {
+    "id": "us-local-dividend-proposal-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-10-21",
+    "type": "context",
+    "title": "États-Unis — proposition présidentielle de dividende local",
+    "summary": "Le président appelle les développeurs à négocier des compensations financières au bénéfice des collectivités et habitants. Aucun texte de loi n’est établi par cette déclaration ; le cadre new-yorkais est distinct.",
+    "topics": [
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "us-curebot12-20"
+    ]
+  },
+  {
+    "id": "us-overseas-tax-threat-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "États-Unis — menace de taxation des implantations étrangères",
+    "summary": "BBC rapporte une déclaration présidentielle de novembre visant les entreprises américaines construisant des centres à l’étranger. Aucun texte, taux ou mécanisme adopté n’est établi. Il s’agit d’une position politique, non d’une interdiction effective des investissements internationaux.",
+    "topics": [
+      "sovereignty",
+      "tax",
+      "planning"
+    ],
+    "sourceIds": [
+      "us-curebot12-4"
+    ]
+  },
+  {
+    "id": "us-aws-local-commitments-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "États-Unis — engagements volontaires des opérateurs",
+    "summary": "Next rapporte les engagements publics annoncés par AWS le 2 octobre concernant les coûts électriques, les retombées locales et la transparence. Le WSJ rapporte l’élargissement des engagements volontaires de protection des consommateurs. Ils ne sont pas assimilés à une obligation réglementaire ni à la preuve de leur exécution.",
+    "topics": [
+      "territory",
+      "power",
+      "transparency"
+    ],
+    "sourceIds": [
+      "us-curebot12-7",
+      "us-curebot12-65"
+    ]
+  },
+  {
+    "id": "us-pjm-reliability-review-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-07-22",
+    "type": "context",
+    "title": "PJM — retour d’expérience sur un incident de grandes charges",
+    "summary": "PJM indique que près de 4 GW de charges informatiques se sont déconnectées lors d’un incident le 22 juillet en Virginie. Le gestionnaire examine les exigences de maintien en fonctionnement (ride-through). Les résultats préliminaires ne démontrent pas une coupure générale des consommateurs ; les normes révisées ne sont pas présumées adoptées.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "us-curebot12-46"
+    ],
+    "territory": "Virginie — PJM",
+    "actorIds": [
+      "us-pjm"
+    ]
+  },
+  {
+    "id": "us-tx-ride-through-review-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-11-17",
+    "type": "context",
+    "title": "ERCOT — suivi des exigences de ride-through",
+    "summary": "La proposition NOGRR291 du 17 novembre porte sur les conditions d’exemption de certaines charges de calcul aux exigences de maintien en fonctionnement, en lien avec leur classement Batch Zero. Une proposition ne vaut pas approbation définitive.",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "sourceIds": [
+      "us-tx-nogrr291"
+    ],
+    "territory": "Texas",
+    "actorIds": [
+      "us-ercot"
+    ]
+  },
+  {
+    "id": "us-tx-ratepayer-directive-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Texas — protection tarifaire et évolution des obligations",
+    "summary": "Le gouverneur demande à PUCT et ERCOT de faire supporter les coûts d’infrastructure aux data centers et envisage des modifications législatives ultérieures sur eau, bruit, fiscalité et production. Les échéances administratives de juillet ne constituent pas une adoption de toutes ces futures mesures.",
+    "topics": [
+      "grid",
+      "power",
+      "environment"
+    ],
+    "sourceIds": [
+      "us-curebot12-85",
+      "us-tx-permit-directive-20260921"
+    ],
+    "territory": "Texas",
+    "actorIds": [
+      "us-tx-abbott",
+      "us-puct"
+    ]
+  },
+  {
+    "id": "us-eia-energy-survey-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-03-25",
+    "type": "context",
+    "title": "EIA — enquête pilote sur la consommation des centres",
+    "summary": "L’EIA lance une enquête pilote auprès d’entreprises exploitant des centres dans des régions ciblées. TechCrunch rapporte en avril la préparation d’une enquête obligatoire nationale. L’entrée en vigueur d’un formulaire obligatoire national n’a pas été confirmée ; le pilote ne constitue pas un reporting général déjà applicable.",
+    "topics": [
+      "transparency",
+      "power"
+    ],
+    "sourceIds": [
+      "us-eia-pilot-20260325",
+      "us-curebot12-100"
+    ],
+    "actorIds": [
+      "us-eia"
+    ]
+  },
+  {
+    "id": "us-ncsl-moratoria-tracker-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "États-Unis — suivi des propositions de moratoires par État",
+    "summary": "NCSL suit les projets législatifs de plusieurs États et leurs statuts, dont le veto du Maine. Le nombre de 14 États évoqué dans l’export est un instantané des propositions, pas un nombre d’interdictions en vigueur. Les mesures locales sont traitées séparément.",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "sourceIds": [
+      "us-curebot12-96"
+    ]
+  },
+  {
+    "id": "us-pa-local-acceptability-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Pennsylvanie — demandes d’encadrement municipal",
+    "summary": "The Conversation décrit les enjeux locaux de zonage, bruit, ressources et tarifs, notamment à Archbald. Les estimations de surfaces proposées ou d’emplois sont dépendantes du projet et ne constituent pas une décision administrative.",
+    "topics": [
+      "territory",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "us-curebot12-89"
+    ],
+    "territory": "Pennsylvanie"
   }
 ]

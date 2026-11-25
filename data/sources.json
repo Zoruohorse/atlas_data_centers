@@ -3988,5 +3988,419 @@
     "label": "The Record — enquête du mois de mai",
     "url": "https://therecord.media/dutch-authorities-arrest-suspects-over-russian-cyber-operations",
     "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-3",
+    "label": "AFP — vote du Sénat du 19 novembre",
+    "url": "https://www.connaissancedesenergies.org/afp/le-senat-americain-vote-un-texte-pour-faciliter-les-grands-projets-energetiques-261120",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-4",
+    "label": "BBC — déclaration sur les investissements étrangers",
+    "url": "https://www.bbc.com/news/articles/cmde1lw9y54ko",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-6",
+    "label": "IT for Business — réforme RTE",
+    "url": "https://www.itforbusiness.fr/raccordement-datacenters-rte-premier-pret-premier-servi-109627",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-7",
+    "label": "Next — engagements des opérateurs",
+    "url": "https://next.ink/266033/apres-la-claque-electorale-des-promesses-pour-amadouer-les-refractaires-aux-datacenters/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-10",
+    "label": "DCmag — résultats électoraux provisoires",
+    "url": "https://dcmag.fr/les-electeurs-americains-ont-profite-des-midterms-pour-bloquer-33-projets-de-data-centers/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-11",
+    "label": "Guardian — votes locaux",
+    "url": "https://www.theguardian.com/us-news/2026/nov/04/datacenters-midterm-elections",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-18",
+    "label": "Columbia CGEP — analyse BAAJA",
+    "url": "https://www.energypolicy.columbia.edu/publications/what-the-bipartisan-american-affordability-and-jobs-act-means-for-the-u-s-energy-system/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-20",
+    "label": "DCmag — proposition de dividende local",
+    "url": "https://dcmag.fr/trump-veut-faire-payer-un-dividende-aux-data-centers-pour-apaiser-les-riverains/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-24",
+    "label": "Oregon Capital Chronicle — permis environnementaux",
+    "url": "https://oregoncapitalchronicle.com/2026/10/13/oregon-governor-orders-pause-on-environmental-permits-to-build-or-expand-data-centers/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-30",
+    "label": "Politico — cadre Virginie",
+    "url": "https://www.politico.com/news/2026/09/18/spanberger-ai-data-centers-restrictions-01083670",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-31",
+    "label": "DCmag — cadre de négociation new-yorkais",
+    "url": "https://dcmag.fr/letat-de-new-york-veut-faire-payer-le-prix-fort-aux-data-centers-1-million-par-mw/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-33",
+    "label": "Le Parisien — vote H.R.9340",
+    "url": "https://www.leparisien.fr/international/etats-unis/nimposez-pas-ce-cout-aux-familles-les-etats-unis-legiferent-contre-les-centres-de-donnees-qui-suscitent-la-colere-17-09-2026-JZDD7GISWVAULNY72JIV52WHMM.php",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-37",
+    "label": "FT — recours Microsoft rapporté",
+    "url": "https://www.ft.com/content/f86672dd-5ee5-46f6-8419-3c959814dd1c?syn-25a6b1a6=1",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-39",
+    "label": "La Tribune — audit Texas",
+    "url": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/3155240685779/data-centers-le-texas-invente-le-permis-de-consommer-de-l-electricite",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-46",
+    "label": "PJM — revue d’incident",
+    "url": "https://insidelines.pjm.com/pjm-dominion-review-large-load-transfer-event/",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot12-48",
+    "label": "Brookings — politisation des implantations",
+    "url": "https://www.brookings.edu/articles/why-data-centers-are-a-top-issue-in-the-2026-midterms/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-52",
+    "label": "DCD — analyse des positions de candidats",
+    "url": "https://www.datacenterdynamics.com/en/news/80-percent-of-democratic-and-republican-candidates-for-governor-have-expressed-a-stance-on-data-centers/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-54",
+    "label": "DCmag — taxe Virginie",
+    "url": "https://dcmag.fr/la-virginie-instaure-une-taxe-inedite-sur-lelectricite-consommee-par-les-data-centers/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-55",
+    "label": "Washington Post — Pennsylvanie",
+    "url": "https://www.washingtonpost.com/nation/2026/08/18/pennsylvania-gov-josh-shapiro-set-order-new-limits-data-center-development/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-56",
+    "label": "DCD — activation des moyens de secours",
+    "url": "https://www.datacenterdynamics.com/en/opinions/when-a-grid-signal-becomes-a-production-change/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-57",
+    "label": "Rochester Beacon — réactions locales",
+    "url": "https://rochesterbeacon.com/2026/07/22/data-center-opponents-see-executive-order-as-partial-win/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-59",
+    "label": "TechRadar — coûts de réseau Virginie",
+    "url": "https://www.techradar.com/pro/virginia-cracks-down-on-electricity-firms-hiking-prices-for-ai-data-centers-move-could-save-hundreds-of-millions-of-dollars-for-everyday-users",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-65",
+    "label": "WSJ — engagement volontaire",
+    "url": "https://www.wsj.com/politics/policy/trump-pledge-to-limit-ai-driven-electric-bill-increases-attracts-big-utilities-ae408981?mod=ai_lead_pos6",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-73",
+    "label": "DCmag — moratoire NY, seuil erroné dans le titre de synthèse",
+    "url": "https://dcmag.fr/letat-de-new-york-a-adopte-un-moratoire-dun-an-sur-les-nouveaux-projets-de-data-centers-de-grande-taille/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-81",
+    "label": "Wired — Michigan, campagne électorale",
+    "url": "https://www.wired.com/story/anti-data-center-movement-reshaping-michigan-politics/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-82",
+    "label": "Politico — vote budgétaire Virginie",
+    "url": "https://www.politico.com/newsletters/power-switch/2026/06/22/a-new-tax-in-data-center-alley-00969932",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-84",
+    "label": "Greenberg Traurig — projet §25.194",
+    "url": "https://www.gtlaw.com/en/insights/2026/3/texas-senate-bill-6-update-what-data-centers-large-load-customers-should-know-about-proposed-interconnection-standards",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-85",
+    "label": "Gouverneur Texas — protection des consommateurs",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-puc-and-ercot-to-shield-texans-from-data-center-infrastructure-costs",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot12-86",
+    "label": "ERCOT — approbation Batch Zero",
+    "url": "https://www.ercot.com/news/release/06182026-puct-approves-ercots",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot12-87",
+    "label": "DCmag — ordonnances FERC",
+    "url": "https://dcmag.fr/usa-la-ferc-met-les-data-centers-sous-pression-energetique/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-88",
+    "label": "DCD — POWER Up Act",
+    "url": "https://www.datacenterdynamics.com/en/news/republican-senator-introduces-bill-to-impose-federal-rules-on-data-center-grid-connections/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-89",
+    "label": "The Conversation — réactions municipales",
+    "url": "https://theconversation.com/how-pennsylvania-towns-are-protecting-themselves-from-the-noise-heat-and-utility-costs-of-massive-data-centers-282126",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-96",
+    "label": "NCSL — suivi des moratoires",
+    "url": "https://www.ncsl.org/fiscal/which-states-are-banning-data-centers",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-97",
+    "label": "Engadget — Monterey Park",
+    "url": "https://www.engadget.com/ai/monterey-park-california-has-banned-any-data-centers-within-its-city-limits-180426656.html",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-98",
+    "label": "DCmag — Seattle, débat initial",
+    "url": "https://dcmag.fr/seattle-veut-un-moratoire-sur-les-datacenters-le-choc-entre-ia-electricite-et-facture-locale/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-99",
+    "label": "CNET — vote initial Maine",
+    "url": "https://www.cnet.com/tech/services-and-software/maine-could-become-first-state-to-pass-year-long-ban-on-new-large-data-centers/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot12-100",
+    "label": "TechCrunch — projet d’enquête EIA",
+    "url": "https://techcrunch.com/2026/04/15/feds-will-require-data-centers-to-show-their-power-bills/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-ny-eo62-2026",
+    "label": "New York — communiqué du 14 juillet",
+    "url": "https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul",
+    "type": "primary"
+  },
+  {
+    "id": "us-ny-cif-reuters",
+    "label": "Reuters — cadre de négociation du 15 septembre",
+    "url": "https://www.reuters.com/business/retail-consumer/new-york-proposes-1-million-per-megawatt-community-investment-data-centers-2026-09-15/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-me-ld307-veto",
+    "label": "Maine — veto du 24 avril",
+    "url": "https://www3.maine.gov/governor/mills/index.php/official_documents/veto_messages/2026-04-ld-307-act-establish-maine-data-center-coordination",
+    "type": "primary"
+  },
+  {
+    "id": "us-me-ld307-status",
+    "label": "Maine Legislature — statut final",
+    "url": "https://www.mainelegislature.org/LawMakerWeb/summary.asp?ID=280096138",
+    "type": "primary"
+  },
+  {
+    "id": "us-tx-25-194-final",
+    "label": "Texas Register — règle adoptée §25.194",
+    "url": "https://www.sos.texas.gov/texreg/archive/October22026/Adopted%20Rules/16.ECONOMIC%20REGULATION.html",
+    "type": "primary"
+  },
+  {
+    "id": "us-tx-audit-20260803",
+    "label": "Texas — directive audit du 3 août",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+    "type": "primary"
+  },
+  {
+    "id": "us-tx-batch-classification-20260903",
+    "label": "ERCOT — classifications conditionnelles",
+    "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-04",
+    "type": "primary"
+  },
+  {
+    "id": "us-tx-permit-directive-20260921",
+    "label": "Texas — directive permis du 21 septembre",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits",
+    "type": "primary"
+  },
+  {
+    "id": "us-tx-water-reporting-2026",
+    "label": "Texas — directive reporting eau",
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-twdb-to-penalize-data-center-reporting-failures",
+    "type": "primary"
+  },
+  {
+    "id": "us-tx-ercot-large-load-integration",
+    "label": "ERCOT — suivi grandes charges",
+    "url": "https://www.ercot.com/services/rq/large-load-integration",
+    "type": "primary"
+  },
+  {
+    "id": "us-tx-nogrr291",
+    "label": "ERCOT — proposition NOGRR291",
+    "url": "https://www.ercot.com/mktrules/issues/NOGRR291",
+    "type": "primary"
+  },
+  {
+    "id": "us-va-scc-tax-2026",
+    "label": "Virginia SCC — taxe et enregistrement",
+    "url": "https://scc.fr.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/",
+    "type": "primary"
+  },
+  {
+    "id": "us-va-scc-transmission-20260805",
+    "label": "Gouverneure de Virginie — décision SCC",
+    "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/august-releases/name-1122057-en.html",
+    "type": "primary"
+  },
+  {
+    "id": "us-va-eo22-20260918",
+    "label": "Virginie — cadre de responsabilité et EO22",
+    "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html",
+    "type": "primary"
+  },
+  {
+    "id": "us-or-state-land-pause",
+    "label": "Oregon — suspension demandes foncières publiques",
+    "url": "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-pauses-work-on-requests-for-state-land-to-support-new-data-centers",
+    "type": "primary"
+  },
+  {
+    "id": "us-pa-grid-20260818",
+    "label": "Pennsylvanie — GRID Requirements",
+    "url": "https://dced.pa.gov/business-assistance/data-center-resources/grid-requirements/",
+    "type": "primary"
+  },
+  {
+    "id": "us-pa-eo-2026-05",
+    "label": "Pennsylvanie — annonce du décret signé",
+    "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen",
+    "type": "primary"
+  },
+  {
+    "id": "us-seattle-cb121214",
+    "label": "Seattle — vote du 9 juin",
+    "url": "https://council.seattle.gov/2026/06/09/city-council-passes-emergency-data-center-moratorium-and-policy-framework/",
+    "type": "primary"
+  },
+  {
+    "id": "us-seattle-city-light-policy",
+    "label": "Seattle City Light — moratoire et politique grandes charges",
+    "url": "https://powerlines.seattle.gov/2026/06/12/getting-ahead-of-data-center-power-demands/",
+    "type": "primary"
+  },
+  {
+    "id": "us-monterey-park-dc-info",
+    "label": "Monterey Park — dossier municipal",
+    "url": "https://montereypark.ca.gov/1710/Data-Center-Information",
+    "type": "primary"
+  },
+  {
+    "id": "us-monterey-park-ban-confirmation",
+    "label": "Monterey Park — confirmation de l’interdiction votée",
+    "url": "https://www.montereypark.ca.gov/1757/HOM-Ballot-Measure",
+    "type": "primary"
+  },
+  {
+    "id": "us-ferc-show-cause-20260618",
+    "label": "FERC — six ordonnances du 18 juin",
+    "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration",
+    "type": "primary"
+  },
+  {
+    "id": "us-ferc-deadlines-202611",
+    "label": "FERC — échéances et réformes",
+    "url": "https://ferc.gov/cost-transparency-customer-protection",
+    "type": "primary"
+  },
+  {
+    "id": "us-doe-202-26-35",
+    "label": "DOE — ordre temporaire 202-26-35",
+    "url": "https://www.energy.gov/ceser/federal-power-act-section-202c-pjm-interconnection-llc-pjm-order-no-202-26-35",
+    "type": "primary"
+  },
+  {
+    "id": "us-doe-202c-orders-2026",
+    "label": "DOE — liste des ordres d’urgence",
+    "url": "https://www.energy.gov/ceser/2026-doe-202c-orders",
+    "type": "primary"
+  },
+  {
+    "id": "us-power-up-act-20260617",
+    "label": "Sénatrice Lummis — dépôt POWER Up Act",
+    "url": "https://www.lummis.senate.gov/press-releases/lummis-introduces-legislation-to-modernize-rules-for-high-power-grid-connections/",
+    "type": "primary"
+  },
+  {
+    "id": "us-hr9340-roll312",
+    "label": "Chambre — vote officiel H.R.9340",
+    "url": "https://clerk.house.gov/Votes/2026312?BillNum=H.R.9340",
+    "type": "primary"
+  },
+  {
+    "id": "us-hr9340-cloud",
+    "label": "Représentant Cloud — périmètre H.R.9340",
+    "url": "https://cloud.house.gov/positions/ratepayer-protection-act",
+    "type": "primary"
+  },
+  {
+    "id": "us-baaja-20261123",
+    "label": "Commission sénatoriale EPW — état au 23 novembre",
+    "url": "https://www.epw.senate.gov/press/dem/whitehouse-urges-swift-house-passage-of-permitting-reform-data-center-accountability-bill/",
+    "type": "primary"
+  },
+  {
+    "id": "us-eia-pilot-20260325",
+    "label": "EIA — enquête pilote du 25 mars",
+    "url": "https://www.eia.gov/pressroom/releases/press585.php",
+    "type": "primary"
+  },
+  {
+    "id": "us-ballotpedia-2026",
+    "label": "Ballotpedia — suivi actualisé des référendums",
+    "url": "https://ballotpedia.org/Data_center-related_ballot_measures%2C_2026",
+    "type": "analysis"
+  },
+  {
+    "id": "us-data-centers-ballot-tracker",
+    "label": "Data Centers on the Ballot — suivi des résultats",
+    "url": "https://www.datacentersontheballot.com/",
+    "type": "analysis"
   }
 ]
