@@ -4402,5 +4402,191 @@
     "label": "Data Centers on the Ballot — suivi des résultats",
     "url": "https://www.datacentersontheballot.com/",
     "type": "analysis"
+  },
+  {
+    "id": "us-ferc-rm26-4",
+    "label": "FERC · dossier RM26-4-000",
+    "url": "https://ferc.gov/rm26-4?trk=article-ssr-frontend-pulse_little-text-block",
+    "type": "primary"
+  },
+  {
+    "id": "us-doe-403-2025",
+    "label": "DOE · directives section 403, 23 octobre 2025",
+    "url": "https://www.energy.gov/topics/2025-doe-403-orders",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot13-73",
+    "label": "BFMTV · débat sur les compétences de raccordement",
+    "url": "https://www.bfmtv.com/tech/intelligence-artificielle/l-administration-trump-inquiete-les-etats-americains-car-elle-veut-controler-le-raccordement-au-reseau-electrique-des-data-centers-pour-repondre-aux-besoins-gigantesques-de-l-ia_AV-202512300432.html",
+    "type": "analysis"
+  },
+  {
+    "id": "us-ferc-pjm-colocation-20251218",
+    "label": "FERC · ordonnance de colocalisation PJM",
+    "url": "https://www.ferc.gov/news-events/news/ferc-directs-nations-largest-grid-operator-create-new-rules-embrace-innovation-and",
+    "type": "primary"
+  },
+  {
+    "id": "us-ferc-pjm-colocation-facts",
+    "label": "FERC · fiche de l’ordonnance",
+    "url": "https://ferc.gov/news-events/news/fact-sheet-ferc-directs-nations-largest-grid-operator-create-new-rules-embrace",
+    "type": "primary"
+  },
+  {
+    "id": "us-ny-energize-20260212",
+    "label": "Gouverneure de New York · ouverture de la procédure PSC",
+    "url": "https://www.governor.ny.gov/news/governor-hochul-announces-psc-proceeding-her-plan-ensure-data-centers-pay-their-fair-share",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot13-65",
+    "label": "Data Center Knowledge · annonce de janvier",
+    "url": "https://www.datacenterknowledge.com/energy-power-supply/new-york-tells-data-centers-they-must-pay-more-for-power",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot13-39",
+    "label": "DCD · proposition de gestion de file Dominion",
+    "url": "https://www.datacenterdynamics.com/en/news/dominion-files-large-load-connection-queue-plan-with-state-regulators/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-va-dominion-pending-20261102",
+    "label": "Dominion · témoignage déposé à la SEC le 2 novembre 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/715957/000110465926122035/tm2627455d4_425.htm",
+    "type": "primary"
+  },
+  {
+    "id": "us-mi-hb5594-2026",
+    "label": "Michigan Legislature · HB 5594",
+    "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-5594",
+    "type": "primary"
+  },
+  {
+    "id": "us-mi-hb5594-committee",
+    "label": "Michigan Legislature · renvoi en commission",
+    "url": "https://legislature.mi.gov/Committees/CBR?committeeID=1973",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot13-45",
+    "label": "DCD · annonce de Jennifer Wortz",
+    "url": "https://www.datacenterdynamics.com/en/news/michigan-state-representative-says-she-is-authoring-bill-to-impose-data-center-moratorium/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-epa-turbine-nsps-2026",
+    "label": "EPA · normes NSPS des turbines stationnaires",
+    "url": "https://www.epa.gov/stationary-sources-air-pollution/stationary-gas-and-combustion-turbines-new-source-performance",
+    "type": "primary"
+  },
+  {
+    "id": "us-epa-data-center-air",
+    "label": "EPA · ressources Clean Air Act pour les data centers",
+    "url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot13-54",
+    "label": "Developpez · controverse sur les turbines xAI",
+    "url": "https://cloud-computing.developpez.com/actu/379378/L-autorite-de-regulation-americaine-a-juge-que-l-entreprise-d-IA-d-Elon-Musk-avait-agi-illegalement-en-utilisant-des-dizaines-de-turbines-a-gaz-methane-tres-polluantes-pour-alimenter-ses-centres-de-donnees/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-power-for-people-vanhollen",
+    "label": "Sénat · présentation du Power for the People Act",
+    "url": "https://www.vanhollen.senate.gov/news/press-releases/van-hollen-leads-new-bill-to-ensure-americans-arent-footing-the-bill-for-big-data-centers",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot13-60",
+    "label": "New York Times · propositions de protection tarifaire",
+    "url": "https://www.nytimes.com/2026/01/15/business/energy-environment/data-center-energy-electricity-costs.html",
+    "type": "analysis"
+  },
+  {
+    "id": "us-wh-ratepayer-pledge-20260304",
+    "label": "Maison-Blanche · Ratepayer Protection Pledge signé le 4 mars",
+    "url": "https://www.whitehouse.gov/releases/2026/03/ratepayer-protection-pledge/",
+    "type": "primary"
+  },
+  {
+    "id": "us-wh-ratepayer-facts-20260304",
+    "label": "Maison-Blanche · modalités de l’engagement",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-advances-energy-affordability-with-the-ratepayer-protection-pledge/",
+    "type": "primary"
+  },
+  {
+    "id": "us-wh-ratepayer-expansion-20260723",
+    "label": "Maison-Blanche · élargissement du 23 juillet",
+    "url": "https://www.whitehouse.gov/releases/2026/07/president-trumps-ratepayer-protection-pledge-secures-american-ai-dominance-protects-consumers/",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot13-30",
+    "label": "DCmag · annonce de février",
+    "url": "https://dcmag.fr/ratepayer-protection-pledge-trump-impose-une-nouvelle-politique-energetique-pour-les-datacenters-americains/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-oh-ag-petition-20260326",
+    "label": "Ohio Attorney General · certification du titre et du résumé",
+    "url": "https://www.ohioattorneygeneral.gov/Media/News-Releases/March-2026/Title-and-Summary-Certified-for-Proposed-Prohibiti",
+    "type": "primary"
+  },
+  {
+    "id": "us-oh-oeda-toolkit-2026",
+    "label": "Ohio Economic Development Association · état de la procédure",
+    "url": "https://ohioeda.com/datacenters/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot13-24",
+    "label": "The Register · pétition de mars",
+    "url": "https://www.theregister.com/2026/03/18/ohio_datacenter_petition/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot13-5",
+    "label": "La Presse / AFP · mobilisation et retrait",
+    "url": "https://www.lapresse.ca/international/etats-unis/2026-04-14/renonciation-a-un-centre-de-donnees/une-ville-du-new-jersey-devient-un-symbole-de-resistance.php",
+    "type": "analysis"
+  },
+  {
+    "id": "us-nj-rutgers-20260219",
+    "label": "Rutgers Radio · déclaration municipale rapportée",
+    "url": "https://wrsu.org/new-brunswick-city-council-cancels-proposed-data-center/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-fww-moratorium-20251208",
+    "label": "Food & Water Watch · appel au Congrès du 8 décembre",
+    "url": "https://www.foodandwaterwatch.org/news/2025/11/06/no-more-new-data-centers/",
+    "type": "primary"
+  },
+  {
+    "id": "us-curebot13-83",
+    "label": "The Register · lettre au Congrès",
+    "url": "https://www.theregister.com/2025/12/09/datacenter_pause_congress_help/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot13-95",
+    "label": "DCD · plainte AWS contre PacifiCorp",
+    "url": "https://www.datacenterdynamics.com/en/news/amazon-says-utility-pacificorp-isnt-providing-enough-power-to-oregon-data-centers/",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot13-3",
+    "label": "Franceinfo / AFP · vote du projet LD 307",
+    "url": "https://www.franceinfo.fr/internet/intelligence-artificielle/le-maine-bloque-la-construction-de-grands-datacenters-une-premiere-aux-etats-unis-face-au-boom-de-l-intelligence-artificielle_7940426.html",
+    "type": "analysis"
+  },
+  {
+    "id": "us-curebot13-9",
+    "label": "ChannelNews · demande de reporting",
+    "url": "https://www.channelnews.fr/des-senateurs-exigent-une-declaration-de-consommation-denergie-des-datacenters-aux-etats-unis-156194",
+    "type": "analysis"
   }
 ]

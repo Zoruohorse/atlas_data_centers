@@ -2046,7 +2046,7 @@
     "date": "2026-04-24",
     "stage": "rejected",
     "title": "Maine — projet LD 307 rejeté après veto",
-    "summary": "Le texte voté au printemps prévoyait une pause des permis pour les installations de 20 MW ou plus jusqu’au 1er novembre 2027. La gouverneure oppose son veto le 24 avril, notamment faute d’exception pour un projet engagé à Jay. La Chambre maintient le veto le 29 avril (72 voix contre 65 pour passer outre, majorité qualifiée non atteinte). LD 307 n’est pas devenu loi. Les moratoires municipaux sont distincts.",
+    "summary": "Le texte voté au printemps prévoyait une pause des permis pour les installations de 20 MW ou plus jusqu’au 1er novembre 2027. La gouverneure oppose son veto le 24 avril, notamment faute d’exception pour un projet engagé à Jay. La Chambre maintient le veto le 29 avril (72 voix contre 65 pour passer outre, majorité qualifiée non atteinte). LD 307 n’est pas devenu loi. Les moratoires municipaux sont distincts. Les articles d’avril antérieurs au veto documentent le vote parlementaire, pas l’entrée en vigueur.",
     "topics": [
       "planning",
       "territory"
@@ -2055,7 +2055,8 @@
       "us-me-ld307-veto",
       "us-me-ld307-status",
       "us-curebot12-99",
-      "us-curebot12-96"
+      "us-curebot12-96",
+      "us-curebot13-3"
     ],
     "territory": "Maine"
   },
@@ -2467,6 +2468,191 @@
     "effectiveUntil": "2026-07-21",
     "actorIds": [
       "us-pjm"
+    ]
+  },
+  {
+    "id": "us-ferc-rm26-4-2025",
+    "scope": "national",
+    "countries": [
+      "US"
+    ],
+    "date": "2025-10-23",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "stage": "consultation",
+    "title": "DOE/FERC — ouverture du dossier fédéral sur les grandes charges",
+    "summary": "Le secrétaire à l’Énergie demande à la FERC d’examiner une réforme des raccordements au réseau de transport interétatique (RM26-4-000). Le seuil indicatif de l’ANOPR est une demande supérieure à 20 MW. La consultation porte notamment sur les délais, les conditions de raccordement et la fiabilité. Il ne s’agit ni d’un transfert général de compétence déjà réalisé, ni d’une règle uniforme entrée en vigueur. Les six procédures ciblées de juin 2026 sont documentées séparément.",
+    "sourceIds": [
+      "us-doe-403-2025",
+      "us-ferc-rm26-4",
+      "us-curebot13-73"
+    ],
+    "impacts": {
+      "operator": "Réforme envisagée des procédures de raccordement de grandes charges ; aucun droit automatique à une connexion.",
+      "grid": "Débat sur les compétences fédérales et étatiques, les études et la fiabilité."
+    },
+    "actorIds": [
+      "us-ferc"
+    ]
+  },
+  {
+    "id": "us-pjm-colocation-order-2025",
+    "scope": "territorial",
+    "countries": [
+      "US"
+    ],
+    "date": "2025-12-18",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "stage": "published",
+    "title": "PJM — ordonnance FERC sur la colocalisation production et consommation",
+    "summary": "La FERC constate que le tarif de PJM manque de clarté pour les grandes charges colocalisées avec une production et ordonne une révision des options de service de transport. Elle demande aussi un rapport sur les mesures de fiabilité et d’accélération des raccordements pour le 19 janvier 2026. L’ordonnance ne garantit pas une mise sous tension rapide ; les tarifs de mise en œuvre et leurs dates d’effet doivent être vérifiés séparément.",
+    "sourceIds": [
+      "us-ferc-pjm-colocation-20251218",
+      "us-ferc-pjm-colocation-facts"
+    ],
+    "territory": "Périmètre du réseau PJM",
+    "impacts": {
+      "operator": "Options tarifaires distinctes selon les soutirages et services de transport.",
+      "grid": "Clarification des conditions de service et de la contribution aux coûts de fiabilité."
+    },
+    "actorIds": [
+      "us-ferc",
+      "us-pjm"
+    ]
+  },
+  {
+    "id": "us-ny-energize-2026",
+    "scope": "territorial",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-02-12",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "stage": "consultation",
+    "title": "New York — procédure Energize NY Development",
+    "summary": "Après l’annonce de janvier, la PSC ouvre une procédure visant à réexaminer raccordements, attribution des coûts et structures tarifaires pour les grandes charges. Le NYISO recensait en janvier 48 projets représentant plus de 11 GW de nouvelles grandes charges ; ce volume est une file, pas une consommation ferme. Les conditions tarifaires finales ne sont pas établies par cette ouverture de procédure. Le moratoire de juillet est distinct.",
+    "sourceIds": [
+      "us-ny-energize-20260212",
+      "us-curebot13-65",
+      "us-ny-eo62-2026"
+    ],
+    "territory": "New York",
+    "impacts": {
+      "operator": "Conditions de coûts et de fourniture en discussion.",
+      "grid": "Réexamen des procédures de raccordement et de la répartition des coûts."
+    },
+    "actorIds": [
+      "us-ny-hochul"
+    ]
+  },
+  {
+    "id": "us-va-dominion-queue-2026",
+    "scope": "territorial",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-02-02",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "stage": "consultation",
+    "title": "Virginie — proposition Dominion de file de raccordement des grandes charges",
+    "summary": "Dominion dépose auprès de la SCC le dossier PUR-2026-00011. La proposition rapportée vise les charges d’environ 100 MW ou plus, avec plafond de 300 MW par demande et études groupées d’environ dix projets. La file de 70 GW comprend environ 25 GW avec dates prévisionnelles jusqu’en 2031 et 45 GW à l’étude : aucun de ces chiffres n’est une consommation certaine. Un témoignage déposé le 2 novembre confirme que la procédure est encore pendante à cette date ; les seuils du projet initial ne sont pas présentés comme définitifs.",
+    "sourceIds": [
+      "us-curebot13-39",
+      "us-va-dominion-pending-20261102"
+    ],
+    "territory": "Virginie — zone desservie par Dominion Energy Virginia",
+    "impacts": {
+      "operator": "La proposition formalise les étapes de maturité, études, développement et exécution.",
+      "grid": "Études groupées et réduction du risque d’investissements échoués ; traitement final en attente."
+    }
+  },
+  {
+    "id": "us-mi-hb5594-5595-2026",
+    "scope": "territorial",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-02-26",
+    "topics": [
+      "planning",
+      "grid"
+    ],
+    "stage": "announced",
+    "title": "Michigan — propositions de moratoire HB 5594 et HB 5595",
+    "summary": "Après une annonce de Jennifer Wortz fin janvier, les projets HB 5594 et HB 5595 visent respectivement certaines autorisations et l’exploitation de nouveaux centres, et les approbations du régulateur des services publics. Le renvoi en commission du 26 février est documenté ; aucune promulgation n’est confirmée. L’instantané NCSL est conservé séparément.",
+    "sourceIds": [
+      "us-mi-hb5594-2026",
+      "us-mi-hb5594-committee",
+      "us-curebot13-45",
+      "us-curebot12-96"
+    ],
+    "territory": "Michigan",
+    "impacts": {
+      "operator": "Risque de suspension des autorisations si les projets aboutissent.",
+      "grid": "Une proposition vise les approbations du régulateur, non un gel actuellement établi."
+    }
+  },
+  {
+    "id": "us-epa-turbine-nsps-2026",
+    "scope": "national",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-01-15",
+    "topics": [
+      "environment",
+      "supply",
+      "power"
+    ],
+    "stage": "published",
+    "title": "EPA — normes d’émissions des turbines stationnaires",
+    "summary": "La règle finale publiée le 15 janvier crée notamment la sous-partie KKKKa des normes de performance des turbines à combustion stationnaires. Les turbines utilisées pour alimenter des data centers peuvent relever de ces règles, y compris selon les conditions propres aux turbines temporaires. La qualification réglementaire dépend de l’équipement et de son usage. Cette règle générale n’est pas une décision individuelle constatant une infraction de xAI ni une interdiction générale de production sur site.",
+    "sourceIds": [
+      "us-epa-turbine-nsps-2026",
+      "us-epa-data-center-air",
+      "us-curebot13-54"
+    ],
+    "impacts": {
+      "operator": "Vérifier la catégorie de turbine, les normes d’émissions et les permis applicables.",
+      "grid": "Contraintes environnementales à prendre en compte pour les options de production locale."
+    }
+  },
+  {
+    "id": "us-power-for-people-act-2026",
+    "scope": "national",
+    "countries": [
+      "US"
+    ],
+    "date": "2026-01-15",
+    "topics": [
+      "grid",
+      "power",
+      "supply"
+    ],
+    "stage": "announced",
+    "title": "Power for the People Act — proposition de protection tarifaire",
+    "summary": "Le sénateur Chris Van Hollen et ses cosignataires présentent un texte demandant notamment l’évaluation de classes tarifaires spécifiques par les États, une règle FERC sur l’imputation des renforcements locaux aux data centers et des incitations à la production additionnelle, au stockage et à la flexibilité. Aucune promulgation n’est confirmée ; ce projet est distinct de POWER Up Act et de H.R.9340.",
+    "sourceIds": [
+      "us-power-for-people-vanhollen",
+      "us-curebot13-60"
+    ],
+    "impacts": {
+      "operator": "Possibles obligations d’imputation des coûts et incitations à la flexibilité si le texte aboutit.",
+      "grid": "Amélioration proposée des prévisions et de la qualification des demandes."
+    },
+    "actorIds": [
+      "us-ferc"
     ]
   }
 ]
