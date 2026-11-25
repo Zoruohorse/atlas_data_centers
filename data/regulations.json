@@ -1649,7 +1649,8 @@
     "sourceIds": [
       "ru-decree-802-2026",
       "ru-decree-802-reuters-2026",
-      "curebot4-20261124-5"
+      "curebot4-20261124-5",
+      "world-20261125-5"
     ],
     "effectiveFrom": "2026-11-02",
     "impacts": {
@@ -1903,5 +1904,108 @@
       "avril-20261125-29"
     ],
     "milestone": "Vérifier l’adoption et les textes d’application du Private Wires Bill."
+  },
+  {
+    "id": "ca-quebec-dc-tariff-2026",
+    "countries": [
+      "CA"
+    ],
+    "scope": "territorial",
+    "date": "2026-02-19",
+    "stage": "consultation",
+    "title": "Québec — projet de tarif CD pour les grands centres de données",
+    "summary": "Hydro-Québec propose un prix unitaire moyen de 13 cents canadiens/kWh, environ le double du tarif de grande puissance de référence, pour les centres concernés (seuil de puissance autorisée d’au moins 5 MW). Une transition de cinq ans est proposée pour les clients existants. L’audience débute le 1er octobre. Le dossier R-4333-2026 est indiqué en cours lors de la vérification du 25 novembre : ne pas présenter le tarif proposé comme approuvé.",
+    "topics": [
+      "power",
+      "grid"
+    ],
+    "sourceIds": [
+      "ca-hq-tariff-proposal-2026",
+      "ca-regie-r4333-2026",
+      "world-20261125-25"
+    ],
+    "territory": "Québec",
+    "actorIds": [
+      "ca-hydro-quebec",
+      "ca-regie-energie"
+    ],
+    "milestone": "Décision au fond à surveiller.",
+    "impacts": {
+      "operator": "Réévaluer les coûts d’électricité si le tarif est approuvé.",
+      "grid": "Objectif annoncé de faire supporter aux nouvelles charges les coûts liés à leur demande."
+    }
+  },
+  {
+    "id": "br-redata-mp-2025",
+    "countries": [
+      "BR"
+    ],
+    "scope": "national",
+    "date": "2025-09-17",
+    "stage": "repealed",
+    "title": "REDATA — mesure provisoire 1.318/2025 expirée",
+    "summary": "La mesure provisoire crée un régime fiscal spécial pour les services de data centers. Son délai de validité a expiré le 25 février 2026 sans conversion en loi. Le nouveau régime de septembre 2026 fait l’objet d’une entrée distincte. Les inquiétudes sectorielles et critiques de 2025 portent sur cette première séquence.",
+    "topics": [
+      "tax",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "br-redata-mp-2025",
+      "br-redata-expiry-2026",
+      "world-20261125-58",
+      "world-20261125-67"
+    ],
+    "effectiveUntil": "2026-02-25"
+  },
+  {
+    "id": "br-redata-law-2026",
+    "countries": [
+      "BR"
+    ],
+    "scope": "national",
+    "date": "2026-09-15",
+    "stage": "effective",
+    "title": "REDATA — loi 15.504 du 15 septembre 2026",
+    "summary": "La loi réintroduit le régime de suspension de certains impôts sur les équipements éligibles. Les bénéficiaires doivent notamment couvrir leur demande électrique contractuelle par des sources propres ou renouvelables, respecter un indice d’efficacité hydrique au plus égal à 0,05 L/kWh pour le refroidissement, réserver en principe 10 % des services au marché intérieur (alternatives et exceptions prévues) et consacrer 2 % de la valeur des équipements bénéficiant du régime à des investissements au Brésil. Des réductions régionales sont prévues. Le régime est prévu pour cinq ans, mais les effets des taxes visées aux I–III de l’art. 11-C prennent fin au 31 décembre 2026 selon la loi. L’habilitation et les modalités d’application doivent être vérifiées ; ce ne sont pas des obligations universelles pour tous les centres.",
+    "topics": [
+      "tax",
+      "environment",
+      "supply",
+      "sovereignty",
+      "transparency"
+    ],
+    "sourceIds": [
+      "br-redata-law-15504-2026",
+      "br-redata-senate-2026",
+      "br-redata-expiry-2026"
+    ],
+    "effectiveFrom": "2026-09-15",
+    "impacts": {
+      "operator": "Avantage fiscal conditionné à l’habilitation et aux contreparties environnementales et nationales.",
+      "grid": "Contrats d’approvisionnement ou autoproduction propre pour couvrir la demande contractuelle des bénéficiaires."
+    }
+  },
+  {
+    "id": "ca-alberta-bill42-2026",
+    "countries": [
+      "CA"
+    ],
+    "scope": "territorial",
+    "date": "2026",
+    "stage": "announced",
+    "title": "Alberta — projet de loi 42 sur l’implantation des grands data centers",
+    "summary": "Le gouvernement propose des restrictions d’implantation pour les sites d’au moins 10 MW, dont une distance de 600 m des habitations et des restrictions sur les terres agricoles de meilleure qualité et irriguées. Des dérogations locales sont envisagées pour certains sites autonomes de moins de 75 MW sans production sur place. Le gouvernement présente ces dispositions comme conditionnelles à l’adoption du Bill 42 ; vérifier le texte final et les règlements.",
+    "topics": [
+      "planning",
+      "territory",
+      "grid",
+      "environment"
+    ],
+    "sourceIds": [
+      "ca-alberta-bill42-2026",
+      "ca-alberta-land-use-2026"
+    ],
+    "territory": "Alberta",
+    "milestone": "Suivre l’adoption et les règlements d’application."
   }
 ]

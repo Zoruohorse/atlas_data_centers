@@ -1307,5 +1307,80 @@
     "sourceIds": [
       "avril-20261125-64"
     ]
+  },
+  {
+    "id": "ca-hydro-quebec",
+    "name": "Hydro-Québec",
+    "type": "Entreprise publique d’électricité",
+    "countries": [
+      "CA"
+    ],
+    "summary": "Propose une tarification spécifique des grands centres de données.",
+    "sourceIds": [
+      "ca-hq-tariff-proposal-2026",
+      "ca-regie-r4333-2026"
+    ]
+  },
+  {
+    "id": "ca-regie-energie",
+    "name": "Régie de l’énergie du Québec",
+    "type": "Régulateur",
+    "countries": [
+      "CA"
+    ],
+    "summary": "Examine le dossier R-4333-2026.",
+    "sourceIds": [
+      "ca-regie-r4333-2026"
+    ]
+  },
+  {
+    "id": "cl-sea",
+    "name": "Servicio de Evaluación Ambiental (SEA)",
+    "type": "Autorité environnementale",
+    "countries": [
+      "CL"
+    ],
+    "summary": "Publie des critères d’évaluation environnementale des projets.",
+    "sourceIds": [
+      "cl-sea-guidance-2026"
+    ]
+  },
+  {
+    "id": "mx-claudia-sheinbaum",
+    "name": "Claudia Sheinbaum",
+    "type": "Présidente de la République",
+    "countries": [
+      "MX"
+    ],
+    "summary": "Souligne les enjeux d’eau et d’électricité liés à l’accueil de centres de données.",
+    "sourceIds": [
+      "mx-president-20260818"
+    ]
+  },
+  {
+    "id": "ca-capital-power",
+    "name": "Capital Power",
+    "type": "Producteur d’électricité",
+    "countries": [
+      "CA"
+    ],
+    "summary": "Conclut un accord de fourniture de long terme avec Meta.",
+    "sourceIds": [
+      "ca-capital-power-meta-2026",
+      "ca-capital-power-mou-2025"
+    ]
+  },
+  {
+    "id": "cn-ndrc",
+    "name": "Commission nationale du développement et de la réforme (NDRC)",
+    "type": "Administration centrale",
+    "countries": [
+      "CN"
+    ],
+    "summary": "Copublie le plan national de développement vert des data centers.",
+    "sourceIds": [
+      "cn-ndrc-green-plan-2024",
+      "cn-green-plan-summary-2024"
+    ]
   }
 ]

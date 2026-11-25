@@ -3682,5 +3682,311 @@
     "label": "EUDCA — State of European Data Centres 2025",
     "url": "https://www.eudca.org/state-of-european-data-centres-2025",
     "type": "primary"
+  },
+  {
+    "id": "world-20261125-5",
+    "label": "Kyiv Independent — décret russe",
+    "url": "https://kyivindependent.com/putin-orders-russian-data-centers-to-reserve-capacity-to-assist-state-it-infrastructure/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-6",
+    "label": "Radio-Canada — débouchés du gaz naturel",
+    "url": "https://ici.radio-canada.ca/nouvelle/2296792/ottawa-ia-gaz-centres-donnees",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-7",
+    "label": "DCmag — continuité numérique Rostelecom",
+    "url": "https://dcmag.fr/russie-face-aux-menaces-des-drones-rostelecom-propose-le-data-center-du-jugement-dernier/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-9",
+    "label": "Kyiv Independent — perturbations numériques",
+    "url": "https://kyivindependent.com/ukraine-war-latest-drone-strikes-on-yandex-data-centers-disrupt-russian-court-hearings-media-reports/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-11",
+    "label": "NBC News — perturbations de services civils",
+    "url": "https://www.nbcnews.com/world/russia/russia-ukraine-yandex-data-centers-attacks-trump-rcna602753",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-13",
+    "label": "La Libre — contestations chiliennes",
+    "url": "https://www.lalibre.be/international/2026/10/14/cest-un-renoncement-a-notre-souverainete-au-chili-la-poussee-des-data-centers-provoque-des-crispations-S7HXZI6IX5CBRFTPZE2NPMUWGY/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-14",
+    "label": "L’Opinion — prospective électrique chinoise",
+    "url": "https://www.lopinion.fr/international/intelligence-artificielle-la-chine-met-le-turbo-sur-les-centres-de-donnees",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-17",
+    "label": "CNN — stratégie d’implantation chinoise",
+    "url": "https://www.cnn.com/2026/10/13/china/china-data-centers-ai-race-intl-hnk-dst",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-20",
+    "label": "Franceinfo — prudence sur les effets des perturbations",
+    "url": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/les-frappes-de-drones-ukrainiennes-sur-des-data-centers-en-russie-ont-elles-donne-un-serieux-coup-a-la-desinformation-pro-russe_8234284.html",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-25",
+    "label": "La Presse — audience tarifaire",
+    "url": "https://www.lapresse.ca/affaires/entreprises/2026-10-01/hydro-quebec-souhaite-doubler-le-tarif-energetique-pour-les-centres-de-donnees.php",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-27",
+    "label": "Mediapart — opposition au Ceará",
+    "url": "https://www.mediapart.fr/journal/international/250926/au-bresil-lula-veut-attirer-les-data-centers-malgre-les-risques-ecologiques",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-33",
+    "label": "Energía a Debate — déclaration présidentielle",
+    "url": "https://energiaadebate.com/data-centers-si-pero-no-a-costa-de-los-recursos-de-mexico-sheinbaum/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-35",
+    "label": "DCD — projet énergétique Solaer",
+    "url": "https://www.datacenterdynamics.com/en/news/solaer-commits-to-data-centers-with-a-197-mw-energy-project-in-the-atacama-desert/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-39",
+    "label": "La Presse — plaidoyer BAPE",
+    "url": "https://www.lapresse.ca/affaires/2026-06-18/centres-de-donnees/plaidoyer-pour-un-bape-general.php",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-43",
+    "label": "DCD — demande d’enquête de parlementaires américains",
+    "url": "https://www.datacenterdynamics.com/en/news/trio-of-republicans-call-for-fbi-investigation-into-data-center-opposition/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-48",
+    "label": "Le Figaro — contestations au Mexique",
+    "url": "https://www.lefigaro.fr/secteur/high-tech/on-est-reste-sans-eau-pendant-trois-semaines-au-mexique-la-construction-massive-de-data-centers-ne-fait-pas-que-des-heureux-20260604",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-49",
+    "label": "L’ÉnerGeek — prototype immergé",
+    "url": "https://lenergeek.com/2026/06/05/la-chine-vient-dimmerger-un-centre-de-donnees-a-30-metres-sous-la-mer-alimente-par-leolien-offshore/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-50",
+    "label": "DCD — enquête néerlandaise sur les sanctions",
+    "url": "https://www.datacenterdynamics.com/en/news/dutch-police-arrest-pair-accused-of-violating-russia-sanctions-raids-two-data-centers/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-51",
+    "label": "The Guardian — tensions hydriques au Chili",
+    "url": "https://www.theguardian.com/global-development/2026/may/26/chile-datacentres-water-tech-companies-mega-drought",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-55",
+    "label": "Franceinfo — souveraineté numérique sénégalaise",
+    "url": "https://www.franceinfo.fr/monde/afrique/senegal/le-senegal-se-tourne-vers-la-chine-pour-son-independance-numerique_4675259.html",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-56",
+    "label": "Folha / Reuters — options Engie face à l’écrêtement",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/02/engie-avalia-baterias-e-data-center-para-aliviar-cortes-em-parque-solar-no-brasil.shtml",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-57",
+    "label": "DCD — accord préliminaire Capital Power",
+    "url": "https://www.datacenterdynamics.com/en/news/capital-power-signs-250mw-power-supply-deal-with-data-center-developer-in-alberta-canada/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-58",
+    "label": "Folha — incertitudes fiscales selon ABDC",
+    "url": "https://www1.folha.uol.com.br/mercado/2025/12/investimentos-em-data-centers-estao-paralisados-por-incerteza-sobre-tributos-diz-entidade.shtml",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-65",
+    "label": "La Presse — tensions à Querétaro",
+    "url": "https://www.lapresse.ca/affaires/2025-10-26/planete-economique/du-mexique-a-l-irlande-les-centres-de-donnees-fachent.php",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-67",
+    "label": "Folha — tribune REDATA",
+    "url": "https://www1.folha.uol.com.br/colunas/marcos-mendes/2025/10/regime-especial-de-data-centers.shtml",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-68",
+    "label": "DCmag — Stargate Argentina",
+    "url": "https://dcmag.fr/stargate-argentina-un-datacenter-dia-dopenai-en-patagonie/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-70",
+    "label": "AFP — prototype chinois en 2025",
+    "url": "https://www.connaissancedesenergies.org/afp/en-chine-plonge-les-centres-de-donnees-dans-la-mer-251003",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-71",
+    "label": "Generation NT — puces domestiques",
+    "url": "https://www.generation-nt.com/actualites/semiconducteurs-composants-datacenter-ia-origine-chine-2061392",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-72",
+    "label": "Zonebourse / Reuters — région AWS Chili",
+    "url": "https://www.zonebourse.com/cours/action/AMAZON-COM-INC-12864605/actualite/Amazon-investit-4-milliards-de-dollars-dans-le-cloud-au-Chili-49861746/",
+    "type": "analysis"
+  },
+  {
+    "id": "world-20261125-75",
+    "label": "Folha — alternatives de raccordement brésiliennes",
+    "url": "https://www1.folha.uol.com.br/mercado/2025/04/governo-autoriza-data-centers-e-enquadra-projetos-de-geracao-de-energia-eletrica-em-incentivos.shtml",
+    "type": "analysis"
+  },
+  {
+    "id": "br-redata-mp-2025",
+    "label": "Brésil — MP 1318/2025",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1318.htm",
+    "type": "primary"
+  },
+  {
+    "id": "br-redata-expiry-2026",
+    "label": "Congrès — expiration de la MP au 25 février",
+    "url": "https://presidencia.gov.br/ccivil_03/_ato2023-2026/2026/congresso/adc-11-mpv1.318.htm",
+    "type": "primary"
+  },
+  {
+    "id": "br-redata-law-15504-2026",
+    "label": "Loi fédérale 15.504 du 15 septembre",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15504.htm",
+    "type": "primary"
+  },
+  {
+    "id": "br-redata-senate-2026",
+    "label": "Sénat — synthèse de la loi",
+    "url": "https://www12.senado.leg.br/noticias/materias/2026/09/16/sancionada-lei-de-incentivo-para-a-instalacao-de-data-centers",
+    "type": "primary"
+  },
+  {
+    "id": "ca-hq-tariff-proposal-2026",
+    "label": "Hydro-Québec — proposition du 19 février",
+    "url": "https://nouvelles.hydroquebec.com/nouvelles/communiques/tout-quebec/tarifs-centres-donnees-chaines-blocs-refleteront-valeur-electricite-renouvelable.html?trk=article-ssr-frontend-pulse_little-text-block",
+    "type": "primary"
+  },
+  {
+    "id": "ca-regie-r4333-2026",
+    "label": "Régie — dossier R-4333-2026",
+    "url": "https://www.regie-energie.qc.ca/fr/participants/dossiers/r-4333-2026",
+    "type": "primary"
+  },
+  {
+    "id": "ca-alberta-bill42-2026",
+    "label": "Alberta — projet de loi 42",
+    "url": "https://www.alberta.ca/protecting-land-and-communities",
+    "type": "primary"
+  },
+  {
+    "id": "ca-alberta-land-use-2026",
+    "label": "Alberta — propositions d’implantation",
+    "url": "https://www.alberta.ca/datacentres/land-use",
+    "type": "primary"
+  },
+  {
+    "id": "ca-capital-power-meta-2026",
+    "label": "Capital Power — accord Meta, juillet 2026",
+    "url": "https://www.capitalpower.com/media/media_releases/capital-power-enters-long-term-energy-supply-agreement-with-meta-in-alberta/",
+    "type": "primary"
+  },
+  {
+    "id": "ca-capital-power-mou-2025",
+    "label": "Capital Power — résultats 2025",
+    "url": "https://www.capitalpower.com/media/media_releases/capital-power-reports-fourth-quarter-and-year-end-2025-results/",
+    "type": "primary"
+  },
+  {
+    "id": "cl-sea-guidance-2026",
+    "label": "SEA — critère d’évaluation du 20 janvier",
+    "url": "https://www.sea.gob.cl/noticias/sea-publica-criterio-de-evaluacion-ambiental-sobre-proyectos-de-data-center",
+    "type": "primary"
+  },
+  {
+    "id": "cl-cerrillos-litigation-2024",
+    "label": "Climate Case Chart — dossier Cerrillos",
+    "url": "https://www.climatecasechart.com/document/municipality-of-cerrillos-google-data-center-v-evaluation-commission-of-the-metropolitan-region_7d3a",
+    "type": "analysis"
+  },
+  {
+    "id": "cl-aws-update-2026",
+    "label": "Le Monde — autorisation rapportée en avril",
+    "url": "https://www.lemonde.fr/economie/article/2026/10/20/au-chili-les-data-centers-portes-par-le-boom-de-l-ia-encerclent-santiago_6797911_3234.html",
+    "type": "analysis"
+  },
+  {
+    "id": "mx-president-20260818",
+    "label": "Présidence mexicaine — transcription du 18 août",
+    "url": "https://www.gob.mx/presidencia/articulos/version-estenografica-conferencia-de-prensa-de-la-presidenta-claudia-sheinbaum-pardo-del-18-de-agosto-de-2026",
+    "type": "primary"
+  },
+  {
+    "id": "cn-ndrc-green-plan-2024",
+    "label": "NDRC — plan de développement bas-carbone 2024",
+    "url": "https://www.ndrc.gov.cn/xwdt/tzgg/202407/t20240723_1391895_ext.html",
+    "type": "primary"
+  },
+  {
+    "id": "cn-green-plan-summary-2024",
+    "label": "Gouvernement chinois — objectifs verts",
+    "url": "https://english.www.gov.cn/news/202407/24/content_WS66a0b167c6d0868f4e8e96ba.html",
+    "type": "primary"
+  },
+  {
+    "id": "cn-woodmac-2026",
+    "label": "Wood Mackenzie — scénario 774 TWh",
+    "url": "https://www.woodmac.com/zh/press-releases/chinas-ai-boom-to-drive-data-centre-power-demand-to-774-twh-by-2030/",
+    "type": "primary"
+  },
+  {
+    "id": "ar-sur-energy-loi-2025",
+    "label": "Sur Energy — lettre d’intention du 10 octobre",
+    "url": "https://www.sur.energy/press-release",
+    "type": "primary"
+  },
+  {
+    "id": "ar-openai-loi-2025",
+    "label": "OpenAI — annonce du 14 octobre",
+    "url": "https://openai.com/global-affairs/argentinas-ai-opportunity/",
+    "type": "primary"
+  },
+  {
+    "id": "ar-stargate-status-2026",
+    "label": "Bloomberg Línea — état du projet un an après",
+    "url": "https://bloomberglinea-bloomberglinea-prod.web.arc-cdn.net/latinoamerica/argentina/que-paso-con-el-data-center-de-openai-en-argentina-a-un-ano-del-anuncio-de-us25000-millones/",
+    "type": "analysis"
+  },
+  {
+    "id": "nl-sanctions-may-2026",
+    "label": "The Record — enquête du mois de mai",
+    "url": "https://therecord.media/dutch-authorities-arrest-suspects-over-russian-cyber-operations",
+    "type": "analysis"
   }
 ]

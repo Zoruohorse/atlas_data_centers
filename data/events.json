@@ -4401,5 +4401,433 @@
     "sourceIds": [
       "avril-20261125-5"
     ]
+  },
+  {
+    "id": "cl-sea-dc-guidance-2026",
+    "countries": [
+      "CL"
+    ],
+    "date": "2026-01-20",
+    "type": "context",
+    "title": "Chili — cadre d’évaluation environnementale des data centers",
+    "summary": "Le SEA publie un critère introductif pour l’évaluation des projets dans le SEIA, dans le cadre du Plan national 2024–2030. Il décrit les équipements, les impacts et les considérations relatives aux plans de prévention et d’urgence ; ce document ne constitue pas à lui seul un moratoire ou une limite hydrique générale.",
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "sourceIds": [
+      "cl-sea-guidance-2026"
+    ],
+    "actorIds": [
+      "cl-sea"
+    ]
+  },
+  {
+    "id": "cl-cerrillos-opposition-2026",
+    "countries": [
+      "CL"
+    ],
+    "date": "2026-10-14",
+    "type": "mobilisation",
+    "title": "Cerrillos — mobilisation contre le projet Google",
+    "summary": "La Libre rapporte des mobilisations locales et des préoccupations liées à l’eau, au bruit et à la souveraineté. Le dossier a déjà connu un contentieux environnemental en 2024 portant sur l’évaluation de la ressource hydrique. Ne pas assimiler le litige à une interdiction nationale, ni établir une responsabilité unique des centres dans la sécheresse chilienne.",
+    "topics": [
+      "territory",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "world-20261125-13",
+      "world-20261125-51",
+      "cl-cerrillos-litigation-2024"
+    ],
+    "territory": "Cerrillos, Santiago"
+  },
+  {
+    "id": "cl-aws-region-project-2025",
+    "countries": [
+      "CL"
+    ],
+    "date": "2025",
+    "type": "project",
+    "title": "AWS — région cloud chilienne annoncée",
+    "summary": "Reuters rapporte un programme d’investissement de 4 milliards de dollars, avec ouverture envisagée en 2026. Le Monde rapporte en octobre 2026 une autorisation confirmée en avril pour Huechuraba après rejet d’un recours. Le calendrier de mise en service de la région complète n’est pas confirmé.",
+    "topics": [
+      "planning",
+      "territory",
+      "environment"
+    ],
+    "sourceIds": [
+      "world-20261125-72",
+      "cl-aws-update-2026"
+    ],
+    "territory": "Région de Santiago"
+  },
+  {
+    "id": "cl-solaer-atacama-2026",
+    "countries": [
+      "CL"
+    ],
+    "date": "2026",
+    "type": "project",
+    "title": "Atacama — projet solaire et stockage pour un futur campus",
+    "summary": "DCD rapporte un projet Solaer associant 197 MW photovoltaïques et 500 MWh de stockage. Ces chiffres décrivent les moyens de production et de stockage envisagés, non la puissance IT, la capacité de raccordement ou la fourniture ferme du futur campus.",
+    "topics": [
+      "power",
+      "supply",
+      "grid"
+    ],
+    "sourceIds": [
+      "world-20261125-35"
+    ],
+    "territory": "Atacama"
+  },
+  {
+    "id": "mx-president-dc-resources-2026",
+    "countries": [
+      "MX"
+    ],
+    "date": "2026-08-18",
+    "type": "context",
+    "title": "Mexique — déclaration présidentielle sur l’eau et l’électricité",
+    "summary": "La présidente défend les infrastructures nécessaires à l’IA mexicaine tout en contestant l’idée d’accueillir les besoins numériques étrangers au détriment des ressources nationales. La déclaration n’est pas un moratoire ni une nouvelle règle contraignante ; elle ne démontre pas un lien causal entre les projets et les coupures locales.",
+    "topics": [
+      "power",
+      "environment",
+      "sovereignty",
+      "planning"
+    ],
+    "sourceIds": [
+      "world-20261125-33",
+      "mx-president-20260818"
+    ],
+    "actorIds": [
+      "mx-claudia-sheinbaum"
+    ]
+  },
+  {
+    "id": "mx-queretaro-resource-tensions-2026",
+    "countries": [
+      "MX"
+    ],
+    "date": "2026-06-04",
+    "type": "context",
+    "title": "Querétaro — inquiétudes locales sur l’eau et l’électricité",
+    "summary": "Les reportages de La Presse (octobre 2025) et du Figaro (juin 2026) décrivent des préoccupations de riverains concernant les ressources et la qualité de service. Les témoignages ne permettent pas d’attribuer l’ensemble des interruptions aux data centers.",
+    "topics": [
+      "territory",
+      "environment",
+      "grid"
+    ],
+    "sourceIds": [
+      "world-20261125-48",
+      "world-20261125-65"
+    ],
+    "territory": "Querétaro"
+  },
+  {
+    "id": "ca-capital-power-meta-2026",
+    "countries": [
+      "CA"
+    ],
+    "date": "2026-07-09",
+    "type": "project",
+    "title": "Alberta — accord de fourniture Capital Power / Meta",
+    "summary": "Le protocole contraignant de décembre 2025 précède un accord annoncé en juillet 2026 pour 250 MW de capacité et d’énergie, d’une durée supérieure à dix ans. Le démarrage est attendu au second semestre 2028, sous réserve de réalisation. Le portefeuille de production de Capital Power soutient l’accord : ne pas le présenter comme une centrale exclusivement dédiée ou une capacité réseau définitivement attribuée.",
+    "topics": [
+      "power",
+      "supply",
+      "grid"
+    ],
+    "sourceIds": [
+      "world-20261125-57",
+      "ca-capital-power-meta-2026",
+      "ca-capital-power-mou-2025"
+    ],
+    "territory": "Alberta",
+    "actorIds": [
+      "ca-capital-power"
+    ]
+  },
+  {
+    "id": "ca-federal-gas-dc-debate-2026",
+    "countries": [
+      "CA"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Canada — articulation des investissements IA et du gaz",
+    "summary": "Radio-Canada rapporte des notes internes fédérales de 2025 obtenues par accès à l’information, évoquant l’IA comme débouché potentiel de ressources énergétiques. Les plus de 12 GW de projets évoqués en Alberta correspondent à des intentions, non à de la consommation constatée. Ces notes ne constituent pas une obligation de recours au gaz.",
+    "topics": [
+      "power",
+      "supply",
+      "planning"
+    ],
+    "sourceIds": [
+      "world-20261125-6"
+    ]
+  },
+  {
+    "id": "ca-quebec-bape-advocacy-2026",
+    "countries": [
+      "CA"
+    ],
+    "date": "2026-06-18",
+    "type": "context",
+    "title": "Québec — appel à une évaluation environnementale générale",
+    "summary": "Une tribune de La Presse plaide pour une démarche générale du Bureau d’audiences publiques sur l’environnement concernant les data centers. Il s’agit d’un plaidoyer et non d’une décision de saisine ou d’un moratoire.",
+    "topics": [
+      "environment",
+      "territory",
+      "planning"
+    ],
+    "sourceIds": [
+      "world-20261125-39"
+    ],
+    "territory": "Québec"
+  },
+  {
+    "id": "br-ceara-anasce-opposition-2026",
+    "countries": [
+      "BR"
+    ],
+    "date": "2026-09-25",
+    "type": "mobilisation",
+    "title": "Ceará — opposition autochtone au développement d’un campus",
+    "summary": "Mediapart rapporte des mobilisations de membres du peuple Anacé en avril et juin et des inquiétudes sur les ressources et les effets territoriaux du chantier. Les allégations de préjudice et de menaces demeurent attribuées au reportage ; la mobilisation ne constitue pas un arrêt administratif du chantier.",
+    "topics": [
+      "territory",
+      "environment",
+      "planning"
+    ],
+    "sourceIds": [
+      "world-20261125-27"
+    ],
+    "territory": "Ceará"
+  },
+  {
+    "id": "br-engie-curtailment-options-2026",
+    "countries": [
+      "BR"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Brésil — options de valorisation de l’électricité renouvelable écrêtée",
+    "summary": "Reuters rapporte qu’Engie étudie le stockage ou des installations de calcul liées au minage de bitcoin pour valoriser la production écrêtée de son complexe photovoltaïque. Ce sont des options à l’étude, non un projet de data center IA autorisé.",
+    "topics": [
+      "power",
+      "grid",
+      "supply"
+    ],
+    "sourceIds": [
+      "world-20261125-56"
+    ]
+  },
+  {
+    "id": "br-sp-grid-alternatives-2025",
+    "countries": [
+      "BR"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "São Paulo — configurations de raccordement reconnues par le MME",
+    "summary": "Folha rapporte l’acceptation des variantes de raccordement de trois projets (Salto I, Salto II, Sumaré). Les décisions ne garantissent pas l’accès effectif, qui nécessite les étapes ONS et ANEEL. Les mesures fiscales REIDI citées dans le même article portent sur d’autres projets de production et transport : ne pas les attribuer automatiquement aux centres.",
+    "topics": [
+      "grid",
+      "planning"
+    ],
+    "sourceIds": [
+      "world-20261125-75"
+    ],
+    "territory": "São Paulo"
+  },
+  {
+    "id": "cn-green-dc-plan-2024",
+    "countries": [
+      "CN"
+    ],
+    "date": "2024-07-23",
+    "type": "context",
+    "title": "Chine — plan national de développement vert des data centers",
+    "summary": "Le plan 2024 fixe notamment une cible de PUE moyen national inférieur à 1,5 à fin 2025. Il vise une hausse de l’efficacité et du recours aux renouvelables ; distinguer un objectif de moyenne nationale d’un seuil individuel obligatoire et vérifier l’atteinte effective ainsi que les textes ultérieurs.",
+    "topics": [
+      "environment",
+      "power",
+      "planning"
+    ],
+    "sourceIds": [
+      "cn-ndrc-green-plan-2024",
+      "cn-green-plan-summary-2024"
+    ],
+    "actorIds": [
+      "cn-ndrc"
+    ]
+  },
+  {
+    "id": "cn-woodmac-demand-scenario-2026",
+    "countries": [
+      "CN"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Chine — scénario électrique Wood Mackenzie à 2030",
+    "summary": "Wood Mackenzie prévoit 774 TWh de consommation des centres de données en 2030, environ quatre fois le niveau de référence de son étude, et une part pouvant atteindre 17 % de la demande nationale en 2060. Il s’agit d’une prospective commerciale conditionnelle, pas d’une consommation mesurée ni d’une prévision officielle chinoise.",
+    "topics": [
+      "power",
+      "grid"
+    ],
+    "sourceIds": [
+      "world-20261125-14",
+      "cn-woodmac-2026"
+    ]
+  },
+  {
+    "id": "cn-ulanqab-development-2026",
+    "countries": [
+      "CN"
+    ],
+    "date": "2026-10-13",
+    "type": "context",
+    "title": "Chine — concentration des infrastructures de calcul en Mongolie intérieure",
+    "summary": "CNN décrit la croissance des projets à Ulanqab et leur articulation avec l’accès aux ressources énergétiques. Les nombres de projets annoncés ne sont pas des sites opérationnels ni des capacités fermes ; ne pas inférer une absence de contestation de la seule comparaison médiatique avec les États-Unis.",
+    "topics": [
+      "planning",
+      "power",
+      "territory"
+    ],
+    "sourceIds": [
+      "world-20261125-17"
+    ],
+    "territory": "Mongolie intérieure"
+  },
+  {
+    "id": "cn-underwater-demonstrator-2026",
+    "countries": [
+      "CN"
+    ],
+    "date": "2026-06-05",
+    "type": "project",
+    "title": "Chine — démonstrateurs de refroidissement en milieu marin",
+    "summary": "AFP décrit en octobre 2025 un projet pilote ; L’ÉnerGeek rapporte en juin 2026 une installation immergée associée à l’éolien offshore. Les performances et impacts marins restent à vérifier ; les différents prototypes et leurs capacités ne sont pas additionnés.",
+    "topics": [
+      "environment",
+      "power",
+      "supply"
+    ],
+    "sourceIds": [
+      "world-20261125-49",
+      "world-20261125-70"
+    ]
+  },
+  {
+    "id": "cn-domestic-chips-policy-reported-2025",
+    "countries": [
+      "CN"
+    ],
+    "date": "2025",
+    "type": "context",
+    "title": "Chine — exigences de composants domestiques rapportées",
+    "summary": "Generation NT rapporte des objectifs de recours à des puces domestiques, notamment à Shanghai. Faute de texte original national retrouvé, le seuil de 50 % n’est pas inscrit comme obligation nationale générale. Le signal concerne la souveraineté et les achats informatiques.",
+    "topics": [
+      "sovereignty",
+      "supply"
+    ],
+    "sourceIds": [
+      "world-20261125-71"
+    ]
+  },
+  {
+    "id": "ar-stargate-loi-2025",
+    "countries": [
+      "AR"
+    ],
+    "date": "2025-10-10",
+    "type": "project",
+    "title": "Stargate Argentina — lettre d’intention OpenAI / Sur Energy",
+    "summary": "Sur Energy et OpenAI annoncent une lettre d’intention pour explorer un projet allant jusqu’à 500 MW. Le montant de 25 milliards de dollars est un potentiel annoncé. En octobre 2026 Bloomberg Línea rapporte l’absence de contrat définitif et de demande RIGI. Ne pas comptabiliser les 500 MW comme raccordés, financés ou autorisés.",
+    "topics": [
+      "planning",
+      "power",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "world-20261125-68",
+      "ar-sur-energy-loi-2025",
+      "ar-openai-loi-2025",
+      "ar-stargate-status-2026"
+    ],
+    "territory": "Argentine"
+  },
+  {
+    "id": "sn-diamniadio-digital-sovereignty-2021",
+    "countries": [
+      "SN"
+    ],
+    "date": "2021-06-22",
+    "type": "project",
+    "title": "Sénégal — inauguration d’un centre de données à Diamniadio",
+    "summary": "Franceinfo rapporte l’inauguration d’une infrastructure destinée à renforcer la souveraineté numérique, avec participation chinoise. Le jalon est historique (2021), non une inauguration en 2026. L’article n’établit pas une règle générale d’hébergement.",
+    "topics": [
+      "sovereignty",
+      "planning"
+    ],
+    "sourceIds": [
+      "world-20261125-55"
+    ]
+  },
+  {
+    "id": "us-congressional-inquiry-request-2026",
+    "countries": [
+      "US"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "États-Unis — demande parlementaire d’enquête sur les oppositions",
+    "summary": "DCD rapporte que trois parlementaires républicains demandent au FBI d’examiner une éventuelle influence étrangère dans les mouvements d’opposition aux data centers. La demande ne démontre ni l’ouverture d’une enquête ni une influence chinoise avérée ; les mobilisations locales ne sont pas assimilées à une ingérence.",
+    "topics": [
+      "territory",
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "world-20261125-43"
+    ]
+  },
+  {
+    "id": "nl-hosting-sanctions-investigation-2026",
+    "countries": [
+      "NL"
+    ],
+    "date": "2026-05-25",
+    "type": "context",
+    "title": "Pays-Bas — enquête sur de possibles violations des sanctions",
+    "summary": "DCD et The Record rapportent des arrestations et une enquête relative à la fourniture de services d’hébergement à des entités soupçonnées de violations de sanctions. Il s’agit de soupçons, non de condamnations ni d’une restriction générale d’implantation.",
+    "topics": [
+      "sovereignty",
+      "transparency"
+    ],
+    "sourceIds": [
+      "world-20261125-50",
+      "nl-sanctions-may-2026"
+    ]
+  },
+  {
+    "id": "ru-digital-continuity-debate-2026",
+    "countries": [
+      "RU"
+    ],
+    "date": "2026",
+    "type": "context",
+    "title": "Russie — continuité des services numériques et résilience",
+    "summary": "Plusieurs médias signalent des perturbations de services civils et des discussions sur la continuité informatique. DCmag rapporte une proposition de dispositif de secours de Rostelecom. Les causes et effets précis restent à corroborer ; le dossier ne reproduit pas de détails opérationnels concernant les attaques.",
+    "topics": [
+      "sovereignty"
+    ],
+    "sourceIds": [
+      "world-20261125-7",
+      "world-20261125-9",
+      "world-20261125-11",
+      "world-20261125-20"
+    ]
   }
 ]
