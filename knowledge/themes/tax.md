@@ -1,6 +1,6 @@
 # Fiscalité
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -17,7 +17,7 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-09-17 | BR | Texte abrogé | REDATA — mesure provisoire 1.318/2025 expirée (`br-redata-mp-2025`) | [Brésil — MP 1318/2025](<https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1318.htm>) (primaire) |
 | 2023-07-01 | SE | Application | Suppression de la réduction d’accise pour les data centers (`se-electricity-tax-2023`) | [Règle fiscale · Skatteverket](<https://www.skatteverket.se/foretag/skatterochavdrag/punktskatter/energiskatter.4.18e1b10334ebe8bc8000843.html>) (primaire) |
 
-## Événements (4)
+## Événements (5)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
@@ -25,5 +25,6 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2026-06-26 | FR — Île-de-France | Contexte documenté | Île-de-France — stratégie régionale d’implantation des data centers (`fr-idf-regional-dc-strategy-2026`) | [Région Île-de-France — stratégie adoptée en juin 2026](<https://www.iledefrance.fr/presse/datacenters-la-region-ile-de-france-adopte-une-strategie-pour-faire-emerger-un-modele-europeen-de-souverainete-numerique-durable>) (primaire) |
 | 2026-05-12 | FR | Contexte documenté | France Datacenter et iliad — 19 recommandations au gouvernement (`fr-plug-baby-plug-2026`) | [France Datacenter — propositions du groupe de travail](<https://fr.linkedin.com/posts/francedatacenter_plug-baby-plug-19-propositions-pour-activity-7459998750032224256-7LEj>) (primaire) |
 | 2026 | US | Contexte documenté | États-Unis — menace de taxation des implantations étrangères (`us-overseas-tax-threat-2026`) | [BBC — déclaration sur les investissements étrangers](<https://www.bbc.com/news/articles/cmde1lw9y54ko>) (analyse) |
+| 2025-02-17 | FR | Contexte documenté | France — dépôt initial de la proposition de loi David Ros (`fr-ros-ppl-deposit-2025`) | [Sénat — dossier de la proposition de loi n°348](<https://www.senat.fr/dossier-legislatif/ppl24-348.html>) (primaire) |
 
 Référentiel : [textes](../../data/regulations.json) · [événements](../../data/events.json) · [sources](../../data/sources.json).

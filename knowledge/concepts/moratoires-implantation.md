@@ -1,6 +1,6 @@
 # Moratoires, urbanisme et autorisations
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -136,6 +136,33 @@ Sources : [Légifrance — décret n°2026-146](<https://www.legifrance.gouv.fr/
 La pétition déposée le 16 mars propose une modification de la Constitution de l’Ohio pour empêcher la construction de nouveaux centres dont la demande agrégée dépasse 25 MW. Le procureur général certifie le titre et le résumé le 26 mars ; ce n’est pas un vote d’adoption. Selon l’OEDA, l’initiative n’a pas obtenu sa qualification au scrutin de novembre 2026 et les promoteurs visent 2027. Les scrutins municipaux sont distincts.
 
 Sources : [Ohio Attorney General · certification du titre et du résumé](<https://www.ohioattorneygeneral.gov/Media/News-Releases/March-2026/Title-and-Summary-Certified-for-Proposed-Prohibiti>) (primaire) · [Ohio Economic Development Association · état de la procédure](<https://ohioeda.com/datacenters/>) (analyse) · [The Register · pétition de mars](<https://www.theregister.com/2026/03/18/ohio_datacenter_petition/>) (analyse). Autres références : voir `us-oh-state-petition-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Rungis — consultation environnementale du projet ICADE
+
+- Identifiant : `fr-icade-rungis-consultation-2025` · 2025-04-02 · FR — Rungis, Val-de-Marne · Projet ou infrastructure
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+La préfecture confirme une consultation publique parallélisée du 2 avril au 3 juillet 2025 sur la demande d’autorisation environnementale d’ICADE. DCmag rapporte une puissance envisagée de 130 MW à terme en 2032 ; ce chiffre est un objectif annoncé, non une puissance ferme ni une mise en service constatée. Le dossier de consultation et ses conclusions ne valent pas autorisation définitive.
+
+Sources : [Préfecture du Val-de-Marne — dossier de consultation ICADE](<https://www.val-de-marne.gouv.fr/index.php/Publications/Enquetes-publiques-et-concertations-prealables/Projet-de-centre-de-donnees-informatiques-datacenter-de-la-societe-ICADE-a-Rungis>) (primaire) · [DCmag — dossier et puissance envisagée](<https://dcmag.fr/le-projet-de-data-center-du-parc-icade-de-rungis-en-consultation-publique/>) (analyse) · [Next — consultations dans le Val-de-Marne](<https://next.ink/brief_article/des-consultations-publiques-pour-limplantation-de-datacenters-dans-le-val-de-marne/>) (analyse). Autres références : voir `fr-icade-rungis-consultation-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Bonneuil-sur-Marne — consultation environnementale SEGRO
+
+- Identifiant : `fr-segro-bonneuil-consultation-2025` · 2025-03-10 · FR — Bonneuil-sur-Marne, Val-de-Marne · Projet ou infrastructure
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+La consultation relative à la demande d’autorisation environnementale du centre de données SEGRO dans la zone des Petits Carreaux se déroule du 10 mars au 10 juin 2025. Sucy-en-Brie et d’autres communes voisines sont concernées par la participation. Le dossier préfectoral situe le projet à Bonneuil-sur-Marne ; aucune autorisation définitive ni capacité électrique ferme n’est déduite de la consultation.
+
+Sources : [Préfecture du Val-de-Marne — consultation et rapport SEGRO](<https://www.val-de-marne.gouv.fr/index.php/Publications/Enquetes-publiques-et-concertations-prealables/Bonneuil-sur-Marne-rapport-du-commissaire-enqueteur-sur-la-creation-d-un-data-center>) (primaire) · [Actu.fr — consultation des habitants](<https://actu.fr/ile-de-france/bonneuil-sur-marne_94011/dans-cette-ville-du-val-de-marne-un-data-center-est-en-projet-les-habitants-invites-a-donner-leur-avis_62364632.html>) (analyse) · [Next — consultations dans le Val-de-Marne](<https://next.ink/brief_article/des-consultations-publiques-pour-limplantation-de-datacenters-dans-le-val-de-marne/>) (analyse). Autres références : voir `fr-segro-bonneuil-consultation-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Villeneuve-Saint-Georges — enquête publique sur deux centres et leur poste électrique
+
+- Identifiant : `fr-villeneuve-saint-georges-enquete-2024` · 2024-06-10 · FR — Villeneuve-Saint-Georges, Val-de-Marne · Projet ou infrastructure
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+Une enquête publique unique se tient du 10 juin au 10 juillet 2024 concernant les demandes de Pôle Villa Nova I SNC pour deux centres de données et un poste de transformation électrique. L’article collecté en avril 2025 reprend un jalon de 2024 ; il ne constitue pas une nouvelle décision d’avril 2025. Les conclusions de l’enquête ne remplacent pas les autorisations finales.
+
+Sources : [Préfecture — enquête Pôle Villa Nova I](<https://www.val-de-marne.gouv.fr/Publications/Enquetes-publiques-et-concertations-prealables/Villeneuve-Saint-Georges-enquete-publique-sur-le-projet-de-creation-de-deux-data-centers>) (primaire) · [Préfecture — rapport du commissaire enquêteur](<https://www.val-de-marne.gouv.fr/Publications/Enquetes-publiques-et-concertations-prealables/Villeneuve-Saint-Georges-rapport-du-commissaire-enqueteur-sur-la-creation-de-deux-data-centers>) (primaire). Autres références : voir `fr-villeneuve-saint-georges-enquete-2024` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
 
 ### Qualification de projet d’intérêt national majeur
 

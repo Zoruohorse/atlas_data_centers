@@ -1,12 +1,12 @@
 # Souveraineté
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
 Les documents multithématiques apparaissent dans plusieurs index. Les entrées sont classées par date documentaire ; un état absent signifie une information non renseignée.
 
-## Réglementation (10)
+## Réglementation (11)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
@@ -18,6 +18,7 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-10-17 | TR | Publication | Appel à investissements HIT pour les centres de données (`tr-hit-data-centre-2025`) | [Présentation du dispositif · EÜAŞ](<https://www.euas.gov.tr/haberler/tesab-veri-merkezleri-raporu-turkiye-icin-veri-merkezi-ussu-olma-firsati>) (primaire) |
 | 2025-09-17 | BR | Texte abrogé | REDATA — mesure provisoire 1.318/2025 expirée (`br-redata-mp-2025`) | [Brésil — MP 1318/2025](<https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/mpv/mpv1318.htm>) (primaire) |
 | 2025-07-23 | RU | Publication | Cadre fédéral pour un registre des centres de données (`ru-data-centre-registry-2025`) | [Loi fédérale 244‑FZ · Garant](<https://base.garant.ru/412378214/>) (primaire) |
+| 2025-04-09 | Union européenne | Annonce officielle | Plan d’action pour le continent de l’IA — annonce du futur CADA (`eu-ai-continent-action-plan-2025`) | [Commission européenne — plan d’action du 9 avril 2025](<https://digital-strategy.ec.europa.eu/fr/library/ai-continent-action-plan>) (primaire) |
 | 2025 | NO | Publication | Enregistrement des exploitants auprès de Nkom (`no-nkom-registration-2025`) | [Démarche d’enregistrement · Nkom](<https://nkom.no/datasenter/registreringsplikt>) (primaire) |
 | 2025 | UA | Annonce officielle | Projet de loi sur le cloud et les services de centres de données (`ua-cloud-data-centres-bill`) | [Dossier du projet de loi · Gouvernement ukrainien](<https://www.kmu.gov.ua/bills/proyekt-zakonu-pro-vnesennia-zmin-do-deiakykh-zakoniv-ukrayiny-shchodo-nadannia-khmarnykh-posluh-ta-posluh-tsentru-obrobky-danykh>) (primaire) |
 
@@ -64,7 +65,7 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2026 | US | Contexte documenté | États-Unis — demande parlementaire d’enquête sur les oppositions (`us-congressional-inquiry-request-2026`) | [DCD — demande d’enquête de parlementaires américains](<https://www.datacenterdynamics.com/en/news/trio-of-republicans-call-for-fbi-investigation-into-data-center-opposition/>) (analyse) |
 | 2026 | US | Contexte documenté | États-Unis — menace de taxation des implantations étrangères (`us-overseas-tax-threat-2026`) | [BBC — déclaration sur les investissements étrangers](<https://www.bbc.com/news/articles/cmde1lw9y54ko>) (analyse) |
 | 2025-10-10 | AR — Argentine | Projet ou infrastructure | Stargate Argentina — lettre d’intention OpenAI / Sur Energy (`ar-stargate-loi-2025`) | [Sur Energy — lettre d’intention du 10 octobre](<https://www.sur.energy/press-release>) (primaire) |
-| 2025-04-29 | FR | Contexte documenté | PINM — premiers appels parlementaires et associatifs à un moratoire (`fr-pinm-moratorium-advocacy-2025`) | [Novethic — contestation du projet PINM](<https://www.novethic.fr/economie-et-social/business-model-en-transition/la-france-nouvel-eldorado-pour-les-data-centers>) (analyse) |
+| 2025-04-29 | FR | Contexte documenté | PINM — premiers appels parlementaires et associatifs à un moratoire (`fr-pinm-moratorium-advocacy-2025`) | [La Quadrature du Net — appel du 1er avril](<https://www.laquadrature.net/2025/04/01/mobilisation-pour-un-moratoire-sur-les-gros-data-centers/>) (primaire) |
 | 2025 | CN | Contexte documenté | Chine — exigences de composants domestiques rapportées (`cn-domestic-chips-policy-reported-2025`) | [Generation NT — puces domestiques](<https://www.generation-nt.com/actualites/semiconducteurs-composants-datacenter-ia-origine-chine-2061392>) (analyse) |
 | 2025 | FR | Contexte documenté | Investissements étrangers — vigilance juridique pour les centres de données (`fr-investment-screening-analysis-2025`) | [DCmag / Reed Smith — contrôle des investissements](<https://dcmag.fr/investir-dans-les-data-centers-en-france-anticipez-le-durcissement-du-cadre-reglementaire/>) (analyse) |
 | 2025 | FR | Contexte documenté | Observatoire de la transition numérique des territoires — centres de proximité (`fr-territorial-digital-observatory-2025`) | [DCmag — observatoire territorial InfraNum/Avicca](<https://dcmag.fr/appel-a-une-gouvernance-renouvelee-du-numerique-territorial/>) (analyse) |

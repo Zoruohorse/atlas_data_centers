@@ -1,12 +1,12 @@
 # Environnement
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
 Les documents multithématiques apparaissent dans plusieurs index. Les entrées sont classées par date documentaire ; un état absent signifie une information non renseignée.
 
-## Réglementation (44)
+## Réglementation (45)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
@@ -42,6 +42,7 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-07-11 | ES | Application | Concours de capacité d’accès de la demande — RD 1183/2020 (`es-demand-competition-framework`) | [BOE — RD 1183/2020, version consolidée](<https://www.boe.es/buscar/act.php?id=BOE-A-2020-17278>) (primaire) |
 | 2025-06-17 | SI | Publication | Critère de PUE dans la commande publique verte (`si-green-procurement-pue-2025`) | [Journal officiel slovène 43/2025, texte 1761](<https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-1761>) (primaire) |
 | 2025-06-10 | BG | Application | Publication des indicateurs et bonnes pratiques d’efficacité (`bg-energy-reporting-2025`) | [Loi consolidée · Régulateur bulgare de l’énergie](<https://www.dker.bg/uploads/normative_docs/ZAKON_za_energijnata_efektivnost_16062026.pdf>) (primaire) |
+| 2025-04-09 | Union européenne | Annonce officielle | Plan d’action pour le continent de l’IA — annonce du futur CADA (`eu-ai-continent-action-plan-2025`) | [Commission européenne — plan d’action du 9 avril 2025](<https://digital-strategy.ec.europa.eu/fr/library/ai-continent-action-plan>) (primaire) |
 | 2025-03-21 | CY | Publication | Ordonnance chypriote sur les performances des centres de données (`cy-dc-energy-order-2025`) | [Ordonnance 83/2025 et consignes · Ministère chypriote de l’Énergie](<https://www.gov.cy/energeia-eborio-viomichania/ypochreoseis-kentron-dedomenon-me-zitisi-ischyos-tis-egkatestimenis-technologias-pliroforion-toulachiston-500-kw-symfona-me-to-peri-tis-energeiakis-apodosis-diatagma-tou-2025/>) (primaire) |
 | 2025-03-20 | LV | Application | Publication et déclaration des données de performance (`lv-dc-energy-2025`) | [Loi modificative · Likumi.lv](<https://likumi.lv/ta/id/359808>) (primaire) |
 | 2025 | FR | Publication | Valorisation de la chaleur fatale à partir de 1 MW (`fr-heat-2025`) | [Code de l’énergie · Légifrance](<https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051560826/2026-05-25>) (primaire) |
@@ -55,7 +56,7 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2023-09-20 | Union européenne | Publication | Directive européenne sur l’efficacité énergétique (`eu-efficiency-2023`) | [Directive 2023/1791 · EUR-Lex](<https://eur-lex.europa.eu/eli/dir/2023/1791/oj>) (primaire) |
 | 2023 | CH — Canton de Zurich | Publication | Zurich — valorisation de la chaleur dans le cadre cantonal (`ch-zurich-waste-heat`) | [Fiche technique Rechenzentren · Canton de Zurich](<https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/bauvorschriften/bauvorschriften-im-energiebereich/energetische-bauvorschriften/merkblaetter/2023_rechenzentren_v1.pdf>) (primaire) |
 
-## Événements (81)
+## Événements (90)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
@@ -136,9 +137,18 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-06-30 | Union européenne | Contexte documenté | CISPE — position sur la résilience hydrique (`eu-cispe-water-advocacy-2025`) | [The Register — position CISPE sur l’eau](<https://www.theregister.com/2025/06/30/cispe_eu_water_resilience/>) (analyse) |
 | 2025-06-30 | FR — Aix-Marseille-Provence | Contexte documenté | Aix-Marseille-Provence — orientations territoriales d’accueil (`fr-amp-dc-orientations-2025`) | [Métropole Aix-Marseille-Provence — orientations votées](<https://deliberations.ampmetropole.fr/documents/metropole/deliberations/2025/06/30/DECISION/109681.pdf>) (primaire) |
 | 2025-04-17 | FR | Contexte documenté | Arcep — enquête environnementale, données 2023 (`fr-arcep-environment-survey-2025`) | [Arcep — communiqué du 17 avril 2025](<https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/environnement-170425.html>) (primaire) |
+| 2025-04-13 | FR — Wissous, Essonne | Mobilisation | Wissous — mobilisation contre l’extension du site CyrusOne (`fr-wissous-opposition-2025`) | [Capital — mobilisation et financement d’un recours à Wissous](<https://www.capital.fr/economie-politique/ils-font-du-bruit-gaspillent-l-energie-ces-francais-qui-disent-non-aux-data-centers-1511458>) (analyse) |
+| 2025-04-05 | FR — Grenoble et Villefontaine, Isère | Mobilisation | Isère — contestation des projets DataOne à Grenoble et Villefontaine (`fr-dataone-isere-opposition-2025`) | [Mesinfos — pétition et dialogue à Villefontaine](<https://mesinfos.fr/38090-villefontaine/villefontaine-la-polemique-autour-du-data-center-de-dataone-bientot-close-220634.html>) (analyse) |
+| 2025-04-02 | FR — Rungis, Val-de-Marne | Projet ou infrastructure | Rungis — consultation environnementale du projet ICADE (`fr-icade-rungis-consultation-2025`) | [Préfecture du Val-de-Marne — dossier de consultation ICADE](<https://www.val-de-marne.gouv.fr/index.php/Publications/Enquetes-publiques-et-concertations-prealables/Projet-de-centre-de-donnees-informatiques-datacenter-de-la-societe-ICADE-a-Rungis>) (primaire) |
+| 2025-03-13 | FR — Marseille | Mobilisation | Marseille — annonce du forum « Stop aux data centers » (`fr-marseille-stop-dc-forum-2025`) | [La Provence — forum Stop aux data centers](<https://www.laprovence.com/article/region/70531503709361/impact-environnemental-securisation-des-donnees-a-marseille-un-forum-stop-data-centers-ce-samedi?id=70531503709361>) (analyse) |
+| 2025-03-10 | FR — Bonneuil-sur-Marne, Val-de-Marne | Projet ou infrastructure | Bonneuil-sur-Marne — consultation environnementale SEGRO (`fr-segro-bonneuil-consultation-2025`) | [Préfecture du Val-de-Marne — consultation et rapport SEGRO](<https://www.val-de-marne.gouv.fr/index.php/Publications/Enquetes-publiques-et-concertations-prealables/Bonneuil-sur-Marne-rapport-du-commissaire-enqueteur-sur-la-creation-d-un-data-center>) (primaire) |
+| 2025-02-27 | FR — Saint-André, Marseille | Projet ou infrastructure | Marseille Saint-André — contestation et avis d’enquête du projet SEGRO (`fr-segro-marseille-enquete-2025`) | [Préfecture des Bouches-du-Rhône — dossiers ICPE Marseille, SEGRO](<https://www.bouches-du-rhone.gouv.fr/Publications/Publications-environnementales/Installations-Classees-pour-la-Protection-de-l-Environnement-ICPE/Installations-Classees-soumises-a-autorisation-et-a-enregistrement-Carrieres-et-Geothermie/Marseille>) (primaire) |
+| 2025-02-19 | IE — Profile Park, Dublin | Projet ou infrastructure | Dublin — rejet de l’appel d’Equinix sur la modification de DB8 (`ie-equinix-db8-gas-appeal-2025`) | [South Dublin County Council — décisions d’appel, 19 février 2025](<https://planning.southdublin.ie/Home/ViewWeeklyListDocument/3669>) (primaire) |
+| 2025-02-17 | FR | Contexte documenté | France — dépôt initial de la proposition de loi David Ros (`fr-ros-ppl-deposit-2025`) | [Sénat — dossier de la proposition de loi n°348](<https://www.senat.fr/dossier-legislatif/ppl24-348.html>) (primaire) |
 | 2025 | CL — Région de Santiago | Projet ou infrastructure | AWS — région cloud chilienne annoncée (`cl-aws-region-project-2025`) | [Zonebourse / Reuters — région AWS Chili](<https://www.zonebourse.com/cours/action/AMAZON-COM-INC-12864605/actualite/Amazon-investit-4-milliards-de-dollars-dans-le-cloud-au-Chili-49861746/>) (analyse) |
 | 2025 | Union européenne | Contexte documenté | EUDCA — rapport sectoriel européen 2025 (`eu-eudca-state-2025`) | [EUDCA — State of European Data Centres 2025](<https://www.eudca.org/state-of-european-data-centres-2025>) (primaire) |
 | 2025 | FR — Marseille | Contexte documenté | Marseille — tensions territoriales liées aux centres de données (`fr-marseille-acceptability-2025`) | [Le Nouvel Obs — reportage marseillais republié](<https://www.nouvelobs.com/economie/20260601.OBS115407/a-marseille-la-proliferation-des-data-centers-cree-des-tensions.html>) (analyse) |
 | 2024-07-23 | CN | Contexte documenté | Chine — plan national de développement vert des data centers (`cn-green-dc-plan-2024`) | [NDRC — plan de développement bas-carbone 2024](<https://www.ndrc.gov.cn/xwdt/tzgg/202407/t20240723_1391895_ext.html>) (primaire) |
+| 2024-06-10 | FR — Villeneuve-Saint-Georges, Val-de-Marne | Projet ou infrastructure | Villeneuve-Saint-Georges — enquête publique sur deux centres et leur poste électrique (`fr-villeneuve-saint-georges-enquete-2024`) | [Préfecture — enquête Pôle Villa Nova I](<https://www.val-de-marne.gouv.fr/Publications/Enquetes-publiques-et-concertations-prealables/Villeneuve-Saint-Georges-enquete-publique-sur-le-projet-de-creation-de-deux-data-centers>) (primaire) |
 
 Référentiel : [textes](../../data/regulations.json) · [événements](../../data/events.json) · [sources](../../data/sources.json).

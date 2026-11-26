@@ -4349,7 +4349,7 @@
     "date": "2025-04-29",
     "type": "context",
     "title": "PINM — premiers appels parlementaires et associatifs à un moratoire",
-    "summary": "Novethic rapporte une conférence de presse du 29 avril réunissant les députés Anne Stambach-Terrenoir et Nicolas Bonnet ainsi que des associations, demandant le retrait de l’article 15 du projet de loi et une pause de deux ans pour les plus grands centres de données. La tribune de Damien Desanti en juin exprime des critiques sur la souveraineté et les procédures. Il s’agit de positions exprimées lors du débat, non d’un moratoire adopté. Le texte finalement promulgué est documenté séparément.",
+    "summary": "Novethic rapporte une conférence de presse du 29 avril réunissant les députés Anne Stambach-Terrenoir et Nicolas Bonnet ainsi que des associations, demandant le retrait de l’article 15 du projet de loi et une pause de deux ans pour les plus grands centres de données. La tribune de Damien Desanti en juin exprime des critiques sur la souveraineté et les procédures. Il s’agit de positions exprimées lors du débat, non d’un moratoire adopté. Le texte finalement promulgué est documenté séparément. Des appels associatifs antérieurs, en mars et avril, sont documentés dans fr-lqdn-pinm-mobilisation-2025 ; ils précèdent la conférence du 29 avril.",
     "topics": [
       "planning",
       "sovereignty",
@@ -4357,7 +4357,10 @@
     ],
     "sourceIds": [
       "avril-20261125-95",
-      "avril-20261125-69"
+      "avril-20261125-69",
+      "fr-lqdn-moratorium-20250401",
+      "fr-lqdn-simplification-20250321",
+      "curebot14-20261126-26"
     ],
     "actorIds": [
       "fr-nicolas-bonnet",
@@ -5171,5 +5174,351 @@
     ],
     "type": "context",
     "territory": "Oregon"
+  },
+  {
+    "id": "fr-ros-ppl-deposit-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-02-17",
+    "topics": [
+      "planning",
+      "tax",
+      "environment",
+      "territory"
+    ],
+    "title": "France — dépôt initial de la proposition de loi David Ros",
+    "summary": "Le dossier législatif du Sénat atteste le dépôt le 17 février 2025. Le texte initial envisage notamment une redevance liée aux volumes d’eau de refroidissement et un encadrement territorial des implantations. Il s’agit des dispositions proposées dans la version initiale, non de la loi en vigueur ; les modifications et l’adoption sénatoriale de mars 2026 sont documentées dans fr-ros-ppl-2026.",
+    "sourceIds": [
+      "fr-ros-legislative-dossier-2026",
+      "fr-ros-ppl-initial-2025",
+      "curebot14-20261126-73"
+    ],
+    "type": "context",
+    "actorIds": [
+      "fr-david-ros"
+    ]
+  },
+  {
+    "id": "fr-lqdn-pinm-mobilisation-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-04-01",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "title": "France — appel associatif à un moratoire avant le débat sur le PINM",
+    "summary": "La Quadrature du Net conteste dès le 21 mars 2025 l’article 15 du projet de loi de simplification. Son appel du 1er avril, relayé le 8 avril par Next, demande notamment une pause de deux ans pour les plus grands centres afin d’organiser un débat public. Il s’agit d’une revendication associative ; le débat parlementaire ultérieur et la loi de mai 2026 ne doivent pas être confondus avec un moratoire adopté.",
+    "sourceIds": [
+      "fr-lqdn-moratorium-20250401",
+      "fr-lqdn-simplification-20250321",
+      "curebot14-20261126-26"
+    ],
+    "type": "mobilisation",
+    "actorIds": [
+      "fr-lqdn"
+    ]
+  },
+  {
+    "id": "fr-edf-ami-thermal-sites-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-03-03",
+    "topics": [
+      "planning",
+      "grid"
+    ],
+    "title": "EDF — premiers AMI sur trois anciens sites thermiques",
+    "summary": "EDF lance deux appels à manifestation d’intérêt : un sur Montereau-Vallée-de-la-Seine (Vernou-la-Celle-sur-Seine et La Grande-Paroisse), l’autre sur La Maxe et Richemont en Moselle. L’objectif est de valoriser du foncier industriel pour des centres de données de grande puissance en s’appuyant notamment sur les infrastructures existantes. Un AMI ne démontre ni la sélection d’un exploitant ni un droit de raccordement ferme. Le programme fast-track et les annonces foncières ultérieures sont documentés séparément.",
+    "sourceIds": [
+      "fr-edf-ami-20250303",
+      "curebot14-20261126-75",
+      "curebot14-20261126-52",
+      "curebot14-20261126-39"
+    ],
+    "type": "project",
+    "territory": "Seine-et-Marne et Moselle",
+    "impacts": {
+      "grid": "Le réemploi de sites industriels peut réduire certains délais et travaux ; la capacité disponible et les conditions d’accès restent à établir projet par projet."
+    }
+  },
+  {
+    "id": "fr-icade-rungis-consultation-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-04-02",
+    "topics": [
+      "planning",
+      "territory",
+      "grid",
+      "environment"
+    ],
+    "title": "Rungis — consultation environnementale du projet ICADE",
+    "summary": "La préfecture confirme une consultation publique parallélisée du 2 avril au 3 juillet 2025 sur la demande d’autorisation environnementale d’ICADE. DCmag rapporte une puissance envisagée de 130 MW à terme en 2032 ; ce chiffre est un objectif annoncé, non une puissance ferme ni une mise en service constatée. Le dossier de consultation et ses conclusions ne valent pas autorisation définitive.",
+    "sourceIds": [
+      "fr-icade-rungis-consultation-2025",
+      "curebot14-20261126-15",
+      "curebot14-20261126-6"
+    ],
+    "type": "project",
+    "territory": "Rungis, Val-de-Marne"
+  },
+  {
+    "id": "fr-segro-bonneuil-consultation-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-03-10",
+    "topics": [
+      "planning",
+      "territory",
+      "environment"
+    ],
+    "title": "Bonneuil-sur-Marne — consultation environnementale SEGRO",
+    "summary": "La consultation relative à la demande d’autorisation environnementale du centre de données SEGRO dans la zone des Petits Carreaux se déroule du 10 mars au 10 juin 2025. Sucy-en-Brie et d’autres communes voisines sont concernées par la participation. Le dossier préfectoral situe le projet à Bonneuil-sur-Marne ; aucune autorisation définitive ni capacité électrique ferme n’est déduite de la consultation.",
+    "sourceIds": [
+      "fr-segro-bonneuil-consultation-2025",
+      "curebot14-20261126-58",
+      "curebot14-20261126-6"
+    ],
+    "type": "project",
+    "territory": "Bonneuil-sur-Marne, Val-de-Marne"
+  },
+  {
+    "id": "fr-villeneuve-saint-georges-enquete-2024",
+    "countries": [
+      "FR"
+    ],
+    "date": "2024-06-10",
+    "topics": [
+      "planning",
+      "grid",
+      "territory",
+      "environment"
+    ],
+    "title": "Villeneuve-Saint-Georges — enquête publique sur deux centres et leur poste électrique",
+    "summary": "Une enquête publique unique se tient du 10 juin au 10 juillet 2024 concernant les demandes de Pôle Villa Nova I SNC pour deux centres de données et un poste de transformation électrique. L’article collecté en avril 2025 reprend un jalon de 2024 ; il ne constitue pas une nouvelle décision d’avril 2025. Les conclusions de l’enquête ne remplacent pas les autorisations finales.",
+    "sourceIds": [
+      "fr-villeneuve-saint-georges-enquete-2024",
+      "fr-villeneuve-saint-georges-rapport-2024"
+    ],
+    "type": "project",
+    "territory": "Villeneuve-Saint-Georges, Val-de-Marne"
+  },
+  {
+    "id": "fr-segro-marseille-enquete-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-02-27",
+    "topics": [
+      "planning",
+      "territory",
+      "environment",
+      "grid"
+    ],
+    "title": "Marseille Saint-André — contestation et avis d’enquête du projet SEGRO",
+    "summary": "BFM rapporte le 27 février les oppositions d’habitants et d’associations à un projet de plateforme logistique comprenant un centre de données, avec préoccupations sur trafic, environnement et énergie. DCmag rapporte le 4 avril trois avis favorables du commissaire enquêteur ; la préfecture publie le dossier ICPE. Un avis d’enquête ne vaut pas délivrance de toutes les autorisations. Les estimations d’emplois du promoteur et les nuisances alléguées ne sont pas des résultats constatés.",
+    "sourceIds": [
+      "fr-segro-marseille-prefecture-2025",
+      "curebot14-20261126-31",
+      "curebot14-20261126-88"
+    ],
+    "type": "project",
+    "territory": "Saint-André, Marseille",
+    "actorIds": [
+      "fr-nuage-sous-pieds"
+    ]
+  },
+  {
+    "id": "fr-marseille-stop-dc-forum-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-03-13",
+    "topics": [
+      "territory",
+      "environment"
+    ],
+    "title": "Marseille — annonce du forum « Stop aux data centers »",
+    "summary": "La Provence annonce un forum prévu le 15 mars 2025, organisé par des militants associatifs et élus écologistes pour discuter des impacts des centres de données et de leur régulation. Le collectif Le Nuage était sous nos pieds est cité. L’annonce ne prouve ni la tenue effective ni l’adoption d’un moratoire.",
+    "sourceIds": [
+      "curebot14-20261126-57"
+    ],
+    "type": "mobilisation",
+    "territory": "Marseille",
+    "actorIds": [
+      "fr-nuage-sous-pieds"
+    ]
+  },
+  {
+    "id": "fr-dataone-isere-opposition-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-04-05",
+    "topics": [
+      "territory",
+      "environment",
+      "power"
+    ],
+    "title": "Isère — contestation des projets DataOne à Grenoble et Villefontaine",
+    "summary": "France 3 rapporte les inquiétudes écologistes liées au projet de calcul IA en Isère. Une pétition concernant Villefontaine est lancée le 5 avril selon Mesinfos, qui rapporte un échange le 14 avril entre son initiateur et DataOne. Le porteur affirme prévoir un refroidissement en boucle fermée et propose un dialogue local ; les performances annoncées ne sont pas des mesures vérifiées. Les sites de Grenoble et Villefontaine sont distincts ; aucune suspension administrative n’est établie.",
+    "sourceIds": [
+      "curebot14-20261126-4",
+      "curebot14-20261126-30",
+      "curebot14-20261126-95"
+    ],
+    "type": "mobilisation",
+    "territory": "Grenoble et Villefontaine, Isère"
+  },
+  {
+    "id": "fr-rantigny-local-support-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-03-08",
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "title": "Rantigny — soutien historique à la reconversion de la friche Avon",
+    "summary": "Oise Hebdo rapporte le soutien de responsables de la communauté de communes de la Vallée Dorée au projet de centre de données sur l’ancien site Avon, notamment pour les retombées fiscales. En avril, Le Courrier picard évoque environ 500 emplois induits projetés. Ce sont des retombées annoncées, pas des emplois constatés ; ces positions historiques ne préjugent pas de la consultation communale de 2026.",
+    "sourceIds": [
+      "curebot14-20261126-69",
+      "curebot14-20261126-2"
+    ],
+    "type": "context",
+    "territory": "Rantigny, Oise"
+  },
+  {
+    "id": "fr-wissous-opposition-2025",
+    "countries": [
+      "FR"
+    ],
+    "date": "2025-04-13",
+    "topics": [
+      "territory",
+      "environment"
+    ],
+    "title": "Wissous — mobilisation contre l’extension du site CyrusOne",
+    "summary": "Capital rapporte le lancement d’une collecte visant à financer une assistance juridique contre l’extension du site CyrusOne, ainsi que les inquiétudes exprimées sur le bruit et les impacts environnementaux. Ces inquiétudes constituent des positions de riverains et d’un élu local, non des nuisances établies. L’arrêt de la cour administrative d’appel en 2026 est documenté séparément.",
+    "sourceIds": [
+      "curebot14-20261126-7"
+    ],
+    "type": "mobilisation",
+    "territory": "Wissous, Essonne"
+  },
+  {
+    "id": "gb-ai-energy-council-2025",
+    "countries": [
+      "GB"
+    ],
+    "date": "2025-04-08",
+    "topics": [
+      "grid",
+      "power",
+      "planning"
+    ],
+    "title": "Royaume-Uni — première réunion du AI Energy Council",
+    "summary": "Le gouvernement organise la première réunion du Conseil réunissant les responsables publics de l’énergie et du numérique, gestionnaires, régulateur et industriels. L’instance vise à anticiper les besoins électriques des infrastructures IA et coordonner les travaux sur l’énergie. Il s’agit d’une instance de concertation stratégique, non d’une règle de raccordement adoptée.",
+    "sourceIds": [
+      "gb-ai-energy-council-20250408",
+      "gb-ai-energy-council-minutes",
+      "curebot14-20261126-12"
+    ],
+    "type": "context",
+    "actorIds": [
+      "gb-ofgem"
+    ]
+  },
+  {
+    "id": "ie-equinix-db8-gas-appeal-2025",
+    "countries": [
+      "IE"
+    ],
+    "date": "2025-02-19",
+    "topics": [
+      "planning",
+      "grid",
+      "power",
+      "environment"
+    ],
+    "title": "Dublin — rejet de l’appel d’Equinix sur la modification de DB8",
+    "summary": "An Bord Pleanála rejette le 19 février 2025 l’appel relatif à la modification du permis du centre DB8 à Profile Park (SD22A/0156, ABP-317936-23). La demande concernait notamment une production électrique au gaz sur site. La presse attribue le rejet entre autres aux conditions de raccordement et d’approvisionnement ; le dossier concerne cette modification particulière, non une interdiction nationale de toute production au gaz ni une annulation automatique du permis initial.",
+    "sourceIds": [
+      "ie-equini-db8-appeal-list-2025",
+      "curebot14-20261126-86",
+      "ie-equini-db8-appeal-bisnow-2025"
+    ],
+    "type": "project",
+    "territory": "Profile Park, Dublin"
+  },
+  {
+    "id": "ie-gb-north-south-interconnector-challenge-2025",
+    "countries": [
+      "IE",
+      "GB"
+    ],
+    "date": "2025-04-09",
+    "topics": [
+      "grid",
+      "power",
+      "territory"
+    ],
+    "title": "Irlande / Irlande du Nord — contestation de l’interconnexion Nord-Sud",
+    "summary": "Une audience en avril 2025 concerne la contestation de l’autorisation de l’interconnexion par Safe Electricity Armagh and Tyrone. Les opposants associent notamment le projet à la demande électrique des data centers irlandais ; le gestionnaire invoque les objectifs d’intégration des renouvelables et de sécurité du système. Le lien causal allégué n’est pas établi. En septembre 2026, une commission de l’Assemblée nord-irlandaise demande des précisions sur les retards de mise en service. L’issue du recours d’avril n’est pas établie ici.",
+    "sourceIds": [
+      "ie-gb-north-south-2025-dcd",
+      "ie-gb-north-south-2025-rte",
+      "gb-north-south-20260916"
+    ],
+    "type": "mobilisation",
+    "territory": "Irlande et Irlande du Nord"
+  },
+  {
+    "id": "es-solaria-grid-feasibility-2025",
+    "countries": [
+      "ES"
+    ],
+    "date": "2025-03-17",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "title": "Espagne — faisabilité de 130 MW annoncée par Solaria",
+    "summary": "Solaria annonce avoir obtenu de Red Eléctrica une confirmation de faisabilité d’accès et de raccordement de 130 MW de demande pour deux centres en région madrilène. Le 18 mars, Solaria annonce consolider environ 1 GW de demandes en Espagne, dont 225 MW supplémentaires au Pays basque. Ces annonces de faisabilité et portefeuille ne démontrent pas la mise sous tension ni des consommations constatées ; le dossier du gestionnaire n’a pas été vérifié indépendamment.",
+    "sourceIds": [
+      "es-solaria-130mw-20250317",
+      "es-solaria-1gw-20250318",
+      "curebot14-20261126-44"
+    ],
+    "type": "project",
+    "territory": "Communauté de Madrid et Pays basque"
+  },
+  {
+    "id": "it-terna-development-plan-2025",
+    "countries": [
+      "IT"
+    ],
+    "date": "2025-03-14",
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "title": "Italie — plan Terna et 39,62 GW de demandes au 28 février 2025",
+    "summary": "Terna publie son plan de développement 2025–2034 prévoyant plus de 23 milliards d’euros d’investissements réseau sur dix ans, tous usages confondus. Le communiqué chiffre les demandes de raccordement de centres de données à 39,62 GW au 28 février 2025. Le plan vise aussi à accroître les capacités d’échange entre zones de marché. Les demandes ne représentent ni de la capacité accordée ni de la consommation ferme ; les chiffres plus récents restent distincts.",
+    "sourceIds": [
+      "it-terna-development-plan-20250314",
+      "curebot14-20261126-56"
+    ],
+    "type": "context",
+    "actorIds": [
+      "it-terna"
+    ]
   }
 ]

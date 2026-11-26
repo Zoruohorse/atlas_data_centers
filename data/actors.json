@@ -1509,5 +1509,18 @@
     "sourceIds": [
       "us-fww-moratorium-20251208"
     ]
+  },
+  {
+    "id": "fr-lqdn",
+    "name": "La Quadrature du Net",
+    "type": "Association",
+    "countries": [
+      "FR"
+    ],
+    "summary": "Association de défense des libertés numériques ; conteste en mars-avril 2025 l’article 15 du projet de loi de simplification et appelle à un moratoire sur les plus grands centres de données.",
+    "sourceIds": [
+      "fr-lqdn-moratorium-20250401",
+      "fr-lqdn-simplification-20250321"
+    ]
   }
 ]

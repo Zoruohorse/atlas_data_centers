@@ -1,6 +1,6 @@
 # Système électrique
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -42,7 +42,7 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-10-23 | US | Consultation | DOE/FERC — ouverture du dossier fédéral sur les grandes charges (`us-ferc-rm26-4-2025`) | [DOE · directives section 403, 23 octobre 2025](<https://www.energy.gov/topics/2025-doe-403-orders>) (primaire) |
 | 2025 | IE | Annonce officielle | Private Wires — projet d’ouverture encadrée des liaisons privées (`ie-private-wires-bill`) | [Gouvernement irlandais — Private Wires Policy](<https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-obrien-secures-government-approval-for-new-private-wires-policy-to-unlock-private-sector-investment-in-electricity-infrastructure/>) (primaire) |
 
-## Événements (78)
+## Événements (84)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
@@ -116,6 +116,12 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-09-04 | FR | Contexte documenté | Data4 / EDF — contrat d’allocation de production nucléaire (`fr-data4-edf-capn-2025`) | [EDF — contrat Data4 du 4 septembre](<https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/data4-signe-un-accord-avec-edf-pour-l-approvisionnement-en-electricite-bas-carbone-de-ses-datacenters-en-france>) (primaire) |
 | 2025-06-10 | IT | Contexte documenté | Italie — état historique des demandes Terna (`it-terna-queue-202505`) | [Milano Finanza — demandes Terna mai 2025](<https://www.milanofinanza.it/news/data-center-boom-di-richieste-di-allaccio-alla-rete-elettrica-ma-e-allarme-consumi-202506101935321275>) (analyse) |
 | 2025-04-17 | FR | Contexte documenté | Arcep — enquête environnementale, données 2023 (`fr-arcep-environment-survey-2025`) | [Arcep — communiqué du 17 avril 2025](<https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/environnement-170425.html>) (primaire) |
+| 2025-04-09 | IE, GB — Irlande et Irlande du Nord | Mobilisation | Irlande / Irlande du Nord — contestation de l’interconnexion Nord-Sud (`ie-gb-north-south-interconnector-challenge-2025`) | [Assemblée nord-irlandaise — suivi des retards, 16 septembre 2026](<https://www.niassembly.gov.uk/assembly-business/committees/2026-2027/economy/minutes-of-proceedings/session-2026---2027/16-september-2026/>) (primaire) |
+| 2025-04-08 | GB | Contexte documenté | Royaume-Uni — première réunion du AI Energy Council (`gb-ai-energy-council-2025`) | [Gouvernement britannique — première réunion du AI Energy Council](<https://www.gov.uk/government/news/technology-and-energy-secretaries-chair-first-meeting-of-ai-energy-council>) (primaire) |
+| 2025-04-05 | FR — Grenoble et Villefontaine, Isère | Mobilisation | Isère — contestation des projets DataOne à Grenoble et Villefontaine (`fr-dataone-isere-opposition-2025`) | [Mesinfos — pétition et dialogue à Villefontaine](<https://mesinfos.fr/38090-villefontaine/villefontaine-la-polemique-autour-du-data-center-de-dataone-bientot-close-220634.html>) (analyse) |
+| 2025-03-17 | ES — Communauté de Madrid et Pays basque | Projet ou infrastructure | Espagne — faisabilité de 130 MW annoncée par Solaria (`es-solaria-grid-feasibility-2025`) | [Solaria — annonce de faisabilité du raccordement, 17 mars](<https://solariaenergia.com/en/solaria-obtains-130-mw-to-connect-two-data-centers-in-the-community-of-madrid/>) (primaire) |
+| 2025-03-14 | IT | Contexte documenté | Italie — plan Terna et 39,62 GW de demandes au 28 février 2025 (`it-terna-development-plan-2025`) | [Terna — plan de développement du réseau 2025–2034](<https://www.terna.it/en/media/press-releases/detail/2025-development-plan>) (primaire) |
+| 2025-02-19 | IE — Profile Park, Dublin | Projet ou infrastructure | Dublin — rejet de l’appel d’Equinix sur la modification de DB8 (`ie-equinix-db8-gas-appeal-2025`) | [South Dublin County Council — décisions d’appel, 19 février 2025](<https://planning.southdublin.ie/Home/ViewWeeklyListDocument/3669>) (primaire) |
 | 2025 | DE | Contexte documenté | TenneT Germany — propositions de réforme des raccordements (`de-tennet-grid-reform-2025`) | [TenneT Germany — propositions de réforme](<https://www.tennet.eu/de/news/tennet-germany-fordert-kurswechsel-bei-netzanschluessen>) (primaire) |
 | 2025 | Union européenne | Contexte documenté | EUDCA — rapport sectoriel européen 2025 (`eu-eudca-state-2025`) | [EUDCA — State of European Data Centres 2025](<https://www.eudca.org/state-of-european-data-centres-2025>) (primaire) |
 | 2025 | Union européenne | Contexte documenté | TenneT — appel à la coordination des codes de raccordement européens (`eu-tennet-grid-codes-2025`) | [TenneT — appel à l’harmonisation des codes](<https://www.tennet.eu/news/call-coordinated-european-actions-more-resilient-grid>) (primaire) |
