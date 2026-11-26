@@ -119,11 +119,12 @@ function start(atlas) {
 
   function updateGeographicLinks(){
     for(const name of ['europe','world']){
-      const url=new URL(location.href);
-      if(name==='world')url.searchParams.set('view','world');else url.searchParams.delete('view');
+      // Partir du lien HTML versionné, pas de l'adresse courante potentiellement ancienne.
+      const link=get('view-'+name);
+      const url=new URL(link.href);
       if(name==='europe'&&state.country&&!atlas.allCountries.get(state.country)?.europe)url.hash='';
       else url.hash=state.country;
-      get('view-'+name).href=url.href;
+      link.href=url.href;
     }
   }
 
@@ -135,7 +136,7 @@ function start(atlas) {
 
   function selectCountry(code, focus = false, tab = initialTab(state.mode)) {
     if(code&&!atlas.countries.has(code)&&atlas.allCountries.has(code)){
-      const url=new URL(location.href);url.searchParams.set('view','world');url.hash=code;location.assign(url.href);return;
+      const url=new URL(get('view-world').href);url.hash=code;location.assign(url.href);return;
     }
     state.country = atlas.countries.has(code)?code:'';
     state.tab = tab;
