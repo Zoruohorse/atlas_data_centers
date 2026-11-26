@@ -70,3 +70,16 @@ La vue Europe reste la page par défaut, avec ses 47 fiches d'origine et son fon
 ## V4.1 — États-Unis, États fédérés et cadre fédéral
 
 La page `usa.html` (lien direct `usa.html#TX`) utilise les mêmes collections de textes, événements et sources que la vue Monde. Le fond `geo/usa.json` provient de Natural Earth Admin 1, 1:110m, en projection Albers pour les 48 États contigus, avec encarts Alaska/Hawaï et repères pour les petits États et le district de Columbia. `data/us-jurisdictions.json` associe les identifiants des documents US aux niveaux `state`, `local`, `regional`, `federal` ou `context` et à des codes postaux d’États explicites. Les textes ne sont pas dupliqués. Pour les futurs deltas, renseigner cet index ; tout nouveau document US non classé reste visible dans le contexte national. Ne pas déduire une restriction étatique d’un acte municipal ou régional. Le tableau NCSL (ligne 96 de l’export collecté le 7 mai 2026) est conservé comme photographie historique séparée, jamais comme statut actuel présumé. Les filtres temporels restent cumulatifs ; les textes actuels ne fournissent pas toutes les versions historiques.
+
+## V4.2 — mémoire de veille cumulative (LLM Wiki)
+
+La carte conserve les mêmes collections et le même rendu. [AGENTS.md](AGENTS.md) définit les règles permanentes d'ingestion, de vérification, de capitalisation et de maintenance pour les agents. Le [wiki de connaissances](knowledge/index.md) propose six fiches transversales et neuf index thématiques générés à partir des JSON, avec liens sources et références stables. Les fiches de concepts sont configurées dans `knowledge/concepts.json` ; les analyses éditoriales publiques sont conservées séparément dans `knowledge/analyses/`. Les pages dérivées ne doivent pas être éditées à la main.
+
+```sh
+npm run knowledge:build   # après modification des données ou des concepts
+npm run knowledge:check   # vérification de la synchronisation
+npm run audit             # file de vérification documentaire, sans modification
+npm run validate          # validation historique + tests audit + synchronisation + audit non bloquant
+```
+
+Le [protocole de maintenance](docs/maintenance/audit-semantique.md) distingue l'audit automatique (dates, statuts, doublons possibles et couverture) de la revue sémantique avec sources, menée par un agent autorisé. Les alertes ne sont pas des erreurs confirmées et ne modifient pas la carte. La validation GitHub existante les affiche à chaque PR et push main ; aucune API LLM ni recherche externe n'est exécutée automatiquement. Les exports et documents internes ne doivent pas être déposés dans ce dépôt public. Le changelog des données reste réservé aux évolutions documentaires, sans modifier la date de coupure pour cette évolution d'architecture.
