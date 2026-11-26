@@ -83,3 +83,7 @@ npm run validate          # validation historique + tests audit + synchronisatio
 ```
 
 Le [protocole de maintenance](docs/maintenance/audit-semantique.md) distingue l'audit automatique (dates, statuts, doublons possibles et couverture) de la revue sémantique avec sources, menée par un agent autorisé. Les alertes ne sont pas des erreurs confirmées et ne modifient pas la carte. La validation GitHub existante les affiche à chaque PR et push main ; aucune API LLM ni recherche externe n'est exécutée automatiquement. Les exports et documents internes ne doivent pas être déposés dans ce dépôt public. Le changelog des données reste réservé aux évolutions documentaires, sans modifier la date de coupure pour cette évolution d'architecture.
+
+## Navigation géographique — sélecteur principal
+
+Les trois périmètres sont présentés dans un sélecteur pleine largeur commun à `index.html` et `usa.html`, avec pictogrammes SVG locaux, libellés explicites et état actif (`aria-current=page`) contrasté. Le sélecteur reste distinct des filtres et des couleurs réglementaires. Les liens historiques, la conservation du pays sélectionné entre Europe et Monde et le retour des États-Unis vers la fiche mondiale US restent inchangés. Sur mobile, les trois choix restent côte à côte ; les sous-titres sont masqués pour éviter l'encombrement. Les tests statiques de navigation complètent le validateur existant. Aucun changement de données.
