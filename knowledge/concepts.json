@@ -1,0 +1,185 @@
+[
+  {
+    "id": "raccordement-maturite",
+    "title": "Raccordement, maturité et réservation de capacité",
+    "criteria": [
+      "grid-reservations",
+      "maturity",
+      "flexibility"
+    ],
+    "topics": [
+      "grid",
+      "power"
+    ],
+    "cases": [
+      "fr-rte-queue-2026",
+      "fr-idf-overbooking-2026",
+      "fr-uioli-2025",
+      "no-statnett-2026",
+      "dk-grid-pause-2026",
+      "dk-grid-restart-2026",
+      "dk-2026-capacity-priority",
+      "be-creg-3027-2026",
+      "de-reifegrad-procedure-2026",
+      "us-tx-batch-zero-2026",
+      "us-va-dominion-queue-2026",
+      "us-ferc-rm26-4-2025"
+    ],
+    "guide": "Distinguer la demande de capacité, la réservation, le contrat de raccordement, la mise sous tension et la consommation. Séparer la priorité sectorielle du classement par maturité, le gel temporaire du refus définitif, et l'attribution initiale de la réévaluation de la puissance sous-utilisée.",
+    "questions": [
+      "Quels jalons de maturité sont vérifiables et à quel moment ?",
+      "Quelles procédures libèrent une capacité réellement inutilisée ?",
+      "Quelles contraintes sont liées au réseau de transport plutôt qu'à la distribution ?"
+    ]
+  },
+  {
+    "id": "moratoires-implantation",
+    "title": "Moratoires, urbanisme et autorisations",
+    "criteria": [
+      "territorial-moratorium",
+      "strategic-permit"
+    ],
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "cases": [
+      "nl-hyperscale-bkl-2024",
+      "us-ny-eo62-moratorium-2026",
+      "us-me-ld307-2026",
+      "us-mi-hb5594-5595-2026",
+      "us-seattle-moratorium-2026",
+      "us-monterey-park-ban-2026",
+      "us-or-state-land-pause-2026",
+      "us-or-environment-permit-pause-2026",
+      "fr-cndp-decree-2026",
+      "us-oh-state-petition-2026"
+    ],
+    "guide": "Ne pas mettre sur le même plan une restriction d'urbanisme, une suspension de permis environnemental, une pause de réservation électrique, une proposition législative et une mobilisation. Comparer le territoire, le seuil, les exceptions et la durée, sans attribuer une règle locale au pays entier.",
+    "questions": [
+      "Quel acte exact est suspendu et quelles demandes sont exemptées ?",
+      "Le texte est-il voté, promulgué, applicable, prorogé ou rejeté ?",
+      "Quelle autorité dispose de la compétence ?"
+    ]
+  },
+  {
+    "id": "couts-garanties-fiscalite",
+    "title": "Garanties financières, attribution des coûts et fiscalité",
+    "criteria": [
+      "guarantees",
+      "tax"
+    ],
+    "topics": [
+      "grid",
+      "tax"
+    ],
+    "cases": [
+      "pl-energy-law-2026",
+      "gr-law-5356-2026",
+      "us-tx-25-194-2026",
+      "us-va-electricity-tax-2026",
+      "us-va-scc-transmission-costs-2026",
+      "us-power-for-people-act-2026",
+      "us-ratepayer-pledge-2026",
+      "us-hr9340-2026",
+      "ca-quebec-dc-tariff-2026",
+      "fi-electricity-tax-2026",
+      "se-electricity-tax-2023"
+    ],
+    "guide": "Distinguer frais de dossier, acompte, garantie remboursable, contribution de raccordement, tarif électrique, fiscalité et engagement volontaire. Les montants exprimés par MW ne sont comparables qu'après vérification de l'assiette, de la devise, du moment et des conditions de restitution.",
+    "questions": [
+      "Qui finance les renforcements et selon quelle règle ?",
+      "Les garanties sont-elles restituables et à quels jalons ?",
+      "Le dispositif vise-t-il spécifiquement les data centers ou toutes les grandes charges ?"
+    ]
+  },
+  {
+    "id": "energie-flexibilite",
+    "title": "Approvisionnement, additionnalité et flexibilité",
+    "criteria": [
+      "associated-power",
+      "flexibility",
+      "renewable-additionality"
+    ],
+    "topics": [
+      "power",
+      "supply"
+    ],
+    "cases": [
+      "es-1032-2026",
+      "ie-cru-2025",
+      "gr-law-5356-2026",
+      "fi-fingrid-large-loads-2026",
+      "fi-fingrid-kjv-2026",
+      "us-pjm-colocation-order-2025",
+      "us-pjm-emergency-backup-2026",
+      "us-tx-ride-through-review-2026"
+    ],
+    "guide": "Distinguer couverture annuelle et corrélation horaire, production additionnelle et achat de certificats, production ou stockage associé et obligation d'autonomie. La flexibilité contractuelle, l'effacement et les exigences de tenue aux perturbations répondent à des objectifs différents.",
+    "questions": [
+      "Quelles capacités supplémentaires sont exigées ?",
+      "Quelle puissance est concernée et quelle périodicité de couverture s'applique ?",
+      "Quels mécanismes de modulation sont réellement opposables ?"
+    ]
+  },
+  {
+    "id": "performance-environnement",
+    "title": "Performance environnementale, chaleur, eau et reporting",
+    "criteria": [
+      "pue",
+      "water",
+      "heat",
+      "reporting"
+    ],
+    "topics": [
+      "environment",
+      "transparency"
+    ],
+    "cases": [
+      "es-1032-2026",
+      "de-enefg-2026",
+      "fr-heat-2025",
+      "fr-heat-decree-2025",
+      "eu-efficiency-2023",
+      "eu-reporting-2024",
+      "eu-minimum-standards-consultation-2026",
+      "eu-rating-2026",
+      "us-epa-turbine-nsps-2026",
+      "us-eia-energy-survey-2026"
+    ],
+    "guide": "Comparer les indicateurs avec leurs unités, seuils et périmètres : PUE, WUE, ERF et puissance informatique ou électrique. Une obligation de déclaration ne constitue pas à elle seule une norme minimale de performance ; un projet de norme ne vaut pas norme applicable.",
+    "questions": [
+      "Quels sites et quelles dates de mise en service sont visés ?",
+      "Les indicateurs sont-ils publiés, agrégés ou confidentiels ?",
+      "Quels seuils, exceptions et transitions rendent la comparaison pertinente ?"
+    ]
+  },
+  {
+    "id": "acteurs-acceptabilite-souverainete",
+    "title": "Acceptabilité, acteurs, coordination et souveraineté",
+    "criteria": [
+      "sovereignty"
+    ],
+    "topics": [
+      "territory",
+      "sovereignty"
+    ],
+    "cases": [
+      "fr-ozans-2026",
+      "sddc-action-2026",
+      "us-fww-moratorium-call-2025",
+      "us-nj-new-brunswick-project-withdrawal-2026",
+      "us-ballot-results-2026",
+      "us-congressional-inquiry-request-2026",
+      "es-1032-2026",
+      "ru-data-centre-registry-2025"
+    ],
+    "relations": true,
+    "guide": "Distinguer projet, contestation, recours, décision administrative et mobilisation annoncée. Une source de campagne prouve une revendication, pas sa représentativité. Une similitude de règles ne prouve ni coordination, ni transfert, ni ingérence ; distinguer souveraineté numérique et sécurité électrique.",
+    "questions": [
+      "Quelles positions sont explicitement attribuables aux acteurs ?",
+      "Quels liens entre organisations ou pays sont directement documentés ?",
+      "Quelles exigences de souveraineté sont opposables et à quels opérateurs ?"
+    ]
+  }
+]

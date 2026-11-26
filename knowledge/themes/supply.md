@@ -1,0 +1,48 @@
+# Approvisionnement
+
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+
+[Retour à l'index](../index.md)
+
+Les documents multithématiques apparaissent dans plusieurs index. Les entrées sont classées par date documentaire ; un état absent signifie une information non renseignée.
+
+## Réglementation (8)
+
+| Date | Périmètre | Stade enregistré | Document | Référence source |
+|---|---|---|---|---|
+| 2026-11-21 | ES | Application | Décret royal 1032/2026 (`es-1032-2026`) | [Texte officiel · BOE](<https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24439>) (primaire) |
+| 2026-11-17 | GR | Publication | Loi 5356/2026 — cadre spécifique de raccordement des data centers (`gr-law-5356-2026`) | [Journal officiel grec — loi 5356/2026, 17 novembre](<https://api.et.gr/apiLAW/1/2026/5356/pdf>) (primaire) |
+| 2026-09-15 | BR | Application | REDATA — loi 15.504 du 15 septembre 2026 (`br-redata-law-2026`) | [Loi fédérale 15.504 du 15 septembre](<https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15504.htm>) (primaire) |
+| 2026-01-15 | US | Publication | EPA — normes d’émissions des turbines stationnaires (`us-epa-turbine-nsps-2026`) | [EPA · normes NSPS des turbines stationnaires](<https://www.epa.gov/stationary-sources-air-pollution/stationary-gas-and-combustion-turbines-new-source-performance>) (primaire) |
+| 2026-01-15 | US | Annonce officielle | Power for the People Act — proposition de protection tarifaire (`us-power-for-people-act-2026`) | [Sénat · présentation du Power for the People Act](<https://www.vanhollen.senate.gov/news/press-releases/van-hollen-leads-new-bill-to-ensure-americans-arent-footing-the-bill-for-big-data-centers>) (primaire) |
+| 2026 | IE | Consultation | CRU — projet de raccordements gaziers interruptibles (`ie-cru-interruptible-gas-2026`) | [CRU — consultation sur les raccordements gaziers interruptibles](<https://consult.cru.ie/en/consultation/cru-proposed-direction-related-interruptible-gas-connections>) (primaire) |
+| 2025-12-12 | IE | Publication | Nouvelle politique de raccordement de la CRU (`ie-cru-2025`) | [Décision · CRU](<https://www.cru.ie/en-ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/>) (primaire) |
+| 2025 | IE | Annonce officielle | Private Wires — projet d’ouverture encadrée des liaisons privées (`ie-private-wires-bill`) | [Gouvernement irlandais — Private Wires Policy](<https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-obrien-secures-government-approval-for-new-private-wires-policy-to-unlock-private-sector-investment-in-electricity-infrastructure/>) (primaire) |
+
+## Événements (21)
+
+| Date | Périmètre | Stade enregistré | Document | Référence source |
+|---|---|---|---|---|
+| 2026-11-12 | SE — Falun | Contexte documenté | Falun — retour d’expérience EcoDataCenter (`se-falun-ecodatacenter-2026`) | [The Guardian — EcoDataCenter Falun](<https://www.theguardian.com/environment/2026/nov/12/datacentres-unpopular-sweden-ecodatacenter-falun>) (analyse) |
+| 2026-10-26 | ES | Contexte documenté | Espagne — révision du projet de décret avant adoption (`es-decree-revision-oct2026`) | [EnergyTag — modélisation du projet de décret](<https://energytag.org/wp-content/uploads/2026/10/20261029-FINAL-Getting-Spain-Data-Center-Decree-Right_-Hourly-Matching-That-Cuts-Emissions-and-Costs-v4-1.pdf>) (primaire) |
+| 2026-10-08 | FI — Jämsä, Kaipola | Projet ou infrastructure | Jämsä — campus IA Sesterce à Kaipola (`fi-jamsa-sesterce-campus-2026`) | [Ville de Jämsä — projet de Kaipola](<https://jamsa.fi/ajankohtaista/tiedotteet/jamsan-kaipolaan-suunnitteilla-10-miljardin-euron-tekoalykampus/>) (primaire) |
+| 2026-09-16 | FR | Contexte documenté | Colocation — choix du fournisseur d’électricité et décompte (`fr-electricity-supplier-colocation-2026`) | [CMS — choix du fournisseur d’électricité en hébergement](<https://cms.law/fr/fra/legal-updates/data-centers-et-electricite>) (analyse) |
+| 2026-08-27 | ES | Contexte documenté | Espagne — seconde consultation sur le décret de durabilité (`es-decree-second-consultation-2026`) | [MITECO — seconde consultation du décret](<https://www.miteco.gob.es/es/energia/participacion/2026/detalle-participacion-publica-k-851.html>) (primaire) |
+| 2026-07-27 | FR | Contexte documenté | France Datacenter — groupe de travail SMR rapporté (`fr-fdc-smr-working-group-2026`) | [La Lettre — groupe de travail SMR](<https://www.lalettre.fr/fr/politique_lobbying/2026/07/27/france-datacenter-se-place-sur-les-mini-reacteurs-nucleaires-smr,110850712-art>) (analyse) |
+| 2026-07-09 | CA — Alberta | Projet ou infrastructure | Alberta — accord de fourniture Capital Power / Meta (`ca-capital-power-meta-2026`) | [Capital Power — accord Meta, juillet 2026](<https://www.capitalpower.com/media/media_releases/capital-power-enters-long-term-energy-supply-agreement-with-meta-in-alberta/>) (primaire) |
+| 2026-07-09 | FR | Contexte documenté | Mission GIMELEC / France Datacenter — préfabrication et modularisation (`fr-prefabrication-mission-2026`) | [GIMELEC — mission de préfabrication](<https://gimelec.fr/prefabrication-des-data-centers-une-mission-strategique-confiee-au-gimelec-et-a-france-datacenter/>) (primaire) |
+| 2026-06-23 | IS — Blönduós | Projet ou infrastructure | Accord de fourniture pour l’extension du campus de Blönduós (`is-borealis-ppa-2026`) | [Annonce du contrat · Landsvirkjun](<https://www.landsvirkjun.com/news/borealis-and-landsvirkjun-sign-a-12-mw-power-purchasing-agreement>) (primaire) |
+| 2026-06-18 | Union européenne | Contexte documenté | EUDCA — débat sur l’alimentation électrique de l’IA et les objectifs climatiques (`eu-eudca-energy-climate-debate-2026`) | [Nicolás González Casares — réaction publique](<https://www.linkedin.com/posts/nicol%C3%A1s-gonz%C3%A1lez-casares-8b529153_the-president-of-the-the-european-data-centre-activity-7472929460749570049-OBM2>) (primaire) |
+| 2026-06-05 | CN | Projet ou infrastructure | Chine — démonstrateurs de refroidissement en milieu marin (`cn-underwater-demonstrator-2026`) | [L’ÉnerGeek — prototype immergé](<https://lenergeek.com/2026/06/05/la-chine-vient-dimmerger-un-centre-de-donnees-a-30-metres-sous-la-mer-alimente-par-leolien-offshore/>) (analyse) |
+| 2026-05-18 | GB | Contexte documenté | Royaume-Uni — plus de 100 demandes de raccordement gazier rapportées (`gb-gas-connection-enquiries-2026`) | [The Guardian — demandes gazières britanniques](<https://www.theguardian.com/business/2026/may/18/uk-datacentres-plan-to-burn-gas-to-generate-electricity>) (analyse) |
+| 2026 | BR | Contexte documenté | Brésil — options de valorisation de l’électricité renouvelable écrêtée (`br-engie-curtailment-options-2026`) | [Folha / Reuters — options Engie face à l’écrêtement](<https://www1.folha.uol.com.br/mercado/2026/02/engie-avalia-baterias-e-data-center-para-aliviar-cortes-em-parque-solar-no-brasil.shtml>) (analyse) |
+| 2026 | CA | Contexte documenté | Canada — articulation des investissements IA et du gaz (`ca-federal-gas-dc-debate-2026`) | [Radio-Canada — débouchés du gaz naturel](<https://ici.radio-canada.ca/nouvelle/2296792/ottawa-ia-gaz-centres-donnees>) (analyse) |
+| 2026 | CL — Atacama | Projet ou infrastructure | Atacama — projet solaire et stockage pour un futur campus (`cl-solaer-atacama-2026`) | [DCD — projet énergétique Solaer](<https://www.datacenterdynamics.com/en/news/solaer-commits-to-data-centers-with-a-197-mw-energy-project-in-the-atacama-desert/>) (analyse) |
+| 2026 | IE | Projet ou infrastructure | Près de Dublin — projet de microgrid AVK / Pure Data Centres (`ie-pure-avk-microgrid-2026`) | [Décision · CRU](<https://www.cru.ie/en-ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/>) (primaire) |
+| 2025-12-17 | FR | Contexte documenté | Autorité de la concurrence — accès à l’énergie et frugalité de l’IA (`fr-adlc-ai-energy-2025`) | [Autorité de la concurrence — communiqué du 17 décembre](<https://www.autoritedelaconcurrence.fr/fr/communiques-de-presse/lautorite-rend-publique-son-etude-sur-les-enjeux-concurrentiels-lies-limpact>) (primaire) |
+| 2025-11-04 | ES | Contexte documenté | Data4 / TotalEnergies — contrat d’électricité renouvelable (`es-data4-total-ppa-2025`) | [TotalEnergies — contrat du 4 novembre](<https://totalenergies.com/newsroom/espagne-totalenergies-fournira-de-lelectricite-renouvelable-aux/?lang=fra>) (primaire) |
+| 2025-09-04 | FR | Contexte documenté | Data4 / EDF — contrat d’allocation de production nucléaire (`fr-data4-edf-capn-2025`) | [EDF — contrat Data4 du 4 septembre](<https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/data4-signe-un-accord-avec-edf-pour-l-approvisionnement-en-electricite-bas-carbone-de-ses-datacenters-en-france>) (primaire) |
+| 2025-09-02 | IS — Akureyri | Projet ou infrastructure | Accord ferme de fourniture à Akureyri (`is-atnorth-ppa-2025`) | [Annonce du contrat · Landsvirkjun](<https://www.landsvirkjun.com/news/landsvirkjun-and-atnorth-akureyri-sign-new-green-firm-ppa>) (primaire) |
+| 2025 | CN | Contexte documenté | Chine — exigences de composants domestiques rapportées (`cn-domestic-chips-policy-reported-2025`) | [Generation NT — puces domestiques](<https://www.generation-nt.com/actualites/semiconducteurs-composants-datacenter-ia-origine-chine-2061392>) (analyse) |
+
+Référentiel : [textes](../../data/regulations.json) · [événements](../../data/events.json) · [sources](../../data/sources.json).

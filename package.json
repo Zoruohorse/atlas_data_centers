@@ -2,6 +2,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "validate": "node scripts/validate-data.mjs"
+    "validate": "node scripts/validate-data.mjs && node scripts/test-audit.mjs && node scripts/build-knowledge.mjs --check && node scripts/audit-data.mjs",
+    "audit": "node scripts/audit-data.mjs",
+    "knowledge:build": "node scripts/build-knowledge.mjs",
+    "knowledge:check": "node scripts/build-knowledge.mjs --check",
+    "audit:test": "node scripts/test-audit.mjs"
   }
 }
