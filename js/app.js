@@ -16,10 +16,6 @@ function start(atlas) {
   get('world-map-note').hidden=!world;
   get('feed').setAttribute('aria-label','Dernières évolutions '+(world?'mondiales':'européennes'));
   get('coverage-note').textContent=world?'Couverture mondiale progressive · '+atlas.countries.size+' fiches accessibles':'Vue européenne détaillée · '+atlas.countries.size+' fiches accessibles';
-  for(const name of ['europe','world']){
-    const link=get('view-'+name);
-    if(name===atlas.view)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
-  }
   const country = get('country');
   const topic = get('topic');
   const year = get('year');
@@ -188,6 +184,12 @@ function start(atlas) {
 
 try {
   const view=new URL(location.href).searchParams.get('view')==='world'?'world':'europe';
+  // Afficher le choix de périmètre dès le démarrage, avant le chargement des données.
+  for(const name of ['europe','world','usa']){
+    const link=get('view-'+name);
+    if(name===view)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
+  }
+  get('coverage-note').textContent=view==='world'?'Couverture mondiale progressive':'Vue européenne détaillée';
   start(await loadAtlas(view));
 } catch (error) {
   get('notice').textContent = 'Impossible de charger l’atlas. Actualisez la page ou consultez le site via un serveur HTTP.';
