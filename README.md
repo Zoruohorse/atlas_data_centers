@@ -87,3 +87,7 @@ Le [protocole de maintenance](docs/maintenance/audit-semantique.md) distingue l'
 ## Navigation géographique — sélecteur principal
 
 Les trois périmètres sont présentés dans un sélecteur pleine largeur commun à `index.html` et `usa.html`, avec pictogrammes SVG locaux, libellés explicites et état actif (`aria-current=page`) contrasté. Le sélecteur reste distinct des filtres et des couleurs réglementaires. Les liens historiques, la conservation du pays sélectionné entre Europe et Monde et le retour des États-Unis vers la fiche mondiale US restent inchangés. Sur mobile, les trois choix restent côte à côte ; les sous-titres sont masqués pour éviter l'encombrement. Les tests statiques de navigation complètent le validateur existant. Aucun changement de données.
+
+### Cohérence de navigation et cache navigateur
+
+Les liens du sélecteur portent une révision d'interface `ui=20261126-2` et les ressources modifiées une révision `v=20261126-2`, afin de séparer les entrées en cache des anciens modèles. Les liens historiques sans paramètre restent compatibles. Le script préserve la révision des liens lorsqu'il actualise les fragments pays. Lors d'une future évolution incompatible du sélecteur, actualiser la révision sur les deux pages et dans le test de navigation. Aucun changement des données.
