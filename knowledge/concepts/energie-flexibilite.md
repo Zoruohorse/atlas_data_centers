@@ -1,6 +1,6 @@
 # Approvisionnement, additionnalité et flexibilité
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -127,6 +127,24 @@ Sources : [DOE — ordre temporaire 202-26-35](<https://www.energy.gov/ceser/fed
 La proposition NOGRR291 du 17 novembre porte sur les conditions d’exemption de certaines charges de calcul aux exigences de maintien en fonctionnement, en lien avec leur classement Batch Zero. Une proposition ne vaut pas approbation définitive.
 
 Sources : [ERCOT — proposition NOGRR291](<https://www.ercot.com/mktrules/issues/NOGRR291>) (primaire). Autres références : voir `us-tx-ride-through-review-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Dublin — rejet de l’appel d’Equinix sur la modification de DB8
+
+- Identifiant : `ie-equinix-db8-gas-appeal-2025` · 2025-02-19 · IE — Profile Park, Dublin · Projet ou infrastructure
+- Fiche cartographique : [IE](https://zoruohorse.github.io/atlas_data_centers/#IE)
+
+An Bord Pleanála rejette le 19 février 2025 l’appel relatif à la modification du permis du centre DB8 à Profile Park (SD22A/0156, ABP-317936-23). La demande concernait notamment une production électrique au gaz sur site. La presse attribue le rejet entre autres aux conditions de raccordement et d’approvisionnement ; le dossier concerne cette modification particulière, non une interdiction nationale de toute production au gaz ni une annulation automatique du permis initial.
+
+Sources : [South Dublin County Council — décisions d’appel, 19 février 2025](<https://planning.southdublin.ie/Home/ViewWeeklyListDocument/3669>) (primaire) · [DCmag — rejet de la modification du projet DB8](<https://dcmag.fr/equinix-ne-produira-pas-sa-propre-energie-au-gaz-a-db8-en-irlande/>) (analyse) · [Bisnow — décision d’appel DB8](<https://www.bisnow.com/news/dublin/data-center/an-bord-pleanla-turns-down-equinix-gas-powered-data-centre-appeal-128300>) (analyse). Autres références : voir `ie-equinix-db8-gas-appeal-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Royaume-Uni — première réunion du AI Energy Council
+
+- Identifiant : `gb-ai-energy-council-2025` · 2025-04-08 · GB · Contexte documenté
+- Fiche cartographique : [GB](https://zoruohorse.github.io/atlas_data_centers/#GB)
+
+Le gouvernement organise la première réunion du Conseil réunissant les responsables publics de l’énergie et du numérique, gestionnaires, régulateur et industriels. L’instance vise à anticiper les besoins électriques des infrastructures IA et coordonner les travaux sur l’énergie. Il s’agit d’une instance de concertation stratégique, non d’une règle de raccordement adoptée.
+
+Sources : [Gouvernement britannique — première réunion du AI Energy Council](<https://www.gov.uk/government/news/technology-and-energy-secretaries-chair-first-meeting-of-ai-energy-council>) (primaire) · [Gouvernement britannique — comptes rendus du Conseil](<https://www.gov.uk/government/publications/ai-energy-council-meetings-minutes>) (primaire) · [The Register — enjeux de fourniture électrique](<https://www.theregister.com/2025/04/10/uk_ai_energy_council_meets/>) (analyse). Autres références : voir `gb-ai-energy-council-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
 
 ## Explorer l'ensemble des documents associés
 

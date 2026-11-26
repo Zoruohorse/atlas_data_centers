@@ -1,6 +1,6 @@
 # Raccordement, maturité et réservation de capacité
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -186,6 +186,35 @@ Le secrétaire à l’Énergie demande à la FERC d’examiner une réforme des 
 **Réseau :** Débat sur les compétences fédérales et étatiques, les études et la fiabilité.
 
 Sources : [DOE · directives section 403, 23 octobre 2025](<https://www.energy.gov/topics/2025-doe-403-orders>) (primaire) · [FERC · dossier RM26-4-000](<https://ferc.gov/rm26-4?trk=article-ssr-frontend-pulse_little-text-block>) (primaire) · [BFMTV · débat sur les compétences de raccordement](<https://www.bfmtv.com/tech/intelligence-artificielle/l-administration-trump-inquiete-les-etats-americains-car-elle-veut-controler-le-raccordement-au-reseau-electrique-des-data-centers-pour-repondre-aux-besoins-gigantesques-de-l-ia_AV-202512300432.html>) (analyse). Autres références : voir `us-ferc-rm26-4-2025` dans [regulations.json](../../data/regulations.json) et [sources.json](../../data/sources.json).
+
+### EDF — premiers AMI sur trois anciens sites thermiques
+
+- Identifiant : `fr-edf-ami-thermal-sites-2025` · 2025-03-03 · FR — Seine-et-Marne et Moselle · Projet ou infrastructure
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+EDF lance deux appels à manifestation d’intérêt : un sur Montereau-Vallée-de-la-Seine (Vernou-la-Celle-sur-Seine et La Grande-Paroisse), l’autre sur La Maxe et Richemont en Moselle. L’objectif est de valoriser du foncier industriel pour des centres de données de grande puissance en s’appuyant notamment sur les infrastructures existantes. Un AMI ne démontre ni la sélection d’un exploitant ni un droit de raccordement ferme. Le programme fast-track et les annonces foncières ultérieures sont documentés séparément.
+
+**Réseau :** Le réemploi de sites industriels peut réduire certains délais et travaux ; la capacité disponible et les conditions d’accès restent à établir projet par projet.
+
+Sources : [EDF — communiqué du 3 mars 2025](<https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/edf-lance-des-appels-a-manifestation-d-interet-pour-l-accueil-de-nouveaux-centres-de-donnees-en-france>) (primaire) · [Actu.fr — La Maxe et Richemont](<https://actu.fr/economie/moselle-edf-veut-transformer-ces-deux-anciennes-centrales-en-datacenters-on-vous-explique_62333445.html>) (analyse) · [Mesinfos — site de Montereau](<https://mesinfos.fr/77130-la-grande-paroisse/un-projet-de-centre-de-donnees-lance-pres-de-montereau-fault-yonne-218488.html>) (analyse). Autres références : voir `fr-edf-ami-thermal-sites-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Italie — plan Terna et 39,62 GW de demandes au 28 février 2025
+
+- Identifiant : `it-terna-development-plan-2025` · 2025-03-14 · IT · Contexte documenté
+- Fiche cartographique : [IT](https://zoruohorse.github.io/atlas_data_centers/#IT)
+
+Terna publie son plan de développement 2025–2034 prévoyant plus de 23 milliards d’euros d’investissements réseau sur dix ans, tous usages confondus. Le communiqué chiffre les demandes de raccordement de centres de données à 39,62 GW au 28 février 2025. Le plan vise aussi à accroître les capacités d’échange entre zones de marché. Les demandes ne représentent ni de la capacité accordée ni de la consommation ferme ; les chiffres plus récents restent distincts.
+
+Sources : [Terna — plan de développement du réseau 2025–2034](<https://www.terna.it/en/media/press-releases/detail/2025-development-plan>) (primaire) · [La Repubblica — présentation du plan Terna](<https://www.repubblica.it/economia/2025/03/14/news/terna_investimenti_oltre_23_miliardi_piano_10_anni_rete_data_center_energia-424063149/>) (analyse). Autres références : voir `it-terna-development-plan-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Espagne — faisabilité de 130 MW annoncée par Solaria
+
+- Identifiant : `es-solaria-grid-feasibility-2025` · 2025-03-17 · ES — Communauté de Madrid et Pays basque · Projet ou infrastructure
+- Fiche cartographique : [ES](https://zoruohorse.github.io/atlas_data_centers/#ES)
+
+Solaria annonce avoir obtenu de Red Eléctrica une confirmation de faisabilité d’accès et de raccordement de 130 MW de demande pour deux centres en région madrilène. Le 18 mars, Solaria annonce consolider environ 1 GW de demandes en Espagne, dont 225 MW supplémentaires au Pays basque. Ces annonces de faisabilité et portefeuille ne démontrent pas la mise sous tension ni des consommations constatées ; le dossier du gestionnaire n’a pas été vérifié indépendamment.
+
+Sources : [Solaria — annonce de faisabilité du raccordement, 17 mars](<https://solariaenergia.com/en/solaria-obtains-130-mw-to-connect-two-data-centers-in-the-community-of-madrid/>) (primaire) · [Solaria — portefeuille de demandes, 18 mars](<https://solariaenergia.com/en/solaria-consolidates-1-gw-of-demand-to-connect-data-centers-in-spain/>) (primaire) · [DCmag — analyse de l’annonce Solaria](<https://dcmag.fr/solaria-assure-130-mw-pour-deux-data-centers-a-madrid-en-un-temps-record-comment/>) (analyse). Autres références : voir `es-solaria-grid-feasibility-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
 
 ### Loi 5356/2026 — cadre spécifique de raccordement des data centers
 

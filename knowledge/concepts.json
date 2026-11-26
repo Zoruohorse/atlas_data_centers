@@ -23,7 +23,10 @@
       "de-reifegrad-procedure-2026",
       "us-tx-batch-zero-2026",
       "us-va-dominion-queue-2026",
-      "us-ferc-rm26-4-2025"
+      "us-ferc-rm26-4-2025",
+      "fr-edf-ami-thermal-sites-2025",
+      "it-terna-development-plan-2025",
+      "es-solaria-grid-feasibility-2025"
     ],
     "guide": "Distinguer la demande de capacité, la réservation, le contrat de raccordement, la mise sous tension et la consommation. Séparer la priorité sectorielle du classement par maturité, le gel temporaire du refus définitif, et l'attribution initiale de la réévaluation de la puissance sous-utilisée.",
     "questions": [
@@ -53,7 +56,10 @@
       "us-or-state-land-pause-2026",
       "us-or-environment-permit-pause-2026",
       "fr-cndp-decree-2026",
-      "us-oh-state-petition-2026"
+      "us-oh-state-petition-2026",
+      "fr-icade-rungis-consultation-2025",
+      "fr-segro-bonneuil-consultation-2025",
+      "fr-villeneuve-saint-georges-enquete-2024"
     ],
     "guide": "Ne pas mettre sur le même plan une restriction d'urbanisme, une suspension de permis environnemental, une pause de réservation électrique, une proposition législative et une mobilisation. Comparer le territoire, le seuil, les exceptions et la durée, sans attribuer une règle locale au pays entier.",
     "questions": [
@@ -113,7 +119,9 @@
       "fi-fingrid-kjv-2026",
       "us-pjm-colocation-order-2025",
       "us-pjm-emergency-backup-2026",
-      "us-tx-ride-through-review-2026"
+      "us-tx-ride-through-review-2026",
+      "ie-equinix-db8-gas-appeal-2025",
+      "gb-ai-energy-council-2025"
     ],
     "guide": "Distinguer couverture annuelle et corrélation horaire, production additionnelle et achat de certificats, production ou stockage associé et obligation d'autonomie. La flexibilité contractuelle, l'effacement et les exigences de tenue aux perturbations répondent à des objectifs différents.",
     "questions": [
@@ -172,7 +180,11 @@
       "us-ballot-results-2026",
       "us-congressional-inquiry-request-2026",
       "es-1032-2026",
-      "ru-data-centre-registry-2025"
+      "ru-data-centre-registry-2025",
+      "fr-lqdn-pinm-mobilisation-2025",
+      "fr-dataone-isere-opposition-2025",
+      "eu-ai-continent-action-plan-2025",
+      "ie-gb-north-south-interconnector-challenge-2025"
     ],
     "relations": true,
     "guide": "Distinguer projet, contestation, recours, décision administrative et mobilisation annoncée. Une source de campagne prouve une revendication, pas sa représentativité. Une similitude de règles ne prouve ni coordination, ni transfert, ni ingérence ; distinguer souveraineté numérique et sécurité électrique.",

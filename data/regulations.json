@@ -1274,12 +1274,14 @@
       "environment"
     ],
     "title": "Cloud and AI Development Act (CADA) — projet de rapport parlementaire",
-    "summary": "La Commission a proposé le règlement COM(2026) 502 le 3 juin 2026. Un projet de rapport des commissions du Parlement est daté du 17 novembre (présentation politique rapportée le 11 novembre). Le dossier vise le renforcement de l’écosystème cloud et IA européen, dont l’accélération de l’implantation des data centers ; il n’est pas adopté.",
+    "summary": "La Commission a proposé le règlement COM(2026) 502 le 3 juin 2026. Un projet de rapport des commissions du Parlement est daté du 17 novembre (présentation politique rapportée le 11 novembre). Le dossier vise le renforcement de l’écosystème cloud et IA européen, dont l’accélération de l’implantation des data centers ; il n’est pas adopté. Le plan d’action du 9 avril 2025 annonçait déjà ce futur cadre ; ce jalon historique est documenté séparément.",
     "sourceIds": [
       "eu-cada-oeil-2026",
       "eu-cada-proposal-2026",
       "eu-cada-euronews-2026",
-      "curebot-20261124-15"
+      "curebot-20261124-15",
+      "eu-ai-continent-plan-2025",
+      "eu-ai-continent-plan-qa-2025"
     ],
     "impacts": {
       "operator": "Suivre les futurs critères de souveraineté, d’autorisation et de durabilité.",
@@ -1613,7 +1615,7 @@
     "date": "2026-03-25",
     "stage": "adopted",
     "title": "Proposition de loi David Ros — encadrement territorial des data centers",
-    "summary": "La commission des affaires économiques n’a pas adopté de texte le 25 février. Le Sénat adopte la proposition en première lecture le 25 mars puis la transmet à l’Assemblée nationale. Le texte prévoit notamment des orientations stratégiques d’implantation dans les documents de planification et un dispositif PINM. Distinguer les dispositions de la proposition non définitivement adoptées et le régime PINM devenu loi par la loi de simplification du 26 mai.",
+    "summary": "La commission des affaires économiques n’a pas adopté de texte le 25 février. Le Sénat adopte la proposition en première lecture le 25 mars puis la transmet à l’Assemblée nationale. Le texte prévoit notamment des orientations stratégiques d’implantation dans les documents de planification et un dispositif PINM. Distinguer les dispositions de la proposition non définitivement adoptées et le régime PINM devenu loi par la loi de simplification du 26 mai. Le dépôt initial remonte au 17 février 2025 ; ne pas attribuer automatiquement les dispositions fiscales et hydriques de cette version au texte adopté en 2026.",
     "topics": [
       "planning",
       "territory",
@@ -1626,7 +1628,9 @@
       "fr-ros-senat-adopted-2026",
       "fr-ros-legislative-dossier-2026",
       "curebot8-20261125-62",
-      "curebot8-20261125-97"
+      "curebot8-20261125-97",
+      "fr-ros-ppl-initial-2025",
+      "curebot14-20261126-73"
     ],
     "actorIds": [
       "fr-david-ros"
@@ -2654,5 +2658,29 @@
     "actorIds": [
       "us-ferc"
     ]
+  },
+  {
+    "id": "eu-ai-continent-action-plan-2025",
+    "scope": "eu",
+    "countries": [],
+    "date": "2025-04-09",
+    "topics": [
+      "planning",
+      "grid",
+      "sovereignty",
+      "environment"
+    ],
+    "stage": "announced",
+    "title": "Plan d’action pour le continent de l’IA — annonce du futur CADA",
+    "summary": "La Commission présente le 9 avril 2025 le plan COM(2025) 165 et annonce un futur Cloud and AI Development Act. L’objectif politique est de tripler au moins la capacité des centres de données de l’Union en cinq à sept ans, en privilégiant les installations durables. Il s’agit d’un objectif de politique publique, non d’une autorisation de raccordement ni d’une obligation déjà applicable. La proposition législative CADA de juin 2026 et ses suites sont documentées dans eu-cada-2026.",
+    "sourceIds": [
+      "eu-ai-continent-plan-2025",
+      "eu-ai-continent-plan-qa-2025",
+      "curebot14-20261126-11"
+    ],
+    "impacts": {
+      "operator": "Perspective d’un cadre européen facilitant le développement des capacités cloud et IA ; les dispositions contraignantes dépendent de la procédure législative.",
+      "grid": "Objectif susceptible d’accroître les besoins de capacité ; aucune conversion directe en MW électriques ou consommation n’est établie."
+    }
   }
 ]

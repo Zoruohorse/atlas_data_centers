@@ -4588,5 +4588,263 @@
     "label": "ChannelNews · demande de reporting",
     "url": "https://www.channelnews.fr/des-senateurs-exigent-une-declaration-de-consommation-denergie-des-datacenters-aux-etats-unis-156194",
     "type": "analysis"
+  },
+  {
+    "id": "eu-ai-continent-plan-2025",
+    "label": "Commission européenne — plan d’action du 9 avril 2025",
+    "url": "https://digital-strategy.ec.europa.eu/fr/library/ai-continent-action-plan",
+    "type": "primary"
+  },
+  {
+    "id": "eu-ai-continent-plan-qa-2025",
+    "label": "Commission européenne — objectifs et mesures du plan",
+    "url": "https://digital-strategy.ec.europa.eu/en/faqs/ai-continent-action-plan-qa",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-11",
+    "label": "Next — présentation du plan européen",
+    "url": "https://next.ink/180226/lue-a-un-plan-pour-devenir-le-continent-de-lia/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-73",
+    "label": "Le Figaro — proposition initiale de David Ros",
+    "url": "https://www.lefigaro.fr/secteur/high-tech/un-senateur-propose-de-taxer-et-d-encadrer-davantage-les-datacenters-implantes-en-france-20250306",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-ros-ppl-initial-2025",
+    "label": "Sénat — texte initial n°348 et historique des versions",
+    "url": "https://www.senat.fr/tableau-historique/ppl24-348.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-lqdn-moratorium-20250401",
+    "label": "La Quadrature du Net — appel du 1er avril",
+    "url": "https://www.laquadrature.net/2025/04/01/mobilisation-pour-un-moratoire-sur-les-gros-data-centers/",
+    "type": "primary"
+  },
+  {
+    "id": "fr-lqdn-simplification-20250321",
+    "label": "La Quadrature du Net — position du 21 mars",
+    "url": "https://www.laquadrature.net/en/2025/03/21/simplification-bill-a-denial-of-democracy-to-impose-data-centers-in-france/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-26",
+    "label": "Next — appel associatif du 8 avril",
+    "url": "https://next.ink/179714/des-associations-demandent-un-debat-sur-la-creation-des-datacenters-en-france/",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-edf-ami-20250303",
+    "label": "EDF — communiqué du 3 mars 2025",
+    "url": "https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/edf-lance-des-appels-a-manifestation-d-interet-pour-l-accueil-de-nouveaux-centres-de-donnees-en-france",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-75",
+    "label": "Actu.fr — La Maxe et Richemont",
+    "url": "https://actu.fr/economie/moselle-edf-veut-transformer-ces-deux-anciennes-centrales-en-datacenters-on-vous-explique_62333445.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-52",
+    "label": "Mesinfos — site de Montereau",
+    "url": "https://mesinfos.fr/77130-la-grande-paroisse/un-projet-de-centre-de-donnees-lance-pres-de-montereau-fault-yonne-218488.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-39",
+    "label": "Actu.fr — projet de reconversion en Seine-et-Marne",
+    "url": "https://actu.fr/ile-de-france/montereau-fault-yonne_77305/seine-et-marne-edf-veut-transformer-une-ancienne-centrale-thermique-en-un-gigantesque-centre-de-donnees_62413125.html",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-icade-rungis-consultation-2025",
+    "label": "Préfecture du Val-de-Marne — dossier de consultation ICADE",
+    "url": "https://www.val-de-marne.gouv.fr/index.php/Publications/Enquetes-publiques-et-concertations-prealables/Projet-de-centre-de-donnees-informatiques-datacenter-de-la-societe-ICADE-a-Rungis",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-15",
+    "label": "DCmag — dossier et puissance envisagée",
+    "url": "https://dcmag.fr/le-projet-de-data-center-du-parc-icade-de-rungis-en-consultation-publique/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-6",
+    "label": "Next — consultations dans le Val-de-Marne",
+    "url": "https://next.ink/brief_article/des-consultations-publiques-pour-limplantation-de-datacenters-dans-le-val-de-marne/",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-segro-bonneuil-consultation-2025",
+    "label": "Préfecture du Val-de-Marne — consultation et rapport SEGRO",
+    "url": "https://www.val-de-marne.gouv.fr/index.php/Publications/Enquetes-publiques-et-concertations-prealables/Bonneuil-sur-Marne-rapport-du-commissaire-enqueteur-sur-la-creation-d-un-data-center",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-58",
+    "label": "Actu.fr — consultation des habitants",
+    "url": "https://actu.fr/ile-de-france/bonneuil-sur-marne_94011/dans-cette-ville-du-val-de-marne-un-data-center-est-en-projet-les-habitants-invites-a-donner-leur-avis_62364632.html",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-villeneuve-saint-georges-enquete-2024",
+    "label": "Préfecture — enquête Pôle Villa Nova I",
+    "url": "https://www.val-de-marne.gouv.fr/Publications/Enquetes-publiques-et-concertations-prealables/Villeneuve-Saint-Georges-enquete-publique-sur-le-projet-de-creation-de-deux-data-centers",
+    "type": "primary"
+  },
+  {
+    "id": "fr-villeneuve-saint-georges-rapport-2024",
+    "label": "Préfecture — rapport du commissaire enquêteur",
+    "url": "https://www.val-de-marne.gouv.fr/Publications/Enquetes-publiques-et-concertations-prealables/Villeneuve-Saint-Georges-rapport-du-commissaire-enqueteur-sur-la-creation-de-deux-data-centers",
+    "type": "primary"
+  },
+  {
+    "id": "fr-segro-marseille-prefecture-2025",
+    "label": "Préfecture des Bouches-du-Rhône — dossiers ICPE Marseille, SEGRO",
+    "url": "https://www.bouches-du-rhone.gouv.fr/Publications/Publications-environnementales/Installations-Classees-pour-la-Protection-de-l-Environnement-ICPE/Installations-Classees-soumises-a-autorisation-et-a-enregistrement-Carrieres-et-Geothermie/Marseille",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-31",
+    "label": "DCmag — avis du commissaire enquêteur",
+    "url": "https://dcmag.fr/avis-favorables-pour-le-projet-segro-a-marseille/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-88",
+    "label": "BFM Marseille — oppositions au projet de Saint-André",
+    "url": "https://www.bfmtv.com/marseille/marseille-un-projet-de-centre-logistique-et-de-data-center-a-saint-andre-divise_AV-202502270615.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-57",
+    "label": "La Provence — forum Stop aux data centers",
+    "url": "https://www.laprovence.com/article/region/70531503709361/impact-environnemental-securisation-des-donnees-a-marseille-un-forum-stop-data-centers-ce-samedi?id=70531503709361",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-4",
+    "label": "Mesinfos — pétition et dialogue à Villefontaine",
+    "url": "https://mesinfos.fr/38090-villefontaine/villefontaine-la-polemique-autour-du-data-center-de-dataone-bientot-close-220634.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-30",
+    "label": "France 3 — contestation en Isère",
+    "url": "https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/isere/grenoble/superordinateur-puissant-comme-un-reacteur-nucleaire-ce-mega-data-center-dedie-a-l-ia-inquiete-les-ecologistes-3133423.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-95",
+    "label": "DCmag — annonce des deux sites isérois",
+    "url": "https://dcmag.fr/dataone-confirme-linstallation-dun-data-center-dia-en-isere/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-69",
+    "label": "Oise Hebdo — position des élus de Vallée Dorée",
+    "url": "https://www.oisehebdo.fr/2025/03/08/vallee-doree-elus-data-center-campus-intelligence-artificielle/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-2",
+    "label": "Courrier picard — retombées envisagées à Rantigny",
+    "url": "https://www.courrier-picard.fr/id624164/article/2025-04-16/500-emplois-induits-par-le-projet-de-data-center-rantigny-dans-loise",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot14-20261126-7",
+    "label": "Capital — mobilisation et financement d’un recours à Wissous",
+    "url": "https://www.capital.fr/economie-politique/ils-font-du-bruit-gaspillent-l-energie-ces-francais-qui-disent-non-aux-data-centers-1511458",
+    "type": "analysis"
+  },
+  {
+    "id": "gb-ai-energy-council-20250408",
+    "label": "Gouvernement britannique — première réunion du AI Energy Council",
+    "url": "https://www.gov.uk/government/news/technology-and-energy-secretaries-chair-first-meeting-of-ai-energy-council",
+    "type": "primary"
+  },
+  {
+    "id": "gb-ai-energy-council-minutes",
+    "label": "Gouvernement britannique — comptes rendus du Conseil",
+    "url": "https://www.gov.uk/government/publications/ai-energy-council-meetings-minutes",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-12",
+    "label": "The Register — enjeux de fourniture électrique",
+    "url": "https://www.theregister.com/2025/04/10/uk_ai_energy_council_meets/",
+    "type": "analysis"
+  },
+  {
+    "id": "ie-equini-db8-appeal-list-2025",
+    "label": "South Dublin County Council — décisions d’appel, 19 février 2025",
+    "url": "https://planning.southdublin.ie/Home/ViewWeeklyListDocument/3669",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-86",
+    "label": "DCmag — rejet de la modification du projet DB8",
+    "url": "https://dcmag.fr/equinix-ne-produira-pas-sa-propre-energie-au-gaz-a-db8-en-irlande/",
+    "type": "analysis"
+  },
+  {
+    "id": "ie-equini-db8-appeal-bisnow-2025",
+    "label": "Bisnow — décision d’appel DB8",
+    "url": "https://www.bisnow.com/news/dublin/data-center/an-bord-pleanla-turns-down-equinix-gas-powered-data-centre-appeal-128300",
+    "type": "analysis"
+  },
+  {
+    "id": "ie-gb-north-south-2025-dcd",
+    "label": "DCD — recours relatif à l’interconnexion",
+    "url": "https://www.datacenterdynamics.com/en/news/legal-challenge-issued-over-northern-ireland-ireland-interconnection-project/",
+    "type": "analysis"
+  },
+  {
+    "id": "ie-gb-north-south-2025-rte",
+    "label": "RTÉ — audience et positions des parties",
+    "url": "https://www.rte.ie/news/2025/0411/1507013-north-south-interconnector/",
+    "type": "analysis"
+  },
+  {
+    "id": "gb-north-south-20260916",
+    "label": "Assemblée nord-irlandaise — suivi des retards, 16 septembre 2026",
+    "url": "https://www.niassembly.gov.uk/assembly-business/committees/2026-2027/economy/minutes-of-proceedings/session-2026---2027/16-september-2026/",
+    "type": "primary"
+  },
+  {
+    "id": "es-solaria-130mw-20250317",
+    "label": "Solaria — annonce de faisabilité du raccordement, 17 mars",
+    "url": "https://solariaenergia.com/en/solaria-obtains-130-mw-to-connect-two-data-centers-in-the-community-of-madrid/",
+    "type": "primary"
+  },
+  {
+    "id": "es-solaria-1gw-20250318",
+    "label": "Solaria — portefeuille de demandes, 18 mars",
+    "url": "https://solariaenergia.com/en/solaria-consolidates-1-gw-of-demand-to-connect-data-centers-in-spain/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-44",
+    "label": "DCmag — analyse de l’annonce Solaria",
+    "url": "https://dcmag.fr/solaria-assure-130-mw-pour-deux-data-centers-a-madrid-en-un-temps-record-comment/",
+    "type": "analysis"
+  },
+  {
+    "id": "it-terna-development-plan-20250314",
+    "label": "Terna — plan de développement du réseau 2025–2034",
+    "url": "https://www.terna.it/en/media/press-releases/detail/2025-development-plan",
+    "type": "primary"
+  },
+  {
+    "id": "curebot14-20261126-56",
+    "label": "La Repubblica — présentation du plan Terna",
+    "url": "https://www.repubblica.it/economia/2025/03/14/news/terna_investimenti_oltre_23_miliardi_piano_10_anni_rete_data_center_energia-424063149/",
+    "type": "analysis"
   }
 ]

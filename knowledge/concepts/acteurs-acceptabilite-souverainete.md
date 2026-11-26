@@ -1,6 +1,6 @@
 # Acceptabilité, acteurs, coordination et souveraineté
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -100,6 +100,46 @@ Sources : [Texte officiel · BOE](<https://www.boe.es/diario_boe/txt.php?id=BOE-
 La loi fédérale 244‑FZ modifie le droit des communications et prévoit un registre des centres de traitement de données. Les modalités opérationnelles relèvent des textes d’application.
 
 Sources : [Loi fédérale 244‑FZ · Garant](<https://base.garant.ru/412378214/>) (primaire) · [Texte consolidé · ConsultantPlus](<https://www.consultant.ru/document/cons_doc_LAW_510536/5bdc78bf7e3015a0ea0c0ea5bef708a6c79e2f0a/>) (primaire). Autres références : voir `ru-data-centre-registry-2025` dans [regulations.json](../../data/regulations.json) et [sources.json](../../data/sources.json).
+
+### France — appel associatif à un moratoire avant le débat sur le PINM
+
+- Identifiant : `fr-lqdn-pinm-mobilisation-2025` · 2025-04-01 · FR · Mobilisation
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+La Quadrature du Net conteste dès le 21 mars 2025 l’article 15 du projet de loi de simplification. Son appel du 1er avril, relayé le 8 avril par Next, demande notamment une pause de deux ans pour les plus grands centres afin d’organiser un débat public. Il s’agit d’une revendication associative ; le débat parlementaire ultérieur et la loi de mai 2026 ne doivent pas être confondus avec un moratoire adopté.
+
+Sources : [La Quadrature du Net — appel du 1er avril](<https://www.laquadrature.net/2025/04/01/mobilisation-pour-un-moratoire-sur-les-gros-data-centers/>) (primaire) · [La Quadrature du Net — position du 21 mars](<https://www.laquadrature.net/en/2025/03/21/simplification-bill-a-denial-of-democracy-to-impose-data-centers-in-france/>) (primaire) · [Next — appel associatif du 8 avril](<https://next.ink/179714/des-associations-demandent-un-debat-sur-la-creation-des-datacenters-en-france/>) (analyse). Autres références : voir `fr-lqdn-pinm-mobilisation-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Isère — contestation des projets DataOne à Grenoble et Villefontaine
+
+- Identifiant : `fr-dataone-isere-opposition-2025` · 2025-04-05 · FR — Grenoble et Villefontaine, Isère · Mobilisation
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+France 3 rapporte les inquiétudes écologistes liées au projet de calcul IA en Isère. Une pétition concernant Villefontaine est lancée le 5 avril selon Mesinfos, qui rapporte un échange le 14 avril entre son initiateur et DataOne. Le porteur affirme prévoir un refroidissement en boucle fermée et propose un dialogue local ; les performances annoncées ne sont pas des mesures vérifiées. Les sites de Grenoble et Villefontaine sont distincts ; aucune suspension administrative n’est établie.
+
+Sources : [Mesinfos — pétition et dialogue à Villefontaine](<https://mesinfos.fr/38090-villefontaine/villefontaine-la-polemique-autour-du-data-center-de-dataone-bientot-close-220634.html>) (analyse) · [France 3 — contestation en Isère](<https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/isere/grenoble/superordinateur-puissant-comme-un-reacteur-nucleaire-ce-mega-data-center-dedie-a-l-ia-inquiete-les-ecologistes-3133423.html>) (analyse) · [DCmag — annonce des deux sites isérois](<https://dcmag.fr/dataone-confirme-linstallation-dun-data-center-dia-en-isere/>) (analyse). Autres références : voir `fr-dataone-isere-opposition-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Plan d’action pour le continent de l’IA — annonce du futur CADA
+
+- Identifiant : `eu-ai-continent-action-plan-2025` · 2025-04-09 · Union européenne · Annonce officielle
+- Fiche cartographique : [Europe](https://zoruohorse.github.io/atlas_data_centers/)
+
+La Commission présente le 9 avril 2025 le plan COM(2025) 165 et annonce un futur Cloud and AI Development Act. L’objectif politique est de tripler au moins la capacité des centres de données de l’Union en cinq à sept ans, en privilégiant les installations durables. Il s’agit d’un objectif de politique publique, non d’une autorisation de raccordement ni d’une obligation déjà applicable. La proposition législative CADA de juin 2026 et ses suites sont documentées dans eu-cada-2026.
+
+**Opérateurs :** Perspective d’un cadre européen facilitant le développement des capacités cloud et IA ; les dispositions contraignantes dépendent de la procédure législative.
+
+**Réseau :** Objectif susceptible d’accroître les besoins de capacité ; aucune conversion directe en MW électriques ou consommation n’est établie.
+
+Sources : [Commission européenne — plan d’action du 9 avril 2025](<https://digital-strategy.ec.europa.eu/fr/library/ai-continent-action-plan>) (primaire) · [Commission européenne — objectifs et mesures du plan](<https://digital-strategy.ec.europa.eu/en/faqs/ai-continent-action-plan-qa>) (primaire) · [Next — présentation du plan européen](<https://next.ink/180226/lue-a-un-plan-pour-devenir-le-continent-de-lia/>) (analyse). Autres références : voir `eu-ai-continent-action-plan-2025` dans [regulations.json](../../data/regulations.json) et [sources.json](../../data/sources.json).
+
+### Irlande / Irlande du Nord — contestation de l’interconnexion Nord-Sud
+
+- Identifiant : `ie-gb-north-south-interconnector-challenge-2025` · 2025-04-09 · IE, GB — Irlande et Irlande du Nord · Mobilisation
+- Fiche cartographique : [IE](https://zoruohorse.github.io/atlas_data_centers/#IE) · [GB](https://zoruohorse.github.io/atlas_data_centers/#GB)
+
+Une audience en avril 2025 concerne la contestation de l’autorisation de l’interconnexion par Safe Electricity Armagh and Tyrone. Les opposants associent notamment le projet à la demande électrique des data centers irlandais ; le gestionnaire invoque les objectifs d’intégration des renouvelables et de sécurité du système. Le lien causal allégué n’est pas établi. En septembre 2026, une commission de l’Assemblée nord-irlandaise demande des précisions sur les retards de mise en service. L’issue du recours d’avril n’est pas établie ici.
+
+Sources : [Assemblée nord-irlandaise — suivi des retards, 16 septembre 2026](<https://www.niassembly.gov.uk/assembly-business/committees/2026-2027/economy/minutes-of-proceedings/session-2026---2027/16-september-2026/>) (primaire) · [DCD — recours relatif à l’interconnexion](<https://www.datacenterdynamics.com/en/news/legal-challenge-issued-over-northern-ireland-ireland-interconnection-project/>) (analyse) · [RTÉ — audience et positions des parties](<https://www.rte.ie/news/2025/0411/1507013-north-south-interconnector/>) (analyse). Autres références : voir `ie-gb-north-south-interconnector-challenge-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
 
 ## Relations et campagnes enregistrées
 

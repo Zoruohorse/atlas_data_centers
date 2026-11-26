@@ -1,12 +1,12 @@
 # Raccordement
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-25. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
 Les documents multithématiques apparaissent dans plusieurs index. Les entrées sont classées par date documentaire ; un état absent signifie une information non renseignée.
 
-## Réglementation (57)
+## Réglementation (58)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
@@ -64,11 +64,12 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-10-23 | US | Consultation | DOE/FERC — ouverture du dossier fédéral sur les grandes charges (`us-ferc-rm26-4-2025`) | [DOE · directives section 403, 23 octobre 2025](<https://www.energy.gov/topics/2025-doe-403-orders>) (primaire) |
 | 2025-07-11 | ES | Application | Concours de capacité d’accès de la demande — RD 1183/2020 (`es-demand-competition-framework`) | [BOE — RD 1183/2020, version consolidée](<https://www.boe.es/buscar/act.php?id=BOE-A-2020-17278>) (primaire) |
 | 2025-06-24 | FR | Application | Fast-track — convention de raccordement des grandes consommations (`fr-fast-track-2025`) | [CRE — procédure approuvée le 7 mai](<https://www.cre.fr/documents/communiques-de-presse/la-cre-approuve-la-procedure-de-raccordement-fast-track-pour-raccorder-les-sites-de-consommation-de-grande-puissance-au-reseau-tres-haute-tension-400-kv-de-rte.html>) (primaire) |
+| 2025-04-09 | Union européenne | Annonce officielle | Plan d’action pour le continent de l’IA — annonce du futur CADA (`eu-ai-continent-action-plan-2025`) | [Commission européenne — plan d’action du 9 avril 2025](<https://digital-strategy.ec.europa.eu/fr/library/ai-continent-action-plan>) (primaire) |
 | 2025 | IE | Annonce officielle | Private Wires — projet d’ouverture encadrée des liaisons privées (`ie-private-wires-bill`) | [Gouvernement irlandais — Private Wires Policy](<https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-obrien-secures-government-approval-for-new-private-wires-policy-to-unlock-private-sector-investment-in-electricity-infrastructure/>) (primaire) |
 | 2024-12-18 | FR | Application | Use it or lose it — adaptation des puissances de raccordement (`fr-uioli-2025`) | [Code de l’énergie — article L.342-24](<https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047990582/2026-10-26>) (primaire) |
 | 2023-12-20 | NL | Application | Restriction d’implantation des très grands hyperscales (`nl-hyperscale-bkl-2024`) | [Décret et exposé des motifs · Staatsblad](<https://zoek.officielebekendmakingen.nl/stb-2023-492.html>) (primaire) |
 
-## Événements (87)
+## Événements (96)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
@@ -152,6 +153,14 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-09-10 | ES | Contexte documenté | Espagne — saturation des points de raccordement de distribution rapportée (`es-distribution-capacity-2025`) | [El País — saturation des réseaux de distribution](<https://elpais.com/economia/2025-09-10/el-mapa-de-una-red-electrica-al-limite-pais-vasco-aragon-andalucia-y-cataluna-entre-las-zonas-mas-saturadas.html>) (analyse) |
 | 2025-06-30 | FR — Aix-Marseille-Provence | Contexte documenté | Aix-Marseille-Provence — orientations territoriales d’accueil (`fr-amp-dc-orientations-2025`) | [Métropole Aix-Marseille-Provence — orientations votées](<https://deliberations.ampmetropole.fr/documents/metropole/deliberations/2025/06/30/DECISION/109681.pdf>) (primaire) |
 | 2025-06-10 | IT | Contexte documenté | Italie — état historique des demandes Terna (`it-terna-queue-202505`) | [Milano Finanza — demandes Terna mai 2025](<https://www.milanofinanza.it/news/data-center-boom-di-richieste-di-allaccio-alla-rete-elettrica-ma-e-allarme-consumi-202506101935321275>) (analyse) |
+| 2025-04-09 | IE, GB — Irlande et Irlande du Nord | Mobilisation | Irlande / Irlande du Nord — contestation de l’interconnexion Nord-Sud (`ie-gb-north-south-interconnector-challenge-2025`) | [Assemblée nord-irlandaise — suivi des retards, 16 septembre 2026](<https://www.niassembly.gov.uk/assembly-business/committees/2026-2027/economy/minutes-of-proceedings/session-2026---2027/16-september-2026/>) (primaire) |
+| 2025-04-08 | GB | Contexte documenté | Royaume-Uni — première réunion du AI Energy Council (`gb-ai-energy-council-2025`) | [Gouvernement britannique — première réunion du AI Energy Council](<https://www.gov.uk/government/news/technology-and-energy-secretaries-chair-first-meeting-of-ai-energy-council>) (primaire) |
+| 2025-04-02 | FR — Rungis, Val-de-Marne | Projet ou infrastructure | Rungis — consultation environnementale du projet ICADE (`fr-icade-rungis-consultation-2025`) | [Préfecture du Val-de-Marne — dossier de consultation ICADE](<https://www.val-de-marne.gouv.fr/index.php/Publications/Enquetes-publiques-et-concertations-prealables/Projet-de-centre-de-donnees-informatiques-datacenter-de-la-societe-ICADE-a-Rungis>) (primaire) |
+| 2025-03-17 | ES — Communauté de Madrid et Pays basque | Projet ou infrastructure | Espagne — faisabilité de 130 MW annoncée par Solaria (`es-solaria-grid-feasibility-2025`) | [Solaria — annonce de faisabilité du raccordement, 17 mars](<https://solariaenergia.com/en/solaria-obtains-130-mw-to-connect-two-data-centers-in-the-community-of-madrid/>) (primaire) |
+| 2025-03-14 | IT | Contexte documenté | Italie — plan Terna et 39,62 GW de demandes au 28 février 2025 (`it-terna-development-plan-2025`) | [Terna — plan de développement du réseau 2025–2034](<https://www.terna.it/en/media/press-releases/detail/2025-development-plan>) (primaire) |
+| 2025-03-03 | FR — Seine-et-Marne et Moselle | Projet ou infrastructure | EDF — premiers AMI sur trois anciens sites thermiques (`fr-edf-ami-thermal-sites-2025`) | [EDF — communiqué du 3 mars 2025](<https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/edf-lance-des-appels-a-manifestation-d-interet-pour-l-accueil-de-nouveaux-centres-de-donnees-en-france>) (primaire) |
+| 2025-02-27 | FR — Saint-André, Marseille | Projet ou infrastructure | Marseille Saint-André — contestation et avis d’enquête du projet SEGRO (`fr-segro-marseille-enquete-2025`) | [Préfecture des Bouches-du-Rhône — dossiers ICPE Marseille, SEGRO](<https://www.bouches-du-rhone.gouv.fr/Publications/Publications-environnementales/Installations-Classees-pour-la-Protection-de-l-Environnement-ICPE/Installations-Classees-soumises-a-autorisation-et-a-enregistrement-Carrieres-et-Geothermie/Marseille>) (primaire) |
+| 2025-02-19 | IE — Profile Park, Dublin | Projet ou infrastructure | Dublin — rejet de l’appel d’Equinix sur la modification de DB8 (`ie-equinix-db8-gas-appeal-2025`) | [South Dublin County Council — décisions d’appel, 19 février 2025](<https://planning.southdublin.ie/Home/ViewWeeklyListDocument/3669>) (primaire) |
 | 2025 | BR — São Paulo | Contexte documenté | São Paulo — configurations de raccordement reconnues par le MME (`br-sp-grid-alternatives-2025`) | [Folha — alternatives de raccordement brésiliennes](<https://www1.folha.uol.com.br/mercado/2025/04/governo-autoriza-data-centers-e-enquadra-projetos-de-geracao-de-energia-eletrica-em-incentivos.shtml>) (analyse) |
 | 2025 | DE | Contexte documenté | TenneT Germany — propositions de réforme des raccordements (`de-tennet-grid-reform-2025`) | [TenneT Germany — propositions de réforme](<https://www.tennet.eu/de/news/tennet-germany-fordert-kurswechsel-bei-netzanschluessen>) (primaire) |
 | 2025 | Union européenne | Contexte documenté | TenneT — appel à la coordination des codes de raccordement européens (`eu-tennet-grid-codes-2025`) | [TenneT — appel à l’harmonisation des codes](<https://www.tennet.eu/news/call-coordinated-european-actions-more-resilient-grid>) (primaire) |
@@ -159,5 +168,6 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025 | FR — Marseille | Contexte documenté | Marseille — tensions territoriales liées aux centres de données (`fr-marseille-acceptability-2025`) | [Le Nouvel Obs — reportage marseillais republié](<https://www.nouvelobs.com/economie/20260601.OBS115407/a-marseille-la-proliferation-des-data-centers-cree-des-tensions.html>) (analyse) |
 | 2025 | FR — PACA / Gard | Contexte documenté | Région Sud et Gard — position de RTE sur les usages électriques (`fr-paca-grid-priority-interview-2025`) | [Actu-Environnement — entretien Gilles Odone](<https://www.actu-environnement.com/ae/news/electrification-usages-approvisionnement-centres-donnees-pas-priorise-region-sud-46788.php4>) (analyse) |
 | 2025 | FR | Contexte documenté | RTE — distinction entre droits de réseau et consommation, octobre 2025 (`fr-rte-veyrenc-oct2025`) | [Thomas Veyrenc — analyse des puissances et consommations](<https://fr.linkedin.com/posts/thomas-veyrenc-3728803_outre-atlantique-des-inqui%C3%A9tudes-sur-laugmentation-activity-7384605808308928513--UrV>) (primaire) |
+| 2024-06-10 | FR — Villeneuve-Saint-Georges, Val-de-Marne | Projet ou infrastructure | Villeneuve-Saint-Georges — enquête publique sur deux centres et leur poste électrique (`fr-villeneuve-saint-georges-enquete-2024`) | [Préfecture — enquête Pôle Villa Nova I](<https://www.val-de-marne.gouv.fr/Publications/Enquetes-publiques-et-concertations-prealables/Villeneuve-Saint-Georges-enquete-publique-sur-le-projet-de-creation-de-deux-data-centers>) (primaire) |
 
 Référentiel : [textes](../../data/regulations.json) · [événements](../../data/events.json) · [sources](../../data/sources.json).
