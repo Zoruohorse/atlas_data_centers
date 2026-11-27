@@ -1,6 +1,6 @@
 # Moratoires, urbanisme et autorisations
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-27. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -163,6 +163,42 @@ Sources : [Préfecture du Val-de-Marne — consultation et rapport SEGRO](<https
 Une enquête publique unique se tient du 10 juin au 10 juillet 2024 concernant les demandes de Pôle Villa Nova I SNC pour deux centres de données et un poste de transformation électrique. L’article collecté en avril 2025 reprend un jalon de 2024 ; il ne constitue pas une nouvelle décision d’avril 2025. Les conclusions de l’enquête ne remplacent pas les autorisations finales.
 
 Sources : [Préfecture — enquête Pôle Villa Nova I](<https://www.val-de-marne.gouv.fr/Publications/Enquetes-publiques-et-concertations-prealables/Villeneuve-Saint-Georges-enquete-publique-sur-le-projet-de-creation-de-deux-data-centers>) (primaire) · [Préfecture — rapport du commissaire enquêteur](<https://www.val-de-marne.gouv.fr/Publications/Enquetes-publiques-et-concertations-prealables/Villeneuve-Saint-Georges-rapport-du-commissaire-enqueteur-sur-la-creation-de-deux-data-centers>) (primaire). Autres références : voir `fr-villeneuve-saint-georges-enquete-2024` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Espagne — recours de SpainDC contre le décret 1032/2026
+
+- Identifiant : `es-spaindc-rd1032-appeal-2026` · 2026-11-24 · ES · Contexte documenté
+- Fiche cartographique : [ES](https://zoruohorse.github.io/atlas_data_centers/#ES)
+
+SpainDC annonce le 25 novembre avoir déposé la veille un recours devant le Tribunal suprême et demandé la suspension provisoire du décret. Cette demande ne constitue pas une suspension prononcée. Maintenir le stade du décret existant tant qu’une décision juridictionnelle contraire n’est pas établie.
+
+Sources : [SpainDC — annonce du dépôt du recours le 24 novembre](<https://spaindc.com/spaindc-recurre-ante-el-tribunal-supremo-el-real-decreto-y-solicita-su-suspension-cautelar/>) (primaire) · [SpainDC — annonce de recours le 20 novembre](<https://spaindc.com/spaindc-solicitara-la-suspension-cautelar-del-real-decreto-y-acusa-al-gobierno-de-expulsar-a-espana-de-la-carrera-digital/>) (primaire) · [El sector mantiene el rechazo al decreto de los centros de datos y pedirá la suspensión cautelar: "No lo vamos a aceptar"](<https://www.elespanol.com/invertia/disruptores/politica-digital/espana/20261120/sector-mantiene-rechazo-decreto-centros-datos-pedira-suspension-cautelar-no-vamos-aceptar/1003744466451_0.html>) (analyse). Autres références : voir `es-spaindc-rd1032-appeal-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Farciennes — demande de suspension des travaux par Greenpeace
+
+- Identifiant : `be-farciennes-greenpeace-stop-request-2026` · 2026-11-23 · BE — Farciennes, Wallonie · Mobilisation
+- Fiche cartographique : [BE](https://zoruohorse.github.io/atlas_data_centers/#BE)
+
+Greenpeace indique avoir demandé à l’administration wallonne l’arrêt des travaux le 23 novembre après l’annulation du permis modificatif en août rapportée par l’association. Elle rapporte un recours de Google le 17 octobre et une audience prévue le 7 janvier 2027. Il s’agit de déclarations d’une partie au dossier ; l’état exact des autorisations et l’issue des recours restent à vérifier auprès de l’autorité.
+
+Sources : [Greenpeace Belgique — demande d’arrêt des travaux](<https://www.greenpeace.org/belgium/fr/communique-de-presse/82978/google-poursuit-ses-travaux-sans-permis-a-farciennes-greenpeace-lance-une-procedure-durgence/>) (primaire) · [Farciennes : Google poursuit les travaux d'un data center sans permis, dénonce Greenpeace](<https://www.rtbf.be/article/farciennes-google-poursuit-les-travaux-d-un-data-center-sans-permis-denonce-greenpeace-11820807>) (analyse). Autres références : voir `be-farciennes-greenpeace-stop-request-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Brebières–Corbehem — enquête publique annoncée pour décembre
+
+- Identifiant : `fr-brebieres-corbehem-enquiry-2026` · 2026-11-18 · FR — Brebières, Corbehem et Noyelles-sous-Bellonne · Projet ou infrastructure
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+Le registre, encore en préparation lors de la collecte, annonce une enquête publique unique du 1er décembre 2026 au 15 janvier 2027 sur quatre bâtiments de data centers, le poste 225 kV Fond de Sailly et la liaison souterraine associée. Le projet réutilise une friche de 23 ha. L’ouverture reste à confirmer par l’arrêté et le registre définitif ; aucune autorisation n’est acquise. L’arrêté du 10 novembre 2026 prescrit l’enquête publique unique du 1er décembre 2026 au 15 janvier 2027. Les avis officiels des communes confirment le calendrier et les demandes de DUP relatives au poste et à la liaison 225 kV Fond de Sailly ; l’ouverture effective et les décisions finales restent à suivre.
+
+Sources : [Registre de l’enquête publique Brebières–Corbehem](<https://www.dc-brebieres-corbehem.fr/>) (primaire) · [Ville de Vitry-en-Artois — avis d’enquête publique](<https://www.vitryenartois.fr/actualites/ville/689-enquete-publique.html>) (primaire) · [Commune de Gouy-sous-Bellonne — avis d’enquête publique](<https://www.gouysousbellonne.fr/actualite/438/1751-avis-d-enquete-publique.htm>) (primaire). Autres références : voir `fr-brebieres-corbehem-enquiry-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Ashburn — accord préliminaire Potomac Promise avec Amazon
+
+- Identifiant : `us-va-ashburn-potomac-promise-2026` · 2026-10-20 · US — Ashburn, comté de Loudoun, Virginie · Projet ou infrastructure
+- Fiche cartographique : [US](https://zoruohorse.github.io/atlas_data_centers/?view=world#US)
+
+Le comté de Loudoun annonce des mesures approuvées à l’unanimité en vue de retirer les usages data centers de l’ancien campus universitaire acquis par AWS et d’accélérer un autre aménagement. L’accord annoncé est préliminaire et limité au site ; il ne vaut ni interdiction générale dans le comté ni moratoire de Virginie.
+
+Sources : [Loudoun County — accord préliminaire avec Amazon](<https://www.loudoun.gov/m/NewsFlash/Home/Detail/10944>) (primaire) · [Des habitants font reculer Amazon qui abandonne quatre centres de données sur un terrain acheté 390 millions d'euros et laisse la place à des logements, un complexe sportif et un centre culturel](<https://www.lesnumeriques.com/intelligence-artificielle/des-habitants-font-reculer-amazon-qui-abandonne-quatre-centres-de-donnees-sur-un-terrain-achete-390-millions-d-euros-et-laisse-la-place-a-des-logements-un-complexe-sportif-et-un-centre-culturel-n267790.html>) (analyse). Autres références : voir `us-va-ashburn-potomac-promise-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
 
 ### Qualification de projet d’intérêt national majeur
 

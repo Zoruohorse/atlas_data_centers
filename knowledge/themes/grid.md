@@ -1,6 +1,6 @@
 # Raccordement
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-27. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -69,10 +69,13 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2024-12-18 | FR | Application | Use it or lose it — adaptation des puissances de raccordement (`fr-uioli-2025`) | [Code de l’énergie — article L.342-24](<https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047990582/2026-10-26>) (primaire) |
 | 2023-12-20 | NL | Application | Restriction d’implantation des très grands hyperscales (`nl-hyperscale-bkl-2024`) | [Décret et exposé des motifs · Staatsblad](<https://zoek.officielebekendmakingen.nl/stb-2023-492.html>) (primaire) |
 
-## Événements (96)
+## Événements (99)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
+| 2026-11-26 | FR | Contexte documenté | The Shift Project — scénarios français de consommation des data centers (`fr-shift-dc-scenarios-2026`) | [Note-DC-France-2026](<https://theshiftproject.org/app/uploads/2026/11/Note-DC-France-2026.pdf>) (primaire) |
+| 2026-11-24 | ES | Contexte documenté | Espagne — recours de SpainDC contre le décret 1032/2026 (`es-spaindc-rd1032-appeal-2026`) | [SpainDC — annonce du dépôt du recours le 24 novembre](<https://spaindc.com/spaindc-recurre-ante-el-tribunal-supremo-el-real-decreto-y-solicita-su-suspension-cautelar/>) (primaire) |
+| 2026-11-23 | FR — Villedieu-sur-Indre | Projet ou infrastructure | Villedieu-sur-Indre — piste de second site Google (`fr-villedieu-google-site-miroir-2026`) | [Data centers: encore un projet de Google caché au public](<https://www.mediapart.fr/journal/ecologie/231126/data-centers-encore-un-projet-de-google-cache-au-public>) (analyse) |
 | 2026-11-20 | ES | Contexte documenté | Approbation du plan de réseau électrique espagnol à horizon 2030 (`es-grid-plan-2030-2026`) | [MITECO — planification électrique 2030 approuvée](<https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-la-planificacion-electrica-en-el-horizonte-2.html>) (primaire) |
 | 2026-11-19 | Union européenne | Contexte documenté | AIE — World Energy Outlook 2026 : demande électrique des data centers (`eu-iea-weo2026-context`) | [AIE — World Energy Outlook 2026, principaux résultats](<https://www.iea.org/reports/world-energy-outlook-2026/overview-and-key-findings>) (primaire) |
 | 2026-11-19 | FR — Port-La Nouvelle | Projet ou infrastructure | Port-La Nouvelle — appel à manifestation d’intérêt numérique (`fr-port-la-nouvelle-ami-2026`) | [DCmag — AMI Port-La Nouvelle](<https://dcmag.fr/ami-appel-a-manifestation-dinteret-10-ha-et-jusqua-150-mw-sur-la-zone-dactivites-logistiques-de-port-la-nouvelle-occitanie/>) (analyse) |

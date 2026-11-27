@@ -26,7 +26,10 @@
       "us-ferc-rm26-4-2025",
       "fr-edf-ami-thermal-sites-2025",
       "it-terna-development-plan-2025",
-      "es-solaria-grid-feasibility-2025"
+      "es-solaria-grid-feasibility-2025",
+      "es-grid-plan-2030-2026",
+      "fi-grid-priority-draft-2026",
+      "fr-shift-dc-scenarios-2026"
     ],
     "guide": "Distinguer la demande de capacité, la réservation, le contrat de raccordement, la mise sous tension et la consommation. Séparer la priorité sectorielle du classement par maturité, le gel temporaire du refus définitif, et l'attribution initiale de la réévaluation de la puissance sous-utilisée.",
     "questions": [
@@ -59,7 +62,11 @@
       "us-oh-state-petition-2026",
       "fr-icade-rungis-consultation-2025",
       "fr-segro-bonneuil-consultation-2025",
-      "fr-villeneuve-saint-georges-enquete-2024"
+      "fr-villeneuve-saint-georges-enquete-2024",
+      "es-spaindc-rd1032-appeal-2026",
+      "be-farciennes-greenpeace-stop-request-2026",
+      "fr-brebieres-corbehem-enquiry-2026",
+      "us-va-ashburn-potomac-promise-2026"
     ],
     "guide": "Ne pas mettre sur le même plan une restriction d'urbanisme, une suspension de permis environnemental, une pause de réservation électrique, une proposition législative et une mobilisation. Comparer le territoire, le seuil, les exceptions et la durée, sans attribuer une règle locale au pays entier.",
     "questions": [
@@ -121,7 +128,9 @@
       "us-pjm-emergency-backup-2026",
       "us-tx-ride-through-review-2026",
       "ie-equinix-db8-gas-appeal-2025",
-      "gb-ai-energy-council-2025"
+      "gb-ai-energy-council-2025",
+      "fr-shift-dc-scenarios-2026",
+      "fr-ozans-2026"
     ],
     "guide": "Distinguer couverture annuelle et corrélation horaire, production additionnelle et achat de certificats, production ou stockage associé et obligation d'autonomie. La flexibilité contractuelle, l'effacement et les exigences de tenue aux perturbations répondent à des objectifs différents.",
     "questions": [
@@ -153,7 +162,9 @@
       "eu-minimum-standards-consultation-2026",
       "eu-rating-2026",
       "us-epa-turbine-nsps-2026",
-      "us-eia-energy-survey-2026"
+      "us-eia-energy-survey-2026",
+      "us-hyperscale-electricity-emissions-study-2026",
+      "fr-shift-dc-scenarios-2026"
     ],
     "guide": "Comparer les indicateurs avec leurs unités, seuils et périmètres : PUE, WUE, ERF et puissance informatique ou électrique. Une obligation de déclaration ne constitue pas à elle seule une norme minimale de performance ; un projet de norme ne vaut pas norme applicable.",
     "questions": [
@@ -184,7 +195,10 @@
       "fr-lqdn-pinm-mobilisation-2025",
       "fr-dataone-isere-opposition-2025",
       "eu-ai-continent-action-plan-2025",
-      "ie-gb-north-south-interconnector-challenge-2025"
+      "ie-gb-north-south-interconnector-challenge-2025",
+      "fr-villedieu-google-site-miroir-2026",
+      "be-farciennes-greenpeace-stop-request-2026",
+      "sddc-campaign-expanded-2026"
     ],
     "relations": true,
     "guide": "Distinguer projet, contestation, recours, décision administrative et mobilisation annoncée. Une source de campagne prouve une revendication, pas sa représentativité. Une similitude de règles ne prouve ni coordination, ni transfert, ni ingérence ; distinguer souveraineté numérique et sécurité électrique.",

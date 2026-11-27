@@ -9,7 +9,7 @@
       "territory"
     ],
     "title": "Google à Ozans, près de Châteauroux",
-    "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet. Selon La Nouvelle République, le 28 octobre Gil Avérous a présenté un maximum envisagé de huit bâtiments, des pistes de valorisation de chaleur, une contribution socio-économique en négociation et un suivi des températures. Ces éléments sont des annonces et propositions de l’élu, non des engagements définitifs. Lors de la présentation du 12 octobre, Google indique envisager une première phase de 120 MW raccordée à 225 kV à l’horizon 2030 ; il s’agit d’un calendrier annoncé et non d’une mise en service acquise. La presse rapporte un scénario révisé de six à huit bâtiments et une première phase de 120 MW à 225 kV, puis une phase à 400 kV. Les dates et dimensions restent prévisionnelles et les périmètres fonciers rapportés divergent.",
+    "summary": "Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet. Selon La Nouvelle République, le 28 octobre Gil Avérous a présenté un maximum envisagé de huit bâtiments, des pistes de valorisation de chaleur, une contribution socio-économique en négociation et un suivi des températures. Ces éléments sont des annonces et propositions de l’élu, non des engagements définitifs. Lors de la présentation du 12 octobre, Google indique envisager une première phase de 120 MW raccordée à 225 kV à l’horizon 2030 ; il s’agit d’un calendrier annoncé et non d’une mise en service acquise. La presse rapporte un scénario révisé de six à huit bâtiments et une première phase de 120 MW à 225 kV, puis une phase à 400 kV. Les dates et dimensions restent prévisionnelles et les périmètres fonciers rapportés divergent. ENGIE et Google annoncent le 13 novembre un protocole d’accord portant sur les solutions énergétiques, renouvelables et de flexibilité, sous réserve d’accords ultérieurs. Les échanges du conseil communautaire du 17 novembre, les visites et réunions du 25 novembre documentent la concertation. Aucun engagement définitif de fourniture ni chaleur effectivement livrée ne sont établis.",
     "sourceIds": [
       "fr-ozans-2026-1",
       "fr-ozans-2026-2",
@@ -24,7 +24,14 @@
       "nldc-20261124-89",
       "nldc-20261124-94",
       "nldc-20261124-95",
-      "nldc-20261124-101"
+      "nldc-20261124-101",
+      "fr-engie-google-mou-20261113",
+      "curebot15-20261127-80",
+      "curebot15-20261127-93",
+      "curebot15-20261127-17",
+      "curebot15-20261127-21",
+      "curebot15-20261127-83",
+      "curebot15-20261127-49"
     ],
     "type": "project",
     "territory": "Ozans, Indre",
@@ -350,7 +357,7 @@
     "date": "2026-11-20",
     "type": "context",
     "title": "Approbation du plan de réseau électrique espagnol à horizon 2030",
-    "summary": "Le Conseil des ministres approuve le plan de développement du transport : 17,142 Md€ d’investissements et environ 47 GW de besoins nouveaux tous usages confondus. Le plan avait été présenté au Congrès le 12 novembre. Ces volumes ne sont pas exclusivement des data centers.",
+    "summary": "Le Conseil des ministres approuve le plan de développement du transport : 17,142 Md€ d’investissements et environ 47 GW de besoins nouveaux tous usages confondus. Le plan avait été présenté au Congrès le 12 novembre. Ces volumes ne sont pas exclusivement des data centers. Le communiqué du ministère du 20 novembre confirme les investissements et les quelque 47 GW de nouvelles demandes pouvant être accueillies via transport et distribution, tous usages confondus ; ces capacités ne sont pas déjà disponibles.",
     "topics": [
       "grid",
       "power"
@@ -358,7 +365,8 @@
     "sourceIds": [
       "curebot-20261124-5",
       "curebot-20261124-20",
-      "curebot-20261124-3"
+      "curebot-20261124-3",
+      "es-miteco-planificacion-2030"
     ],
     "impacts": {
       "grid": "Renforcement et adaptation du réseau pour l’électrification, les industriels et les autres nouvelles charges ; distinguer capacité planifiée et raccordements effectivement réalisés."
@@ -823,7 +831,7 @@
     "date": "2026-11-06",
     "type": "mobilisation",
     "title": "Stop Dirty Data Centres — extension des soutiens et actions annoncées",
-    "summary": "La coalition annonce plus de 100 organisations dans 15 pays ; 13 États sont identifiés dans les sources retenues. Revendication commune : moratoire sur les nouveaux grands centres et débat public. Les appels et annonces ne prouvent pas à eux seuls la réalisation de chaque action. Le Monde du 8 novembre rapporte des manifestations effectivement tenues dans une quinzaine de pays, notamment à Londres et Dublin. Ce complément ne valide pas individuellement chaque action du programme.",
+    "summary": "La coalition annonce plus de 100 organisations dans 15 pays ; 13 États sont identifiés dans les sources retenues. Revendication commune : moratoire sur les nouveaux grands centres et débat public. Les appels et annonces ne prouvent pas à eux seuls la réalisation de chaque action. Le Monde du 8 novembre rapporte des manifestations effectivement tenues dans une quinzaine de pays, notamment à Londres et Dublin. Ce complément ne valide pas individuellement chaque action du programme. Yle confirme les mobilisations du 7 novembre en Finlande dans six villes (Helsinki, Lahti, Tampere, Oulu, Jyväskylä et Turku), avec environ 1 300 personnes à Helsinki selon la police. Les chiffres ne mesurent pas l’adhésion de l’ensemble de la population.",
     "topics": [
       "territory"
     ],
@@ -833,7 +841,9 @@
       "sddc-november-programme",
       "sddc-guardian-november",
       "sddc-datacenters-news-november",
-      "sddc-lemonde-20261108"
+      "sddc-lemonde-20261108",
+      "curebot15-20261127-72",
+      "fi-sddc-yle-20261107"
     ],
     "campaignId": "sddc-nov-2026-expanded",
     "actorIds": [
@@ -933,7 +943,8 @@
       "dk-grid-priority-ministry-2026",
       "curebot3-20261124-14",
       "curebot3-20261124-18",
-      "ft-dk-42c0f981"
+      "ft-dk-42c0f981",
+      "curebot15-20261127-7"
     ],
     "actorIds": [
       "dk-energinet"
@@ -1166,7 +1177,8 @@
     ],
     "sourceIds": [
       "curebot3-20261124-3",
-      "carto-20261125-29"
+      "carto-20261125-29",
+      "curebot15-20261127-59"
     ]
   },
   {
@@ -1572,7 +1584,7 @@
     "date": "2026-11-17",
     "type": "project",
     "title": "Le Bosquel — forum environnemental de la concertation préalable",
-    "summary": "La CNDP a désigné des garants pour la concertation du 21 septembre au 20 novembre sur le projet de centre de calcul et son raccordement. Après la réunion du 2 novembre, le forum du 17 novembre à Flers-sur-Noye aborde eau, bruit, paysage, travaux et raccordement ; le Courrier picard rapporte des critiques sur la précision des réponses. La concertation n’est pas une autorisation.",
+    "summary": "La CNDP a désigné des garants pour la concertation du 21 septembre au 20 novembre sur le projet de centre de calcul et son raccordement. Après la réunion du 2 novembre, le forum du 17 novembre à Flers-sur-Noye aborde eau, bruit, paysage, travaux et raccordement ; le Courrier picard rapporte des critiques sur la précision des réponses. La concertation n’est pas une autorisation. Le Courrier picard du 19 novembre rapporte les échanges du forum avec RTE et le cabinet d’architecture ; le courrier de lecteur du 22 novembre documente une position individuelle, pas un constat de consommation ou une suspension.",
     "topics": [
       "territory",
       "environment",
@@ -1584,7 +1596,8 @@
       "nldc-20261124-55",
       "fr-bosquel-cndp-2026",
       "fr-bosquel-cndp-20260902",
-      "carto-20261125-28"
+      "carto-20261125-28",
+      "curebot15-20261127-53"
     ],
     "territory": "Le Bosquel / Flers-sur-Noye",
     "actorIds": [
@@ -1623,14 +1636,17 @@
     "date": "2026-11-18",
     "type": "project",
     "title": "Brebières–Corbehem — enquête publique annoncée pour décembre",
-    "summary": "Le registre, encore en préparation lors de la collecte, annonce une enquête publique unique du 1er décembre 2026 au 15 janvier 2027 sur quatre bâtiments de data centers, le poste 225 kV Fond de Sailly et la liaison souterraine associée. Le projet réutilise une friche de 23 ha. L’ouverture reste à confirmer par l’arrêté et le registre définitif ; aucune autorisation n’est acquise.",
+    "summary": "Le registre, encore en préparation lors de la collecte, annonce une enquête publique unique du 1er décembre 2026 au 15 janvier 2027 sur quatre bâtiments de data centers, le poste 225 kV Fond de Sailly et la liaison souterraine associée. Le projet réutilise une friche de 23 ha. L’ouverture reste à confirmer par l’arrêté et le registre définitif ; aucune autorisation n’est acquise. L’arrêté du 10 novembre 2026 prescrit l’enquête publique unique du 1er décembre 2026 au 15 janvier 2027. Les avis officiels des communes confirment le calendrier et les demandes de DUP relatives au poste et à la liaison 225 kV Fond de Sailly ; l’ouverture effective et les décisions finales restent à suivre.",
     "topics": [
       "planning",
       "territory",
       "grid"
     ],
     "sourceIds": [
-      "nldc-20261124-9"
+      "nldc-20261124-9",
+      "fr-brebieres-avis-vitry-2026",
+      "fr-brebieres-avis-gouy-2026",
+      "curebot15-20261127-87"
     ],
     "territory": "Brebières, Corbehem et Noyelles-sous-Bellonne",
     "actorIds": [
@@ -1734,7 +1750,7 @@
     "date": "2026-10-22",
     "type": "project",
     "title": "Réau — réunion publique du projet Verne",
-    "summary": "L’Observatoire des multinationales rapporte une réunion publique concernant le projet Verne dans la ZAC de Paris-Villaroche. La puissance annoncée est de 500 MW ; les débats portent sur le foncier, les retombées et la souveraineté. Le site étudié pour une candidature à une gigafactory européenne n’est pas un site déjà sélectionné.",
+    "summary": "L’Observatoire des multinationales rapporte une réunion publique concernant le projet Verne dans la ZAC de Paris-Villaroche. La puissance annoncée est de 500 MW ; les débats portent sur le foncier, les retombées et la souveraineté. Le site étudié pour une candidature à une gigafactory européenne n’est pas un site déjà sélectionné. L’investissement de 5 milliards d’euros est une annonce rapportée ; ne pas confondre Réau avec Fouju ni assimiler la puissance projetée à une capacité raccordée.",
     "topics": [
       "planning",
       "territory",
@@ -2079,7 +2095,7 @@
     "date": "2026-11-09",
     "type": "context",
     "title": "Ozans — réunion publique de concertation et débat sur les enjeux globaux",
-    "summary": "Magcentre rapporte environ 700 personnes lors de la réunion du 9 novembre à Châteauroux. La Nouvelle République décrit les échanges suivants sur la consommation électrique, les impacts et la décarbonation. La participation ne vaut pas adhésion ou opposition de l’ensemble du public.",
+    "summary": "Magcentre rapporte environ 700 personnes lors de la réunion du 9 novembre à Châteauroux. La Nouvelle République décrit les échanges suivants sur la consommation électrique, les impacts et la décarbonation. La participation ne vaut pas adhésion ou opposition de l’ensemble du public. Les reportages de novembre complètent le contexte de concertation et des oppositions, sans modifier le calendrier officiel.",
     "topics": [
       "territory",
       "grid",
@@ -2088,7 +2104,9 @@
     "sourceIds": [
       "nldc-20261124-24",
       "nldc-20261124-18",
-      "nldc-20261124-42"
+      "nldc-20261124-42",
+      "curebot15-20261127-21",
+      "curebot-20261124-2"
     ],
     "territory": "Châteauroux / Étrechet",
     "actorIds": [
@@ -3613,7 +3631,7 @@
     "date": "2025-11-28",
     "type": "context",
     "title": "DGE — guide pratique d’implantation des centres de données",
-    "summary": "Le guide s’adresse aux collectivités, propriétaires fonciers et porteurs de projet. Il décrit la qualification des sites, les étapes d’attribution et les possibilités d’accompagnement par la task force. Il présente le cadre de référence à sa date, mais ne crée aucune autorisation ni nouvelle obligation ; les évolutions ultérieures du PINM et de l’agrément doivent être consultées séparément.",
+    "summary": "Le guide s’adresse aux collectivités, propriétaires fonciers et porteurs de projet. Il décrit la qualification des sites, les étapes d’attribution et les possibilités d’accompagnement par la task force. Il présente le cadre de référence à sa date, mais ne crée aucune autorisation ni nouvelle obligation ; les évolutions ultérieures du PINM et de l’agrément doivent être consultées séparément. La page gouvernementale sur la stratégie française, collectée en novembre 2026, rappelle les objectifs d’implantation, d’impact environnemental et d’association des collectivités ; il ne s’agit pas d’une nouvelle obligation.",
     "topics": [
       "planning",
       "territory",
@@ -3623,7 +3641,8 @@
       "feb-20261125-73",
       "feb-20261125-74",
       "feb-20261125-67",
-      "feb-20261125-72"
+      "feb-20261125-72",
+      "curebot15-20261127-23"
     ],
     "actorIds": [
       "fr-dge",
@@ -5520,5 +5539,214 @@
     "actorIds": [
       "it-terna"
     ]
+  },
+  {
+    "id": "es-spaindc-rd1032-appeal-2026",
+    "date": "2026-11-24",
+    "title": "Espagne — recours de SpainDC contre le décret 1032/2026",
+    "summary": "SpainDC annonce le 25 novembre avoir déposé la veille un recours devant le Tribunal suprême et demandé la suspension provisoire du décret. Cette demande ne constitue pas une suspension prononcée. Maintenir le stade du décret existant tant qu’une décision juridictionnelle contraire n’est pas établie.",
+    "countries": [
+      "ES"
+    ],
+    "topics": [
+      "planning",
+      "grid",
+      "supply",
+      "environment"
+    ],
+    "type": "context",
+    "sourceIds": [
+      "es-spaindc-recurso-20261125",
+      "es-spaindc-recurso-annonce-20261120",
+      "curebot15-20261127-57"
+    ],
+    "actorIds": [
+      "es-spain-dc"
+    ]
+  },
+  {
+    "id": "be-farciennes-greenpeace-stop-request-2026",
+    "date": "2026-11-23",
+    "title": "Farciennes — demande de suspension des travaux par Greenpeace",
+    "summary": "Greenpeace indique avoir demandé à l’administration wallonne l’arrêt des travaux le 23 novembre après l’annulation du permis modificatif en août rapportée par l’association. Elle rapporte un recours de Google le 17 octobre et une audience prévue le 7 janvier 2027. Il s’agit de déclarations d’une partie au dossier ; l’état exact des autorisations et l’issue des recours restent à vérifier auprès de l’autorité.",
+    "countries": [
+      "BE"
+    ],
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "type": "mobilisation",
+    "sourceIds": [
+      "be-greenpeace-farciennes-20261125",
+      "curebot15-20261127-26"
+    ],
+    "territory": "Farciennes, Wallonie"
+  },
+  {
+    "id": "us-va-ashburn-potomac-promise-2026",
+    "date": "2026-10-20",
+    "title": "Ashburn — accord préliminaire Potomac Promise avec Amazon",
+    "summary": "Le comté de Loudoun annonce des mesures approuvées à l’unanimité en vue de retirer les usages data centers de l’ancien campus universitaire acquis par AWS et d’accélérer un autre aménagement. L’accord annoncé est préliminaire et limité au site ; il ne vaut ni interdiction générale dans le comté ni moratoire de Virginie.",
+    "countries": [
+      "US"
+    ],
+    "topics": [
+      "planning",
+      "territory"
+    ],
+    "type": "project",
+    "sourceIds": [
+      "us-va-loudoun-potomac-promise-2026",
+      "curebot15-20261127-84"
+    ],
+    "territory": "Ashburn, comté de Loudoun, Virginie"
+  },
+  {
+    "id": "us-hyperscale-electricity-emissions-study-2026",
+    "date": "2026-11-16",
+    "title": "États-Unis — étude de la consommation et des émissions de 403 hyperscales",
+    "summary": "Une étude publiée dans Nature Sustainability estime, dans son scénario central, la consommation de 403 centres hyperscale actifs entre mai 2024 et avril 2025 à environ 82 TWh, et leurs émissions attribuables à environ 25,7 Mt CO₂. Estimation modélisée pour ce périmètre, non mesure exhaustive de tous les data centers américains.",
+    "countries": [
+      "US"
+    ],
+    "topics": [
+      "power",
+      "environment"
+    ],
+    "type": "context",
+    "sourceIds": [
+      "us-hyperscale-emissions-nature-2026",
+      "curebot15-20261127-94",
+      "curebot15-20261127-96"
+    ]
+  },
+  {
+    "id": "fr-shift-dc-scenarios-2026",
+    "date": "2026-11-26",
+    "title": "The Shift Project — scénarios français de consommation des data centers",
+    "summary": "La note collectée indique 5 GW de droits d’accès au réseau fin 2024, 14 GW en novembre 2025, 21 GW en octobre 2026. Les scénarios tendanciels détaillés atteignent 43 à 76 TWh en 2035 et 69 à 117 TWh en 2050 ; la page de présentation arrondit les valeurs hautes à 80 et 120 TWh. Il s’agit de scénarios dépendants de la concrétisation des projets, non de consommations constatées ni de capacités IT. La page officielle est datée du 26 novembre ; la note actualise le rapport d’octobre 2025. Les recommandations de planification et de priorisation sont des propositions du think tank.",
+    "countries": [
+      "FR"
+    ],
+    "topics": [
+      "grid",
+      "power",
+      "environment"
+    ],
+    "type": "context",
+    "sourceIds": [
+      "curebot15-20261127-11",
+      "curebot15-20261127-12",
+      "curebot15-20261127-19",
+      "curebot15-20261127-3"
+    ],
+    "actorIds": [
+      "fr-shift-project"
+    ]
+  },
+  {
+    "id": "fr-villedieu-google-site-miroir-2026",
+    "date": "2026-11-23",
+    "title": "Villedieu-sur-Indre — piste de second site Google",
+    "summary": "Mediapart et Lighthouse Reports évoquent une demande de raccordement de 1 200 MW en mai 2026 par Tricolore Computing ; la presse rapporte une réponse positive, non vérifiée indépendamment auprès de RTE. Le maire confirme l’intérêt foncier sans vente conclue. Les réactions locales incluent une mobilisation d’Ozans dire non. Il s’agit d’une piste étudiée, distincte d’Ozans, non d’un projet confirmé ou en chantier.",
+    "countries": [
+      "FR"
+    ],
+    "topics": [
+      "planning",
+      "grid",
+      "territory"
+    ],
+    "type": "project",
+    "sourceIds": [
+      "curebot15-20261127-45",
+      "curebot15-20261127-39",
+      "curebot15-20261127-41",
+      "curebot15-20261127-42",
+      "curebot15-20261127-27",
+      "curebot15-20261127-15"
+    ],
+    "territory": "Villedieu-sur-Indre",
+    "actorIds": [
+      "fr-ozans-dire-non"
+    ]
+  },
+  {
+    "id": "fr-pennes-mirabeau-telehouse-negociations-2026",
+    "date": "2026",
+    "title": "Pennes-Mirabeau — négociations municipales sur les retombées du projet Telehouse",
+    "summary": "Mesinfos rapporte des négociations sur la valorisation de chaleur, le photovoltaïque, la voirie et la formation après l’opposition municipale au projet. Les demandes locales ne valent pas engagements contractuels ; les recours signalés restent à vérifier. La date exacte de publication doit être retrouvée. La source de presse n’a pas pu être rouverte ; le jalon est documenté par l’extrait collecté.",
+    "countries": [
+      "FR"
+    ],
+    "topics": [
+      "planning",
+      "territory",
+      "environment"
+    ],
+    "type": "project",
+    "sourceIds": [
+      "curebot15-20261127-14"
+    ],
+    "territory": "Les Pennes-Mirabeau"
+  },
+  {
+    "id": "fr-besse-braye-eclairion-recours-2026",
+    "date": "2026-11-20",
+    "title": "Bessé-sur-Braye — opposition locale au projet Éclairion",
+    "summary": "France Inter rapporte une réunion publique de riverains et des recours devant les tribunaux administratifs d’Orléans et de Nantes, ainsi que des inquiétudes sur les prélèvements dans la Braye. Le permis et les recours doivent être corroborés par les dossiers officiels ; aucun jugement n’est établi.",
+    "countries": [
+      "FR"
+    ],
+    "topics": [
+      "planning",
+      "environment",
+      "territory"
+    ],
+    "type": "mobilisation",
+    "sourceIds": [
+      "curebot15-20261127-62"
+    ],
+    "territory": "Bessé-sur-Braye"
+  },
+  {
+    "id": "de-brandenburg-dc-acceptability-2026",
+    "date": "2026",
+    "title": "Brandebourg — état des projets recensés et tensions locales",
+    "summary": "RBB rapporte un recensement citoyen de 15 projets, dont sept en planification, cinq en construction et trois en pause. Les préoccupations portent notamment sur l’eau et le foncier. Ce relevé n’est pas un inventaire administratif exhaustif ; la date exacte de l’article de septembre reste à vérifier.",
+    "countries": [
+      "DE"
+    ],
+    "topics": [
+      "territory",
+      "planning",
+      "environment"
+    ],
+    "type": "context",
+    "sourceIds": [
+      "curebot15-20261127-75"
+    ],
+    "territory": "Brandebourg"
+  },
+  {
+    "id": "fr-lannemezan-pechiney-project-2026",
+    "date": "2026-11-16",
+    "title": "Lannemezan — reconversion envisagée de l’ancienne friche Péchiney",
+    "summary": "DCmag rapporte la réorientation envisagée du site de Peyrehitte vers un centre de données, le soutien municipal et les réserves de l’association ADRISE. Le foncier, les conditions électriques, les autorisations et le calendrier restent à confirmer.",
+    "countries": [
+      "FR"
+    ],
+    "topics": [
+      "planning",
+      "territory",
+      "environment"
+    ],
+    "type": "project",
+    "sourceIds": [
+      "curebot15-20261127-100"
+    ],
+    "territory": "Lannemezan, Hautes-Pyrénées"
   }
 ]

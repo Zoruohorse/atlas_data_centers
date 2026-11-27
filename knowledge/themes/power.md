@@ -1,6 +1,6 @@
 # Système électrique
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-27. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -42,13 +42,15 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-10-23 | US | Consultation | DOE/FERC — ouverture du dossier fédéral sur les grandes charges (`us-ferc-rm26-4-2025`) | [DOE · directives section 403, 23 octobre 2025](<https://www.energy.gov/topics/2025-doe-403-orders>) (primaire) |
 | 2025 | IE | Annonce officielle | Private Wires — projet d’ouverture encadrée des liaisons privées (`ie-private-wires-bill`) | [Gouvernement irlandais — Private Wires Policy](<https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-obrien-secures-government-approval-for-new-private-wires-policy-to-unlock-private-sector-investment-in-electricity-infrastructure/>) (primaire) |
 
-## Événements (84)
+## Événements (86)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
+| 2026-11-26 | FR | Contexte documenté | The Shift Project — scénarios français de consommation des data centers (`fr-shift-dc-scenarios-2026`) | [Note-DC-France-2026](<https://theshiftproject.org/app/uploads/2026/11/Note-DC-France-2026.pdf>) (primaire) |
 | 2026-11-20 | ES | Contexte documenté | Approbation du plan de réseau électrique espagnol à horizon 2030 (`es-grid-plan-2030-2026`) | [MITECO — planification électrique 2030 approuvée](<https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-la-planificacion-electrica-en-el-horizonte-2.html>) (primaire) |
 | 2026-11-19 | Union européenne | Contexte documenté | AIE — World Energy Outlook 2026 : demande électrique des data centers (`eu-iea-weo2026-context`) | [AIE — World Energy Outlook 2026, principaux résultats](<https://www.iea.org/reports/world-energy-outlook-2026/overview-and-key-findings>) (primaire) |
 | 2026-11-17 | US — Texas | Contexte documenté | ERCOT — suivi des exigences de ride-through (`us-tx-ride-through-review-2026`) | [ERCOT — proposition NOGRR291](<https://www.ercot.com/mktrules/issues/NOGRR291>) (primaire) |
+| 2026-11-16 | US | Contexte documenté | États-Unis — étude de la consommation et des émissions de 403 hyperscales (`us-hyperscale-electricity-emissions-study-2026`) | [Nature Sustainability — étude des hyperscales américains](<https://www.nature.com/articles/s41893-026-01985-7>) (primaire) |
 | 2026-11-12 | FI | Contexte documenté | Fingrid — 126 GW de demandes indicatives liées aux data centers (`fi-fingrid-enquiries-nov2026`) | [Fingrid — demandes au 12 novembre 2026](<https://www.fingrid.fi/globalassets/dokumentit/fi/palvelut/kulutuksen-ja-tuotannon-liittaminen-kantaverkkoon/fingrid-liityntakyselyjen-maara-12.11.2026.pdf>) (primaire) |
 | 2026-11-04 | FR | Contexte documenté | Banque de France — débat sur le signal-prix géographique (`fr-bdf-price-signal-2026`) | [Banque de France — billet du 4 novembre](<https://www.banque-france.fr/fr/publications-et-statistiques/publications/data-centers-et-energie-le-cout-ecologique-dun-signal-prix-en-panne>) (primaire) |
 | 2026-11-03 | GB — North Yorkshire | Projet ou infrastructure | Drax — partenariat pour un campus de calcul sur un site électrique existant (`gb-drax-campus-2026`) | [Drax — annonce du partenariat du 3 novembre](<https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/>) (primaire) |

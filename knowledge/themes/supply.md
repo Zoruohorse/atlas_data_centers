@@ -1,6 +1,6 @@
 # Approvisionnement
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-27. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -19,10 +19,11 @@ Les documents multithématiques apparaissent dans plusieurs index. Les entrées 
 | 2025-12-12 | IE | Publication | Nouvelle politique de raccordement de la CRU (`ie-cru-2025`) | [Décision · CRU](<https://www.cru.ie/en-ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/>) (primaire) |
 | 2025 | IE | Annonce officielle | Private Wires — projet d’ouverture encadrée des liaisons privées (`ie-private-wires-bill`) | [Gouvernement irlandais — Private Wires Policy](<https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-obrien-secures-government-approval-for-new-private-wires-policy-to-unlock-private-sector-investment-in-electricity-infrastructure/>) (primaire) |
 
-## Événements (21)
+## Événements (22)
 
 | Date | Périmètre | Stade enregistré | Document | Référence source |
 |---|---|---|---|---|
+| 2026-11-24 | ES | Contexte documenté | Espagne — recours de SpainDC contre le décret 1032/2026 (`es-spaindc-rd1032-appeal-2026`) | [SpainDC — annonce du dépôt du recours le 24 novembre](<https://spaindc.com/spaindc-recurre-ante-el-tribunal-supremo-el-real-decreto-y-solicita-su-suspension-cautelar/>) (primaire) |
 | 2026-11-12 | SE — Falun | Contexte documenté | Falun — retour d’expérience EcoDataCenter (`se-falun-ecodatacenter-2026`) | [The Guardian — EcoDataCenter Falun](<https://www.theguardian.com/environment/2026/nov/12/datacentres-unpopular-sweden-ecodatacenter-falun>) (analyse) |
 | 2026-10-26 | ES | Contexte documenté | Espagne — révision du projet de décret avant adoption (`es-decree-revision-oct2026`) | [EnergyTag — modélisation du projet de décret](<https://energytag.org/wp-content/uploads/2026/10/20261029-FINAL-Getting-Spain-Data-Center-Decree-Right_-Hourly-Matching-That-Cuts-Emissions-and-Costs-v4-1.pdf>) (primaire) |
 | 2026-10-08 | FI — Jämsä, Kaipola | Projet ou infrastructure | Jämsä — campus IA Sesterce à Kaipola (`fi-jamsa-sesterce-campus-2026`) | [Ville de Jämsä — projet de Kaipola](<https://jamsa.fi/ajankohtaista/tiedotteet/jamsan-kaipolaan-suunnitteilla-10-miljardin-euron-tekoalykampus/>) (primaire) |

@@ -1,6 +1,6 @@
 # Approvisionnement, additionnalité et flexibilité
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-27. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -35,7 +35,7 @@ Sélection de lecture, complétée automatiquement par les évaluations existant
 - Fiche cartographique : [ES](https://zoruohorse.github.io/atlas_data_centers/#ES)
 - Date d'effet renseignée : 2026-11-22
 
-Le décret royal 1032/2026 du 20 novembre, publié le 21 et applicable le 22 novembre, fixe des exigences de durabilité et de souveraineté. Les obligations générales visent les demandes de raccordement d’au moins 10 MW de puissance d’accès (agrégation des sites de même titulaire et localisation), non 10 MW IT. Les articles 7 et 8 prévoient respectivement une couverture de 80 % de la consommation par des capacités renouvelables additionnelles et une corrélation horaire de 80 %, avec exceptions et voie transitoire de cinq ans liée à la réduction automatique de puissance. L’article 13 concerne les sites d’au moins 500 kW IT ; l’article 5 s’applique indépendamment de la puissance aux systèmes publics de catégorie ALTA, sous ses conditions propres. Les exceptions de l’article 2 doivent être vérifiées. Le projet de reporting de l’été 2025 est un jalon antérieur ; ne pas appliquer ses seuils au décret final de novembre 2026.
+Le décret royal 1032/2026 du 20 novembre, publié le 21 et applicable le 22 novembre, fixe des exigences de durabilité et de souveraineté. Les obligations générales visent les demandes de raccordement d’au moins 10 MW de puissance d’accès (agrégation des sites de même titulaire et localisation), non 10 MW IT. Les articles 7 et 8 prévoient respectivement une couverture de 80 % de la consommation par des capacités renouvelables additionnelles et une corrélation horaire de 80 %, avec exceptions et voie transitoire de cinq ans liée à la réduction automatique de puissance. L’article 13 concerne les sites d’au moins 500 kW IT ; l’article 5 s’applique indépendamment de la puissance aux systèmes publics de catégorie ALTA, sous ses conditions propres. Les exceptions de l’article 2 doivent être vérifiées. Le projet de reporting de l’été 2025 est un jalon antérieur ; ne pas appliquer ses seuils au décret final de novembre 2026. SpainDC indique le 25 novembre avoir saisi le Tribunal suprême le 24 novembre avec une demande de suspension provisoire. Aucun octroi de suspension n’est établi ; le stade enregistré est maintenu. Voir es-spaindc-rd1032-appeal-2026.
 
 **Opérateurs :** Distinguer puissance d’accès et puissance IT. Vérifier les dispositions transitoires, les engagements de production renouvelable et les critères énergétiques et hydriques, ainsi que le champ des obligations de souveraineté.
 
@@ -145,6 +145,26 @@ Sources : [South Dublin County Council — décisions d’appel, 19 février 202
 Le gouvernement organise la première réunion du Conseil réunissant les responsables publics de l’énergie et du numérique, gestionnaires, régulateur et industriels. L’instance vise à anticiper les besoins électriques des infrastructures IA et coordonner les travaux sur l’énergie. Il s’agit d’une instance de concertation stratégique, non d’une règle de raccordement adoptée.
 
 Sources : [Gouvernement britannique — première réunion du AI Energy Council](<https://www.gov.uk/government/news/technology-and-energy-secretaries-chair-first-meeting-of-ai-energy-council>) (primaire) · [Gouvernement britannique — comptes rendus du Conseil](<https://www.gov.uk/government/publications/ai-energy-council-meetings-minutes>) (primaire) · [The Register — enjeux de fourniture électrique](<https://www.theregister.com/2025/04/10/uk_ai_energy_council_meets/>) (analyse). Autres références : voir `gb-ai-energy-council-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### The Shift Project — scénarios français de consommation des data centers
+
+- Identifiant : `fr-shift-dc-scenarios-2026` · 2026-11-26 · FR · Contexte documenté
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+La note collectée indique 5 GW de droits d’accès au réseau fin 2024, 14 GW en novembre 2025, 21 GW en octobre 2026. Les scénarios tendanciels détaillés atteignent 43 à 76 TWh en 2035 et 69 à 117 TWh en 2050 ; la page de présentation arrondit les valeurs hautes à 80 et 120 TWh. Il s’agit de scénarios dépendants de la concrétisation des projets, non de consommations constatées ni de capacités IT. La page officielle est datée du 26 novembre ; la note actualise le rapport d’octobre 2025. Les recommandations de planification et de priorisation sont des propositions du think tank.
+
+Sources : [Note-DC-France-2026](<https://theshiftproject.org/app/uploads/2026/11/Note-DC-France-2026.pdf>) (primaire) · [Déploiement actuel et à venir des centres de données en France](<https://theshiftproject.org/publications/deploiement-actuel-et-a-venir-des-centres-de-donnees-en-france/>) (primaire) · [Data centers : leur consommation électrique pourrait atteindre celle de toute l’industrie française en 2050](<https://tecsol-quotidien.fr/data-centers-leur-consommation-electrique-pourrait-atteindre-celle-de-toute-lindustrie-francaise-en-2050/>) (analyse). Autres références : voir `fr-shift-dc-scenarios-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Google à Ozans, près de Châteauroux
+
+- Identifiant : `fr-ozans-2026` · 2026-11-02 · FR — Ozans, Indre · Projet ou infrastructure
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+Google et RTE soumettent le centre de données et son raccordement à une concertation préalable du 2 novembre 2026 au 10 janvier 2027. Des oppositions locales portent notamment sur les impacts environnementaux et la transparence du projet. Selon La Nouvelle République, le 28 octobre Gil Avérous a présenté un maximum envisagé de huit bâtiments, des pistes de valorisation de chaleur, une contribution socio-économique en négociation et un suivi des températures. Ces éléments sont des annonces et propositions de l’élu, non des engagements définitifs. Lors de la présentation du 12 octobre, Google indique envisager une première phase de 120 MW raccordée à 225 kV à l’horizon 2030 ; il s’agit d’un calendrier annoncé et non d’une mise en service acquise. La presse rapporte un scénario révisé de six à huit bâtiments et une première phase de 120 MW à 225 kV, puis une phase à 400 kV. Les dates et dimensions restent prévisionnelles et les périmètres fonciers rapportés divergent. ENGIE et Google annoncent le 13 novembre un protocole d’accord portant sur les solutions énergétiques, renouvelables et de flexibilité, sous réserve d’accords ultérieurs. Les échanges du conseil communautaire du 17 novembre, les visites et réunions du 25 novembre documentent la concertation. Aucun engagement définitif de fourniture ni chaleur effectivement livrée ne sont établis.
+
+**Réseau :** La concertation couvre aussi le raccordement électrique porté par RTE.
+
+Sources : [Concertation · RTE](<https://assets.rte-france.com/prod/public/2026-10/2026-10-12-cp-lancement-concertation-centre-donnees-ozans.pdf>) (primaire) · [ENGIE — communiqué du 13 novembre](<https://newsroom.engie.com/actualites/engie-et-google-s-associent-pour-developper-les-solutions-energetiques-d-un-projet-de-data-center-envisage-pres-de-chateauroux-en-france-07134-ff316.html>) (primaire) · [Presse · Le Monde](<https://www.lemonde.fr/economie/article/2026/10/16/dans-le-berry-un-vent-de-revolte-souffle-contre-le-projet-de-data-center-de-google_6795466_3234.html>) (analyse). Autres références : voir `fr-ozans-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
 
 ## Explorer l'ensemble des documents associés
 

@@ -4846,5 +4846,299 @@
     "label": "La Repubblica — présentation du plan Terna",
     "url": "https://www.repubblica.it/economia/2025/03/14/news/terna_investimenti_oltre_23_miliardi_piano_10_anni_rete_data_center_energia-424063149/",
     "type": "analysis"
+  },
+  {
+    "id": "es-spaindc-recurso-20261125",
+    "label": "SpainDC — annonce du dépôt du recours le 24 novembre",
+    "url": "https://spaindc.com/spaindc-recurre-ante-el-tribunal-supremo-el-real-decreto-y-solicita-su-suspension-cautelar/",
+    "type": "primary"
+  },
+  {
+    "id": "es-spaindc-recurso-annonce-20261120",
+    "label": "SpainDC — annonce de recours le 20 novembre",
+    "url": "https://spaindc.com/spaindc-solicitara-la-suspension-cautelar-del-real-decreto-y-acusa-al-gobierno-de-expulsar-a-espana-de-la-carrera-digital/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-57",
+    "label": "El sector mantiene el rechazo al decreto de los centros de datos y pedirá la suspensión cautelar: \"No lo vamos a aceptar\"",
+    "url": "https://www.elespanol.com/invertia/disruptores/politica-digital/espana/20261120/sector-mantiene-rechazo-decreto-centros-datos-pedira-suspension-cautelar-no-vamos-aceptar/1003744466451_0.html",
+    "type": "analysis"
+  },
+  {
+    "id": "es-miteco-planificacion-2030",
+    "label": "MITECO — dossier de planification électrique",
+    "url": "https://www.miteco.gob.es/es/energia/estrategia-normativa/planificacion/planificacion-electrica.html",
+    "type": "primary"
+  },
+  {
+    "id": "be-greenpeace-farciennes-20261125",
+    "label": "Greenpeace Belgique — demande d’arrêt des travaux",
+    "url": "https://www.greenpeace.org/belgium/fr/communique-de-presse/82978/google-poursuit-ses-travaux-sans-permis-a-farciennes-greenpeace-lance-une-procedure-durgence/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-26",
+    "label": "Farciennes : Google poursuit les travaux d'un data center sans permis, dénonce Greenpeace",
+    "url": "https://www.rtbf.be/article/farciennes-google-poursuit-les-travaux-d-un-data-center-sans-permis-denonce-greenpeace-11820807",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-brebieres-avis-vitry-2026",
+    "label": "Ville de Vitry-en-Artois — avis d’enquête publique",
+    "url": "https://www.vitryenartois.fr/actualites/ville/689-enquete-publique.html",
+    "type": "primary"
+  },
+  {
+    "id": "fr-brebieres-avis-gouy-2026",
+    "label": "Commune de Gouy-sous-Bellonne — avis d’enquête publique",
+    "url": "https://www.gouysousbellonne.fr/actualite/438/1751-avis-d-enquete-publique.htm",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-87",
+    "label": "Data center de Brebières-Corbehem : l’enquête publique s’ouvrira le 1er décembre mais sans débat",
+    "url": "https://www.lavoixdunord.fr/1755688/article/2026-11-17/data-center-de-brebieres-corbehem-l-enquete-publique-s-ouvrira-le-1er-decembre",
+    "type": "analysis"
+  },
+  {
+    "id": "us-va-loudoun-potomac-promise-2026",
+    "label": "Loudoun County — accord préliminaire avec Amazon",
+    "url": "https://www.loudoun.gov/m/NewsFlash/Home/Detail/10944",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-84",
+    "label": "Des habitants font reculer Amazon qui abandonne quatre centres de données sur un terrain acheté 390 millions d'euros et laisse la place à des logements, un complexe sportif et un centre culturel",
+    "url": "https://www.lesnumeriques.com/intelligence-artificielle/des-habitants-font-reculer-amazon-qui-abandonne-quatre-centres-de-donnees-sur-un-terrain-achete-390-millions-d-euros-et-laisse-la-place-a-des-logements-un-complexe-sportif-et-un-centre-culturel-n267790.html",
+    "type": "analysis"
+  },
+  {
+    "id": "us-hyperscale-emissions-nature-2026",
+    "label": "Nature Sustainability — étude des hyperscales américains",
+    "url": "https://www.nature.com/articles/s41893-026-01985-7",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-94",
+    "label": "Data centers : la pollution électrique dépend du réseau auquel les installations sont raccordées",
+    "url": "https://les-smartgrids.fr/data-centers-pollution-electrique-reseau-raccordement-2026/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-96",
+    "label": "Data centers américains : le gaz et le charbon fournissent encore plus de la moitié de leur électricité",
+    "url": "https://lenergeek.com/2026/11/17/data-centers-americains-gaz-charbon-electricite-harvard-2026/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-11",
+    "label": "Note-DC-France-2026",
+    "url": "https://theshiftproject.org/app/uploads/2026/11/Note-DC-France-2026.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-12",
+    "label": "Déploiement actuel et à venir des centres de données en France",
+    "url": "https://theshiftproject.org/publications/deploiement-actuel-et-a-venir-des-centres-de-donnees-en-france/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-19",
+    "label": "Data centers : leur consommation électrique pourrait atteindre celle de toute l’industrie française en 2050",
+    "url": "https://tecsol-quotidien.fr/data-centers-leur-consommation-electrique-pourrait-atteindre-celle-de-toute-lindustrie-francaise-en-2050/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-3",
+    "label": "Dépendance étrangère, explosion de la demande électrique… Ce rapport qui tempère l'enthousiasme français pour les data centers",
+    "url": "https://www.lesechos.fr/tech-medias/hightech/dependance-etrangere-explosion-de-la-demande-electrique-ce-rapport-qui-tempere-lenthousiasme-francais-pour-les-data-centers-2264901",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-45",
+    "label": "Data centers: encore un projet de Google caché au public",
+    "url": "https://www.mediapart.fr/journal/ecologie/231126/data-centers-encore-un-projet-de-google-cache-au-public",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-39",
+    "label": "Un autre data center géant de Google en projet dans l'Indre ?",
+    "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre/chateauroux/un-autre-data-center-geant-de-google-en-projet-dans-l-indre-3454697.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-41",
+    "label": "Aussi puissant que celui d’Ozans, un deuxième projet de data center Google à Villedieu-sur-Indre ?",
+    "url": "https://www.lanouvellerepublique.fr/indre/commune/villedieu-sur-indre/aussi-puissant-que-celui-d-ozans-un-deuxieme-projet-de-data-center-google-a-villedieu-sur-indre-1795450089",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-42",
+    "label": "Indre : un site miroir pour le data center de Google à Villedieu-sur-Indre ?",
+    "url": "https://www.ici.fr/centre-val-de-loire/indre-36/villedieu-sur-indre/indre-un-site-miroir-pour-le-data-center-de-google-a-villedieu-sur-indre-9349045",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-27",
+    "label": "Google a étudié un projet de data center à Villedieu-sur-Indre",
+    "url": "https://dcmag.fr/google-a-etudie-un-projet-de-data-center-a-villedieu-sur-indre/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-15",
+    "label": "« On voit bien que tout se fait dans le dos » : le projet de data center de Google divise les habitants de Villedieu-sur-Indre",
+    "url": "https://www.lanouvellerepublique.fr/indre/commune/villedieu-sur-indre/on-voit-bien-que-tout-se-fait-dans-le-dos-le-projet-de-data-center-de-google-divise-les-habitants-de-villedieu-sur-indre-1795620615",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-14",
+    "label": "Data center aux Pennes-Mirabeau : où en est le projet de Telehouse ?",
+    "url": "https://mesinfos.fr/13170-les-pennes-mirabeau/data-center-aux-pennes-mirabeau-ou-en-est-le-projet-de-telehouse-343901.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-62",
+    "label": "Un supercalculateur dédié à l'IA suscite la colère des habitants de Bessé-sur-Braye, dans la Sarthe",
+    "url": "https://www.radiofrance.fr/franceinter/podcasts/le-grand-reportage-de-france-inter/le-grand-reportage-d-interception-du-vendredi-20-novembre-2026-1515694",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-53",
+    "label": "L’IA, trop de sushis au Bosquel",
+    "url": "https://www.courrier-picard.fr/id761437/article/2026-11-22/lia-trop-de-sushis-au-bosquel",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-75",
+    "label": "Der Kampf um Platz und Wasser",
+    "url": "https://www.rbb24.de/wirtschaft/beitrag/2026/09/brandenburg-rechenzentren-kampf-um-platz-ressourcen-umweltverbaende.html",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-100",
+    "label": "Un projet de data center sur l’ancienne friche Péchiney à Lannemezan (Hautes-Pyrénées)",
+    "url": "https://dcmag.fr/un-projet-de-data-center-sur-lancienne-friche-pechiney-a-lannemezan-hautes-pyrenees/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-35",
+    "label": "Real Decreto 1032/2026, de 20 de noviembre, por el que se regulan los requisitos de sostenibilidad energética, medioambiental y de resiliencia y soberanía digital aplicables a los centros de datos.Ver texto consolidado",
+    "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-24439",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-4",
+    "label": "Energinet vil igen fordele kapacitet i transmissionsnettet",
+    "url": "https://www.energinet.dk/om-nyheder/nyheder/2026/11/12/energinet-vil-igen-fordele-kapacitet-i-transmissionsnettet/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-6",
+    "label": "Energinet gør klar til prioriteret kapacitetstildeling og tager nye virkemidler i brug",
+    "url": "https://www.energinet.dk/om-nyheder/nyheder/2026/10/21/energinet-gor-klar-til-prioriteret-kapacitetstildeling-og-tager-nye-virkemidler-i-brug/",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-7",
+    "label": "Cover",
+    "url": "https://cdn2.gopublic.dk/kefm/Media/639264510806153850/Aftale%20om%20akutplanen.pdf",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-71",
+    "label": "Liittymissopimushakemusten käsittely ruuhkautunut",
+    "url": "https://www.fingrid.fi/ajankohtaista/tiedotteet/2026/liittymissopimushakemusten-kasittely-ruuhkautunut/",
+    "type": "primary"
+  },
+  {
+    "id": "fi-fingrid-backlog-stt-20261023",
+    "label": "Fingrid — communiqué du 23 octobre diffusé via STT",
+    "url": "https://www.sttinfo.fi/tiedote/72436778/liittymissopimushakemusten-kasittely-ruuhkautunut?lang=fi&publisherId=69819787",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-85",
+    "label": "Nscale-prosjekt slipper strømfrys",
+    "url": "https://e24.no/i/0vE68o",
+    "type": "analysis"
+  },
+  {
+    "id": "fr-engie-google-mou-20261113",
+    "label": "ENGIE — communiqué du 13 novembre",
+    "url": "https://newsroom.engie.com/actualites/engie-et-google-s-associent-pour-developper-les-solutions-energetiques-d-un-projet-de-data-center-envisage-pres-de-chateauroux-en-france-07134-ff316.html",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-80",
+    "label": "ENGIE et Google s’associent pour développer les solutions énergétiques d’un projet de data center envisagé près de Châteauroux, en France",
+    "url": "https://www.euro-energie.com/engie-et-google-s-associent-pour-developper-les-solutions-energetiques-d-un-projet-de-data-center-envisage-pres-de-chateauroux-en-france-n-12589",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-93",
+    "label": "Google à Étrechet promet de valoriser la chaleur fatale des serveurs pour les réseaux de chaleur locaux – Notre analyse",
+    "url": "https://dcmag.fr/google-a-etrechet-promet-de-valoriser-la-chaleur-fatale-des-serveurs-pour-les-reseaux-de-chaleur-locaux-notre-analyse/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-17",
+    "label": "Des bâtiments de 13 mètres de haut, nuisance et pylônes électriques : on a visité le site du futur data center d’Ozans",
+    "url": "https://www.lanouvellerepublique.fr/indre/chateauroux-metropole/des-batiments-de-13-metres-de-haut-nuisance-et-pylones-electriques-on-a-visite-le-site-du-futur-data-center-d-ozans-1795634762",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-21",
+    "label": "Entre réponses rassurantes et inquiétudes persistantes : à Châteauroux, un nouveau public se questionne sur le futur projet de data center à Ozans",
+    "url": "https://www.lanouvellerepublique.fr/chateauroux/entre-reponses-rassurantes-et-inquietudes-persistantes-a-chateauroux-un-nouveau-public-se-questionne-sur-le-futur-projet-de-data-center-a-ozans-1795617534",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-83",
+    "label": "« Un sentiment de passage en force » : le projet de data center Google crispe encore les débats à Châteauroux Métropole",
+    "url": "https://www.lanouvellerepublique.fr/indre/chateauroux-metropole/un-sentiment-de-passage-en-force-le-projet-de-data-center-google-crispe-encore-les-debats-a-chateauroux-metropole-1794945199",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-49",
+    "label": "«Si j’avais su, je serais resté aux courriers postaux» : dans le Berry, l’arrivée d’un data center Google vire au débat sur la marche forcée de l’IA",
+    "url": "https://www.lefigaro.fr/actualite-france/si-j-avais-su-je-serais-reste-aux-courriers-postaux-dans-le-berry-l-arrivee-d-un-data-center-google-vire-au-debat-sur-la-marche-forcee-de-l-ia-20261121",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-30",
+    "label": "Post de David Ros",
+    "url": "https://fr.linkedin.com/posts/david-ros-a9038710a_centres-de-donn%C3%A9es-il-est-temps-dagir-activity-7531038356856545280--7ZQ",
+    "type": "primary"
+  },
+  {
+    "id": "curebot15-20261127-59",
+    "label": "« Vous payez, je prends votre chaleur » : le casse-tête des datacenters",
+    "url": "https://next.ink/268373/vous-payez-je-prends-votre-chaleur-le-casse-tete-des-datacenters/",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-9",
+    "label": "De nouvelles règles vertes et labels européens pour encadrer les data centres",
+    "url": "https://fr.euronews.com/2026/11/26/de-nouvelles-regles-vertes-et-labels-europeens-pour-encadrer-les-data-centres",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-72",
+    "label": "Video: Protesters rally against data centres in Finland",
+    "url": "https://yle.fi/a/74-20255931",
+    "type": "analysis"
+  },
+  {
+    "id": "fi-sddc-yle-20261107",
+    "label": "Yle — rassemblements du 7 novembre en Finlande",
+    "url": "https://yle.fi/a/74-20255647",
+    "type": "analysis"
+  },
+  {
+    "id": "curebot15-20261127-23",
+    "label": "La stratégie française sur les centres de données",
+    "url": "https://www.economie.gouv.fr/la-strategie-francaise-sur-les-centres-de-donnees",
+    "type": "primary"
   }
 ]
