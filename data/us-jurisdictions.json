@@ -225,6 +225,16 @@
       "states": [
         "OR"
       ]
+    },
+    "us-va-ashburn-potomac-promise-2026": {
+      "level": "local",
+      "states": [
+        "VA"
+      ]
+    },
+    "us-hyperscale-electricity-emissions-study-2026": {
+      "level": "context",
+      "states": []
     }
   },
   "snapshot": {

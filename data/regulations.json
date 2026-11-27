@@ -14,7 +14,7 @@
     ],
     "stage": "effective",
     "title": "Décret royal 1032/2026",
-    "summary": "Le décret royal 1032/2026 du 20 novembre, publié le 21 et applicable le 22 novembre, fixe des exigences de durabilité et de souveraineté. Les obligations générales visent les demandes de raccordement d’au moins 10 MW de puissance d’accès (agrégation des sites de même titulaire et localisation), non 10 MW IT. Les articles 7 et 8 prévoient respectivement une couverture de 80 % de la consommation par des capacités renouvelables additionnelles et une corrélation horaire de 80 %, avec exceptions et voie transitoire de cinq ans liée à la réduction automatique de puissance. L’article 13 concerne les sites d’au moins 500 kW IT ; l’article 5 s’applique indépendamment de la puissance aux systèmes publics de catégorie ALTA, sous ses conditions propres. Les exceptions de l’article 2 doivent être vérifiées. Le projet de reporting de l’été 2025 est un jalon antérieur ; ne pas appliquer ses seuils au décret final de novembre 2026.",
+    "summary": "Le décret royal 1032/2026 du 20 novembre, publié le 21 et applicable le 22 novembre, fixe des exigences de durabilité et de souveraineté. Les obligations générales visent les demandes de raccordement d’au moins 10 MW de puissance d’accès (agrégation des sites de même titulaire et localisation), non 10 MW IT. Les articles 7 et 8 prévoient respectivement une couverture de 80 % de la consommation par des capacités renouvelables additionnelles et une corrélation horaire de 80 %, avec exceptions et voie transitoire de cinq ans liée à la réduction automatique de puissance. L’article 13 concerne les sites d’au moins 500 kW IT ; l’article 5 s’applique indépendamment de la puissance aux systèmes publics de catégorie ALTA, sous ses conditions propres. Les exceptions de l’article 2 doivent être vérifiées. Le projet de reporting de l’été 2025 est un jalon antérieur ; ne pas appliquer ses seuils au décret final de novembre 2026. SpainDC indique le 25 novembre avoir saisi le Tribunal suprême le 24 novembre avec une demande de suspension provisoire. Aucun octroi de suspension n’est établi ; le stade enregistré est maintenu. Voir es-spaindc-rd1032-appeal-2026.",
     "sourceIds": [
       "es-1032-2026-1",
       "es-1032-2026-2",
@@ -25,7 +25,9 @@
       "curebot2-20261124-13",
       "curebot4-20261124-3",
       "es-miteco-decree-20261120",
-      "avril-20261125-41"
+      "avril-20261125-41",
+      "curebot15-20261127-35",
+      "es-spaindc-recurso-20261125"
     ],
     "effectiveFrom": "2026-11-22",
     "impacts": {
@@ -45,14 +47,15 @@
     ],
     "stage": "temporary",
     "title": "Statnett suspend les nouvelles réservations",
-    "summary": "Statnett suspend les nouvelles réservations de capacité réseau pour les data centers. Le gouvernement prévoit une levée au plus tard le 1ᵉʳ août 2027. Statnett maintient notamment le traitement de certaines demandes déjà reçues au titre du § 14 pour des installations proches de la mise en service sur le réseau régional. La suspension inclut le traitement de certaines demandes d’approbation des caractéristiques techniques (article 14 du règlement sur la responsabilité système), notamment pour le raccordement direct au 420 kV. Les installations déjà approuvées et les raccordements existants ne font pas l’objet d’un arrêt général.",
+    "summary": "Statnett suspend les nouvelles réservations de capacité réseau pour les data centers. Le gouvernement prévoit une levée au plus tard le 1ᵉʳ août 2027. Statnett maintient notamment le traitement de certaines demandes déjà reçues au titre du § 14 pour des installations proches de la mise en service sur le réseau régional. La suspension inclut le traitement de certaines demandes d’approbation des caractéristiques techniques (article 14 du règlement sur la responsabilité système), notamment pour le raccordement direct au 420 kV. Les installations déjà approuvées et les raccordements existants ne font pas l’objet d’un arrêt général. E24 rapporte que huit projets totalisant 623,8 MW de réservations prévues d’ici 2028 poursuivent leur traitement compte tenu de l’avancement de leurs dossiers techniques ; seize autres dossiers restent plus incertains. Aucun dégel général établi.",
     "sourceIds": [
       "no-statnett-2026-1",
       "no-statnett-2026-2",
       "reuters-com-ae38c1e3",
       "curebot-20261124-28",
       "no-licensing-2026-1",
-      "nldc-20261124-25"
+      "nldc-20261124-25",
+      "curebot15-20261127-85"
     ],
     "impacts": {
       "operator": "Les projets sans capacité réservée peuvent voir leur calendrier décalé.",
@@ -327,10 +330,11 @@
     ],
     "stage": "published",
     "title": "Premières réponses annoncées après la pause des grands raccordements",
-    "summary": "À la suite du recalcul de capacité, des premières réponses aux demandes étaient annoncées pour novembre, avec une reprise sélective selon les possibilités du réseau et la nouvelle méthode de priorisation. L’attribution selon ce nouveau modèle a ensuite été confirmée le 13 novembre.",
+    "summary": "À la suite du recalcul de capacité, des premières réponses aux demandes étaient annoncées pour novembre, avec une reprise sélective selon les possibilités du réseau et la nouvelle méthode de priorisation. L’attribution selon ce nouveau modèle a ensuite été confirmée le 13 novembre. Le communiqué Energinet des 12–13 novembre confirme la reprise et précise que les catégories 3 et 4 restent difficiles à servir ; le produit TSO-DSO-BNA pour la consommation est encore soumis à approbation du régulateur selon le communiqué collecté.",
     "sourceIds": [
       "dinel-dk-fbf8ba95",
-      "danskerhverv-dk-be3dc7ba"
+      "danskerhverv-dk-be3dc7ba",
+      "curebot15-20261127-4"
     ],
     "actorIds": [
       "dk-energinet"
@@ -697,7 +701,7 @@
     ],
     "stage": "published",
     "title": "Exigences techniques communes des quatre GRT",
-    "summary": "Les quatre gestionnaires de transport allemands ont publié un document commun sur le raccordement des centres de données en haute et très haute tension. Il complète les règles techniques existantes et précise les attentes relatives au comportement en cas de perturbation, à la puissance réactive et aux modèles de simulation.",
+    "summary": "Les quatre gestionnaires de transport allemands ont publié un document commun sur le raccordement des centres de données en haute et très haute tension. Il complète les règles techniques existantes et précise les attentes relatives au comportement en cas de perturbation, à la puissance réactive et aux modèles de simulation. Le document technique du 16 octobre couvre aussi le rétablissement de puissance active, les variations de charge et les interactions réseau. Il s’agit d’un document commun des GRT, non d’une nouvelle loi.",
     "sourceIds": [
       "netztransparenz-de-87be5989"
     ],
@@ -743,7 +747,7 @@
     ],
     "stage": "effective",
     "title": "Première attribution de capacité selon le nouveau modèle danois",
-    "summary": "Energinet attribue de nouveau des capacités aux projets de consommation et de production selon le modèle entré en vigueur à l’automne 2026. Le ministère souligne les difficultés persistantes d’accès complet pour certaines catégories de projets et les besoins de renforcement entre transport et distribution. Le Parlement a adopté la loi de priorisation le 1er octobre ; elle est entrée en vigueur le 12 octobre, puis ses six arrêtés d’application le 19 octobre. Quatre catégories sont prévues : besoins protégés et fonctions critiques, électrification et transition, stockage, puis autres grandes charges dont les data centers ordinaires. Les sites servant des fonctions critiques peuvent relever du premier groupe. Au sein d’une catégorie, les projets réduisant la pression sur le réseau peuvent bénéficier d’une priorité ; certains dossiers des catégories 3 et 4 peuvent être refusés en cas de capacité durablement insuffisante.",
+    "summary": "Energinet attribue de nouveau des capacités aux projets de consommation et de production selon le modèle entré en vigueur à l’automne 2026. Le ministère souligne les difficultés persistantes d’accès complet pour certaines catégories de projets et les besoins de renforcement entre transport et distribution. Le Parlement a adopté la loi de priorisation le 1er octobre ; elle est entrée en vigueur le 12 octobre, puis ses six arrêtés d’application le 19 octobre. Quatre catégories sont prévues : besoins protégés et fonctions critiques, électrification et transition, stockage, puis autres grandes charges dont les data centers ordinaires. Les sites servant des fonctions critiques peuvent relever du premier groupe. Au sein d’une catégorie, les projets réduisant la pression sur le réseau peuvent bénéficier d’une priorité ; certains dossiers des catégories 3 et 4 peuvent être refusés en cas de capacité durablement insuffisante. Le communiqué préparatoire d’Energinet du 21 octobre décrit les solutions d’accès limité ; elles restent conditionnelles et distinctes d’une attribution individuelle ferme.",
     "sourceIds": [
       "retsinformation-dk-33b25d5c",
       "retsinformation-dk-eb27b6d1",
@@ -753,7 +757,9 @@
       "curebot3-20261124-14",
       "curebot3-20261124-18",
       "curebot4-20261124-34",
-      "dc-europe-20261125-18"
+      "dc-europe-20261125-18",
+      "curebot15-20261127-6",
+      "curebot15-20261127-7"
     ],
     "effectiveFrom": "2026-10-19",
     "actorIds": [
@@ -783,7 +789,8 @@
       "curebot2-20261124-20",
       "curebot3-20261124-3",
       "curebot4-20261124-51",
-      "curebot4-20261124-52"
+      "curebot4-20261124-52",
+      "curebot15-20261127-59"
     ],
     "effectiveFrom": "2026-01-01",
     "impacts": {
@@ -1109,7 +1116,8 @@
     "summary": "La Commission consulte sur des normes minimales de performance pour les centres de données. La consultation alimente les travaux préparatoires d’une proposition législative annoncée pour le deuxième trimestre 2027.",
     "sourceIds": [
       "energy-ec-europa-eu-e0283f2a",
-      "eu-minimum-standards"
+      "eu-minimum-standards",
+      "curebot15-20261127-9"
     ],
     "milestone": "Clôture de la consultation le 14 décembre 2026.",
     "impacts": {
@@ -1357,7 +1365,7 @@
     "date": "2026-09-18",
     "stage": "consultation",
     "title": "Projet finlandais de priorisation des raccordements électriques",
-    "summary": "Le projet de modification de la loi sur le marché de l’électricité prévoit quatre groupes de priorité en cas de capacité limitée. Les data centers jusqu’à 1 MW relèveraient du premier groupe, ceux de plus de 1 à 10 MW du deuxième ; certains sites plus grands pourraient rejoindre ce groupe moyennant des engagements de flexibilité et de production locale. Les grands sites sans ces engagements seraient moins prioritaires. Plus de 200 contributions ont été reçues ; le ministère indique le 23 octobre que le dépôt au Parlement est désormais attendu en décembre 2026. Il ne s’agit pas d’une règle en vigueur.",
+    "summary": "Le projet de modification de la loi sur le marché de l’électricité prévoit quatre groupes de priorité en cas de capacité limitée. Les data centers jusqu’à 1 MW relèveraient du premier groupe, ceux de plus de 1 à 10 MW du deuxième ; certains sites plus grands pourraient rejoindre ce groupe moyennant des engagements de flexibilité et de production locale. Les grands sites sans ces engagements seraient moins prioritaires. Plus de 200 contributions ont été reçues ; le ministère indique le 23 octobre que le dépôt au Parlement est désormais attendu en décembre 2026. Il ne s’agit pas d’une règle en vigueur. Fingrid signale le 23 octobre un engorgement des demandes, notamment pour les data centers et le stockage. Le projet vise les dossiers sans contrat contraignant avant l’entrée en vigueur envisagée au 1er janvier 2027 ; plus de 5 GW de puissance nominale finale déclarée sont associés aux contrats des projets de data centers à mi-octobre, distribution incluse. Ne pas assimiler ces contrats à une charge effective.",
     "topics": [
       "grid",
       "power",
@@ -1367,7 +1375,9 @@
       "fi-grid-priority-consultation-2026",
       "fi-grid-priority-update-2026",
       "curebot3-20261124-27",
-      "fi-grid-priority-legal-analysis-2026"
+      "fi-grid-priority-legal-analysis-2026",
+      "curebot15-20261127-71",
+      "fi-fingrid-backlog-stt-20261023"
     ],
     "actorIds": [
       "fi-fingrid",
@@ -1568,7 +1578,8 @@
       "dc-europe-20261125-11",
       "dc-europe-20261125-66",
       "dc-europe-20261125-89",
-      "dc-europe-20261125-93"
+      "dc-europe-20261125-93",
+      "curebot15-20261127-9"
     ],
     "milestone": "Premières étiquettes prévues en 2027 ; vérifier la publication au JOUE et le calendrier d’application.",
     "impacts": {
@@ -1615,7 +1626,7 @@
     "date": "2026-03-25",
     "stage": "adopted",
     "title": "Proposition de loi David Ros — encadrement territorial des data centers",
-    "summary": "La commission des affaires économiques n’a pas adopté de texte le 25 février. Le Sénat adopte la proposition en première lecture le 25 mars puis la transmet à l’Assemblée nationale. Le texte prévoit notamment des orientations stratégiques d’implantation dans les documents de planification et un dispositif PINM. Distinguer les dispositions de la proposition non définitivement adoptées et le régime PINM devenu loi par la loi de simplification du 26 mai. Le dépôt initial remonte au 17 février 2025 ; ne pas attribuer automatiquement les dispositions fiscales et hydriques de cette version au texte adopté en 2026.",
+    "summary": "La commission des affaires économiques n’a pas adopté de texte le 25 février. Le Sénat adopte la proposition en première lecture le 25 mars puis la transmet à l’Assemblée nationale. Le texte prévoit notamment des orientations stratégiques d’implantation dans les documents de planification et un dispositif PINM. Distinguer les dispositions de la proposition non définitivement adoptées et le régime PINM devenu loi par la loi de simplification du 26 mai. Le dépôt initial remonte au 17 février 2025 ; ne pas attribuer automatiquement les dispositions fiscales et hydriques de cette version au texte adopté en 2026. Dans une publication personnelle, David Ros demande une stratégie nationale de déploiement et une meilleure concertation ; cette position ne modifie pas le stade parlementaire.",
     "topics": [
       "planning",
       "territory",
@@ -1630,7 +1641,8 @@
       "curebot8-20261125-62",
       "curebot8-20261125-97",
       "fr-ros-ppl-initial-2025",
-      "curebot14-20261126-73"
+      "curebot14-20261126-73",
+      "curebot15-20261127-30"
     ],
     "actorIds": [
       "fr-david-ros"

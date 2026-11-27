@@ -1,6 +1,6 @@
 # Raccordement, maturité et réservation de capacité
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-27. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -78,7 +78,7 @@ Sources : [Code de l’énergie — article L.342-24](<https://www.legifrance.go
 - Fiche cartographique : [NO](https://zoruohorse.github.io/atlas_data_centers/#NO)
 - Échéance : Levée attendue au plus tard le 1ᵉʳ août 2027.
 
-Statnett suspend les nouvelles réservations de capacité réseau pour les data centers. Le gouvernement prévoit une levée au plus tard le 1ᵉʳ août 2027. Statnett maintient notamment le traitement de certaines demandes déjà reçues au titre du § 14 pour des installations proches de la mise en service sur le réseau régional. La suspension inclut le traitement de certaines demandes d’approbation des caractéristiques techniques (article 14 du règlement sur la responsabilité système), notamment pour le raccordement direct au 420 kV. Les installations déjà approuvées et les raccordements existants ne font pas l’objet d’un arrêt général.
+Statnett suspend les nouvelles réservations de capacité réseau pour les data centers. Le gouvernement prévoit une levée au plus tard le 1ᵉʳ août 2027. Statnett maintient notamment le traitement de certaines demandes déjà reçues au titre du § 14 pour des installations proches de la mise en service sur le réseau régional. La suspension inclut le traitement de certaines demandes d’approbation des caractéristiques techniques (article 14 du règlement sur la responsabilité système), notamment pour le raccordement direct au 420 kV. Les installations déjà approuvées et les raccordements existants ne font pas l’objet d’un arrêt général. E24 rapporte que huit projets totalisant 623,8 MW de réservations prévues d’ici 2028 poursuivent leur traitement compte tenu de l’avancement de leurs dossiers techniques ; seize autres dossiers restent plus incertains. Aucun dégel général établi.
 
 **Opérateurs :** Les projets sans capacité réservée peuvent voir leur calendrier décalé.
 
@@ -104,11 +104,11 @@ Sources : [Point d’étape d’août · Dinel](<https://dinel.dk/om-dinel/nyhed
 - Identifiant : `dk-grid-restart-2026` · 2026-10-21 · DK · Publication
 - Fiche cartographique : [DK](https://zoruohorse.github.io/atlas_data_centers/#DK)
 
-À la suite du recalcul de capacité, des premières réponses aux demandes étaient annoncées pour novembre, avec une reprise sélective selon les possibilités du réseau et la nouvelle méthode de priorisation. L’attribution selon ce nouveau modèle a ensuite été confirmée le 13 novembre.
+À la suite du recalcul de capacité, des premières réponses aux demandes étaient annoncées pour novembre, avec une reprise sélective selon les possibilités du réseau et la nouvelle méthode de priorisation. L’attribution selon ce nouveau modèle a ensuite été confirmée le 13 novembre. Le communiqué Energinet des 12–13 novembre confirme la reprise et précise que les catégories 3 et 4 restent difficiles à servir ; le produit TSO-DSO-BNA pour la consommation est encore soumis à approbation du régulateur selon le communiqué collecté.
 
 **Opérateurs :** L’avancement dépend du projet et de la capacité locale.
 
-Sources : [Point d’étape d’août · Dinel](<https://dinel.dk/om-dinel/nyheder/opdatering-pa-kapacitetssituationen-i-transmissionsnettet-august-2026/>) (primaire) · [Point d’étape d’octobre · Dansk Erhverv](<https://www.danskerhverv.dk/presse-og-nyheder/nyheder/2026/oktober/nyhed?trk=public_post_comment-text>) (analyse). Autres références : voir `dk-grid-restart-2026` dans [regulations.json](../../data/regulations.json) et [sources.json](../../data/sources.json).
+Sources : [Point d’étape d’août · Dinel](<https://dinel.dk/om-dinel/nyheder/opdatering-pa-kapacitetssituationen-i-transmissionsnettet-august-2026/>) (primaire) · [Energinet vil igen fordele kapacitet i transmissionsnettet](<https://www.energinet.dk/om-nyheder/nyheder/2026/11/12/energinet-vil-igen-fordele-kapacitet-i-transmissionsnettet/>) (primaire) · [Point d’étape d’octobre · Dansk Erhverv](<https://www.danskerhverv.dk/presse-og-nyheder/nyheder/2026/oktober/nyhed?trk=public_post_comment-text>) (analyse). Autres références : voir `dk-grid-restart-2026` dans [regulations.json](../../data/regulations.json) et [sources.json](../../data/sources.json).
 
 ### Première attribution de capacité selon le nouveau modèle danois
 
@@ -116,7 +116,7 @@ Sources : [Point d’étape d’août · Dinel](<https://dinel.dk/om-dinel/nyhed
 - Fiche cartographique : [DK](https://zoruohorse.github.io/atlas_data_centers/#DK)
 - Date d'effet renseignée : 2026-10-19
 
-Energinet attribue de nouveau des capacités aux projets de consommation et de production selon le modèle entré en vigueur à l’automne 2026. Le ministère souligne les difficultés persistantes d’accès complet pour certaines catégories de projets et les besoins de renforcement entre transport et distribution. Le Parlement a adopté la loi de priorisation le 1er octobre ; elle est entrée en vigueur le 12 octobre, puis ses six arrêtés d’application le 19 octobre. Quatre catégories sont prévues : besoins protégés et fonctions critiques, électrification et transition, stockage, puis autres grandes charges dont les data centers ordinaires. Les sites servant des fonctions critiques peuvent relever du premier groupe. Au sein d’une catégorie, les projets réduisant la pression sur le réseau peuvent bénéficier d’une priorité ; certains dossiers des catégories 3 et 4 peuvent être refusés en cas de capacité durablement insuffisante.
+Energinet attribue de nouveau des capacités aux projets de consommation et de production selon le modèle entré en vigueur à l’automne 2026. Le ministère souligne les difficultés persistantes d’accès complet pour certaines catégories de projets et les besoins de renforcement entre transport et distribution. Le Parlement a adopté la loi de priorisation le 1er octobre ; elle est entrée en vigueur le 12 octobre, puis ses six arrêtés d’application le 19 octobre. Quatre catégories sont prévues : besoins protégés et fonctions critiques, électrification et transition, stockage, puis autres grandes charges dont les data centers ordinaires. Les sites servant des fonctions critiques peuvent relever du premier groupe. Au sein d’une catégorie, les projets réduisant la pression sur le réseau peuvent bénéficier d’une priorité ; certains dossiers des catégories 3 et 4 peuvent être refusés en cas de capacité durablement insuffisante. Le communiqué préparatoire d’Energinet du 21 octobre décrit les solutions d’accès limité ; elles restent conditionnelles et distinctes d’une attribution individuelle ferme.
 
 **Opérateurs :** Documenter la maturité du projet et vérifier son classement, la capacité locale et les options d’accès limité.
 
@@ -215,6 +215,40 @@ Sources : [Terna — plan de développement du réseau 2025–2034](<https://www
 Solaria annonce avoir obtenu de Red Eléctrica une confirmation de faisabilité d’accès et de raccordement de 130 MW de demande pour deux centres en région madrilène. Le 18 mars, Solaria annonce consolider environ 1 GW de demandes en Espagne, dont 225 MW supplémentaires au Pays basque. Ces annonces de faisabilité et portefeuille ne démontrent pas la mise sous tension ni des consommations constatées ; le dossier du gestionnaire n’a pas été vérifié indépendamment.
 
 Sources : [Solaria — annonce de faisabilité du raccordement, 17 mars](<https://solariaenergia.com/en/solaria-obtains-130-mw-to-connect-two-data-centers-in-the-community-of-madrid/>) (primaire) · [Solaria — portefeuille de demandes, 18 mars](<https://solariaenergia.com/en/solaria-consolidates-1-gw-of-demand-to-connect-data-centers-in-spain/>) (primaire) · [DCmag — analyse de l’annonce Solaria](<https://dcmag.fr/solaria-assure-130-mw-pour-deux-data-centers-a-madrid-en-un-temps-record-comment/>) (analyse). Autres références : voir `es-solaria-grid-feasibility-2025` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Approbation du plan de réseau électrique espagnol à horizon 2030
+
+- Identifiant : `es-grid-plan-2030-2026` · 2026-11-20 · ES · Contexte documenté
+- Fiche cartographique : [ES](https://zoruohorse.github.io/atlas_data_centers/#ES)
+
+Le Conseil des ministres approuve le plan de développement du transport : 17,142 Md€ d’investissements et environ 47 GW de besoins nouveaux tous usages confondus. Le plan avait été présenté au Congrès le 12 novembre. Ces volumes ne sont pas exclusivement des data centers. Le communiqué du ministère du 20 novembre confirme les investissements et les quelque 47 GW de nouvelles demandes pouvant être accueillies via transport et distribution, tous usages confondus ; ces capacités ne sont pas déjà disponibles.
+
+**Réseau :** Renforcement et adaptation du réseau pour l’électrification, les industriels et les autres nouvelles charges ; distinguer capacité planifiée et raccordements effectivement réalisés.
+
+Sources : [MITECO — planification électrique 2030 approuvée](<https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-la-planificacion-electrica-en-el-horizonte-2.html>) (primaire) · [MITECO — présentation au Congrès](<https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/sara-aagesen-somete-al-congreso-la-planificacion-de-electricidad.html>) (primaire) · [MITECO — dossier de planification électrique](<https://www.miteco.gob.es/es/energia/estrategia-normativa/planificacion/planificacion-electrica.html>) (primaire). Autres références : voir `es-grid-plan-2030-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### Projet finlandais de priorisation des raccordements électriques
+
+- Identifiant : `fi-grid-priority-draft-2026` · 2026-09-18 · FI · Consultation
+- Fiche cartographique : [FI](https://zoruohorse.github.io/atlas_data_centers/#FI)
+- Échéance : Consultation close le 9 octobre 2026 ; dépôt parlementaire attendu en décembre 2026 selon le ministère le 23 octobre. Le calendrier initial d’entrée en vigueur au 1er janvier 2027 reste à confirmer.
+
+Le projet de modification de la loi sur le marché de l’électricité prévoit quatre groupes de priorité en cas de capacité limitée. Les data centers jusqu’à 1 MW relèveraient du premier groupe, ceux de plus de 1 à 10 MW du deuxième ; certains sites plus grands pourraient rejoindre ce groupe moyennant des engagements de flexibilité et de production locale. Les grands sites sans ces engagements seraient moins prioritaires. Plus de 200 contributions ont été reçues ; le ministère indique le 23 octobre que le dépôt au Parlement est désormais attendu en décembre 2026. Il ne s’agit pas d’une règle en vigueur. Fingrid signale le 23 octobre un engorgement des demandes, notamment pour les data centers et le stockage. Le projet vise les dossiers sans contrat contraignant avant l’entrée en vigueur envisagée au 1er janvier 2027 ; plus de 5 GW de puissance nominale finale déclarée sont associés aux contrats des projets de data centers à mi-octobre, distribution incluse. Ne pas assimiler ces contrats à une charge effective.
+
+**Opérateurs :** Qualifier la catégorie de priorité et les engagements de flexibilité ou de production locale ; les critères définitifs peuvent évoluer.
+
+**Réseau :** Traitement par lots envisagé pour les catégories autres que la première ; arbitrage en faveur des usages prioritaires et des projets réduisant la pression sur le réseau.
+
+Sources : [Gouvernement finlandais — consultation du 18 septembre](<https://valtioneuvosto.fi/en/-/1410877/proposal-on-priority-procedure-for-electricity-network-connections-circulated-for-review>) (primaire) · [Gouvernement finlandais — suites de la consultation, 23 octobre](<https://valtioneuvosto.fi/en/-/1410877/more-than-200-views-received-on-priority-procedure-for-electricity-network-connections-legislative-drafting-to-continue>) (primaire) · [Liittymissopimushakemusten käsittely ruuhkautunut](<https://www.fingrid.fi/ajankohtaista/tiedotteet/2026/liittymissopimushakemusten-kasittely-ruuhkautunut/>) (primaire). Autres références : voir `fi-grid-priority-draft-2026` dans [regulations.json](../../data/regulations.json) et [sources.json](../../data/sources.json).
+
+### The Shift Project — scénarios français de consommation des data centers
+
+- Identifiant : `fr-shift-dc-scenarios-2026` · 2026-11-26 · FR · Contexte documenté
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+La note collectée indique 5 GW de droits d’accès au réseau fin 2024, 14 GW en novembre 2025, 21 GW en octobre 2026. Les scénarios tendanciels détaillés atteignent 43 à 76 TWh en 2035 et 69 à 117 TWh en 2050 ; la page de présentation arrondit les valeurs hautes à 80 et 120 TWh. Il s’agit de scénarios dépendants de la concrétisation des projets, non de consommations constatées ni de capacités IT. La page officielle est datée du 26 novembre ; la note actualise le rapport d’octobre 2025. Les recommandations de planification et de priorisation sont des propositions du think tank.
+
+Sources : [Note-DC-France-2026](<https://theshiftproject.org/app/uploads/2026/11/Note-DC-France-2026.pdf>) (primaire) · [Déploiement actuel et à venir des centres de données en France](<https://theshiftproject.org/publications/deploiement-actuel-et-a-venir-des-centres-de-donnees-en-france/>) (primaire) · [Data centers : leur consommation électrique pourrait atteindre celle de toute l’industrie française en 2050](<https://tecsol-quotidien.fr/data-centers-leur-consommation-electrique-pourrait-atteindre-celle-de-toute-lindustrie-francaise-en-2050/>) (analyse). Autres références : voir `fr-shift-dc-scenarios-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
 
 ### Loi 5356/2026 — cadre spécifique de raccordement des data centers
 

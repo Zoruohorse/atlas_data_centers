@@ -273,9 +273,10 @@
     "countries": [
       "ES"
     ],
-    "summary": "Selon El Correo, la fédération a demandé à être entendue par le Conseil d’État sur le projet de décret et contesté ses modalités transitoires.",
+    "summary": "Selon El Correo, la fédération a demandé à être entendue par le Conseil d’État sur le projet de décret et contesté ses modalités transitoires. L’association annonce avoir saisi le Tribunal suprême le 24 novembre 2026 et demandé une suspension provisoire du décret 1032/2026.",
     "sourceIds": [
-      "curebot2-20261124-4"
+      "curebot2-20261124-4",
+      "es-spaindc-recurso-20261125"
     ]
   },
   {
@@ -536,10 +537,11 @@
     "countries": [
       "FR"
     ],
-    "summary": "L’entretien de Pauline Denis dans Télérama met en discussion les recommandations sénatoriales et les impacts de l’IA ; RFI rapporte des échanges avec des élus d’Étrechet.",
+    "summary": "L’entretien de Pauline Denis dans Télérama met en discussion les recommandations sénatoriales et les impacts de l’IA ; RFI rapporte des échanges avec des élus d’Étrechet. La note du 26 novembre 2026 actualise ses scénarios et recommande une planification et des critères de priorisation des raccordements.",
     "sourceIds": [
       "curebot3-20261124-35",
-      "curebot3-20261124-34"
+      "curebot3-20261124-34",
+      "curebot15-20261127-12"
     ]
   },
   {

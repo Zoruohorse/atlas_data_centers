@@ -1,6 +1,6 @@
 # Performance environnementale, chaleur, eau et reporting
 
-> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-26. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
+> Vue dérivée automatiquement des JSON du dépôt. Révision documentaire : 2026-11-27. Les statuts reflètent la base, pas une vérification juridique en temps réel. Les sources originales restent la référence. Ne pas modifier cette page à la main.
 
 [Retour à l'index](../index.md)
 
@@ -38,7 +38,7 @@ Sélection de lecture, complétée automatiquement par les évaluations existant
 - Fiche cartographique : [ES](https://zoruohorse.github.io/atlas_data_centers/#ES)
 - Date d'effet renseignée : 2026-11-22
 
-Le décret royal 1032/2026 du 20 novembre, publié le 21 et applicable le 22 novembre, fixe des exigences de durabilité et de souveraineté. Les obligations générales visent les demandes de raccordement d’au moins 10 MW de puissance d’accès (agrégation des sites de même titulaire et localisation), non 10 MW IT. Les articles 7 et 8 prévoient respectivement une couverture de 80 % de la consommation par des capacités renouvelables additionnelles et une corrélation horaire de 80 %, avec exceptions et voie transitoire de cinq ans liée à la réduction automatique de puissance. L’article 13 concerne les sites d’au moins 500 kW IT ; l’article 5 s’applique indépendamment de la puissance aux systèmes publics de catégorie ALTA, sous ses conditions propres. Les exceptions de l’article 2 doivent être vérifiées. Le projet de reporting de l’été 2025 est un jalon antérieur ; ne pas appliquer ses seuils au décret final de novembre 2026.
+Le décret royal 1032/2026 du 20 novembre, publié le 21 et applicable le 22 novembre, fixe des exigences de durabilité et de souveraineté. Les obligations générales visent les demandes de raccordement d’au moins 10 MW de puissance d’accès (agrégation des sites de même titulaire et localisation), non 10 MW IT. Les articles 7 et 8 prévoient respectivement une couverture de 80 % de la consommation par des capacités renouvelables additionnelles et une corrélation horaire de 80 %, avec exceptions et voie transitoire de cinq ans liée à la réduction automatique de puissance. L’article 13 concerne les sites d’au moins 500 kW IT ; l’article 5 s’applique indépendamment de la puissance aux systèmes publics de catégorie ALTA, sous ses conditions propres. Les exceptions de l’article 2 doivent être vérifiées. Le projet de reporting de l’été 2025 est un jalon antérieur ; ne pas appliquer ses seuils au décret final de novembre 2026. SpainDC indique le 25 novembre avoir saisi le Tribunal suprême le 24 novembre avec une demande de suspension provisoire. Aucun octroi de suspension n’est établi ; le stade enregistré est maintenu. Voir es-spaindc-rd1032-appeal-2026.
 
 **Opérateurs :** Distinguer puissance d’accès et puissance IT. Vérifier les dispositions transitoires, les engagements de production renouvelable et les critères énergétiques et hydriques, ainsi que le champ des obligations de souveraineté.
 
@@ -110,7 +110,7 @@ La Commission consulte sur des normes minimales de performance pour les centres 
 
 **Opérateurs :** Suivre les métriques et seuils envisagés.
 
-Sources : [Avis de consultation · Commission européenne](<https://energy.ec.europa.eu/news/minimum-performance-standards-data-centres-europe-public-consultation-launched-2026-09-21_en?prefLang=fr>) (primaire) · [Étude préparatoire · Commission européenne](<https://energy.ec.europa.eu/resources/preparatory-studies/minimum-performance-standards-eu-data-centres_en>) (primaire). Autres références : voir `eu-minimum-standards-consultation-2026` dans [regulations.json](../../data/regulations.json) et [sources.json](../../data/sources.json).
+Sources : [Avis de consultation · Commission européenne](<https://energy.ec.europa.eu/news/minimum-performance-standards-data-centres-europe-public-consultation-launched-2026-09-21_en?prefLang=fr>) (primaire) · [Étude préparatoire · Commission européenne](<https://energy.ec.europa.eu/resources/preparatory-studies/minimum-performance-standards-eu-data-centres_en>) (primaire) · [De nouvelles règles vertes et labels européens pour encadrer les data centres](<https://fr.euronews.com/2026/11/26/de-nouvelles-regles-vertes-et-labels-europeens-pour-encadrer-les-data-centres>) (analyse). Autres références : voir `eu-minimum-standards-consultation-2026` dans [regulations.json](../../data/regulations.json) et [sources.json](../../data/sources.json).
 
 ### Étiquetage européen — acte délégué C(2026) 3472
 
@@ -147,6 +147,24 @@ Sources : [EPA · normes NSPS des turbines stationnaires](<https://www.epa.gov/s
 L’EIA lance une enquête pilote auprès d’entreprises exploitant des centres dans des régions ciblées. TechCrunch rapporte en avril la préparation d’une enquête obligatoire nationale. L’entrée en vigueur d’un formulaire obligatoire national n’a pas été confirmée ; le pilote ne constitue pas un reporting général déjà applicable.
 
 Sources : [EIA — enquête pilote du 25 mars](<https://www.eia.gov/pressroom/releases/press585.php>) (primaire) · [TechCrunch — projet d’enquête EIA](<https://techcrunch.com/2026/04/15/feds-will-require-data-centers-to-show-their-power-bills/>) (analyse) · [ChannelNews · demande de reporting](<https://www.channelnews.fr/des-senateurs-exigent-une-declaration-de-consommation-denergie-des-datacenters-aux-etats-unis-156194>) (analyse). Autres références : voir `us-eia-energy-survey-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### États-Unis — étude de la consommation et des émissions de 403 hyperscales
+
+- Identifiant : `us-hyperscale-electricity-emissions-study-2026` · 2026-11-16 · US · Contexte documenté
+- Fiche cartographique : [US](https://zoruohorse.github.io/atlas_data_centers/?view=world#US)
+
+Une étude publiée dans Nature Sustainability estime, dans son scénario central, la consommation de 403 centres hyperscale actifs entre mai 2024 et avril 2025 à environ 82 TWh, et leurs émissions attribuables à environ 25,7 Mt CO₂. Estimation modélisée pour ce périmètre, non mesure exhaustive de tous les data centers américains.
+
+Sources : [Nature Sustainability — étude des hyperscales américains](<https://www.nature.com/articles/s41893-026-01985-7>) (primaire) · [Data centers : la pollution électrique dépend du réseau auquel les installations sont raccordées](<https://les-smartgrids.fr/data-centers-pollution-electrique-reseau-raccordement-2026/>) (analyse) · [Data centers américains : le gaz et le charbon fournissent encore plus de la moitié de leur électricité](<https://lenergeek.com/2026/11/17/data-centers-americains-gaz-charbon-electricite-harvard-2026/>) (analyse). Autres références : voir `us-hyperscale-electricity-emissions-study-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
+
+### The Shift Project — scénarios français de consommation des data centers
+
+- Identifiant : `fr-shift-dc-scenarios-2026` · 2026-11-26 · FR · Contexte documenté
+- Fiche cartographique : [FR](https://zoruohorse.github.io/atlas_data_centers/#FR)
+
+La note collectée indique 5 GW de droits d’accès au réseau fin 2024, 14 GW en novembre 2025, 21 GW en octobre 2026. Les scénarios tendanciels détaillés atteignent 43 à 76 TWh en 2035 et 69 à 117 TWh en 2050 ; la page de présentation arrondit les valeurs hautes à 80 et 120 TWh. Il s’agit de scénarios dépendants de la concrétisation des projets, non de consommations constatées ni de capacités IT. La page officielle est datée du 26 novembre ; la note actualise le rapport d’octobre 2025. Les recommandations de planification et de priorisation sont des propositions du think tank.
+
+Sources : [Note-DC-France-2026](<https://theshiftproject.org/app/uploads/2026/11/Note-DC-France-2026.pdf>) (primaire) · [Déploiement actuel et à venir des centres de données en France](<https://theshiftproject.org/publications/deploiement-actuel-et-a-venir-des-centres-de-donnees-en-france/>) (primaire) · [Data centers : leur consommation électrique pourrait atteindre celle de toute l’industrie française en 2050](<https://tecsol-quotidien.fr/data-centers-leur-consommation-electrique-pourrait-atteindre-celle-de-toute-lindustrie-francaise-en-2050/>) (analyse). Autres références : voir `fr-shift-dc-scenarios-2026` dans [events.json](../../data/events.json) et [sources.json](../../data/sources.json).
 
 ## Explorer l'ensemble des documents associés
 
